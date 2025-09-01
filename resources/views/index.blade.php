@@ -44,7 +44,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="100">
-                    <img src="<?php echo url('/'); ?>/img/hero-img.png" class="img-fluid animated" alt="Container Infinity">
+                    <img src="<?php echo url('/'); ?>/img/hero-img.png" class="img-fluid animated" fetchpriority="high" alt="Container Infinity">
                 </div>
             </div>
         </div>
@@ -479,8 +479,17 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
     <!-- /Contact Section -->
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://www.googletagmanager.com/gtag/js?id={{ env('GOOGLE_ANALYTICS_TRACKING_ID') }}" async></script>
     <script src="https://www.google.com/recaptcha/api.js?render={{ env('RECAPTCHA_SITE_KEY') }}&badge=bottomleft"></script>
     <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', '{{ env('GOOGLE_ANALYTICS_TRACKING_ID') }}');
+    </script>
 
     <script>
         document.getElementById("submit-button").addEventListener("click", function (e) {

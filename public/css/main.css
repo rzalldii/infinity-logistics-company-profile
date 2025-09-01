@@ -5,6 +5,18 @@
   --nav-font: "Ubuntu",  sans-serif;
 }
 
+@font-face {
+  font-family: 'bootstrap-icons';
+  src: url('https://infinity-sby.com/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2') format('woff2');
+  font-display: swap;
+}
+
 :root {
   --color-primary: #042470;
 }
