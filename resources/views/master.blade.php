@@ -15,17 +15,18 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="<?php echo url('/'); ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="print" onload="this.media='all'">
-    <link href="<?php echo url('/'); ?>/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" media="print" onload="this.media='all'">
-    <link href="<?php echo url('/'); ?>/vendor/aos/aos.css" rel="stylesheet" media="print" onload="this.media='all'">
-    <link href="<?php echo url('/'); ?>/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" media="print" onload="this.media='all'">
-    <link href="<?php echo url('/'); ?>/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="<?php echo url('/'); ?>/vendor/aos/css/aos.css" rel="stylesheet">
+    <link href="<?php echo url('/'); ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo url('/'); ?>/vendor/bootstrap-icons/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="<?php echo url('/'); ?>/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="<?php echo url('/'); ?>/vendor/sweetalert2/css/sweetalert2.min.css" rel="stylesheet">
+    <link href="<?php echo url('/'); ?>/vendor/swiper/css/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Main CSS File -->
-    <link href="<?php echo url('/'); ?>/css/main.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="<?php echo url('/'); ?>/css/main.css" rel="stylesheet">
 </head>
 
 <!-- WhatsApp Floating Chat Widget -->
@@ -131,14 +132,16 @@
     <div id="preloader"></div>
 
     <!-- Vendor JS Files -->
+    <script src="<?php echo url('/'); ?>/vendor/aos/js/aos.js"></script>
     <script src="<?php echo url('/'); ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="<?php echo url('/'); ?>/vendor/php-email-form/validate.js"></script>
-    <script src="<?php echo url('/'); ?>/vendor/aos/aos.js"></script>
     <script src="<?php echo url('/'); ?>/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="<?php echo url('/'); ?>/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="<?php echo url('/'); ?>/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
     <script src="<?php echo url('/'); ?>/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="<?php echo url('/'); ?>/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="<?php echo url('/'); ?>/vendor/jquery.marquee/jquery.marquee.min.js"></script>
+    <script src="<?php echo url('/'); ?>/vendor/purecounterjs/purecounter_vanilla.js"></script>
+    <script src="<?php echo url('/'); ?>/vendor/sweetalert2/js/sweetalert2.all.min.js"></script>
+    <script src="<?php echo url('/'); ?>/vendor/swiper/js/swiper-bundle.min.js"></script>
+    <script src="<?php echo url('/'); ?>/vendor/php-email-form/validate.js"></script>
 
     <!-- Main JS File -->
     <script src="<?php echo url('/'); ?>/js/main.js"></script>
