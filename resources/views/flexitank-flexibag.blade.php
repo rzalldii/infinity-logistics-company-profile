@@ -82,16 +82,16 @@ solutions, flexible liquid packaging"/>
                         </script>
                         <div class="swiper-wrapper align-items-center">
                             <div class="swiper-slide">
-                                <img src="<?php echo url('/'); ?>/img/services details/FLEXITANK FLEXIBAG1.png" class="img-fluid services-img-swipe" alt="FLEXITANK FLEXIBAG1">
+                                <img src="<?php echo url('/'); ?>/img/services details/FLEXITANK FLEXIBAG1.webp" class="img-fluid services-img-swipe" alt="FLEXITANK FLEXIBAG1">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo url('/'); ?>/img/services details/FLEXITANK FLEXIBAG2.png" class="img-fluid services-img-swipe" alt="FLEXITANK FLEXIBAG2">
+                                <img src="<?php echo url('/'); ?>/img/services details/FLEXITANK FLEXIBAG2.webp" class="img-fluid services-img-swipe" alt="FLEXITANK FLEXIBAG2">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo url('/'); ?>/img/services details/FLEXITANK FLEXIBAG3.png" class="img-fluid services-img-swipe" alt="FLEXITANK FLEXIBAG3">
+                                <img src="<?php echo url('/'); ?>/img/services details/FLEXITANK FLEXIBAG3.webp" class="img-fluid services-img-swipe" alt="FLEXITANK FLEXIBAG3">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo url('/'); ?>/img/services details/FLEXITANK FLEXIBAG4.png" class="img-fluid services-img-swipe" alt="FLEXITANK FLEXIBAG4">
+                                <img src="<?php echo url('/'); ?>/img/services details/FLEXITANK FLEXIBAG4.webp" class="img-fluid services-img-swipe" alt="FLEXITANK FLEXIBAG4">
                             </div>
                         </div>
                         <div class="swiper-pagination"></div>

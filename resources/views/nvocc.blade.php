@@ -81,16 +81,16 @@ multi-modal transport, shipping company, freight logistics"/>
                         </script>
                         <div class="swiper-wrapper align-items-center">
                             <div class="swiper-slide">
-                                <img src="<?php echo url('/'); ?>/img/services details/NVOCC1.png" class="img-fluid services-img-swipe" alt="NVOCC1">
+                                <img src="<?php echo url('/'); ?>/img/services details/NVOCC1.webp" class="img-fluid services-img-swipe" alt="NVOCC1">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo url('/'); ?>/img/services details/NVOCC2.png" class="img-fluid services-img-swipe" alt="NVOCC2">
+                                <img src="<?php echo url('/'); ?>/img/services details/NVOCC2.webp" class="img-fluid services-img-swipe" alt="NVOCC2">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo url('/'); ?>/img/services details/NVOCC3.png" class="img-fluid services-img-swipe" alt="NVOCC3">
+                                <img src="<?php echo url('/'); ?>/img/services details/NVOCC3.webp" class="img-fluid services-img-swipe" alt="NVOCC3">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo url('/'); ?>/img/services details/NVOCC4.png" class="img-fluid services-img-swipe" alt="NVOCC4">
+                                <img src="<?php echo url('/'); ?>/img/services details/NVOCC4.webp" class="img-fluid services-img-swipe" alt="NVOCC4">
                             </div>
                         </div>
                         <div class="swiper-pagination"></div>

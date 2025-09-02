@@ -61,10 +61,10 @@ sustainable liquid transport, flexitank shipping advantages"/>
                     </script>
                     <div class="swiper-wrapper align-items-center">
                         <div class="swiper-slide">
-                            <img src="<?php echo url('/'); ?>/img/flexitank details/MULTILAYER1.png" class="img-fluid rounded services-img-swipe" alt="MULTILAYER1">
+                            <img src="<?php echo url('/'); ?>/img/flexitank details/MULTILAYER1.webp" class="img-fluid rounded services-img-swipe" alt="MULTILAYER1">
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo url('/'); ?>/img/flexitank details/MULTILAYER2.png" class="img-fluid rounded services-img-swipe" alt="MULTILAYER2">
+                            <img src="<?php echo url('/'); ?>/img/flexitank details/MULTILAYER2.webp" class="img-fluid rounded services-img-swipe" alt="MULTILAYER2">
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -125,10 +125,10 @@ sustainable liquid transport, flexitank shipping advantages"/>
                     </script>
                     <div class="swiper-wrapper align-items-center">
                         <div class="swiper-slide">
-                            <img src="<?php echo url('/'); ?>/img/flexitank details/PP WOVEN1.png" class="img-fluid rounded services-img-swipe" alt="PP WOVEN1">
+                            <img src="<?php echo url('/'); ?>/img/flexitank details/PP WOVEN1.webp" class="img-fluid rounded services-img-swipe" alt="PP WOVEN1">
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo url('/'); ?>/img/flexitank details/PP WOVEN2.png" class="img-fluid rounded services-img-swipe" alt="PP WOVEN2">
+                            <img src="<?php echo url('/'); ?>/img/flexitank details/PP WOVEN2.webp" class="img-fluid rounded services-img-swipe" alt="PP WOVEN2">
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -176,10 +176,10 @@ sustainable liquid transport, flexitank shipping advantages"/>
                     </script>
                     <div class="swiper-wrapper align-items-center">
                         <div class="swiper-slide">
-                            <img src="<?php echo url('/'); ?>/img/flexitank details/VALVE1.png" class="img-fluid rounded services-img-swipe" alt="VALVE1">
+                            <img src="<?php echo url('/'); ?>/img/flexitank details/VALVE1.webp" class="img-fluid rounded services-img-swipe" alt="VALVE1">
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo url('/'); ?>/img/flexitank details/VALVE2.png" class="img-fluid rounded services-img-swipe" alt="VALVE2">
+                            <img src="<?php echo url('/'); ?>/img/flexitank details/VALVE2.webp" class="img-fluid rounded services-img-swipe" alt="VALVE2">
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -226,13 +226,13 @@ sustainable liquid transport, flexitank shipping advantages"/>
                     </script>
                     <div class="swiper-wrapper align-items-center">
                         <div class="swiper-slide">
-                            <img src="<?php echo url('/'); ?>/img/flexitank details/BULKHEAD1.png" class="img-fluid rounded services-img-swipe" alt="BULKHEAD1">
+                            <img src="<?php echo url('/'); ?>/img/flexitank details/BULKHEAD1.webp" class="img-fluid rounded services-img-swipe" alt="BULKHEAD1">
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo url('/'); ?>/img/flexitank details/BULKHEAD2.png" class="img-fluid rounded services-img-swipe" alt="BULKHEAD2">
+                            <img src="<?php echo url('/'); ?>/img/flexitank details/BULKHEAD2.webp" class="img-fluid rounded services-img-swipe" alt="BULKHEAD2">
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo url('/'); ?>/img/flexitank details/BULKHEAD3.png" class="img-fluid rounded services-img-swipe" alt="BULKHEAD3">
+                            <img src="<?php echo url('/'); ?>/img/flexitank details/BULKHEAD3.webp" class="img-fluid rounded services-img-swipe" alt="BULKHEAD3">
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -285,13 +285,13 @@ sustainable liquid transport, flexitank shipping advantages"/>
                     </script>
                     <div class="swiper-wrapper align-items-center">
                         <div class="swiper-slide">
-                            <img src="<?php echo url('/'); ?>/img/flexitank details/HEATING PAD1.png" class="img-fluid rounded services-img-swipe" alt="HEATING PAD1">
+                            <img src="<?php echo url('/'); ?>/img/flexitank details/HEATING PAD1.webp" class="img-fluid rounded services-img-swipe" alt="HEATING PAD1">
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo url('/'); ?>/img/flexitank details/HEATING PAD2.png" class="img-fluid rounded services-img-swipe" alt="HEATING PAD2">
+                            <img src="<?php echo url('/'); ?>/img/flexitank details/HEATING PAD2.webp" class="img-fluid rounded services-img-swipe" alt="HEATING PAD2">
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo url('/'); ?>/img/flexitank details/HEATING PAD3.png" class="img-fluid rounded services-img-swipe" alt="HEATING PAD3">
+                            <img src="<?php echo url('/'); ?>/img/flexitank details/HEATING PAD3.webp" class="img-fluid rounded services-img-swipe" alt="HEATING PAD3">
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -326,13 +326,13 @@ sustainable liquid transport, flexitank shipping advantages"/>
                     </script>
                     <div class="swiper-wrapper align-items-center">
                         <div class="swiper-slide">
-                            <img src="<?php echo url('/'); ?>/img/flexitank details/INSULATION LINER1.png" class="img-fluid rounded services-img-swipe" alt="INSULATION LINER1">
+                            <img src="<?php echo url('/'); ?>/img/flexitank details/INSULATION LINER1.webp" class="img-fluid rounded services-img-swipe" alt="INSULATION LINER1">
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo url('/'); ?>/img/flexitank details/INSULATION LINER2.png" class="img-fluid rounded services-img-swipe" alt="INSULATION LINER2">
+                            <img src="<?php echo url('/'); ?>/img/flexitank details/INSULATION LINER2.webp" class="img-fluid rounded services-img-swipe" alt="INSULATION LINER2">
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo url('/'); ?>/img/flexitank details/INSULATION LINER3.png" class="img-fluid rounded services-img-swipe" alt="INSULATION LINER3">
+                            <img src="<?php echo url('/'); ?>/img/flexitank details/INSULATION LINER3.webp" class="img-fluid rounded services-img-swipe" alt="INSULATION LINER3">
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -373,13 +373,13 @@ sustainable liquid transport, flexitank shipping advantages"/>
                     </script>
                     <div class="swiper-wrapper align-items-center">
                         <div class="swiper-slide">
-                            <img src="<?php echo url('/'); ?>/img/flexitank details/TUB LINER1.png" class="img-fluid rounded services-img-swipe" alt="TUB LINER1">
+                            <img src="<?php echo url('/'); ?>/img/flexitank details/TUB LINER1.webp" class="img-fluid rounded services-img-swipe" alt="TUB LINER1">
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo url('/'); ?>/img/flexitank details/TUB LINER2.png" class="img-fluid rounded services-img-swipe" alt="TUB LINER2">
+                            <img src="<?php echo url('/'); ?>/img/flexitank details/TUB LINER2.webp" class="img-fluid rounded services-img-swipe" alt="TUB LINER2">
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo url('/'); ?>/img/flexitank details/TUB LINER3.png" class="img-fluid rounded services-img-swipe" alt="TUB LINER3">
+                            <img src="<?php echo url('/'); ?>/img/flexitank details/TUB LINER3.webp" class="img-fluid rounded services-img-swipe" alt="TUB LINER3">
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -418,13 +418,13 @@ sustainable liquid transport, flexitank shipping advantages"/>
                     </script>
                     <div class="swiper-wrapper align-items-center">
                         <div class="swiper-slide">
-                            <img src="<?php echo url('/'); ?>/img/flexitank details/HEAT EXCHANGER1.png" class="img-fluid rounded services-img-swipe" alt="HEAT EXCHANGER1">
+                            <img src="<?php echo url('/'); ?>/img/flexitank details/HEAT EXCHANGER1.webp" class="img-fluid rounded services-img-swipe" alt="HEAT EXCHANGER1">
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo url('/'); ?>/img/flexitank details/HEAT EXCHANGER2.png" class="img-fluid rounded services-img-swipe" alt="HEAT EXCHANGER2">
+                            <img src="<?php echo url('/'); ?>/img/flexitank details/HEAT EXCHANGER2.webp" class="img-fluid rounded services-img-swipe" alt="HEAT EXCHANGER2">
                         </div>
                         <div class="swiper-slide">
-                            <img src="<?php echo url('/'); ?>/img/flexitank details/HEAT EXCHANGER3.png" class="img-fluid rounded services-img-swipe" alt="HEAT EXCHANGER3">
+                            <img src="<?php echo url('/'); ?>/img/flexitank details/HEAT EXCHANGER3.webp" class="img-fluid rounded services-img-swipe" alt="HEAT EXCHANGER3">
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -453,58 +453,58 @@ sustainable liquid transport, flexitank shipping advantages"/>
                     <div class="marquee w-100 d-flex align-items-center overflow-hidden">
                         <div class="marquee-content d-flex align-items-center gap-8">
                             <div class="marquee-tag hstack justify-content-center">
-                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-1.png" class="img-fluid" alt="FSSC 22000">
+                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-1.webp" class="img-fluid" alt="FSSC 22000">
                             </div>
                             <div class="marquee-tag hstack justify-content-center">
-                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-2.png" class="img-fluid" alt="ISO 22000">
+                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-2.webp" class="img-fluid" alt="ISO 22000">
                             </div>
                             <div class="marquee-tag hstack justify-content-center">
-                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-3.png" class="img-fluid" alt="ISO 14001">
+                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-3.webp" class="img-fluid" alt="ISO 14001">
                             </div>
                             <div class="marquee-tag hstack justify-content-center">
-                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-4.png" class="img-fluid" alt="ISO 9001">
+                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-4.webp" class="img-fluid" alt="ISO 9001">
                             </div>
                             <div class="marquee-tag hstack justify-content-center">
-                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-5.png" class="img-fluid" alt="HACCP">
+                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-5.webp" class="img-fluid" alt="HACCP">
                             </div>
                             <div class="marquee-tag hstack justify-content-center">
-                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-6.png" class="img-fluid" alt="SUCI PURE HALAL IFRC">
+                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-6.webp" class="img-fluid" alt="SUCI PURE HALAL IFRC">
                             </div>
                             <div class="marquee-tag hstack justify-content-center">
-                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-7.png" class="img-fluid" alt="GMP FDA">
+                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-7.webp" class="img-fluid" alt="GMP FDA">
                             </div>
                             <div class="marquee-tag hstack justify-content-center">
-                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-8.png" class="img-fluid" alt="KLBD">
+                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-8.webp" class="img-fluid" alt="KLBD">
                             </div>
                             <div class="marquee-tag hstack justify-content-center">
-                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-9.png" class="img-fluid" alt="COA">
+                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-9.webp" class="img-fluid" alt="COA">
                             </div>
                             <div class="marquee-tag hstack justify-content-center">
-                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-1.png" class="img-fluid" alt="FSSC 22000">
+                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-1.webp" class="img-fluid" alt="FSSC 22000">
                             </div>
                             <div class="marquee-tag hstack justify-content-center">
-                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-2.png" class="img-fluid" alt="ISO 22000">
+                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-2.webp" class="img-fluid" alt="ISO 22000">
                             </div>
                             <div class="marquee-tag hstack justify-content-center">
-                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-3.png" class="img-fluid" alt="ISO 14001">
+                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-3.webp" class="img-fluid" alt="ISO 14001">
                             </div>
                             <div class="marquee-tag hstack justify-content-center">
-                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-4.png" class="img-fluid" alt="ISO 9001">
+                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-4.webp" class="img-fluid" alt="ISO 9001">
                             </div>
                             <div class="marquee-tag hstack justify-content-center">
-                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-5.png" class="img-fluid" alt="HACCP">
+                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-5.webp" class="img-fluid" alt="HACCP">
                             </div>
                             <div class="marquee-tag hstack justify-content-center">
-                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-6.png" class="img-fluid" alt="SUCI PURE HALAL IFRC">
+                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-6.webp" class="img-fluid" alt="SUCI PURE HALAL IFRC">
                             </div>
                             <div class="marquee-tag hstack justify-content-center">
-                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-7.png" class="img-fluid" alt="GMP FDA">
+                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-7.webp" class="img-fluid" alt="GMP FDA">
                             </div>
                             <div class="marquee-tag hstack justify-content-center">
-                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-8.png" class="img-fluid" alt="KLBD">
+                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-8.webp" class="img-fluid" alt="KLBD">
                             </div>
                             <div class="marquee-tag hstack justify-content-center">
-                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-9.png" class="img-fluid" alt="COA">
+                                <img src="<?php echo url('/'); ?>/img/certificates/certificate-9.webp" class="img-fluid" alt="COA">
                             </div>
                         </div>
                     </div>

@@ -81,13 +81,13 @@ transportation services"/>
                         </script>
                         <div class="swiper-wrapper align-items-center">
                             <div class="swiper-slide">
-                                <img src="<?php echo url('/'); ?>/img/services details/DOMESTIC FORWARDING1.png" class="img-fluid services-img-swipe" alt="DOMESTIC FORWARDING1">
+                                <img src="<?php echo url('/'); ?>/img/services details/DOMESTIC FORWARDING1.webp" class="img-fluid services-img-swipe" alt="DOMESTIC FORWARDING1">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo url('/'); ?>/img/services details/DOMESTIC FORWARDING2.png" class="img-fluid services-img-swipe" alt="DOMESTIC FORWARDING2">
+                                <img src="<?php echo url('/'); ?>/img/services details/DOMESTIC FORWARDING2.webp" class="img-fluid services-img-swipe" alt="DOMESTIC FORWARDING2">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo url('/'); ?>/img/services details/DOMESTIC FORWARDING3.png" class="img-fluid services-img-swipe" alt="DOMESTIC FORWARDING3">
+                                <img src="<?php echo url('/'); ?>/img/services details/DOMESTIC FORWARDING3.webp" class="img-fluid services-img-swipe" alt="DOMESTIC FORWARDING3">
                             </div>
                         </div>
                         <div class="swiper-pagination"></div>

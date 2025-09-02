@@ -81,13 +81,13 @@ import export, freight services"/>
                         </script>
                         <div class="swiper-wrapper align-items-center">
                             <div class="swiper-slide">
-                                <img src="<?php echo url('/'); ?>/img/services details/FREIGHT FORWARDING1.png" class="img-fluid services-img-swipe" alt="FREIGHT FORWARDING1">
+                                <img src="<?php echo url('/'); ?>/img/services details/FREIGHT FORWARDING1.webp" class="img-fluid services-img-swipe" alt="FREIGHT FORWARDING1">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo url('/'); ?>/img/services details/FREIGHT FORWARDING2.png" class="img-fluid services-img-swipe" alt="FREIGHT FORWARDING2">
+                                <img src="<?php echo url('/'); ?>/img/services details/FREIGHT FORWARDING2.webp" class="img-fluid services-img-swipe" alt="FREIGHT FORWARDING2">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo url('/'); ?>/img/services details/FREIGHT FORWARDING3.png" class="img-fluid services-img-swipe" alt="FREIGHT FORWARDING3">
+                                <img src="<?php echo url('/'); ?>/img/services details/FREIGHT FORWARDING3.webp" class="img-fluid services-img-swipe" alt="FREIGHT FORWARDING3">
                             </div>
                         </div>
                         <div class="swiper-pagination"></div>

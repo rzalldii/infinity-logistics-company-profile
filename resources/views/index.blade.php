@@ -44,7 +44,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="100">
-                    <img src="<?php echo url('/'); ?>/img/hero-img.png" class="img-fluid animated" fetchpriority="high" alt="Container Infinity">
+                    <img src="<?php echo url('/'); ?>/img/hero-img.webp" class="img-fluid animated" fetchpriority="high" alt="Container Infinity">
                 </div>
             </div>
         </div>
@@ -91,7 +91,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
         <div class="container">
             <div class="row gy-4">
                 <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-                    <img src="<?php echo url('/'); ?>/img/about.png" class="img-fluid" alt="About Infinity">
+                    <img src="<?php echo url('/'); ?>/img/about.webp" class="img-fluid" alt="About Infinity">
                     <!-- <a href="https://www.youtube.com/watch?v=zx4s5h1Fats&ab_channel=MuhammadMohdAzam" class="glightbox pulsating-play-btn"></a> -->
                 </div>
                 <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
@@ -160,7 +160,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-item position-relative">
                         <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/services/NVOCC.png" alt="NVOCC">
+                            <img src="<?php echo url('/'); ?>/img/services/NVOCC.webp" alt="NVOCC">
                         </div>
                         <a href="/nvocc" class="stretched-link">
                             <h3>NVOCC</h3>
@@ -173,7 +173,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-item position-relative">
                         <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/services/FREIGHT FORWARDING.png" alt="FREIGHT FORWARDING">
+                            <img src="<?php echo url('/'); ?>/img/services/FREIGHT FORWARDING.webp" alt="FREIGHT FORWARDING">
                         </div>
                         <a href="/freight-forwarding" class="stretched-link">
                             <h3>Freight Forwarding</h3>
@@ -186,7 +186,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-item position-relative">
                         <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/services/DOMESTIC FORWARDING.png" alt="DOMESTIC FORWARDING">
+                            <img src="<?php echo url('/'); ?>/img/services/DOMESTIC FORWARDING.webp" alt="DOMESTIC FORWARDING">
                         </div>
                         <a href="/domestic-forwarding" class="stretched-link">
                             <h3>Domestic Forwarding</h3>
@@ -199,7 +199,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                     <div class="service-item position-relative">
                         <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/services/FLEXITANK FLEXIBAG.png" alt="FLEXITANK FLEXIBAG">
+                            <img src="<?php echo url('/'); ?>/img/services/FLEXITANK FLEXIBAG.webp" alt="FLEXITANK FLEXIBAG">
                         </div>
                         <a href="/flexitank-flexibag" class="stretched-link">
                             <h3>Flexitank / Flexibag</h3>
@@ -212,7 +212,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                     <div class="service-item position-relative">
                         <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/services/PROJECT LOGISTICS.png" alt="PROJECT LOGISTICS">
+                            <img src="<?php echo url('/'); ?>/img/services/PROJECT LOGISTICS.webp" alt="PROJECT LOGISTICS">
                         </div>
                         <a href="/project-logistics" class="stretched-link">
                             <h3>Project Logistics</h3>
@@ -225,7 +225,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                     <div class="service-item position-relative">
                         <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/services/SEE ALL.png" alt="SEE ALL">
+                            <img src="<?php echo url('/'); ?>/img/services/SEE ALL.webp" alt="SEE ALL">
                         </div>
                         <a href="/nvocc" class="stretched-link">
                             <h3>See All</h3>
@@ -317,70 +317,70 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                     <div class="swiper-slide">
                         <div class="testimonial-item" "="">
                             <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-1.png" class="testimonial-img" alt="AJINOMOTO INDONESIA">
+                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-1.webp" class="testimonial-img" alt="AJINOMOTO INDONESIA">
                             <h3>PT. AJINOMOTO INDONESIA</h3>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-2.png" class="testimonial-img" alt="WILMAR CAHAYA INDONESIA">
+                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-2.webp" class="testimonial-img" alt="WILMAR CAHAYA INDONESIA">
                             <h3>PT. WILMAR CAHAYA INDONESIA</h3>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-3.png" class="testimonial-img" alt="GUDANG GARAM">
+                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-3.webp" class="testimonial-img" alt="GUDANG GARAM">
                             <h3>PT. GUDANG GARAM</h3>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-4.png" class="testimonial-img" alt="SINAR MAS AGRO RESOURCES AND TECHNOLOGY">
+                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-4.webp" class="testimonial-img" alt="SINAR MAS AGRO RESOURCES AND TECHNOLOGY">
                             <h3>PT. SINAR MAS AGRO RESOURCES AND TECHNOLOGY</h3>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-5.png" class="testimonial-img" alt="INDO OIL PERKASA">
+                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-5.webp" class="testimonial-img" alt="INDO OIL PERKASA">
                             <h3>PT. INDO OIL PERKASA</h3>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-6.png" class="testimonial-img" alt="GUNTNER INDONESIA">
+                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-6.webp" class="testimonial-img" alt="GUNTNER INDONESIA">
                             <h3>PT. GUNTNER INDONESIA</h3>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-7.png" class="testimonial-img" alt="KEMIRA CHEMICALS INDONESIA">
+                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-7.webp" class="testimonial-img" alt="KEMIRA CHEMICALS INDONESIA">
                             <h3>PT. KEMIRA CHEMICALS INDONESIA</h3>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-8.png" class="testimonial-img" alt="SAHATI HAMPARAN TANGGUH">
+                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-8.webp" class="testimonial-img" alt="SAHATI HAMPARAN TANGGUH">
                             <h3>PT. SAHATI HAMPARAN TANGGUH</h3>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-9.png" class="testimonial-img" alt="DUNIA KIMIA JAYA">
+                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-9.webp" class="testimonial-img" alt="DUNIA KIMIA JAYA">
                             <h3>PT. DUNIA KIMIA JAYA</h3>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-10.png" class="testimonial-img" alt="LOKA REFRACTORIES WIRA JATIM">
+                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-10.webp" class="testimonial-img" alt="LOKA REFRACTORIES WIRA JATIM">
                             <h3>PT. LOKA REFRACTORIES WIRA JATIM</h3>
                         </div>
                     </div>
@@ -479,15 +479,14 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
     <!-- /Contact Section -->
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="https://www.googletagmanager.com/gtag/js?id={{ env('GOOGLE_ANALYTICS_TRACKING_ID') }}" async></script>
-    <script src="https://www.google.com/recaptcha/api.js?render={{ env('RECAPTCHA_SITE_KEY') }}&badge=bottomleft"></script>
+    <script src="https://www.googletagmanager.com/gtag/js?id={{ env('GOOGLE_ANALYTICS_TRACKING_ID') }}" async defer></script>
+    <script src="https://www.google.com/recaptcha/api.js?render={{ env('RECAPTCHA_SITE_KEY') }}&badge=bottomleft" async defer></script>
     <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', '{{ env('GOOGLE_ANALYTICS_TRACKING_ID') }}');
     </script>
 

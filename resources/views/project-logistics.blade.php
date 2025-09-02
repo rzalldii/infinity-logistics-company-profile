@@ -81,13 +81,13 @@ global project shipping, specialized cargo, turnkey logistics"/>
                         </script>
                         <div class="swiper-wrapper align-items-center">
                             <div class="swiper-slide">
-                                <img src="<?php echo url('/'); ?>/img/services details/PROJECT LOGISTICS1.png" class="img-fluid services-img-swipe" alt="PROJECT LOGISTICS1">
+                                <img src="<?php echo url('/'); ?>/img/services details/PROJECT LOGISTICS1.webp" class="img-fluid services-img-swipe" alt="PROJECT LOGISTICS1">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo url('/'); ?>/img/services details/PROJECT LOGISTICS2.png" class="img-fluid services-img-swipe" alt="PROJECT LOGISTICS2">
+                                <img src="<?php echo url('/'); ?>/img/services details/PROJECT LOGISTICS2.webp" class="img-fluid services-img-swipe" alt="PROJECT LOGISTICS2">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo url('/'); ?>/img/services details/PROJECT LOGISTICS3.png" class="img-fluid services-img-swipe" alt="PROJECT LOGISTICS3">
+                                <img src="<?php echo url('/'); ?>/img/services details/PROJECT LOGISTICS3.webp" class="img-fluid services-img-swipe" alt="PROJECT LOGISTICS3">
                             </div>
                         </div>
                         <div class="swiper-pagination"></div>
