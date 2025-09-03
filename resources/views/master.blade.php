@@ -26,7 +26,8 @@
     <link href="<?php echo url('/'); ?>/vendor/swiper/css/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Main CSS File -->
-    <link href="<?php echo url('/'); ?>/css/main.css" rel="stylesheet">
+    <!-- <link href="<?php echo url('/'); ?>/css/main.css" rel="stylesheet"> -->
+    <link href="<?php echo url('/'); ?>/css/main.min.css" rel="stylesheet">
 </head>
 
 <!-- WhatsApp Floating Chat Widget -->
@@ -137,6 +138,7 @@
     <script src="<?php echo url('/'); ?>/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="<?php echo url('/'); ?>/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
     <script src="<?php echo url('/'); ?>/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="<?php echo url('/'); ?>/vendor/jquery/jquery.min.js"></script>
     <script src="<?php echo url('/'); ?>/vendor/jquery.marquee/jquery.marquee.min.js"></script>
     <script src="<?php echo url('/'); ?>/vendor/purecounterjs/purecounter_vanilla.js"></script>
     <script src="<?php echo url('/'); ?>/vendor/sweetalert2/js/sweetalert2.all.min.js"></script>
@@ -144,7 +146,8 @@
     <script src="<?php echo url('/'); ?>/vendor/php-email-form/validate.js"></script>
 
     <!-- Main JS File -->
-    <script src="<?php echo url('/'); ?>/js/main.js"></script>
+    <!-- <script src="<?php echo url('/'); ?>/js/main.js"></script> -->
+    <script src="<?php echo url('/'); ?>/js/main.min.js"></script>
 </body>
 
 </html>

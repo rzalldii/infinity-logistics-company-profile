@@ -478,7 +478,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
     </section>
     <!-- /Contact Section -->
 
-    <script src="https://www.googletagmanager.com/gtag/js?id={{ env('GOOGLE_ANALYTICS_TRACKING_ID') }}" defer></script>
+    <script src="https://www.googletagmanager.com/gtag/js?id={{ env('ANALYTICS_KEY') }}" defer></script>
     <script src="https://www.google.com/recaptcha/api.js?render={{ env('RECAPTCHA_SITE_KEY') }}&badge=bottomleft" defer></script>
     <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" defer></script>
 
@@ -486,7 +486,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', '{{ env('GOOGLE_ANALYTICS_TRACKING_ID') }}');
+        gtag('config', '{{ env('ANALYTICS_KEY') }}');
     </script>
 
     <script>
