@@ -15,7 +15,19 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="preload" as="font" type="font/woff2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="preload" as="font" type="font/woff2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="preload" as="font" type="font/woff2" crossorigin="anonymous">
+
+    <!-- Preload CSS Files -->
+    <link href="<?php echo url('/'); ?>/vendor/aos/css/aos.css" rel="preload" as="style">
+    <link href="<?php echo url('/'); ?>/vendor/bootstrap/css/bootstrap.min.css" rel="preload" as="style">
+    <link href="<?php echo url('/'); ?>/vendor/bootstrap-icons/bootstrap-icons.min.css" rel="preload" as="style">
+    <link href="<?php echo url('/'); ?>/vendor/glightbox/css/glightbox.min.css" rel="preload" as="style">
+    <link href="<?php echo url('/'); ?>/vendor/sweetalert2/css/sweetalert2.min.css" rel="preload" as="style">
+    <link href="<?php echo url('/'); ?>/vendor/swiper/css/swiper-bundle.min.css" rel="preload" as="style">
+    <!-- <link href="<?php echo url('/'); ?>/css/main.css" rel="preload" as="style"> -->
+    <link href="<?php echo url('/'); ?>/css/main.min.css" rel="preload" as="style">
 
     <!-- Vendor CSS Files -->
     <link href="<?php echo url('/'); ?>/vendor/aos/css/aos.css" rel="stylesheet">
