@@ -168,20 +168,4 @@
     }
   });
 
-  document.addEventListener('copy', function(e) { e.preventDefault(); });
-  document.addEventListener('contextmenu', function(e) { e.preventDefault(); });
-  document.addEventListener('touchstart', function(e) { e.preventDefault(); });
-  document.addEventListener('selectstart', function(e) { e.preventDefault(); });
-  document.addEventListener('dragstart', function(e) { e.preventDefault(); });
-  document.onkeydown = function(e) {
-    if (e.key === 123 ||
-      (e.ctrlKey && e.key === 65) ||
-      (e.ctrlKey && e.key === 80) ||
-      (e.ctrlKey && e.key === 83) ||
-      (e.ctrlKey && e.key === 85) ||
-      (e.ctrlKey && e.shiftKey && ['C','I','J'].includes(e.key.toUpperCase()))) {
-    return false;
-    }
-  };
-
 })();

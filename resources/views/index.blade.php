@@ -44,7 +44,8 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="100">
-                    <img src="<?php echo url('/'); ?>/img/hero-img.webp" class="img-fluid animated" fetchpriority="high" alt="Container Infinity">
+                    <img src="<?php echo url('/'); ?>/img/hero-img.webp" srcset="<?php echo url('/'); ?>/img/hero-img-546x513.webp 546w, <?php echo url('/'); ?>/img/hero-img-388x365.webp 388w" 
+                    sizes="(max-width: 600px) 388px, 546px" class="img-fluid animated" fetchpriority="high" alt="Container Infinity">
                 </div>
             </div>
         </div>
@@ -91,7 +92,8 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
         <div class="container">
             <div class="row gy-4">
                 <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-                    <img src="<?php echo url('/'); ?>/img/about.webp" class="img-fluid" alt="About Infinity">
+                    <img src="<?php echo url('/'); ?>/img/about.webp" srcset="<?php echo url('/'); ?>/img/about-546x386.webp 546w, <?php echo url('/'); ?>/img/about-388x274.webp 388w" 
+                    sizes="(max-width: 600px) 388px, 546px" class="img-fluid" alt="About Infinity">
                     <!-- <a href="https://www.youtube.com/watch?v=zx4s5h1Fats&ab_channel=MuhammadMohdAzam" class="glightbox pulsating-play-btn"></a> -->
                 </div>
                 <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
@@ -263,7 +265,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
             <div class="row gy-5 justify-content-center">
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="member">
-                        <div class="pic"><img src="<?php echo url('/'); ?>/img/team.png" class="img-fluid" alt="Member Infinity"></div>
+                        <div class="pic"><img src="<?php echo url('/'); ?>/img/team.webp" class="img-fluid" alt="Member Infinity" loading="lazy"></div>
                         <div class="member-info">
                             <h3>Ayu Wulan Maya Sary</h3>
                             <span>Director</span>
@@ -317,70 +319,70 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                     <div class="swiper-slide">
                         <div class="testimonial-item" "="">
                             <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-1.webp" class="testimonial-img" alt="AJINOMOTO INDONESIA">
+                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-1.webp" class="testimonial-img" alt="AJINOMOTO INDONESIA" loading="lazy">
                             <h3>PT. AJINOMOTO INDONESIA</h3>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-2.webp" class="testimonial-img" alt="WILMAR CAHAYA INDONESIA">
+                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-2.webp" class="testimonial-img" alt="WILMAR CAHAYA INDONESIA" loading="lazy">
                             <h3>PT. WILMAR CAHAYA INDONESIA</h3>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-3.webp" class="testimonial-img" alt="GUDANG GARAM">
+                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-3.webp" class="testimonial-img" alt="GUDANG GARAM" loading="lazy">
                             <h3>PT. GUDANG GARAM</h3>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-4.webp" class="testimonial-img" alt="SINAR MAS AGRO RESOURCES AND TECHNOLOGY">
+                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-4.webp" class="testimonial-img" alt="SINAR MAS AGRO RESOURCES AND TECHNOLOGY" loading="lazy">
                             <h3>PT. SINAR MAS AGRO RESOURCES AND TECHNOLOGY</h3>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-5.webp" class="testimonial-img" alt="INDO OIL PERKASA">
+                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-5.webp" class="testimonial-img" alt="INDO OIL PERKASA" loading="lazy">
                             <h3>PT. INDO OIL PERKASA</h3>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-6.webp" class="testimonial-img" alt="GUNTNER INDONESIA">
+                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-6.webp" class="testimonial-img" alt="GUNTNER INDONESIA" loading="lazy">
                             <h3>PT. GUNTNER INDONESIA</h3>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-7.webp" class="testimonial-img" alt="KEMIRA CHEMICALS INDONESIA">
+                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-7.webp" class="testimonial-img" alt="KEMIRA CHEMICALS INDONESIA" loading="lazy">
                             <h3>PT. KEMIRA CHEMICALS INDONESIA</h3>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-8.webp" class="testimonial-img" alt="SAHATI HAMPARAN TANGGUH">
+                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-8.webp" class="testimonial-img" alt="SAHATI HAMPARAN TANGGUH" loading="lazy">
                             <h3>PT. SAHATI HAMPARAN TANGGUH</h3>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-9.webp" class="testimonial-img" alt="DUNIA KIMIA JAYA">
+                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-9.webp" class="testimonial-img" alt="DUNIA KIMIA JAYA" loading="lazy">
                             <h3>PT. DUNIA KIMIA JAYA</h3>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-10.webp" class="testimonial-img" alt="LOKA REFRACTORIES WIRA JATIM">
+                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-10.webp" class="testimonial-img" alt="LOKA REFRACTORIES WIRA JATIM" loading="lazy">
                             <h3>PT. LOKA REFRACTORIES WIRA JATIM</h3>
                         </div>
                     </div>
