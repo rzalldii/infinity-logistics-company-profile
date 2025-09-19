@@ -10,20 +10,6 @@ using our services."/>
 protection, data collection, GDPR, CCPA, cookies policy, data security, user rights, privacy practices,
 online privacy, information security, privacy terms"/>
 @endsection('meta')
-@section('navigation')
-<li><a href="/">Home</a></li>
-<li><a href="/#about">About</a></li>
-<li class="dropdown"><a href="/#services"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-    <ul>
-        <li><a href="/nvocc">NVOCC</a></li>
-        <li><a href="/freight-forwarding">Freight Forwarding</a></li>
-        <li><a href="/domestic-forwarding">Domestic Forwarding</a></li>
-        <li><a href="/flexitank-flexibag">Flexitank / Flexibag</a></li>
-        <li><a href="/project-logistics">Project Logistics</a></li>
-    </ul>
-</li>
-<li><a href="/#contact">Contact</a></li>
-@endsection('navigation')
 @section('content')
 <main class="main">
     <!-- Protect Section -->
@@ -39,8 +25,8 @@ online privacy, information security, privacy terms"/>
                 Welcome to Infinity Logistics Indonesia. We respect your privacy and are committed 
                 to protecting your personal information. This Privacy Policy outlines how we collect, 
                 use, store, and share your information when you visit and interact with our website
-                [Website URL]. By using this site, you agree to the terms and practices described
-                in this Privacy Policy. 
+                <a href="https://infinity-sby.com/"><span>https://infinity-sby.com</span></a>. By using this site, you agree to the terms and practices described
+                in this Privacy Policy.
             </p>
             <h2>
                 2. Information We Collect
@@ -153,7 +139,7 @@ online privacy, information security, privacy terms"/>
             </p>
             <p>
                 To exercise any of these rights, please contact us via email at
-                <span>cssurabaya@infinity-sby.com.</span>
+                <a href="mailto:cssurabaya@infinity-sby.com"><span>cssurabaya@infinity-sby.com.</span></a>
             </p>
             <h2>
                 8. Third-Party Websites
@@ -192,10 +178,10 @@ online privacy, information security, privacy terms"/>
                 <span>Infinity Logistics Indonesia</span>
             </p>
             <p>
-                Call: +62-31-549-2926
+                <a href="tel:0315492926">Call: (+62)31-5492926</a>
             </p>
             <p>
-                Email: cssurabaya@infinity-sby.com
+                <a href="mailto:cssurabaya@infinity-sby.com">Email: cssurabaya@infinity-sby.com</a>
             </p>
             <p>
                 Address: Plaza BRI, 12th Floor, Suite 1206, Jl. Jendral Basuki Rahmad 122-138,

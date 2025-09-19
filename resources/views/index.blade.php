@@ -15,20 +15,6 @@ flexibag surabaya, flexitank surabaya, flexibag indonesia, flexitank indonesia, 
 forwarder indonesia, forwarding indonesia, shipping line indonesia, logistics indonesia, infinity
 indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding indonesia"/>
 @endsection('meta')
-@section('navigation')
-<li><a href="/#hero" class="active">Home</a></li>
-<li><a href="/#about">About</a></li>
-<li class="dropdown"><a href="/#services"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-    <ul>
-        <li><a href="/nvocc">NVOCC</a></li>
-        <li><a href="/freight-forwarding">Freight Forwarding</a></li>
-        <li><a href="/domestic-forwarding">Domestic Forwarding</a></li>
-        <li><a href="/flexitank-flexibag">Flexitank / Flexibag</a></li>
-        <li><a href="/project-logistics">Project Logistics</a></li>
-    </ul>
-</li>
-<li><a href="/#contact">Contact</a></li>
-@endsection('navigation')
 @section('content')
 <main class="main">
     <!-- Hero Section -->
@@ -107,12 +93,12 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                         <li><i class="bi bi-check2-all"></i> <span>Domestic Forwarding Services</span></li>
                         <li><i class="bi bi-check2-all"></i> <span>Flexitank Solutions and Related Services</span></li>
                         <li><i class="bi bi-check2-all"></i> <span>Project Logistics Services</span></li>
+                        <li><i class="bi bi-check2-all"></i> <span>Customs Clearance Services</span></li>
                     </ul>
                     <p> With a solid presence in the region, we specialize in providing efficient and
-                        reliable logistics solutions across a wide range of industries. Our aim is to
-                        ensure seamless operations across multiple countries. Our team is dedicated to
-                        delivering high-quality, efficient logistics services to meet the diverse needs
-                        of our clients.
+                        reliable logistics solutions across a wide range of industries. Our team is
+                        dedicated to delivering high-quality, efficient logistics services to meet the
+                        diverse needs of our clients.
                     </p>
                 </div>
             </div>
@@ -125,26 +111,26 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
             <div class="row gy-4">
                 <div class="col-lg-3 col-md-6">
                     <div class="stats-item text-center w-100 h-100">
-                        <span data-purecounter-start="0" data-purecounter-end="352" data-purecounter-duration="1" class="purecounter"></span>
-                        <p>Clients Active</p>
+                        <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>Years Experience</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="stats-item text-center w-100 h-100">
-                        <span data-purecounter-start="0" data-purecounter-end="18934" data-purecounter-duration="1" class="purecounter"></span>
+                        <span data-purecounter-start="0" data-purecounter-end="20000" data-purecounter-duration="1" class="purecounter"></span>
                         <p>Shipments Handled</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="stats-item text-center w-100 h-100">
-                        <span data-purecounter-start="0" data-purecounter-end="9470" data-purecounter-duration="1" class="purecounter"></span>
-                        <p>Containers Moved</p>
+                        <span data-purecounter-start="0" data-purecounter-end="300" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>Clients Active</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="stats-item text-center w-100 h-100">
-                        <span data-purecounter-start="0" data-purecounter-end="1501" data-purecounter-duration="1" class="purecounter"></span>
-                        <p>Project Cargo</p>
+                        <span data-purecounter-start="0" data-purecounter-end="40" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>Countries Served</p>
                     </div>
                 </div>
             </div>
@@ -168,7 +154,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                             <h3>NVOCC</h3>
                         </a>
                         <p>
-                            We provide non-vessel operating common carrier (NVOCC) services for shipping.
+                            Connecting Cargo, Without a Vessel.
                         </p>
                     </div>
                 </div>
@@ -181,7 +167,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                             <h3>Freight Forwarding</h3>
                         </a>
                         <p>
-                            Manages the logistics of transporting goods efficiently.
+                            Efficient, Reliable, and Global Freight Services.
                         </p>
                     </div>
                 </div>
@@ -194,7 +180,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                             <h3>Domestic Forwarding</h3>
                         </a>
                         <p>
-                            Focuses on transportation and logistics within the country.
+                            Nationwide Logistics, Local Expertise.
                         </p>
                     </div>
                 </div>
@@ -207,7 +193,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                             <h3>Flexitank / Flexibag</h3>
                         </a>
                         <p>
-                            Turns a container into a bulk liquid carrier for non hazardous liquids.
+                            Transforming Containers for Liquid Freight.
                         </p>
                     </div>
                 </div>
@@ -220,20 +206,20 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                             <h3>Project Logistics</h3>
                         </a>
                         <p>
-                            Handle large scale and complex logistical projects.
+                            Delivering Complex Projects, Seamlessly.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                     <div class="service-item position-relative">
                         <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/services/SEE ALL.webp" alt="SEE ALL">
+                            <img src="<?php echo url('/'); ?>/img/services/CUSTOMS CLEARANCE.webp" alt="CUSTOMS CLEARANCE">
                         </div>
-                        <a href="/nvocc" class="stretched-link">
-                            <h3>See All</h3>
+                        <a href="/customs-clearance" class="stretched-link">
+                            <h3>Customs Clearance</h3>
                         </a>
                         <p>
-                            Service Details
+                            Simplifying Customs, Speeding Up Deliveries.
                         </p>
                     </div>
                 </div>
@@ -241,20 +227,6 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
         </div>
     </section>
     <!-- /Services Section -->
-    <!-- Call To Action Section -->
-    <!-- <section id="call-to-action" class="call-to-action section accent-background">
-        <div class="container">
-            <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
-                <div class="col-xl-10">
-                    <div class="text-center">
-                        <h3>HEADQUARTERS INFINITY</h3>
-                        <a class="cta-btn" href="https://www.infinity.com.my/"><span>Website Malaysia</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- /Call To Action Section -->
     <!-- Team Section -->
     <section id="team" class="team section">
         <div class="container section-title" data-aos="fade-up">
@@ -269,12 +241,6 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                         <div class="member-info">
                             <h3>Ayu Wulan Maya Sary</h3>
                             <span>Director</span>
-                            <!-- <div class="social">
-                                <a href=""><i class="bi bi-twitter-x"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -282,14 +248,14 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
         </div>
     </section>
     <!-- /Team Section -->
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section light-background">
+    <!-- Clients Section -->
+    <section id="clients" class="clients section light-background">
         <div class="container section-title" data-aos="fade-up">
             <span>Our Clients</span>
             <h2>Clients</h2>
         </div>
         <div class="container" data-aos="fade-up" data-aos-delay="100">
-            <div class="swiper init-swiper" data-speed="600" data-delay="5000" data-breakpoints="{ &quot;320&quot;: { &quot;slidesPerView&quot;: 1, &quot;spaceBetween&quot;: 40 }, &quot;1200&quot;: { &quot;slidesPerView&quot;: 3, &quot;spaceBetween&quot;: 20 } }">
+            <div class="swiper init-swiper">
                 <script type="application/json" class="swiper-config">
                     {
                         "loop": true,
@@ -305,93 +271,84 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                         },
                         "breakpoints": {
                             "320": {
-                            "slidesPerView": 1,
+                            "slidesPerView": 2,
                             "spaceBetween": 40
                             },
-                            "1200": {
+                            "480": {
                             "slidesPerView": 3,
-                            "spaceBetween": 20
+                            "spaceBetween": 60
+                            },
+                            "640": {
+                            "slidesPerView": 4,
+                            "spaceBetween": 80
+                            },
+                            "992": {
+                            "slidesPerView": 6,
+                            "spaceBetween": 120
                             }
                         }
                     }
                 </script>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="testimonial-item" "="">
-                            <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-1.webp" class="testimonial-img" alt="AJINOMOTO INDONESIA" loading="lazy">
-                            <h3>PT. AJINOMOTO INDONESIA</h3>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-2.webp" class="testimonial-img" alt="WILMAR CAHAYA INDONESIA" loading="lazy">
-                            <h3>PT. WILMAR CAHAYA INDONESIA</h3>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-3.webp" class="testimonial-img" alt="GUDANG GARAM" loading="lazy">
-                            <h3>PT. GUDANG GARAM</h3>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-4.webp" class="testimonial-img" alt="SINAR MAS AGRO RESOURCES AND TECHNOLOGY" loading="lazy">
-                            <h3>PT. SINAR MAS AGRO RESOURCES AND TECHNOLOGY</h3>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-5.webp" class="testimonial-img" alt="INDO OIL PERKASA" loading="lazy">
-                            <h3>PT. INDO OIL PERKASA</h3>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-6.webp" class="testimonial-img" alt="GUNTNER INDONESIA" loading="lazy">
-                            <h3>PT. GUNTNER INDONESIA</h3>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-7.webp" class="testimonial-img" alt="KEMIRA CHEMICALS INDONESIA" loading="lazy">
-                            <h3>PT. KEMIRA CHEMICALS INDONESIA</h3>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-8.webp" class="testimonial-img" alt="SAHATI HAMPARAN TANGGUH" loading="lazy">
-                            <h3>PT. SAHATI HAMPARAN TANGGUH</h3>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-9.webp" class="testimonial-img" alt="DUNIA KIMIA JAYA" loading="lazy">
-                            <h3>PT. DUNIA KIMIA JAYA</h3>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <p></p>
-                            <img src="<?php echo url('/'); ?>/img/testimonials/testimonials-10.webp" class="testimonial-img" alt="LOKA REFRACTORIES WIRA JATIM" loading="lazy">
-                            <h3>PT. LOKA REFRACTORIES WIRA JATIM</h3>
-                        </div>
-                    </div>
+                <div class="swiper-wrapper align-items-center">
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-1.webp" class="img-fluid" alt="AJINOMOTO INDONESIA" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-2.webp" class="img-fluid" alt="WILMAR CAHAYA INDONESIA" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-3.webp" class="img-fluid" alt="GUDANG GARAM" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-4.webp" class="img-fluid" alt="SINAR MAS AGRO RESOURCES AND TECHNOLOGY" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-5.webp" class="img-fluid" alt="INDO OIL PERKASA" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-6.webp" class="img-fluid" alt="GUNTNER INDONESIA" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-7.webp" class="img-fluid" alt="KEMIRA CHEMICALS INDONESIA" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-8.webp" class="img-fluid" alt="SAHATI HAMPARAN TANGGUH" loading="lazy"></div>
                 </div>
-                <div class="swiper-pagination"></div>
+            </div>
+            <div class="swiper init-swiper" dir="rtl">
+                <script type="application/json" class="swiper-config">
+                    {
+                        "loop": true,
+                        "speed": 600,
+                        "autoplay": {
+                            "delay": 5000
+                        },
+                        "slidesPerView": "auto",
+                        "pagination": {
+                            "el": ".swiper-pagination",
+                            "type": "bullets",
+                            "clickable": true
+                        },
+                        "breakpoints": {
+                            "320": {
+                                "slidesPerView": 2,
+                                "spaceBetween": 40
+                            },
+                            "480": {
+                                "slidesPerView": 3,
+                                "spaceBetween": 60
+                            },
+                            "640": {
+                                "slidesPerView": 4,
+                                "spaceBetween": 80
+                            },
+                            "992": {
+                                "slidesPerView": 6,
+                                "spaceBetween": 120
+                            }
+                        },
+                        "rtl": true
+                    }
+                </script>
+                <div class="swiper-wrapper align-items-center">
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-9.webp" class="img-fluid" alt="DUNIA KIMIA JAYA" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-10.webp" class="img-fluid" alt="LOKA REFRACTORIES WIRA JATIM" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-11.webp" class="img-fluid" alt="AGROMINA WICAKSANA" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-12.webp" class="img-fluid" alt="OMYA INDONESIA" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-13.webp" class="img-fluid" alt="DELTA HIJAU ABADI" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-14.webp" class="img-fluid" alt="BONANZA MEGAH" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-15.webp" class="img-fluid" alt="INDOKEMIKA JAYATAMA" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-16.webp" class="img-fluid" alt="NYLEX INDONESIA" loading="lazy"></div>
+                </div>
             </div>
         </div>
     </section>
-    <!-- /Testimonials Section -->
+    <!-- /Clients Section -->
     <!-- Contact Section -->
     <section id="contact" class="contact section">
         <div class="container section-title" data-aos="fade-up">
@@ -443,7 +400,6 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                         @csrf
                         @honeypot
                         <div class="row gy-4">
-                            <div class="cf-turnstile" data-sitekey="{{ env('TURNSTILE_SITE_KEY') }}" data-size="flexible" data-theme="light"></div>
                             <h4 class="text-center">
                                 GET IN TOUCH
                             </h4>
@@ -467,6 +423,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                                     </label>
                                 </div>
                             </div>
+                            <div class="cf-turnstile" data-sitekey="{{ env('TURNSTILE_SITE_KEY') }}" data-size="flexible" data-theme="light"></div>
                             <input type="hidden" name="recaptcha_token" id="recaptcha_token">
                             <input type="hidden" name="turnstile_token" id="turnstile_token">
                             <div class="col-md-12">

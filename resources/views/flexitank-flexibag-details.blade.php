@@ -11,20 +11,6 @@ flexible tank shipping, liquid cargo, cost-effective shipping, eco-friendly pack
 solutions, chemical transport, food-grade flexitank, bulk liquid logistics, liquid shipping container,
 sustainable liquid transport, flexitank shipping advantages"/>
 @endsection('meta')
-@section('navigation')
-<li><a href="/">Home</a></li>
-<li><a href="/#about">About</a></li>
-<li class="dropdown"><a href="/#services" class="active"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-    <ul>
-        <li><a href="/nvocc">NVOCC</a></li>
-        <li><a href="/freight-forwarding">Freight Forwarding</a></li>
-        <li><a href="/domestic-forwarding">Domestic Forwarding</a></li>
-        <li><a href="/flexitank-flexibag">Flexitank / Flexibag</a></li>
-        <li><a href="/project-logistics">Project Logistics</a></li>
-    </ul>
-</li>
-<li><a href="/#contact">Contact</a></li>
-@endsection('navigation')
 @section('content')
 <main class="main">
     <!-- Page Title -->

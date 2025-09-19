@@ -10,20 +10,6 @@ website and services."/>
 privacy policy, legal terms, website usage, terms of use, service agreement, site terms, user
 responsibilities, website rules, website legal policy"/>
 @endsection('meta')
-@section('navigation')
-<li><a href="/">Home</a></li>
-<li><a href="/#about">About</a></li>
-<li class="dropdown"><a href="/#services"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-    <ul>
-        <li><a href="/nvocc">NVOCC</a></li>
-        <li><a href="/freight-forwarding">Freight Forwarding</a></li>
-        <li><a href="/domestic-forwarding">Domestic Forwarding</a></li>
-        <li><a href="/flexitank-flexibag">Flexitank / Flexibag</a></li>
-        <li><a href="/project-logistics">Project Logistics</a></li>
-    </ul>
-</li>
-<li><a href="/#contact">Contact</a></li>
-@endsection('navigation')
 @section('content')
 <main class="main">
     <!-- Protect Section -->
@@ -160,8 +146,8 @@ responsibilities, website rules, website legal policy"/>
             </h2>
             <p>
                 If you have any questions or need assistance regarding these Terms and Conditions,
-                please contact us via call at <span>+62-31-549-2926</span> or by email at
-                <span>cssurabaya@infinity-sby.com.</span>
+                please contact us via call at <a href="tel:0315492926"><span>(+62)31-5492926</span></a>
+                or by email at <a href="mailto:cssurabaya@infinity-sby.com"><span>cssurabaya@infinity-sby.com.</span></a>
             </p>
         </div>
     </section>

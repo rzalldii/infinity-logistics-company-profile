@@ -1,15 +1,14 @@
 @extends('master')
 @section('title')
-Infinity Logistics Indonesia | Project Logistics
+Infinity Logistics Indonesia | Customs Clearance
 @endsection('title')
 @section('meta')
-<meta name="description" content="Specialized project logistics services for complex and oversized
-shipments. We offer tailored solutions to manage, transport, and deliver large-scale projects safely,
-efficiently, and on time."/>
-<meta name="keywords" content="project logistics, project cargo, heavy lift transportation, oversized
-cargo, logistics solutions, large-scale project shipping, industrial logistics, project freight
-forwarding, supply chain management, transport solutions, custom logistics, engineering projects,
-global project shipping, specialized cargo, turnkey logistics"/>
+<meta name="description" content="Discover fast and efficient solutions for customs clearance with
+our services. We help streamline document processing and customs procedures, ensuring your
+shipments are smooth and compliant with regulations. Contact us now for reliable service."/>
+<meta name="keywords" content="customs clearance, import clearance, export clearance, customs
+services, customs documentation, shipping solutions, freight forwarding, import/export regulations,
+international shipping, logistics, customs compliance, trade services"/>
 @endsection('meta')
 @section('content')
 <main class="main">
@@ -32,8 +31,8 @@ global project shipping, specialized cargo, turnkey logistics"/>
                             <a href="/freight-forwarding"><i class="bi bi-arrow-right-circle"></i><span>Freight Forwarding</span></a>
                             <a href="/domestic-forwarding"><i class="bi bi-arrow-right-circle"></i><span>Domestic Forwarding</span></a>
                             <a href="/flexitank-flexibag"><i class="bi bi-arrow-right-circle"></i><span>Flexitank / Flexibag</span></a>
-                            <a href="#" class="active"><i class="bi bi-arrow-right-circle"></i><span>Project Logistics</span></a>
-                            <a href="/customs-clearance"><i class="bi bi-arrow-right-circle"></i><span>Customs Clearance</span></a>
+                            <a href="/project-logistics"><i class="bi bi-arrow-right-circle"></i><span>Project Logistics</span></a>
+                            <a href="#" class="active"><i class="bi bi-arrow-right-circle"></i><span>Customs Clearance</span></a>
                         </div>
                     </div>
                     <div class="service-box">
@@ -68,42 +67,41 @@ global project shipping, specialized cargo, turnkey logistics"/>
                         </script>
                         <div class="swiper-wrapper align-items-center">
                             <div class="swiper-slide">
-                                <img src="<?php echo url('/'); ?>/img/services details/PROJECT LOGISTICS1.webp" class="img-fluid services-img-swipe" alt="PROJECT LOGISTICS1">
+                                <img src="<?php echo url('/'); ?>/img/services details/CUSTOMS CLEARANCE1.webp" class="img-fluid services-img-swipe" alt="FLEXITANK FLEXIBAG1">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo url('/'); ?>/img/services details/PROJECT LOGISTICS2.webp" class="img-fluid services-img-swipe" alt="PROJECT LOGISTICS2">
+                                <img src="<?php echo url('/'); ?>/img/services details/CUSTOMS CLEARANCE2.webp" class="img-fluid services-img-swipe" alt="FLEXITANK FLEXIBAG2">
                             </div>
                             <div class="swiper-slide">
-                                <img src="<?php echo url('/'); ?>/img/services details/PROJECT LOGISTICS3.webp" class="img-fluid services-img-swipe" alt="PROJECT LOGISTICS3">
+                                <img src="<?php echo url('/'); ?>/img/services details/CUSTOMS CLEARANCE3.webp" class="img-fluid services-img-swipe" alt="FLEXITANK FLEXIBAG3">
                             </div>
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
-                    <h3>Project Logistics</h3>
+                    <h3>Customs Clearance</h3>
                     <p>
-                        Project logistics involves the planning, transportation, and management of
-                        containers used for heavy, oversized, or complex cargo, which is essential in
-                        large scale projects like power plants, oil and gas developments, and renewable
-                        energy infrastructure. Selecting the right container type is critical due to the
-                        cargo is size and shape. A thorough cargo survey helps determine accurate
-                        dimensions and weight, and a detailed loading plan, including lashing and
-                        blocking, is essential for safe transport. Special permits and documentation,
-                        like Out of Gauge (OOG) declarations, are often required.
+                        Customs clearance is an essential process that ensures goods are imported and
+                        exported in compliance with both local and international regulations. It involves
+                        preparing and submitting necessary documentation, including customs declarations,
+                        invoices, and certificates of origin, along with paying any applicable duties and
+                        taxes. A smooth and accurate clearance process is vital for businesses to avoid
+                        delays, fines, or penalties during international trade.
                     </p>
                     <p>
-                        Multimodal transportation, combining trucks, ships, and trains, is typically
-                        used to efficiently move such project cargo. Close coordination between the
-                        technical and logistics teams ensures safety and operational efficiency
-                        throughout the process. This requires careful planning of every aspect of the
-                        transportation journey.
+                        In Surabaya, our customs clearance services are particularly efficient due to our
+                        in-depth understanding of the local regulatory environment and our strong
+                        relationships with customs authorities. Our team is skilled at handling the
+                        complexities of Indonesian customs regulations, ensuring that all paperwork is
+                        processed quickly and correctly, minimizing delays and ensuring shipments move
+                        seamlessly through the customs process.
                     </p>
                     <p>
-                        Surabaya is well positioned to operate in project logistics due to its strategic
-                        location and robust infrastructure. The Port of Tanjung Perak, a key gateway for
-                        international trade, along with access to roads, railways, and airports, enables
-                        smooth multimodal transportation. With the city is established logistics network
-                        and experienced companies, Surabaya can effectively support the management of
-                        complex project cargo for large industrial and infrastructure projects.
+                        What sets us apart is our ability to quickly resolve any issues that may arise
+                        during the clearance process. If complications occur, our dedicated team is ready
+                        to address and resolve them promptly, ensuring that shipments continue on their
+                        journey without unnecessary interruptions. With our reliable and professional
+                        services, businesses can trust us to manage their customs clearance needs and keep
+                        their supply chains running smoothly.
                     </p>
                 </div>
             </div>

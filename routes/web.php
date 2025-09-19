@@ -26,6 +26,7 @@ Route::get('/domestic-forwarding', function () { return view('domestic-forwardin
 Route::get('/flexitank-flexibag', function () { return view('flexitank-flexibag'); });
 Route::get('/flexitank-flexibag-details', function () { return view('flexitank-flexibag-details'); });
 Route::get('/project-logistics', function () { return view('project-logistics'); });
+Route::get('/customs-clearance', function () { return view('customs-clearance'); });
 
 Route::get('/terms-and-conditions', function () { return view('terms-and-conditions'); });
 Route::get('/privacy-policy', function () { return view('privacy-policy'); });

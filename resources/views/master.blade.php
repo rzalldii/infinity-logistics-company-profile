@@ -56,7 +56,23 @@
             </a>
             <nav id="navmenu" class="navmenu">
                 <ul>
-                    @yield('navigation')
+                    <li><a href="/#hero">Home</a></li>
+                    <li><a href="/#about">About</a></li>
+                    <li class="dropdown"><a href="/#services"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="/nvocc">NVOCC</a></li>
+                            <li><a href="/freight-forwarding">Freight Forwarding</a></li>
+                            <li><a href="/domestic-forwarding">Domestic Forwarding</a></li>
+                            <li class="dropdown"><a href="/flexitank-flexibag"><span>Flexitank / Flexibag</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                <ul>
+                                    <li><a href="/flexitank-flexibag-details">Flexitank / Flexibag Details</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="/project-logistics">Project Logistics</a></li>
+                            <li><a href="/customs-clearance">Customs Clearance</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/#contact">Contact</a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
@@ -78,6 +94,7 @@
                             Plaza BRI, 12th Floor, Suite 1206,
                             Jl. Jendral Basuki Rahmad 122,
                             Surabaya City, East Java, Indonesia
+                            <i class="bi bi-box-arrow-up-right"></i>
                         </a>
                         <p class="mt-3"></p>
                         <a href="tel:0315492926"><strong><i class="bi bi-telephone-fill"></i> Call :</strong> <span>(+62)31-5492926</span></a>
@@ -93,22 +110,21 @@
                         <a href="https://maps.app.goo.gl/R1yCKxVYq4VN2HqA9">
                             Jl. Pergudangan Margomulyo Permai J10,
                             Surabaya City, East Java, Indonesia
+                            <i class="bi bi-box-arrow-up-right"></i>
                         </a>
                         <p class="mt-3"></p>
                         <a href="tel:081938685643"><strong><i class="bi bi-telephone-fill"></i> Call :</strong> <span>(+62)81-938685643</span></a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3 footer-links">
+                <div class="col-lg-2 col-md-3 footer-links">
                     <h4>Useful Links</h4>
                     <ul>
                         <li><i class="bi bi-chevron-right"></i><a href="/#about">About</a></li>
                         <li><i class="bi bi-chevron-right"></i><a href="/#services">Services</a></li>
                         <li><i class="bi bi-chevron-right"></i><a href="/#contact">Contact</a></li>
-                        <!-- <li><i class="bi bi-chevron-right"></i> <a href="/terms-and-conditions">Terms and Conditions</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="/privacy-policy">Privacy Policy</a></li> -->
                     </ul>
                 </div>
-                <div class="col-lg-3 col-md-3 footer-links">
+                <div class="col-lg-2 col-md-3 footer-links">
                     <h4>Core Business</h4>
                     <ul>
                         <li><i class="bi bi-chevron-right"></i><a href="/nvocc">NVOCC</a></li>
@@ -116,25 +132,34 @@
                         <li><i class="bi bi-chevron-right"></i><a href="/domestic-forwarding">Domestic Forwarding</a></li>
                         <li><i class="bi bi-chevron-right"></i><a href="/flexitank-flexibag">Flexitank / Flexibag</a></li>
                         <li><i class="bi bi-chevron-right"></i><a href="/project-logistics">Project Logistics</a></li>
+                        <li><i class="bi bi-chevron-right"></i><a href="/customs-clearance">Customs Clearance</a></li>
                     </ul>
+                </div>
+                <div class="col-lg-2 col-md-12">
+                    <h4>Follow Us</h4>
+                    <div class="social-links d-flex">
+                        <a href="https://www.linkedin.com/company/infinity-logistics-and-transport" class="linkedin" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://www.facebook.com/infinitylogisticsandtransport" class="facebook" aria-label="Facebook"><i class="bi bi-facebook"></i></a>    
+                        <!-- <a href="https://www.instagram.com/" class="instagram" aria-label="Instagram"><i class="bi bi-instagram"></i></a> -->
+                        <!-- <a href="https://www.tiktok.com/" class="tiktok" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+                        <a href="https://x.com/" class="twitter-x" aria-label="TwitterX"><i class="bi bi-x-twitter"></i></a>
+                        <a href="https://www.youtube.com/" class="youtube" aria-label="YouTube"><i class="bi bi-youtube"></i></a> -->
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="copyright mt-4">
-            <!-- <div class="social-links">
-                <a href="https://www.linkedin.com/company/infinity-logistics-and-transport" class="linkedin" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-                <a href="https://www.facebook.com/infinitylogisticsandtransport" class="facebook" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-                <a href="https://www.instagram.com/" class="instagram" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-                <a href="https://www.tiktok.com/" class="tiktok" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
-                <a href="https://x.com/" class="twitter-x" aria-label="TwitterX"><i class="bi bi-x-twitter"></i></a>
-                <a href="https://www.youtube.com/" class="youtube" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
-            </div> -->
+        <div class="container copyright mt-4">
             <p>
                 <span>Copyright </span>
                 ©  <span>2025 </span>
-                <strong class="px-1 sitename">INFINITY LOGISTICS INDONESIA</strong> 
+                <strong class="px-1 sitename">PT. INFINITY LOGISTICS INDONESIA.</strong>
                 <span>All Rights Reserved.</span>
+                <!-- | <a href="/terms-and-conditions">Terms and Conditions</a>
+                | <a href="/privacy-policy">Privacy Policy</a> -->
             </p>
+            <div class="credits">
+                Designed and Developed with ❤ by IT Infinity
+            </div>
         </div>
     </footer>
 

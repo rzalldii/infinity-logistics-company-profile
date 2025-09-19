@@ -11,20 +11,6 @@ cost-effective shipping, eco-friendly shipping, liquid storage, chemical transpo
 shipping, bulk liquid logistics, container shipping, liquid cargo, sustainable shipping, freight
 solutions, flexible liquid packaging"/>
 @endsection('meta')
-@section('navigation')
-<li><a href="/">Home</a></li>
-<li><a href="/#about">About</a></li>
-<li class="dropdown"><a href="/#services" class="active"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-    <ul>
-        <li><a href="/nvocc">NVOCC</a></li>
-        <li><a href="/freight-forwarding">Freight Forwarding</a></li>
-        <li><a href="/domestic-forwarding">Domestic Forwarding</a></li>
-        <li><a href="/flexitank-flexibag">Flexitank / Flexibag</a></li>
-        <li><a href="/project-logistics">Project Logistics</a></li>
-    </ul>
-</li>
-<li><a href="/#contact">Contact</a></li>
-@endsection('navigation')
 @section('content')
 <main class="main">
     <!-- Page Title -->
@@ -45,8 +31,9 @@ solutions, flexible liquid packaging"/>
                             <a href="/nvocc"><i class="bi bi-arrow-right-circle"></i><span>NVOCC</span></a>
                             <a href="/freight-forwarding"><i class="bi bi-arrow-right-circle"></i><span>Freight Forwarding</span></a>
                             <a href="/domestic-forwarding"><i class="bi bi-arrow-right-circle"></i><span>Domestic Forwarding</span></a>
-                            <a href="/flexitank-flexibag" class="active"><i class="bi bi-arrow-right-circle"></i><span>Flexitank / Flexibag</span></a>
+                            <a href="#" class="active"><i class="bi bi-arrow-right-circle"></i><span>Flexitank / Flexibag</span></a>
                             <a href="/project-logistics"><i class="bi bi-arrow-right-circle"></i><span>Project Logistics</span></a>
+                            <a href="/customs-clearance"><i class="bi bi-arrow-right-circle"></i><span>Customs Clearance</span></a>
                         </div>
                     </div>
                     <div class="service-box">
@@ -59,8 +46,8 @@ solutions, flexible liquid packaging"/>
                     <div class="help-box d-flex flex-column justify-content-center align-items-center">
                         <i class="bi bi-headset help-icon"></i>
                         <h2>Have a Question?</h2>
-                        <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>+62-31-549-2926</span></p>
-                        <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <span>cssurabaya@infinity-sby.com</span></p>
+                        <a href="tel:0315492926"><p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>(+62)31-5492926</span></p></a>
+                        <a href="mailto:cssurabaya@infinity-sby.com"><p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <span>cssurabaya@infinity-sby.com</span></p></a>
                     </div>
                 </div>
                 <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
