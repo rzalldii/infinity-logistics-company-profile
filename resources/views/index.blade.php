@@ -30,8 +30,14 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="100">
-                    <img src="<?php echo url('/'); ?>/img/hero-img.webp" srcset="<?php echo url('/'); ?>/img/hero-img-546x513.webp 546w, <?php echo url('/'); ?>/img/hero-img-388x365.webp 388w" 
-                    sizes="(max-width: 600px) 388px, 546px" class="img-fluid animated" fetchpriority="high" alt="Container Infinity">
+                    <img
+                        src="<?php echo url('/'); ?>/img/hero-img.webp"
+                        srcset="<?php echo url('/'); ?>/img/hero-img-546x513.webp 546w, <?php echo url('/'); ?>/img/hero-img-388x365.webp 388w" 
+                        sizes="(max-width: 600px) 388px, 546px"
+                        class="img-fluid animated"
+                        fetchpriority="high"
+                        alt="Container Infinity"
+                    >
                 </div>
             </div>
         </div>
@@ -44,7 +50,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                 <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-item position-relative text-center">
                         <h2>
-                            <i class="bi bi-eye-fill icon"> Vision</i>
+                            <i class="bi bi-eye icon"> Vision</i>
                         </h2>
                         <p>To Become The Leading Regional Logistics Provider By Empowering Export Growth Through World Class Services</p>
                     </div>
@@ -76,30 +82,38 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
             <h2>About</h2>
         </div>
         <div class="container">
-            <div class="row gy-4">
-                <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-                    <img src="<?php echo url('/'); ?>/img/about.webp" srcset="<?php echo url('/'); ?>/img/about-546x386.webp 546w, <?php echo url('/'); ?>/img/about-388x274.webp 388w" 
-                    sizes="(max-width: 600px) 388px, 546px" class="img-fluid" alt="About Infinity">
-                    <!-- <a href="https://www.youtube.com/watch?v=zx4s5h1Fats&ab_channel=MuhammadMohdAzam" class="glightbox pulsating-play-btn"></a> -->
-                </div>
-                <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
-                    <p> We are a logistics service provider headquartered in Malaysia, with a strong
-                        operational presence in Surabaya, Indonesia, and across Southeast Asia. Our
-                        services cover five key areas: 
-                    </p>
-                    <ul>
-                        <li><i class="bi bi-check2-all"></i> <span>NVOCC (Non-Vessel Operating Common Carrier)</span></li>
-                        <li><i class="bi bi-check2-all"></i> <span>Freight Forwarding Services</span></li>
-                        <li><i class="bi bi-check2-all"></i> <span>Domestic Forwarding Services</span></li>
-                        <li><i class="bi bi-check2-all"></i> <span>Flexitank Solutions and Related Services</span></li>
-                        <li><i class="bi bi-check2-all"></i> <span>Project Logistics Services</span></li>
-                        <li><i class="bi bi-check2-all"></i> <span>Customs Clearance Services</span></li>
-                    </ul>
-                    <p> With a solid presence in the region, we specialize in providing efficient and
-                        reliable logistics solutions across a wide range of industries. Our team is
-                        dedicated to delivering high-quality, efficient logistics services to meet the
-                        diverse needs of our clients.
-                    </p>
+            <div class="row align-items-center">
+                <div class="row gy-4">
+                    <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+                        <img
+                            src="<?php echo url('/'); ?>/img/about.webp"
+                            srcset="<?php echo url('/'); ?>/img/about-546x386.webp 546w, <?php echo url('/'); ?>/img/about-364x257.webp 364w" 
+                            sizes="(max-width: 600px) 364px, 546px"
+                            class="img-fluid"
+                            alt="About Infinity"
+                        >
+                        <!-- <a href="https://www.youtube.com/watch?v=zx4s5h1Fats&ab_channel=MuhammadMohdAzam" class="glightbox pulsating-play-btn"></a> -->
+                    </div>
+                    <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+                        <p>
+                            We are a logistics service provider headquartered in Malaysia, with a strong
+                            operational presence in Surabaya, Indonesia, and across Southeast Asia. Our
+                            services cover five key areas: 
+                        </p>
+                        <ul>
+                            <li><i class="bi bi-check2-all"></i> <span>NVOCC (Non-Vessel Operating Common Carrier)</span></li>
+                            <li><i class="bi bi-check2-all"></i> <span>Freight Forwarding Services</span></li>
+                            <li><i class="bi bi-check2-all"></i> <span>Domestic Forwarding Services</span></li>
+                            <li><i class="bi bi-check2-all"></i> <span>Flexitank Solutions and Related Services</span></li>
+                            <li><i class="bi bi-check2-all"></i> <span>Project Logistics Services</span></li>
+                            <li><i class="bi bi-check2-all"></i> <span>Customs Clearance Services</span></li>
+                        </ul>
+                        <p>
+                            We specialize in providing efficient and reliable logistics solutions across a
+                            wide range of industries. Our team is dedicated to delivering high-quality,
+                            efficient logistics services to meet the diverse needs of our clients.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -123,7 +137,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="stats-item text-center w-100 h-100">
-                        <span data-purecounter-start="0" data-purecounter-end="300" data-purecounter-duration="1" class="purecounter"></span>
+                        <span data-purecounter-start="0" data-purecounter-end="350" data-purecounter-duration="1" class="purecounter"></span>
                         <p>Clients Active</p>
                     </div>
                 </div>
@@ -137,6 +151,130 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
         </div>
     </section>
     <!-- /Stats Section -->
+    <!-- Features Section -->
+    <section id="features" class="features section light-background">
+        <div class="container" data-aos="fade-up">
+            <div class="row align-items-center">
+                <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
+                    <img
+                        src="<?php echo url('/'); ?>/img/feature.webp"
+                        srcset="<?php echo url('/'); ?>/img/feature-451x564.webp 451w, <?php echo url('/'); ?>/img/about-388x485.webp 388w" 
+                        sizes="(max-width: 600px) 388px, 451px"
+                        class="img-fluid"
+                        alt="Feature Infinity"
+                    >
+                </div>
+                <div class="col-lg-7 py-5 py-lg-0" data-aos="fade-up" data-aos-delay="200">
+                    <h2>Why Choose Us</h2>
+                    <h3>Efficient, Reliable, and Cost-Effective Solutions</h3>
+                    <p>
+                        We ensure consistent and dependable delivery, with goods reaching their destination
+                        safely and securely. Our solutions are also designed to offer exceptional value,
+                        delivering high-quality service at competitive prices.
+                    </p>
+                    <div class="row g-3">
+                        <div class="col-sm-6" data-aos="fade-up" data-aos-delay="300">
+                            <div class="features-items p-3">
+                                <div class="features-items-details py-4 px-3">
+                                    <img class="align-self-center mb-3" src="<?php echo url('/'); ?>/img/icons/GLOBAL.webp" alt="GLOBAL"/>
+                                    <h4>Global Reach</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6" data-aos="fade-up" data-aos-delay="400">
+                            <div class="features-items p-3">
+                                <div class="features-items-details py-4 px-3">
+                                    <img class="align-self-center mb-3" src="<?php echo url('/'); ?>/img/icons/END-TO-END.webp" alt="END-TO-END"/>
+                                    <h4>End-to-End Service</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6" data-aos="fade-up" data-aos-delay="500">
+                            <div class="features-items p-3">
+                                <div class="features-items-details py-4 px-3">
+                                    <img class="align-self-center mb-3" src="<?php echo url('/'); ?>/img/icons/24-HOUR.webp" alt="24-HOUR"/>
+                                    <h4>24-Hour Support</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6" data-aos="fade-up" data-aos-delay="600">
+                            <div class="features-items p-3">
+                                <div class="features-items-details py-4 px-3">
+                                    <img class="align-self-center mb-3" src="<?php echo url('/'); ?>/img/icons/SPECIALIZED.webp" alt="SPECIALIZED"/>
+                                    <h4>Specialized Handling</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Features Section -->
+    <!-- Deliver Section -->
+    <section id="deliver" class="deliver section">
+        <div class="container" data-aos="fade-up">
+            <div class="row mb-5">
+                <div class="col-md-6 text-center mx-auto" data-aos="fade-up" data-aos-delay="0">
+                    <h2 data-aos="fade-up" data-aos-delay="100">How It Works</h2>
+                    <p data-aos="fade-up" data-aos-delay="200">
+                        Our process for managing shipments is designed to make it simple and efficient.
+                        Follow these easy steps to get started:
+                    </p>
+                </div>
+            </div>
+            <div class="row g-md-5">
+                <div class="col-md-6 col-lg-3">
+                    <div class="step-card text-center h-100 d-flex flex-column justify-content-start position-relative" data-aos="fade-up" data-aos-delay="0">
+                        <div data-aos="fade-right" data-aos-delay="300"><img class="arch-line" src="<?php echo url('/'); ?>/img/arch-line.svg" alt="Arch Line"></div>
+                        <span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">1</span>
+                        <div>
+                            <h3>Check Rates with Us</h3>
+                            <p>
+                                Contact us directly to inquire about the latest rates for all logistics
+                                services, ensuring you get the best value.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="step-card reverse text-center h-100 d-flex flex-column justify-content-start position-relative">
+                        <div data-aos="fade-right" data-aos-delay="700"><img class="arch-line reverse" src="<?php echo url('/'); ?>/img/arch-line-reverse.svg" alt="Arch Line Reverse"></div>
+                        <span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">2</span>
+                        <h3>Check Services, Space, and Requirements</h3>
+                        <p>
+                            Review available services, storage space, and specific requirements to tailor
+                            your logistics needs.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="800">
+                    <div class="step-card text-center h-100 d-flex flex-column justify-content-start position-relative">
+                        <div data-aos="fade-right" data-aos-delay="1100"><img class="arch-line" src="<?php echo url('/'); ?>/img/arch-line.svg" alt="Arch Line"></div>
+                        <span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">3</span>
+                        <h3>Confirmation of Booking and Delivery Order</h3>
+                        <p>
+                            Secure your booking by confirming your shipment details and placing the delivery
+                            order.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="1200">
+                    <div class="step-card last text-center h-100 d-flex flex-column justify-content-start position-relative">
+                        <span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">4</span>
+                        <div>
+                            <h3>Shipment Ongoing</h3>
+                            <p>
+                                Stay updated on your shipment is progress and directly reach out to us for any
+                                urgent inquiries or status updates.                               
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Deliver Section -->
     <!-- Services Section -->
     <section id="services" class="services section light-background">
         <div class="container section-title" data-aos="fade-up">
@@ -148,7 +286,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-item position-relative">
                         <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/services/NVOCC.webp" alt="NVOCC">
+                            <img src="<?php echo url('/'); ?>/img/icons/NVOCC.webp" alt="NVOCC">
                         </div>
                         <a href="/nvocc" class="stretched-link">
                             <h3>NVOCC</h3>
@@ -161,33 +299,33 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-item position-relative">
                         <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/services/FREIGHT FORWARDING.webp" alt="FREIGHT FORWARDING">
+                            <img src="<?php echo url('/'); ?>/img/icons/FREIGHT FORWARDING.webp" alt="FREIGHT FORWARDING">
                         </div>
                         <a href="/freight-forwarding" class="stretched-link">
                             <h3>Freight Forwarding</h3>
                         </a>
                         <p>
-                            Efficient, Reliable, and Global Freight Services.
+                            Navigating Your Cargo, Wherever It Needs to Go.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-item position-relative">
                         <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/services/DOMESTIC FORWARDING.webp" alt="DOMESTIC FORWARDING">
+                            <img src="<?php echo url('/'); ?>/img/icons/DOMESTIC FORWARDING.webp" alt="DOMESTIC FORWARDING">
                         </div>
                         <a href="/domestic-forwarding" class="stretched-link">
                             <h3>Domestic Forwarding</h3>
                         </a>
                         <p>
-                            Nationwide Logistics, Local Expertise.
+                            Local Logistics Expertise, Nationwide Solutions.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                     <div class="service-item position-relative">
                         <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/services/FLEXITANK FLEXIBAG.webp" alt="FLEXITANK FLEXIBAG">
+                            <img src="<?php echo url('/'); ?>/img/icons/FLEXITANK FLEXIBAG.webp" alt="FLEXITANK FLEXIBAG">
                         </div>
                         <a href="/flexitank-flexibag" class="stretched-link">
                             <h3>Flexitank / Flexibag</h3>
@@ -200,20 +338,20 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                     <div class="service-item position-relative">
                         <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/services/PROJECT LOGISTICS.webp" alt="PROJECT LOGISTICS">
+                            <img src="<?php echo url('/'); ?>/img/icons/PROJECT LOGISTICS.webp" alt="PROJECT LOGISTICS">
                         </div>
                         <a href="/project-logistics" class="stretched-link">
                             <h3>Project Logistics</h3>
                         </a>
                         <p>
-                            Delivering Complex Projects, Seamlessly.
+                            Precision Logistics for Large-Scale Projects.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                     <div class="service-item position-relative">
                         <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/services/CUSTOMS CLEARANCE.webp" alt="CUSTOMS CLEARANCE">
+                            <img src="<?php echo url('/'); ?>/img/icons/CUSTOMS CLEARANCE.webp" alt="CUSTOMS CLEARANCE">
                         </div>
                         <a href="/customs-clearance" class="stretched-link">
                             <h3>Customs Clearance</h3>
@@ -227,8 +365,212 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
         </div>
     </section>
     <!-- /Services Section -->
+    <!-- Solutions Section -->
+    <section id="solutions" class="solutions section">
+        <div class="container" data-aos="fade-up">
+            <ul class="nav nav-tabs row  d-flex" data-aos="fade-up" data-aos-delay="100">
+                <li class="nav-item col-3">
+                    <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#solutions-tab-1">
+                        <div class="icon">
+                            <img src="<?php echo url('/'); ?>/img/icons/SHIP.webp" alt="SHIP" class="img-active">
+                            <img src="<?php echo url('/'); ?>/img/icons/SHIP-A.webp" alt="SHIP-A" class="img-inactive">
+                        </div>
+                        <h4 class="d-none d-lg-block">Sea Freight</h4>
+                    </a>
+                </li>
+                <li class="nav-item col-3">
+                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#solutions-tab-2">
+                        <div class="icon">
+                            <img src="<?php echo url('/'); ?>/img/icons/PLANE.webp" alt="PLANE" class="img-active">
+                            <img src="<?php echo url('/'); ?>/img/icons/PLANE-A.webp" alt="PLANE-A" class="img-inactive">
+                        </div>
+                        <h4 class="d-none d-lg-block">Air Freight</h4>
+                    </a>
+                </li>
+                <li class="nav-item col-3">
+                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#solutions-tab-3">
+                        <div class="icon">
+                            <img src="<?php echo url('/'); ?>/img/icons/TRUCK.webp" alt="TRUCK" class="img-active">
+                            <img src="<?php echo url('/'); ?>/img/icons/TRUCK-A.webp" alt="TRUCK-A" class="img-inactive">
+                        </div>
+                        <h4 class="d-none d-lg-block">Land Freight</h4>
+                    </a>
+                </li>
+                <li class="nav-item col-3">
+                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#solutions-tab-4">
+                        <div class="icon">
+                            <img src="<?php echo url('/'); ?>/img/icons/WAREHOUSE.webp" alt="WAREHOUSE" class="img-active">
+                            <img src="<?php echo url('/'); ?>/img/icons/WAREHOUSE-A.webp" alt="WAREHOUSE-A" class="img-inactive">
+                        </div>
+                        <h4 class="d-none d-lg-block">Warehouse</h4>
+                    </a>
+                </li>
+            </ul>
+            <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+                <div class="tab-pane fade active show" id="solutions-tab-1">
+                    <div class="row">
+                        <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                            <h3>Sea Freight Services</h3>
+                            <p>
+                                Infinity Logistics Indonesia provides cost-effective and reliable sea freight
+                                solutions suitable for shipments of all sizes, from small packages to large
+                                container loads. We prioritize the safe handling of your cargo and ensure it
+                                reaches its destination securely, whether within Indonesia or internationally.
+                                Our flexible sea freight services are backed by trusted partners, giving you
+                                peace of mind throughout the shipping process.
+                            </p>
+                            <ul>
+                                <li><i class="bi bi-check2-all"></i> <span>Full Container Load (FCL)</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>Less Than Container Load (LCL)</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>Reefer Container</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>ISO Tank</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 order-1 order-lg-2 text-center">
+                            <img src="<?php echo url('/'); ?>/img/SEA.webp" alt="SEA" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="solutions-tab-2">
+                    <div class="row">
+                        <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                            <h3>Air Freight Services</h3>
+                            <p>
+                                Our air freight services are designed to offer fast, reliable, and tailored
+                                shipping solutions for your urgent and important shipments. From airport-to-door
+                                delivery, Infinity Logistics Indonesia carefully manages every aspect of your
+                                cargo, ensuring safe handling and secure arrival. With seamless service and
+                                real-time tracking, you can remain informed and confident at every step of the
+                                journey.
+                            </p>
+                            <ul>
+                                <li><i class="bi bi-check2-all"></i> <span>Domestic</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>Export-Import</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>Consolidation</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>Full Charter</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 order-1 order-lg-2 text-center">
+                            <img src="<?php echo url('/'); ?>/img/AIR.webp" alt="AIR" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="solutions-tab-3">
+                    <div class="row">
+                        <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                            <h3>Land Freight Services</h3>
+                            <p>
+                                We offer versatile and dependable land freight solutions across all regions of
+                                Indonesia. Our extensive fleet includes container trucks, wing box trucks,
+                                single axle trucks, pick-ups, and grand vans, able to transport a wide range of
+                                cargo types reliably and efficiently. Supported by competitive pricing and
+                                professional handling at every stage, our land freight services connect cities,
+                                provinces, and islands with ease and safety.
+                            </p>
+                            <ul>
+                                <li><i class="bi bi-check2-all"></i> <span>Full Truck Load (FTL)</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>Less Than Truck Load (LTL)</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>Haulage</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>Contract Carriage</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 order-1 order-lg-2 text-center">
+                            <img src="<?php echo url('/'); ?>/img/LAND.webp" alt="LAND" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="solutions-tab-4">
+                    <div class="row">
+                        <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                            <h3>Warehouse Services</h3>
+                            <p>
+                               Infinity Logistics Indonesia's warehouse services provide secure and flexible
+                               storage solutions tailored to meet your business demands. Featuring modern
+                               storage facilities equipped with advanced inventory management technologies, we
+                               ensure your goods are stored safely and handled with care. Our warehouse
+                               solutions support efficient operations and provide you with real-time control
+                               and monitoring, enabling smooth logistics flow and complete peace of mind.
+                            </p>
+                            <ul>
+                                <li><i class="bi bi-check2-all"></i> <span>Warehouse Management Solution</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>Modular Storage Solution</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>Integrated Warehouse System</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 order-1 order-lg-2 text-center">
+                            <img src="<?php echo url('/'); ?>/img/WAREHOUSE.webp" alt="WAREHOUSE" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Solutions Section -->
+    <!-- ... Section -->
+    <!-- <section id="..." class="... section light-background">
+    </section> -->
+    <!-- /... Section -->
+    <!-- News Section -->
+    <!-- <section id="news" class="news section">
+        <div class="container section-title" data-aos="fade-up">
+            <span>Our News</span>
+            <h2>News</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-5" data-aos="fade-up" data-aos-delay="100">
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" src="<?php echo url('/'); ?>/img/news/news-1.jpg" alt="">
+                        <div class="position-absolute bg-primary d-flex flex-column align-items-center justify-content-center rounded-circle"
+                            style="width: 60px; height: 60px; bottom: -30px; right: 30px;">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
+                    </div>
+                    <div class="bg-secondary" style="padding: 30px;">
+                        <h4 class="font-weight-bold mb-3">Kasd tempor diam sea justo dolor</h4>
+                        <p>Dolor sea ipsum ipsum et. Erat duo lorem magna vero dolor dolores. Rebum eirmod no dolor diam dolor amet ipsum. Lorem lorem sea sed diam est lorem magna</p>
+                        <a class="border-bottom border-primary text-uppercase text-decoration-none" href="">Read More <i class="fa fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-5" data-aos="fade-up" data-aos-delay="200">
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" src="<?php echo url('/'); ?>/img/news/news-2.jpg" alt="">
+                        <div class="position-absolute bg-primary d-flex flex-column align-items-center justify-content-center rounded-circle"
+                            style="width: 60px; height: 60px; bottom: -30px; right: 30px;">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
+                    </div>
+                    <div class="bg-secondary" style="padding: 30px;">
+                        <h4 class="font-weight-bold mb-3">Kasd tempor diam sea justo dolor</h4>
+                        <p>Dolor sea ipsum ipsum et. Erat duo lorem magna vero dolor dolores. Rebum eirmod no dolor diam dolor amet ipsum. Lorem lorem sea sed diam est lorem magna</p>
+                        <a class="border-bottom border-primary text-uppercase text-decoration-none" href="">Read More <i class="fa fa-angle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- /News Section -->
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section accent-background">
+        <div class="container">
+            <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+                <div class="col-xl-10">
+                    <div class="text-center">
+                        <h3>Flexible and Reliable Freight Services</h3>
+                        <p>
+                            Discover our specialized Flexitank and forwarding solutions today.
+                        </p>
+                        <a class="cta-btn" href="/contact">Get A Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Call To Action Section -->
     <!-- Team Section -->
-    <section id="team" class="team section">
+    <section id="team" class="team section light-background">
         <div class="container section-title" data-aos="fade-up">
             <span>Our Management</span>
             <h2>Management</h2>
@@ -249,7 +591,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
     </section>
     <!-- /Team Section -->
     <!-- Clients Section -->
-    <section id="clients" class="clients section light-background">
+    <section id="clients" class="clients section">
         <div class="container section-title" data-aos="fade-up">
             <span>Our Clients</span>
             <h2>Clients</h2>
@@ -290,14 +632,15 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                     }
                 </script>
                 <div class="swiper-wrapper align-items-center">
-                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-1.webp" class="img-fluid" alt="AJINOMOTO INDONESIA" loading="lazy"></div>
-                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-2.webp" class="img-fluid" alt="WILMAR CAHAYA INDONESIA" loading="lazy"></div>
-                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-3.webp" class="img-fluid" alt="GUDANG GARAM" loading="lazy"></div>
-                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-4.webp" class="img-fluid" alt="SINAR MAS AGRO RESOURCES AND TECHNOLOGY" loading="lazy"></div>
-                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-5.webp" class="img-fluid" alt="INDO OIL PERKASA" loading="lazy"></div>
-                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-6.webp" class="img-fluid" alt="GUNTNER INDONESIA" loading="lazy"></div>
-                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-7.webp" class="img-fluid" alt="KEMIRA CHEMICALS INDONESIA" loading="lazy"></div>
-                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-8.webp" class="img-fluid" alt="SAHATI HAMPARAN TANGGUH" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-1.webp" class="img-fluid" alt="AJINOMOTO INDONESIA" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-2.webp" class="img-fluid" alt="WILMAR CAHAYA INDONESIA" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-3.webp" class="img-fluid" alt="GUDANG GARAM" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-4.webp" class="img-fluid" alt="SINAR MAS AGRO RESOURCES AND TECHNOLOGY" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-5.webp" class="img-fluid" alt="INDO OIL PERKASA" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-6.webp" class="img-fluid" alt="GUNTNER INDONESIA" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-7.webp" class="img-fluid" alt="KEMIRA CHEMICALS INDONESIA" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-8.webp" class="img-fluid" alt="SAHATI HAMPARAN TANGGUH" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-9.webp" class="img-fluid" alt="DUNIA KIMIA JAYA" loading="lazy"></div>
                 </div>
             </div>
             <div class="swiper init-swiper" dir="rtl">
@@ -336,14 +679,15 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                     }
                 </script>
                 <div class="swiper-wrapper align-items-center">
-                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-9.webp" class="img-fluid" alt="DUNIA KIMIA JAYA" loading="lazy"></div>
-                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-10.webp" class="img-fluid" alt="LOKA REFRACTORIES WIRA JATIM" loading="lazy"></div>
-                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-11.webp" class="img-fluid" alt="AGROMINA WICAKSANA" loading="lazy"></div>
-                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-12.webp" class="img-fluid" alt="OMYA INDONESIA" loading="lazy"></div>
-                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-13.webp" class="img-fluid" alt="DELTA HIJAU ABADI" loading="lazy"></div>
-                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-14.webp" class="img-fluid" alt="BONANZA MEGAH" loading="lazy"></div>
-                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-15.webp" class="img-fluid" alt="INDOKEMIKA JAYATAMA" loading="lazy"></div>
-                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/testimonials/testimonials-16.webp" class="img-fluid" alt="NYLEX INDONESIA" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-10.webp" class="img-fluid" alt="LOKA REFRACTORIES WIRA JATIM" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-11.webp" class="img-fluid" alt="AGROMINA WICAKSANA" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-12.webp" class="img-fluid" alt="OMYA INDONESIA" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-13.webp" class="img-fluid" alt="DELTA HIJAU ABADI" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-14.webp" class="img-fluid" alt="BONANZA MEGAH" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-15.webp" class="img-fluid" alt="INDOKEMIKA JAYATAMA" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-16.webp" class="img-fluid" alt="NYLEX INDONESIA" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-17.webp" class="img-fluid" alt="PROTAS MALANG INDONESIA" loading="lazy"></div>
+                    <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-18.webp" class="img-fluid" alt="KIRANA MEGATARA" loading="lazy"></div>
                 </div>
             </div>
         </div>
@@ -372,7 +716,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                             <i class="bi bi-telephone flex-shrink-0"></i>
                             <div>
                                 <h3>Call Us</h3>
-                                <p>+62-31-549-2926</p>
+                                <p>(+62)31-5492926</p>
                             </div>
                         </div>
                         <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
@@ -404,16 +748,16 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                                 GET IN TOUCH
                             </h4>
                             <p>
-                                <strong>You can reach anytime.</strong> Contact us via call or email, or simply fill out the form below and we will get back to you within one working day.
+                                <strong>You can reach anytime.</strong> Contact us via call or email, or simply fill out the form below and we will get back to you as soon as possible.
                             </p>
                             <div class="col-md-12">
-                                <input type="text" name="name" id="name-field" class="form-control" placeholder="Your Name" required="">
+                                <input type="text" name="name" id="name-field" class="form-control" placeholder="Your Name *" required="">
                             </div>
                             <div class="col-md-12">
-                                <input type="email" name="email" id="email-field" class="form-control" placeholder="Your Email" required="">
+                                <input type="email" name="email" id="email-field" class="form-control" placeholder="Your Email *" required="">
                             </div>
                             <div class="col-md-12">
-                                <textarea rows="10" name="message" id="message-field"  class="form-control" placeholder="Your Message" required=""></textarea>
+                                <textarea rows="10" name="message" id="message-field"  class="form-control" placeholder="Your Message *" required=""></textarea>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-check">

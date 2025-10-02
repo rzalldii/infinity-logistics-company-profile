@@ -56,11 +56,15 @@
             </a>
             <nav id="navmenu" class="navmenu">
                 <ul>
-                    <li><a href="/#hero">Home</a></li>
-                    <li><a href="/#about">About</a></li>
-                    <li class="dropdown"><a href="/#services"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li class="dropdown"><a href="/services"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li><a href="/nvocc">NVOCC</a></li>
+                            <li class="dropdown"><a href="/nvocc">NVOCC <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                <ul>
+                                    <li><a href="/nvocc-schedule">NVOCC Schedule</a></li>
+                                </ul>
+                            </li>
                             <li><a href="/freight-forwarding">Freight Forwarding</a></li>
                             <li><a href="/domestic-forwarding">Domestic Forwarding</a></li>
                             <li class="dropdown"><a href="/flexitank-flexibag"><span>Flexitank / Flexibag</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -72,11 +76,12 @@
                             <li><a href="/customs-clearance">Customs Clearance</a></li>
                         </ul>
                     </li>
-                    <li><a href="/#contact">Contact</a></li>
+                    <!-- <li><a href="/news">News</a></li> -->
+                    <!-- <li><a href="/contact">Contact</a></li> -->
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
-            <!-- <a class="btn-getstarted" href="#">Login</a> -->
+            <a class="btn-getstarted" href="/contact">Get A Quote</a>
         </div>
     </header>
 
@@ -119,30 +124,22 @@
                 <div class="col-lg-2 col-md-3 footer-links">
                     <h4>Useful Links</h4>
                     <ul>
-                        <li><i class="bi bi-chevron-right"></i><a href="/#about">About</a></li>
-                        <li><i class="bi bi-chevron-right"></i><a href="/#services">Services</a></li>
-                        <li><i class="bi bi-chevron-right"></i><a href="/#contact">Contact</a></li>
+                        <li><i class="bi bi-chevron-right"></i><a href="/">Home</a></li>
+                        <li><i class="bi bi-chevron-right"></i><a href="/about">About</a></li>
+                        <li><i class="bi bi-chevron-right"></i><a href="/services">Services</a></li>
+                        <!-- <li><i class="bi bi-chevron-right"></i><a href="/news">News</a></li> -->
+                        <li><i class="bi bi-chevron-right"></i><a href="/contact">Contact</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2 col-md-3 footer-links">
-                    <h4>Core Business</h4>
-                    <ul>
-                        <li><i class="bi bi-chevron-right"></i><a href="/nvocc">NVOCC</a></li>
-                        <li><i class="bi bi-chevron-right"></i><a href="/freight-forwarding">Freight Forwarding</a></li>
-                        <li><i class="bi bi-chevron-right"></i><a href="/domestic-forwarding">Domestic Forwarding</a></li>
-                        <li><i class="bi bi-chevron-right"></i><a href="/flexitank-flexibag">Flexitank / Flexibag</a></li>
-                        <li><i class="bi bi-chevron-right"></i><a href="/project-logistics">Project Logistics</a></li>
-                        <li><i class="bi bi-chevron-right"></i><a href="/customs-clearance">Customs Clearance</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-2 col-md-12">
+                <div class="col-lg-4 col-md-12">
                     <h4>Follow Us</h4>
+                    <p>Stay connected for the latest updates, offers, and news straight from our team</p>
                     <div class="social-links d-flex">
                         <a href="https://www.linkedin.com/company/infinity-logistics-and-transport" class="linkedin" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-                        <a href="https://www.facebook.com/infinitylogisticsandtransport" class="facebook" aria-label="Facebook"><i class="bi bi-facebook"></i></a>    
-                        <!-- <a href="https://www.instagram.com/" class="instagram" aria-label="Instagram"><i class="bi bi-instagram"></i></a> -->
+                        <a href="https://www.facebook.com/infinitylogisticsandtransport" class="facebook" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/infinitysurabaya.id/" class="instagram" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
                         <!-- <a href="https://www.tiktok.com/" class="tiktok" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
-                        <a href="https://x.com/" class="twitter-x" aria-label="TwitterX"><i class="bi bi-x-twitter"></i></a>
+                        <a href="https://x.com/" class="twitter-x" aria-label="TwitterX"><i class="bi bi-twitter-x"></i></a>
                         <a href="https://www.youtube.com/" class="youtube" aria-label="YouTube"><i class="bi bi-youtube"></i></a> -->
                     </div>
                 </div>
@@ -175,8 +172,6 @@
     <script src="<?php echo url('/'); ?>/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="<?php echo url('/'); ?>/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
     <script src="<?php echo url('/'); ?>/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="<?php echo url('/'); ?>/vendor/jquery/jquery.min.js"></script>
-    <script src="<?php echo url('/'); ?>/vendor/jquery.marquee/jquery.marquee.min.js"></script>
     <script src="<?php echo url('/'); ?>/vendor/purecounterjs/purecounter_vanilla.js"></script>
     <script src="<?php echo url('/'); ?>/vendor/sweetalert2/js/sweetalert2.all.min.js"></script>
     <script src="<?php echo url('/'); ?>/vendor/swiper/js/swiper-bundle.min.js"></script>
