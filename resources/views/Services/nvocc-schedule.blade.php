@@ -48,17 +48,29 @@ MBL, container schedule"/>
                     <tbody>
                         <tr>
                             <td>
-                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">GSL</span>
-                                <div class="margin-10px-top font-size14">INFERRO</div>
+                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                    GSL
+                                </span>
+                                <div class="margin-10px-top font-size14">
+                                    INFERRO
+                                </div>
                             </td>
                             <td class="align-middle">031 W</td>
                             <td>
-                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">16:00</span>
-                                <div class="margin-10px-top font-size14">25 September</div>
+                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                    16:00
+                                </span>
+                                <div class="margin-10px-top font-size14">
+                                    25 September
+                                </div>
                             </td>
                             <td>
-                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">10:00</span>
-                                <div class="margin-10px-top font-size14">29 September</div>
+                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                    10:00
+                                </span>
+                                <div class="margin-10px-top font-size14">
+                                    29 September
+                                </div>
                             </td>
                             <td class="align-middle">30 September</td>
                             <td class="align-middle">01 October</td>
@@ -66,17 +78,29 @@ MBL, container schedule"/>
                         </tr>
                         <tr>
                             <td>
-                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">GSL</span>
-                                <div class="margin-10px-top font-size14">YM INTERACTION</div>
+                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                    GSL
+                                </span>
+                                <div class="margin-10px-top font-size14">
+                                    YM INTERACTION
+                                </div>
                             </td>
                             <td class="align-middle">281 W</td>
                             <td>
-                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">16:00</span>
-                                <div class="margin-10px-top font-size14">09 October</div>
+                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                    16:00
+                                </span>
+                                <div class="margin-10px-top font-size14">
+                                    09 October
+                                </div>
                             </td>
                             <td>
-                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">10:00</span>
-                                <div class="margin-10px-top font-size14">13 October</div>
+                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                    10:00
+                                </span>
+                                <div class="margin-10px-top font-size14">
+                                    13 October
+                                </div>
                             </td>
                             <td class="align-middle">14 October</td>
                             <td class="align-middle">15 October</td>
@@ -84,17 +108,29 @@ MBL, container schedule"/>
                         </tr>
                         <tr>
                             <td>
-                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">GSL</span>
-                                <div class="margin-10px-top font-size14">INFERRO</div>
+                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                    GSL
+                                </span>
+                                <div class="margin-10px-top font-size14">
+                                    INFERRO
+                                </div>
                             </td>
                             <td class="align-middle">032 W</td>
                             <td>
-                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">16:00</span>
-                                <div class="margin-10px-top font-size14">16 October</div>
+                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                    16:00
+                                </span>
+                                <div class="margin-10px-top font-size14">
+                                    16 October
+                                </div>
                             </td>
                             <td>
-                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">10:00</span>
-                                <div class="margin-10px-top font-size14">20 October</div>
+                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                    10:00
+                                </span>
+                                <div class="margin-10px-top font-size14">
+                                    20 October
+                                </div>
                             </td>
                             <td class="align-middle">21 October</td>
                             <td class="align-middle">22 October</td>
@@ -102,17 +138,29 @@ MBL, container schedule"/>
                         </tr>
                         <tr>
                             <td>
-                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">GSL</span>
-                                <div class="margin-10px-top font-size14">MTT SANDAKAN</div>
+                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                    GSL
+                                </span>
+                                <div class="margin-10px-top font-size14">
+                                    MTT SANDAKAN
+                                </div>
                             </td>
                             <td class="align-middle">065 W</td>
                             <td>
-                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">16:00</span>
-                                <div class="margin-10px-top font-size14">23 October</div>
+                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                    16:00
+                                </span>
+                                <div class="margin-10px-top font-size14">
+                                    23 October
+                                </div>
                             </td>
                             <td>
-                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">10:00</span>
-                                <div class="margin-10px-top font-size14">27 October</div>
+                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                    10:00
+                                </span>
+                                <div class="margin-10px-top font-size14">
+                                    27 October
+                                </div>
                             </td>
                             <td class="align-middle">28 October</td>
                             <td class="align-middle">29 October</td>
@@ -120,17 +168,29 @@ MBL, container schedule"/>
                         </tr>
                         <tr>
                             <td>
-                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">COSCO</span>
-                                <div class="margin-10px-top font-size14">ERASMUS JUSTICE</div>
+                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                    COSCO
+                                </span>
+                                <div class="margin-10px-top font-size14">
+                                    ERASMUS JUSTICE
+                                </div>
                             </td>
                             <td class="align-middle">001 W</td>
                             <td>
-                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">08:00</span>
-                                <div class="margin-10px-top font-size14">01 October</div>
+                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                    08:00
+                                </span>
+                                <div class="margin-10px-top font-size14">
+                                    01 October
+                                </div>
                             </td>
                             <td>
-                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">02:00</span>
-                                <div class="margin-10px-top font-size14">05 October</div>
+                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                    02:00
+                                </span>
+                                <div class="margin-10px-top font-size14">
+                                    05 October
+                                </div>
                             </td>
                             <td class="align-middle">06 October</td>
                             <td class="align-middle">07 October</td>
@@ -138,17 +198,29 @@ MBL, container schedule"/>
                         </tr>
                         <tr>
                             <td>
-                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">COSCO</span>
-                                <div class="margin-10px-top font-size14">XIN TAI CANG</div>
+                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                    COSCO
+                                </span>
+                                <div class="margin-10px-top font-size14">
+                                    XIN TAI CANG
+                                </div>
                             </td>
                             <td class="align-middle">328 N</td>
                             <td>
-                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">08:00</span>
-                                <div class="margin-10px-top font-size14">15 October</div>
+                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                    08:00
+                                </span>
+                                <div class="margin-10px-top font-size14">
+                                    15 October
+                                </div>
                             </td>
                             <td>
-                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">02:00</span>
-                                <div class="margin-10px-top font-size14">19 October</div>
+                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                    02:00
+                                </span>
+                                <div class="margin-10px-top font-size14">
+                                    19 October
+                                </div>
                             </td>
                             <td class="align-middle">20 October</td>
                             <td class="align-middle">21 October</td>
@@ -156,17 +228,29 @@ MBL, container schedule"/>
                         </tr>
                         <tr>
                             <td>
-                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">COSCO</span>
-                                <div class="margin-10px-top font-size14">BEROLINA C</div>
+                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                    COSCO
+                                </span>
+                                <div class="margin-10px-top font-size14">
+                                    BEROLINA C
+                                </div>
                             </td>
                             <td class="align-middle">002 W</td>
                             <td>
-                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">08:00</span>
-                                <div class="margin-10px-top font-size14">22 October</div>
+                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                    08:00
+                                </span>
+                                <div class="margin-10px-top font-size14">
+                                    22 October
+                                </div>
                             </td>
                             <td>
-                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">02:00</span>
-                                <div class="margin-10px-top font-size14">26 October</div>
+                                <span class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                    02:00
+                                </span>
+                                <div class="margin-10px-top font-size14">
+                                    26 October
+                                </div>
                             </td>
                             <td class="align-middle">27 October</td>
                             <td class="align-middle">28 October</td>

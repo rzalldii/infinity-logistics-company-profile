@@ -1239,7 +1239,8 @@ section,
 }
 
 @media (max-width: 768px) {
-  .solutions .nav-link i {
+  .solutions .nav-link .icon {
+    margin-right: 15px;
     padding: 0;
     line-height: 1;
     font-size: 36px;
@@ -1251,7 +1252,8 @@ section,
     padding: 15px;
   }
 
-  .solutions .nav-link i {
+  .solutions .nav-link .icon {
+    margin-right: 0px;
     font-size: 24px;
   }
 }
