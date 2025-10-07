@@ -44,14 +44,15 @@
 
 <!-- WhatsApp Floating Chat Widget -->
 <div class="wa-hover-zone">
-    <a href="https://wa.me/6281330229112?text=Hello%2C%20I%20am%20interested%20in%20the%20services%20offered%20by%20Infinity%20Logistics%20Indonesia.%20Can%20I%20get%20more%20information%20about%20your%20services%3F" class="wa-widget" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+    <!-- <a href="https://wa.me/6281330229112?text=Hello%2C%20I%20am%20interested%20in%20the%20services%20offered%20by%20Infinity%20Logistics%20Indonesia.%20Can%20I%20get%20more%20information%20about%20your%20services%3F" class="wa-widget" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a> -->
+    <a href="https://wa.me/628223658035?text=Hello%2C%20I%20am%20interested%20in%20the%20services%20offered%20by%20Infinity%20Logistics%20Indonesia.%20Can%20I%20get%20more%20information%20about%20your%20services%3F" class="wa-widget" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
 </div>
 
 <body class="index-page">
     <header id="header" class="header d-flex align-items-center sticky-top">
         <div class="container-fluid container-xl position-relative d-flex align-items-center">
             <a href="/" class="logo d-flex align-items-center me-auto">
-                <img src="<?php echo url('/'); ?>/img/logo.webp" alt="Logo Infinity">
+                <img src="<?php echo url('/'); ?>/img/logo.webp" width="36" height="36" alt="Logo Infinity" loading="lazy">
                 <h1 class="sitename">Infinity Logistics Indonesia</h1>
             </a>
             <nav id="navmenu" class="navmenu">

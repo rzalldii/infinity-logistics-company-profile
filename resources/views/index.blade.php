@@ -30,14 +30,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="100">
-                    <img
-                        src="<?php echo url('/'); ?>/img/hero-img.webp"
-                        srcset="<?php echo url('/'); ?>/img/hero-img-546x513.webp 546w, <?php echo url('/'); ?>/img/hero-img-388x365.webp 388w" 
-                        sizes="(max-width: 600px) 388px, 546px"
-                        class="img-fluid animated"
-                        fetchpriority="high"
-                        alt="Container Infinity"
-                    >
+                    <img src="<?php echo url('/'); ?>/img/hero-img.webp" width="546" height="513" alt="Container Infinity" class="img-fluid animated" fetchpriority="high"/>
                 </div>
             </div>
         </div>
@@ -85,13 +78,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
             <div class="row align-items-center">
                 <div class="row gy-4">
                     <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-                        <img
-                            src="<?php echo url('/'); ?>/img/about.webp"
-                            srcset="<?php echo url('/'); ?>/img/about-546x386.webp 546w, <?php echo url('/'); ?>/img/about-364x257.webp 364w" 
-                            sizes="(max-width: 600px) 364px, 546px"
-                            class="img-fluid"
-                            alt="About Infinity"
-                        >
+                        <img src="<?php echo url('/'); ?>/img/about.webp" width="546" height="386" alt="About Infinity" class="img-fluid" loading="lazy">
                         <!-- <a href="https://www.youtube.com/watch?v=zx4s5h1Fats&ab_channel=MuhammadMohdAzam" class="glightbox pulsating-play-btn"></a> -->
                     </div>
                     <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
@@ -156,13 +143,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
         <div class="container" data-aos="fade-up">
             <div class="row align-items-center">
                 <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
-                    <img
-                        src="<?php echo url('/'); ?>/img/feature.webp"
-                        srcset="<?php echo url('/'); ?>/img/feature-451x564.webp 451w, <?php echo url('/'); ?>/img/about-388x485.webp 388w" 
-                        sizes="(max-width: 600px) 388px, 451px"
-                        class="img-fluid"
-                        alt="Feature Infinity"
-                    >
+                    <img src="<?php echo url('/'); ?>/img/feature.webp" width="451" height="564" alt="Feature Infinity" class="img-fluid" loading="lazy">
                 </div>
                 <div class="col-lg-7 py-5 py-lg-0" data-aos="fade-up" data-aos-delay="200">
                     <h2>Why Choose Us</h2>
@@ -176,7 +157,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                         <div class="col-sm-6" data-aos="fade-up" data-aos-delay="300">
                             <div class="features-items p-3">
                                 <div class="features-items-details py-4 px-3">
-                                    <img class="align-self-center mb-3" src="<?php echo url('/'); ?>/img/icons/GLOBAL.webp" alt="GLOBAL"/>
+                                    <img class="align-self-center mb-3" src="<?php echo url('/'); ?>/img/icons/GLOBAL.webp" alt="GLOBAL" loading="lazy"/>
                                     <h4>Global Reach</h4>
                                 </div>
                             </div>
@@ -184,7 +165,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                         <div class="col-sm-6" data-aos="fade-up" data-aos-delay="400">
                             <div class="features-items p-3">
                                 <div class="features-items-details py-4 px-3">
-                                    <img class="align-self-center mb-3" src="<?php echo url('/'); ?>/img/icons/END-TO-END.webp" alt="END-TO-END"/>
+                                    <img class="align-self-center mb-3" src="<?php echo url('/'); ?>/img/icons/END-TO-END.webp" alt="END-TO-END" loading="lazy"/>
                                     <h4>End-to-End Service</h4>
                                 </div>
                             </div>
@@ -192,7 +173,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                         <div class="col-sm-6" data-aos="fade-up" data-aos-delay="500">
                             <div class="features-items p-3">
                                 <div class="features-items-details py-4 px-3">
-                                    <img class="align-self-center mb-3" src="<?php echo url('/'); ?>/img/icons/24-HOUR.webp" alt="24-HOUR"/>
+                                    <img class="align-self-center mb-3" src="<?php echo url('/'); ?>/img/icons/24-HOUR.webp" alt="24-HOUR" loading="lazy"/>
                                     <h4>24-Hour Support</h4>
                                 </div>
                             </div>
@@ -200,7 +181,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                         <div class="col-sm-6" data-aos="fade-up" data-aos-delay="600">
                             <div class="features-items p-3">
                                 <div class="features-items-details py-4 px-3">
-                                    <img class="align-self-center mb-3" src="<?php echo url('/'); ?>/img/icons/SPECIALIZED.webp" alt="SPECIALIZED"/>
+                                    <img class="align-self-center mb-3" src="<?php echo url('/'); ?>/img/icons/SPECIALIZED.webp" alt="SPECIALIZED" loading="lazy"/>
                                     <h4>Specialized Handling</h4>
                                 </div>
                             </div>
@@ -286,7 +267,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-item position-relative">
                         <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/icons/NVOCC.webp" alt="NVOCC">
+                            <img src="<?php echo url('/'); ?>/img/icons/NVOCC.webp" alt="NVOCC" loading="lazy">
                         </div>
                         <a href="/nvocc" class="stretched-link">
                             <h3>NVOCC</h3>
@@ -299,7 +280,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-item position-relative">
                         <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/icons/FREIGHT FORWARDING.webp" alt="FREIGHT FORWARDING">
+                            <img src="<?php echo url('/'); ?>/img/icons/FREIGHT FORWARDING.webp" alt="FREIGHT FORWARDING" loading="lazy">
                         </div>
                         <a href="/freight-forwarding" class="stretched-link">
                             <h3>Freight Forwarding</h3>
@@ -312,7 +293,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-item position-relative">
                         <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/icons/DOMESTIC FORWARDING.webp" alt="DOMESTIC FORWARDING">
+                            <img src="<?php echo url('/'); ?>/img/icons/DOMESTIC FORWARDING.webp" alt="DOMESTIC FORWARDING" loading="lazy">
                         </div>
                         <a href="/domestic-forwarding" class="stretched-link">
                             <h3>Domestic Forwarding</h3>
@@ -325,7 +306,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                     <div class="service-item position-relative">
                         <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/icons/FLEXITANK FLEXIBAG.webp" alt="FLEXITANK FLEXIBAG">
+                            <img src="<?php echo url('/'); ?>/img/icons/FLEXITANK FLEXIBAG.webp" alt="FLEXITANK FLEXIBAG" loading="lazy">
                         </div>
                         <a href="/flexitank-flexibag" class="stretched-link">
                             <h3>Flexitank / Flexibag</h3>
@@ -338,7 +319,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                     <div class="service-item position-relative">
                         <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/icons/PROJECT LOGISTICS.webp" alt="PROJECT LOGISTICS">
+                            <img src="<?php echo url('/'); ?>/img/icons/PROJECT LOGISTICS.webp" alt="PROJECT LOGISTICS" loading="lazy">
                         </div>
                         <a href="/project-logistics" class="stretched-link">
                             <h3>Project Logistics</h3>
@@ -351,7 +332,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                     <div class="service-item position-relative">
                         <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/icons/CUSTOMS CLEARANCE.webp" alt="CUSTOMS CLEARANCE">
+                            <img src="<?php echo url('/'); ?>/img/icons/CUSTOMS CLEARANCE.webp" alt="CUSTOMS CLEARANCE" loading="lazy">
                         </div>
                         <a href="/customs-clearance" class="stretched-link">
                             <h3>Customs Clearance</h3>
@@ -372,8 +353,8 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                 <li class="nav-item col-3">
                     <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#solutions-tab-1">
                         <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/icons/SHIP.webp" alt="SHIP" class="img-active">
-                            <img src="<?php echo url('/'); ?>/img/icons/SHIP-A.webp" alt="SHIP-A" class="img-inactive">
+                            <img src="<?php echo url('/'); ?>/img/icons/SHIP.webp" alt="SHIP" class="img-active" loading="lazy">
+                            <img src="<?php echo url('/'); ?>/img/icons/SHIP-A.webp" alt="SHIP-A" class="img-inactive" loading="lazy">
                         </div>
                         <h4 class="d-none d-lg-block">Sea Freight</h4>
                     </a>
@@ -381,8 +362,8 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                 <li class="nav-item col-3">
                     <a class="nav-link" data-bs-toggle="tab" data-bs-target="#solutions-tab-2">
                         <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/icons/PLANE.webp" alt="PLANE" class="img-active">
-                            <img src="<?php echo url('/'); ?>/img/icons/PLANE-A.webp" alt="PLANE-A" class="img-inactive">
+                            <img src="<?php echo url('/'); ?>/img/icons/PLANE.webp" alt="PLANE" class="img-active" loading="lazy">
+                            <img src="<?php echo url('/'); ?>/img/icons/PLANE-A.webp" alt="PLANE-A" class="img-inactive" loading="lazy">
                         </div>
                         <h4 class="d-none d-lg-block">Air Freight</h4>
                     </a>
@@ -390,8 +371,8 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                 <li class="nav-item col-3">
                     <a class="nav-link" data-bs-toggle="tab" data-bs-target="#solutions-tab-3">
                         <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/icons/TRUCK.webp" alt="TRUCK" class="img-active">
-                            <img src="<?php echo url('/'); ?>/img/icons/TRUCK-A.webp" alt="TRUCK-A" class="img-inactive">
+                            <img src="<?php echo url('/'); ?>/img/icons/TRUCK.webp" alt="TRUCK" class="img-active" loading="lazy">
+                            <img src="<?php echo url('/'); ?>/img/icons/TRUCK-A.webp" alt="TRUCK-A" class="img-inactive" loading="lazy">
                         </div>
                         <h4 class="d-none d-lg-block">Land Freight</h4>
                     </a>
@@ -399,8 +380,8 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                 <li class="nav-item col-3">
                     <a class="nav-link" data-bs-toggle="tab" data-bs-target="#solutions-tab-4">
                         <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/icons/WAREHOUSE.webp" alt="WAREHOUSE" class="img-active">
-                            <img src="<?php echo url('/'); ?>/img/icons/WAREHOUSE-A.webp" alt="WAREHOUSE-A" class="img-inactive">
+                            <img src="<?php echo url('/'); ?>/img/icons/WAREHOUSE.webp" alt="WAREHOUSE" class="img-active" loading="lazy">
+                            <img src="<?php echo url('/'); ?>/img/icons/WAREHOUSE-A.webp" alt="WAREHOUSE-A" class="img-inactive" loading="lazy">
                         </div>
                         <h4 class="d-none d-lg-block">Warehouse</h4>
                     </a>
@@ -427,7 +408,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                             </ul>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 text-center">
-                            <img src="<?php echo url('/'); ?>/img/SEA.webp" alt="SEA" class="img-fluid">
+                            <img src="<?php echo url('/'); ?>/img/services-1.webp" alt="Sea Freight" class="img-fluid" loading="lazy">
                         </div>
                     </div>
                 </div>
@@ -451,7 +432,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                             </ul>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 text-center">
-                            <img src="<?php echo url('/'); ?>/img/AIR.webp" alt="AIR" class="img-fluid">
+                            <img src="<?php echo url('/'); ?>/img/services-2.webp" alt="Air Freight" class="img-fluid" loading="lazy">
                         </div>
                     </div>
                 </div>
@@ -475,7 +456,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                             </ul>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 text-center">
-                            <img src="<?php echo url('/'); ?>/img/LAND.webp" alt="LAND" class="img-fluid">
+                            <img src="<?php echo url('/'); ?>/img/services-3.webp" alt="Land Freight" class="img-fluid" loading="lazy">
                         </div>
                     </div>
                 </div>
@@ -498,7 +479,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                             </ul>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 text-center">
-                            <img src="<?php echo url('/'); ?>/img/WAREHOUSE.webp" alt="WAREHOUSE" class="img-fluid">
+                            <img src="<?php echo url('/'); ?>/img/services-4.webp" alt="Warehouse" class="img-fluid" loading="lazy">
                         </div>
                     </div>
                 </div>
