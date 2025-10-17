@@ -1,22 +1,17 @@
 @extends('master')
 @section('title')
-Infinity Logistics Indonesia | Flexitank / Flexibag
+{{ __('messages.flexitank_flexibag_title') }}
 @endsection('title')
 @section('meta')
-<meta name="description" content="Cost-effective and safe Flexitank solutions for bulk liquid
-transportation. We provide flexible, efficient, and environmentally-friendly shipping options for
-liquids, chemicals, and food-grade products worldwide."/>
-<meta name="keywords" content="flexitank, bulk liquid transportation, liquid shipping, flexible tank,
-cost-effective shipping, eco-friendly shipping, liquid storage, chemical transportation, food-grade
-shipping, bulk liquid logistics, container shipping, liquid cargo, sustainable shipping, freight
-solutions, flexible liquid packaging"/>
+<meta name="description" content="Solusi Flexitank hemat biaya dan aman untuk transportasi cairan curah. Kami menyediakan pilihan pengiriman yang fleksibel, efisien, dan ramah lingkungan untuk cairan, kimia, dan produk food grade ke seluruh dunia."/>
+<meta name="keywords" content="flexitank, flexibag, transportasi cairan curah, pengiriman cairan, flexible tank, pengiriman hemat biaya, pengiriman ramah lingkungan, penyimpanan cairan, transportasi kimia, pengiriman food grade, logistik cairan curah, pengiriman kontainer, kargo cairan, pengiriman berkelanjutan, solusi freight, pengemasan cairan fleksibel, bulk liquid, liquid cargo, flexitank indonesia, flexitank surabaya, tangki fleksibel, cairan bulk, minyak nabati, edible oil, chemical liquid, non-hazardous liquid"/>
 @endsection('meta')
 @section('content')
 <main class="main">
     <!-- Page Title -->
     <div class="page-title">
         <div class="container d-lg-flex justify-content-between align-items-center">
-            <h1 class="mb-2 mb-lg-0">Service Details</h1>
+            <h1 class="mb-2 mb-lg-0" x-text="translations.messages.service_details"></h1>
         </div>
     </div>
     <!-- End Page Title -->
@@ -26,21 +21,21 @@ solutions, flexible liquid packaging"/>
             <div class="row gy-5">
                 <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-box">
-                        <h2>Services List</h2>
+                        <h2 x-text="translations.messages.services_list"></h2>
                         <div class="services-list">
-                            <a href="/nvocc"><i class="bi bi-arrow-right-circle"></i><span>NVOCC</span></a>
-                            <a href="/freight-forwarding"><i class="bi bi-arrow-right-circle"></i><span>Freight Forwarding</span></a>
-                            <a href="/domestic-forwarding"><i class="bi bi-arrow-right-circle"></i><span>Domestic Forwarding</span></a>
-                            <a href="/flexitank-flexibag" class="active"><i class="bi bi-arrow-right-circle"></i><span>Flexitank / Flexibag</span></a>
-                            <a href="/project-logistics"><i class="bi bi-arrow-right-circle"></i><span>Project Logistics</span></a>
-                            <a href="/customs-clearance"><i class="bi bi-arrow-right-circle"></i><span>Customs Clearance</span></a>
+                            <a href="/nvocc"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.nvocc"></span></a>
+                            <a href="/freight-forwarding"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.freight_forwarding"></span></a>
+                            <a href="/domestic-forwarding"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.domestic_forwarding"></span></a>
+                            <a href="/flexitank-flexibag" class="active"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.flexitank_flexibag"></span></a>
+                            <a href="/project-logistics"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.project_logistics"></span></a>
+                            <a href="/customs-clearance"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.customs_clearance"></span></a>                       
                         </div>
                     </div>
                     <div class="service-box">
-                        <h2>Download Catalog</h2>
+                        <h2 x-text="translations.messages.download_catalog"></h2>
                         <div class="download-catalog">
-                            <a href="<?php echo url('/'); ?>/pdf/IBL-Brochures.pdf"><i class="bi bi-filetype-pdf"></i><span>IBL Brochures</span></a>
-                            <a href="<?php echo url('/'); ?>/pdf/IBL-Profile.pdf"><i class="bi bi-filetype-pdf"></i><span>IBL Profile</span></a>
+                            <a href="<?php echo url('/'); ?>/pdf/IBL-Brochures.pdf"><i class="bi bi-filetype-pdf"></i><span x-text="translations.messages.ibl_brochures"></span></a>
+                            <a href="<?php echo url('/'); ?>/pdf/IBL-Profile.pdf"><i class="bi bi-filetype-pdf"></i><span x-text="translations.messages.ibl_profile"></span></a>
                         </div>
                     </div>
                 </div>
@@ -85,32 +80,11 @@ solutions, flexible liquid packaging"/>
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
-                    <h3>Flexitank / Flexibag</h3>
-                    <p>
-                        Flexitank is a cost effective and efficient solution for transporting
-                        non hazardous bulk liquids by converting a standard 20 ft container into a
-                        high capacity liquid carrier. Made from durable Polyethylene and Polypropylene,
-                        our Flexitanks offer capacities ranging from 18,000 to 24,000 liters, making
-                        them ideal for products like edible oils, beverages, and light chemicals. With
-                        easy installation and compatibility with standard containers, they help optimize
-                        space, reduce handling costs, and ensure contamination free transport.
-                    </p>
-                    <p>
-                        As one of the core products of Infinity Bulk Logistics (IBL), our Flexitanks are
-                        tailored to meet diverse customer needs. Backed by expert technical teams and
-                        in house production standards, we ensure performance, safety, and reliability in
-                        every shipment. IBL continues to invest in research and development to support
-                        sustainable logistics solutions that are flexible and environmentally conscious.
-                    </p>
-                    <p>
-                        While our Flexitanks are manufactured in Malaysia through a certified partner,
-                        our operations are fully supported from Surabaya, Indonesia. With a local
-                        logistics team and strategic access to Tanjung Perak Port, we provide responsive
-                        service, fast installation, and reliable after sales support across Indonesia.
-                        This combination of global manufacturing quality and local operational capability
-                        ensures trusted delivery every time, everywhere.
-                    </p>
-                    <a href="/flexitank-flexibag-details" class="more-details-btn">More Details</a>
+                    <h3 x-text="translations.messages.flexitank_flexibag"></h3>
+                    <p x-text="translations.messages.flexitank_flexibag_description_1"></p>
+                    <p x-text="translations.messages.flexitank_flexibag_description_2"></p>
+                    <p x-text="translations.messages.flexitank_flexibag_description_3"></p>
+                    <a href="/flexitank-flexibag-details" class="more-details-btn" x-text="translations.messages.flexitank_flexibag_details"></a>
                 </div>
             </div>
         </div>

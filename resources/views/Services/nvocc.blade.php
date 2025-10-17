@@ -1,22 +1,17 @@
 @extends('master')
 @section('title')
-Infinity Logistics Indonesia | NVOCC
+{{ __('messages.nvocc_title') }}
 @endsection('title')
 @section('meta')
-<meta name="description" content="Reliable NVOCC services offering flexible and cost-effective solutions
-for international shipping. We manage cargo logistics, ensuring secure, efficient, and timely delivery
-across global routes."/>
-<meta name="keywords" content="NVOCC, Non-Vessel Operating Common Carrier, freight forwarding,
-international shipping, ocean freight, logistics services, cargo management, container shipping,
-import/export, customs clearance, supply chain solutions, global shipping, transport services,
-multi-modal transport, shipping company, freight logistics"/>
+<meta name="description" content="Layanan NVOCC terpercaya menawarkan solusi fleksibel dan hemat biaya untuk pengiriman internasional. Kami mengelola logistik kargo, memastikan pengiriman yang aman, efisien, dan tepat waktu di seluruh rute global."/>
+<meta name="keywords" content="NVOCC, Non-Vessel Operating Common Carrier, freight forwarding, pengiriman internasional, freight laut, layanan logistik, manajemen kargo, pengiriman kontainer, impor ekspor, kepabeanan, bea cukai, solusi supply chain, pengiriman global, layanan transportasi, transportasi multi-modal, perusahaan pelayaran, logistik freight, penyedia NVOCC, jasa NVOCC, NVOCC indonesia, carrier laut"/>
 @endsection('meta')
 @section('content')
 <main class="main">
     <!-- Page Title -->
     <div class="page-title">
         <div class="container d-lg-flex justify-content-between align-items-center">
-            <h1 class="mb-2 mb-lg-0">Service Details</h1>
+            <h1 class="mb-2 mb-lg-0" x-text="translations.messages.service_details"></h1>
         </div>
     </div>
     <!-- End Page Title -->
@@ -26,20 +21,20 @@ multi-modal transport, shipping company, freight logistics"/>
             <div class="row gy-5">
                 <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-box">
-                        <h2>Services List</h2>
+                        <h2 x-text="translations.messages.services_list"></h2>
                         <div class="services-list">
-                            <a href="/nvocc" class="active"><i class="bi bi-arrow-right-circle"></i><span>NVOCC</span></a>
-                            <a href="/freight-forwarding"><i class="bi bi-arrow-right-circle"></i><span>Freight Forwarding</span></a>
-                            <a href="/domestic-forwarding"><i class="bi bi-arrow-right-circle"></i><span>Domestic Forwarding</span></a>
-                            <a href="/flexitank-flexibag"><i class="bi bi-arrow-right-circle"></i><span>Flexitank / Flexibag</span></a>
-                            <a href="/project-logistics"><i class="bi bi-arrow-right-circle"></i><span>Project Logistics</span></a>
-                            <a href="/customs-clearance"><i class="bi bi-arrow-right-circle"></i><span>Customs Clearance</span></a>                       
+                            <a href="/nvocc" class="active"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.nvocc"></span></a>
+                            <a href="/freight-forwarding"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.freight_forwarding"></span></a>
+                            <a href="/domestic-forwarding"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.domestic_forwarding"></span></a>
+                            <a href="/flexitank-flexibag"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.flexitank_flexibag"></span></a>
+                            <a href="/project-logistics"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.project_logistics"></span></a>
+                            <a href="/customs-clearance"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.customs_clearance"></span></a>                       
                         </div>
                     </div>
                     <div class="service-box">
-                        <h2>Download Catalog</h2>
+                        <h2 x-text="translations.messages.download_catalog"></h2>
                         <div class="download-catalog">
-                            <a href="<?php echo url('/'); ?>/pdf/Company-Profile-INF.pdf"><i class="bi bi-filetype-pdf"></i><span>Company Profile INF</span></a>
+                            <a href="<?php echo url('/'); ?>/pdf/Company-Profile-INF.pdf"><i class="bi bi-filetype-pdf"></i><span x-text="translations.messages.company_profile"></span></a>
                         </div>
                     </div>
                 </div>
@@ -84,32 +79,11 @@ multi-modal transport, shipping company, freight logistics"/>
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
-                    <h3>NVOCC</h3>
-                    <p>
-                        We specialize in Full Container Load (FCL) shipments, offering reliable space
-                        allocation on a wide range of ocean liners operating across major trade routes
-                        in Asia. Our network includes regular sailings to and from key ports in Malaysia,
-                        Thailand, Indonesia, Singapore, Vietnam, India, and Myanmar. With multiple weekly
-                        sailing schedules, our clients benefit from enhanced flexibility, allowing them
-                        to select the most suitable departure dates and transit times that align with
-                        their cargo planning and supply chain needs.
-                    </p>
-                    <p>
-                        In support of the NVOCC (Non Vessel Operating Common Carrier) market, our Surabaya
-                        Branch plays a vital role by providing high quality 20 ft High Cube containers.
-                        These containers offer approximately 12% more payload capacity compared to
-                        standard General Purpose (GP) containers, making them a cost effective option
-                        for maximizing cargo volume per shipment. This additional space is particularly
-                        advantageous for low density, high volume cargo, including items such as
-                        chipboard, gypsum board, and sheet glass.
-                    </p>
-                    <p>
-                        By combining consistent space availability, route flexibility, and container
-                        specialization, we provide a robust FCL solution that caters to a diverse
-                        range of industries and cargo profiles ensuring both operational efficiency
-                        and cost optimization for exporters.
-                    </p>
-                    <a href="/nvocc-schedule" class="more-details-btn">Schedule</a>
+                    <h3 x-text="translations.messages.nvocc"></h3>
+                    <p x-text="translations.messages.nvocc_description_1"></p>
+                    <p x-text="translations.messages.nvocc_description_2"></p>
+                    <p x-text="translations.messages.nvocc_description_3"></p>
+                    <a href="/nvocc-schedule" class="more-details-btn" x-text="translations.messages.nvocc_schedule"></a>
                 </div>
             </div>
         </div>

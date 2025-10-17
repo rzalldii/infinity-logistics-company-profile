@@ -1,27 +1,18 @@
 @extends('master')
 @section('title')
-Infinity Logistics Indonesia | Services
+{{ __('messages.services_title') }}
 @endsection('title')
 @section('meta')
-<meta name="description" content="Professional freight forwarding services for international shipments.
-We provide integrated logistics solutions with fast, secure, and efficient delivery worldwide."/>
-<meta name="keywords" content="freight forwarding, logistics services, international shipping, supply
-chain management, global logistics, transportation solutions, NVOCC, air freight, ocean freight, customs
-clearance, cargo management, logistics provider, shipment tracking, bulk shipping, project logistics,
-freight services, secure shipping, logistics company, door-to-door delivery, import export logistics,
-forwarder surabaya, forwarding surabaya, shipping line surabaya, logistics surabaya, infinity surabaya,
-pelayaran surabaya, logistik surabaya, freight forwarder surabaya, freight forwarding surabaya,
-flexibag surabaya, flexitank surabaya, flexibag indonesia, flexitank indonesia, flexibag, flexitank,
-forwarder indonesia, forwarding indonesia, shipping line indonesia, logistics indonesia, infinity
-indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding indonesia"/>
+<meta name="description" content="Layanan logistik komprehensif: NVOCC, forwarding internasional & domestik, flexitank/flexibag, logistik proyek, dan kepabeanan. Kantor pusat Malaysia dengan operasi di Surabaya dan Asia Tenggara."/>
+<meta name="keywords" content="NVOCC, freight forwarding, forwarding domestik, flexitank, flexibag, logistik proyek, kepabeanan, bea cukai, Malaysia, Surabaya, Indonesia, Asia Tenggara, ekspor impor, LCL, FCL, door-to-door, agen pelayaran, penyedia logistik, perusahaan forwarding"/>
 @endsection('meta')
 @section('content')
 <main class="main">
     <!-- Services Section -->
     <section id="services" class="services section">
         <div class="container section-title" data-aos="fade-up">
-            <span>Our Services</span>
-            <h2>Services</h2>
+            <span x-text="translations.messages.services_section"></span>
+            <h2 x-text="translations.messages.services"></h2>
         </div>
         <div class="container">
             <div class="row gy-4">
@@ -31,11 +22,9 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                             <img src="<?php echo url('/'); ?>/img/icons/NVOCC.webp" alt="NVOCC" loading="lazy">
                         </div>
                         <a href="/nvocc" class="stretched-link">
-                            <h3>NVOCC</h3>
+                            <h3 x-text="translations.messages.nvocc"></h3>
                         </a>
-                        <p>
-                            Connecting Cargo, Without a Vessel.
-                        </p>
+                        <p x-text="translations.messages.nvocc_tagline"></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
@@ -44,11 +33,9 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                             <img src="<?php echo url('/'); ?>/img/icons/FREIGHT FORWARDING.webp" alt="FREIGHT FORWARDING" loading="lazy">
                         </div>
                         <a href="/freight-forwarding" class="stretched-link">
-                            <h3>Freight Forwarding</h3>
+                            <h3 x-text="translations.messages.freight_forwarding"></h3>
                         </a>
-                        <p>
-                            Navigating Your Cargo, Wherever It Needs to Go.
-                        </p>
+                        <p x-text="translations.messages.freight_forwarding_tagline"></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
@@ -57,11 +44,9 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                             <img src="<?php echo url('/'); ?>/img/icons/DOMESTIC FORWARDING.webp" alt="DOMESTIC FORWARDING" loading="lazy">
                         </div>
                         <a href="/domestic-forwarding" class="stretched-link">
-                            <h3>Domestic Forwarding</h3>
+                            <h3 x-text="translations.messages.domestic_forwarding"></h3>
                         </a>
-                        <p>
-                            Local Logistics Expertise, Nationwide Solutions.
-                        </p>
+                        <p x-text="translations.messages.domestic_forwarding_tagline"></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
@@ -70,11 +55,9 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                             <img src="<?php echo url('/'); ?>/img/icons/FLEXITANK FLEXIBAG.webp" alt="FLEXITANK FLEXIBAG" loading="lazy">
                         </div>
                         <a href="/flexitank-flexibag" class="stretched-link">
-                            <h3>Flexitank / Flexibag</h3>
+                            <h3 x-text="translations.messages.flexitank_flexibag"></h3>
                         </a>
-                        <p>
-                            Transforming Containers for Liquid Freight.
-                        </p>
+                        <p x-text="translations.messages.flexitank_flexibag_tagline"></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
@@ -83,11 +66,9 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                             <img src="<?php echo url('/'); ?>/img/icons/PROJECT LOGISTICS.webp" alt="PROJECT LOGISTICS" loading="lazy">
                         </div>
                         <a href="/project-logistics" class="stretched-link">
-                            <h3>Project Logistics</h3>
+                            <h3 x-text="translations.messages.project_logistics"></h3>
                         </a>
-                        <p>
-                            Precision Logistics for Large-Scale Projects.
-                        </p>
+                        <p x-text="translations.messages.project_logistics_tagline"></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
@@ -96,11 +77,9 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                             <img src="<?php echo url('/'); ?>/img/icons/CUSTOMS CLEARANCE.webp" alt="CUSTOMS CLEARANCE" loading="lazy">
                         </div>
                         <a href="/customs-clearance" class="stretched-link">
-                            <h3>Customs Clearance</h3>
+                            <h3 x-text="translations.messages.customs_clearance"></h3>
                         </a>
-                        <p>
-                            Simplifying Customs, Speeding Up Deliveries.
-                        </p>
+                        <p x-text="translations.messages.customs_clearance_tagline"></p>
                     </div>
                 </div>
             </div>
@@ -108,7 +87,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
     </section>
     <!-- /Services Section -->
     <!-- Solutions Section -->
-    <section id="solutions" class="solutions section">
+    <section id="solutions" class="solutions section light-background">
         <div class="container" data-aos="fade-up">
             <ul class="nav nav-tabs row  d-flex" data-aos="fade-up" data-aos-delay="100">
                 <li class="nav-item col-3">
@@ -117,7 +96,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                             <img src="<?php echo url('/'); ?>/img/icons/SHIP.webp" alt="SHIP" class="img-active" loading="lazy">
                             <img src="<?php echo url('/'); ?>/img/icons/SHIP-A.webp" alt="SHIP-A" class="img-inactive" loading="lazy">
                         </div>
-                        <h4 class="d-none d-lg-block">Sea Freight</h4>
+                        <h4 class="d-none d-lg-block" x-text="translations.messages.ocean_freight"></h4>
                     </a>
                 </li>
                 <li class="nav-item col-3">
@@ -126,7 +105,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                             <img src="<?php echo url('/'); ?>/img/icons/PLANE.webp" alt="PLANE" class="img-active" loading="lazy">
                             <img src="<?php echo url('/'); ?>/img/icons/PLANE-A.webp" alt="PLANE-A" class="img-inactive" loading="lazy">
                         </div>
-                        <h4 class="d-none d-lg-block">Air Freight</h4>
+                        <h4 class="d-none d-lg-block" x-text="translations.messages.air_freight"></h4>
                     </a>
                 </li>
                 <li class="nav-item col-3">
@@ -135,7 +114,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                             <img src="<?php echo url('/'); ?>/img/icons/TRUCK.webp" alt="TRUCK" class="img-active" loading="lazy">
                             <img src="<?php echo url('/'); ?>/img/icons/TRUCK-A.webp" alt="TRUCK-A" class="img-inactive" loading="lazy">
                         </div>
-                        <h4 class="d-none d-lg-block">Land Freight</h4>
+                        <h4 class="d-none d-lg-block" x-text="translations.messages.road_freight"></h4>
                     </a>
                 </li>
                 <li class="nav-item col-3">
@@ -144,7 +123,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                             <img src="<?php echo url('/'); ?>/img/icons/WAREHOUSE.webp" alt="WAREHOUSE" class="img-active" loading="lazy">
                             <img src="<?php echo url('/'); ?>/img/icons/WAREHOUSE-A.webp" alt="WAREHOUSE-A" class="img-inactive" loading="lazy">
                         </div>
-                        <h4 class="d-none d-lg-block">Warehouse</h4>
+                        <h4 class="d-none d-lg-block" x-text="translations.messages.warehouse_services"></h4>
                     </a>
                 </li>
             </ul>
@@ -152,44 +131,30 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                 <div class="tab-pane fade active show" id="solutions-tab-1">
                     <div class="row">
                         <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                            <h3>Sea Freight Services</h3>
-                            <p>
-                                Infinity Logistics Indonesia provides cost-effective and reliable sea freight
-                                solutions suitable for shipments of all sizes, from small packages to large
-                                container loads. We prioritize the safe handling of your cargo and ensure it
-                                reaches its destination securely, whether within Indonesia or internationally.
-                                Our flexible sea freight services are backed by trusted partners, giving you
-                                peace of mind throughout the shipping process.
-                            </p>
+                            <h3 x-text="translations.messages.ocean_freight"></h3>
+                            <p x-text="translations.messages.ocean_freight_description"></p>
                             <ul>
-                                <li><i class="bi bi-check2-all"></i> <span>Full Container Load (FCL)</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Less Than Container Load (LCL)</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Reefer Container</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>ISO Tank</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.fcl"></span></li>
+                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.lcl"></span></li>
+                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.reefer_container"></span></li>
+                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.iso_tank"></span></li>
                             </ul>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 text-center">
-                            <img src="<?php echo url('/'); ?>/img/services-1.webp" alt="Sea Freight" class="img-fluid" loading="lazy">
+                            <img src="<?php echo url('/'); ?>/img/services-1.webp" alt="Ocean Freight" class="img-fluid" loading="lazy">
                         </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="solutions-tab-2">
                     <div class="row">
                         <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                            <h3>Air Freight Services</h3>
-                            <p>
-                                Our air freight services are designed to offer fast, reliable, and tailored
-                                shipping solutions for your urgent and important shipments. From airport-to-door
-                                delivery, Infinity Logistics Indonesia carefully manages every aspect of your
-                                cargo, ensuring safe handling and secure arrival. With seamless service and
-                                real-time tracking, you can remain informed and confident at every step of the
-                                journey.
-                            </p>
+                            <h3 x-text="translations.messages.air_freight"></h3>
+                            <p x-text="translations.messages.air_freight_description"></p>
                             <ul>
-                                <li><i class="bi bi-check2-all"></i> <span>Domestic</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Export-Import</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Consolidation</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Full Charter</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.domestic"></span></li>
+                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.export_import"></span></li>
+                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.consolidation"></span></li>
+                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.full_charter"></span></li>
                             </ul>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 text-center">
@@ -200,43 +165,29 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                 <div class="tab-pane fade" id="solutions-tab-3">
                     <div class="row">
                         <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                            <h3>Land Freight Services</h3>
-                            <p>
-                                We offer versatile and dependable land freight solutions across all regions of
-                                Indonesia. Our extensive fleet includes container trucks, wing box trucks,
-                                single axle trucks, pick-ups, and grand vans, able to transport a wide range of
-                                cargo types reliably and efficiently. Supported by competitive pricing and
-                                professional handling at every stage, our land freight services connect cities,
-                                provinces, and islands with ease and safety.
-                            </p>
+                            <h3 x-text="translations.messages.road_freight"></h3>
+                            <p x-text="translations.messages.road_freight_description"></p>
                             <ul>
-                                <li><i class="bi bi-check2-all"></i> <span>Full Truck Load (FTL)</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Less Than Truck Load (LTL)</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Haulage</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Contract Carriage</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.ftl"></span></li>
+                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.ltl"></span></li>
+                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.haulage"></span></li>
+                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.contract_carriage"></span></li>
                             </ul>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 text-center">
-                            <img src="<?php echo url('/'); ?>/img/services-3.webp" alt="Land Freight" class="img-fluid" loading="lazy">
+                            <img src="<?php echo url('/'); ?>/img/services-3.webp" alt="Road Freight" class="img-fluid" loading="lazy">
                         </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="solutions-tab-4">
                     <div class="row">
                         <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                            <h3>Warehouse Services</h3>
-                            <p>
-                               Infinity Logistics Indonesia's warehouse services provide secure and flexible
-                               storage solutions tailored to meet your business demands. Featuring modern
-                               storage facilities equipped with advanced inventory management technologies, we
-                               ensure your goods are stored safely and handled with care. Our warehouse
-                               solutions support efficient operations and provide you with real-time control
-                               and monitoring, enabling smooth logistics flow and complete peace of mind.
-                            </p>
+                            <h3 x-text="translations.messages.warehouse_services"></h3>
+                            <p x-text="translations.messages.warehouse_services_description"></p>
                             <ul>
-                                <li><i class="bi bi-check2-all"></i> <span>Warehouse Management Solution</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Modular Storage Solution</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Integrated Warehouse System</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.warehouse_management"></span></li>
+                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.modular_storage"></span></li>
+                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.integrated_warehouse"></span></li>
                             </ul>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 text-center">
@@ -254,11 +205,9 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
             <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
                 <div class="col-xl-10">
                     <div class="text-center">
-                        <h3>Flexible and Reliable Freight Services</h3>
-                        <p>
-                            Discover our specialized Flexitank and forwarding solutions today.
-                        </p>
-                        <a class="cta-btn" href="/contact">Get A Quote</a>
+                        <h3 x-text="translations.messages.cta_title"></h3>
+                        <p x-text="translations.messages.cta_description"></p>
+                        <a class="cta-btn" href="/contact" x-text="translations.messages.get_quote"></a>
                     </div>
                 </div>
             </div>

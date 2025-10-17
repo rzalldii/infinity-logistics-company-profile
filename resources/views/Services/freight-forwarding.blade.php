@@ -1,22 +1,17 @@
 @extends('master')
 @section('title')
-Infinity Logistics Indonesia | Freight Forwarding
+{{ __('messages.freight_forwarding_title') }}
 @endsection('title')
 @section('meta')
-<meta name="description" content="Efficient freight forwarding services for global shipping needs. We
-handle all aspects of logistics, ensuring secure, timely, and cost-effective delivery of goods worldwide
-by land, sea, or air."/>
-<meta name="keywords" content="freight forwarding, logistics services, international shipping, cargo
-transportation, shipping solutions, global freight, ocean freight, air freight, customs clearance,
-supply chain management, cargo handling, logistics provider, door-to-door delivery, shipping company,
-import export, freight services"/>
+<meta name="description" content="Layanan freight forwarding efisien untuk kebutuhan pengiriman global. Kami menangani semua aspek logistik, memastikan pengiriman barang yang aman, tepat waktu, dan hemat biaya ke seluruh dunia melalui darat, laut, atau udara."/>
+<meta name="keywords" content="freight forwarding, layanan logistik, pengiriman internasional, transportasi kargo, solusi pengiriman, freight global, freight laut, freight udara, kepabeanan, bea cukai, manajemen supply chain, penanganan kargo, penyedia logistik, pengiriman door-to-door, perusahaan pelayaran, impor ekspor, layanan freight, jasa pengiriman barang, ekspedisi internasional, forwarder, cargo darat, cargo laut, cargo udara, logistik terintegrasi, pengiriman kontainer"/>
 @endsection('meta')
 @section('content')
 <main class="main">
     <!-- Page Title -->
     <div class="page-title">
         <div class="container d-lg-flex justify-content-between align-items-center">
-            <h1 class="mb-2 mb-lg-0">Service Details</h1>
+            <h1 class="mb-2 mb-lg-0" x-text="translations.messages.service_details"></h1>
         </div>
     </div>
     <!-- End Page Title -->
@@ -26,20 +21,20 @@ import export, freight services"/>
             <div class="row gy-5">
                 <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-box">
-                        <h2>Services List</h2>
+                        <h2 x-text="translations.messages.services_list"></h2>
                         <div class="services-list">
-                            <a href="/nvocc"><i class="bi bi-arrow-right-circle"></i><span>NVOCC</span></a>
-                            <a href="/freight-forwarding" class="active"><i class="bi bi-arrow-right-circle"></i><span>Freight Forwarding</span></a>
-                            <a href="/domestic-forwarding"><i class="bi bi-arrow-right-circle"></i><span>Domestic Forwarding</span></a>
-                            <a href="/flexitank-flexibag"><i class="bi bi-arrow-right-circle"></i><span>Flexitank / Flexibag</span></a>
-                            <a href="/project-logistics"><i class="bi bi-arrow-right-circle"></i><span>Project Logistics</span></a>
-                            <a href="/customs-clearance"><i class="bi bi-arrow-right-circle"></i><span>Customs Clearance</span></a>
+                            <a href="/nvocc"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.nvocc"></span></a>
+                            <a href="/freight-forwarding" class="active"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.freight_forwarding"></span></a>
+                            <a href="/domestic-forwarding"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.domestic_forwarding"></span></a>
+                            <a href="/flexitank-flexibag"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.flexitank_flexibag"></span></a>
+                            <a href="/project-logistics"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.project_logistics"></span></a>
+                            <a href="/customs-clearance"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.customs_clearance"></span></a>                       
                         </div>
                     </div>
                     <div class="service-box">
-                        <h2>Download Catalog</h2>
+                        <h2 x-text="translations.messages.download_catalog"></h2>
                         <div class="download-catalog">
-                            <a href="<?php echo url('/'); ?>/pdf/Company-Profile-INF.pdf"><i class="bi bi-filetype-pdf"></i><span>Company Profile INF</span></a>
+                            <a href="<?php echo url('/'); ?>/pdf/Company-Profile-INF.pdf"><i class="bi bi-filetype-pdf"></i><span x-text="translations.messages.company_profile"></span></a>
                         </div>
                     </div>
                 </div>
@@ -79,33 +74,16 @@ import export, freight services"/>
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
-                    <h3>Freight Forwarding</h3>
-                    <p>
-                        We offer integrated freight forwarding services, covering both ocean and air
-                        transport, to facilitate international import and export activities for a wide
-                        range of industries. Backed by our local transport network and modern logistics
-                        facilities, we provide door to door delivery solutions combined with customs
-                        documentation and regulatory compliance. Our scope of services includes Cargo
-                        space arrangement with shipping lines and airlines, Transportation, loading,
-                        and terminal coordination, Customs clearance and permit processing, Coordination
-                        with overseas partners for seamless cargo movement.
-                    </p>
-                    <p>
-                        Surabaya Branch Specialized Forwarding Division. Our Surabaya branch serves as a
-                        key operational hub, offering specialized forwarding services to meet specific
-                        cargo requirements:
-                    </p>
+                    <h3 x-text="translations.messages.freight_forwarding"></h3>
+                    <p x-text="translations.messages.freight_forwarding_description_1"></p>
+                    <p x-text="translations.messages.freight_forwarding_description_2"></p>
                     <ul>
-                        <li><i class="bi bi-check-circle"></i> <span>LCL (Less than Container Load): Efficient consolidation service for cost effective shipping.</span></li>
-                        <li><i class="bi bi-check-circle"></i> <span>Air Freight: Rapid and secure transportation for time sensitive cargo.</span></li>
-                        <li><i class="bi bi-check-circle"></i> <span>Reefer Cargo: Expertise in handling temperature sensitive goods, ensuring cold chain integrity.</span></li>
-                        <li><i class="bi bi-check-circle"></i> <span>Isotank Handling: Safe and compliant transportation of bulk liquid cargo in accordance with international safety standards.</span></li>
+                        <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.ff_desc_1"></span></li>
+                        <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.ff_desc_2"></span></li>
+                        <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.ff_desc_3"></span></li>
+                        <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.ff_desc_4"></span></li>
                     </ul>
-                    <p>
-                        Through our expertise, network, and commitment to operational excellence, we
-                        deliver integrated logistics solutions either as part of a comprehensive supply
-                        chain service or as stand alone forwarding support.
-                    </p>
+                    <p x-text="translations.messages.freight_forwarding_description_3"></p>
                 </div>
             </div>
         </div>

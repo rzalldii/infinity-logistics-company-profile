@@ -1,27 +1,18 @@
 @extends('master')
 @section('title')
-Infinity Logistics Indonesia | Contact
+{{ __('messages.contact_title') }}
 @endsection('title')
 @section('meta')
-<meta name="description" content="Professional freight forwarding services for international shipments.
-We provide integrated logistics solutions with fast, secure, and efficient delivery worldwide."/>
-<meta name="keywords" content="freight forwarding, logistics services, international shipping, supply
-chain management, global logistics, transportation solutions, NVOCC, air freight, ocean freight, customs
-clearance, cargo management, logistics provider, shipment tracking, bulk shipping, project logistics,
-freight services, secure shipping, logistics company, door-to-door delivery, import export logistics,
-forwarder surabaya, forwarding surabaya, shipping line surabaya, logistics surabaya, infinity surabaya,
-pelayaran surabaya, logistik surabaya, freight forwarder surabaya, freight forwarding surabaya,
-flexibag surabaya, flexitank surabaya, flexibag indonesia, flexitank indonesia, flexibag, flexitank,
-forwarder indonesia, forwarding indonesia, shipping line indonesia, logistics indonesia, infinity
-indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding indonesia"/>
+<meta name="description" content="Hubungi kami untuk penawaran & dukungan: NVOCC, freight forwarding, flexitank, logistik proyek, kepabeanan, pergudangan. Kantor pusat Malaysia, Surabaya, Asia Tenggara."/>
+<meta name="keywords" content="kontak logistik, kontak freight forwarder, hubungi forwarder, NVOCC, flexitank, logistik proyek, kepabeanan, bea cukai, pergudangan, freight laut, freight udara, freight darat, ekspor impor, Malaysia, Surabaya, Indonesia, Asia Tenggara, door-to-door, LCL, FCL"/>
 @endsection('meta')
 @section('content')
 <main class="main">
     <!-- Contact Section -->
     <section id="contact" class="contact section">
         <div class="container section-title" data-aos="fade-up">
-            <span>Contact Us</span>
-            <h2>Contact</h2>
+            <span x-text="translations.messages.contact_section"></span>
+            <h2 x-text="translations.messages.contact"></h2>
         </div>
         <div class="container" data-aos="fade-up" data-aos-delay="100">
             <div class="row gy-4">
@@ -30,33 +21,31 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                         <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
                             <i class="bi bi-geo-alt flex-shrink-0"></i>
                             <div>
-                                <h3>Our Address</h3>
-                                <p>Plaza BRI, 12th Floor, Suite 1206,</p>
-                                <p>Jl. Jendral Basuki Rahmad 122,</p>
-                                <p>Surabaya City, East Java Indonesia</p>
+                                <h3 x-text="translations.messages.our_address"></h3>
+                                <p x-text="translations.messages.head_office_address"></p>
                             </div>
                         </div>
                         <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                             <i class="bi bi-telephone flex-shrink-0"></i>
                             <div>
-                                <h3>Call Us</h3>
+                                <h3 x-text="translations.messages.call_us"></h3>
                                 <p>(+62)31-5492926</p>
                             </div>
                         </div>
                         <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
                             <i class="bi bi-envelope flex-shrink-0"></i>
                             <div>
-                                <h3>Email Us</h3>
+                                <h3 x-text="translations.messages.email_us"></h3>
                                 <p>cssurabaya@infinity-sby.com</p>
                             </div>
                         </div>
                         <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
                             <i class="bi bi-clock flex-shrink-0"></i>
                             <div>
-                                <h3>Our Working Hours</h3>
-                                <p>Monday to Friday - 08:30 to 17:00 WIB</p>
-                                <p>Saturday - 08:30 to 13:00 WIB</p>
-                                <p>Sunday - Closed</p>
+                                <h3 x-text="translations.messages.working_hours"></h3>
+                                <p x-text="translations.messages.monday_friday"></p>
+                                <p x-text="translations.messages.saturday"></p>
+                                <p x-text="translations.messages.sunday"></p>
                             </div>
                         </div>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3629.241613433687!2d112.73795435839659!3d-7.273136269158283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbddceec0c2d%3A0x3a125fab20e07b6b!2sPT.%20Infinity%20Logistics%20Indonesia!5e0!3m2!1sen!2sus!4v1752200391253!5m2!1sen!2sus"
@@ -68,26 +57,26 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                         @csrf
                         @honeypot
                         <div class="row gy-4">
-                            <h4 class="text-center">
-                                GET IN TOUCH
-                            </h4>
+                            <h4 class="text-center" x-text="translations.messages.get_in_touch"></h4>
                             <p>
-                                <strong>You can reach anytime.</strong> Contact us via call or email, or simply fill out the form below and we will get back to you as soon as possible.
+                                <strong x-text="translations.messages.contact_intro"></strong>
+                                <span x-text="translations.messages.contact_description"></span>
                             </p>
                             <div class="col-md-12">
-                                <input type="text" name="name" id="name-field" class="form-control" placeholder="Your Name *" required="">
+                                <input type="text" name="name" id="name-field" class="form-control" :placeholder="translations.messages.placeholder_name" required="" autocomplete="off">
                             </div>
                             <div class="col-md-12">
-                                <input type="email" name="email" id="email-field" class="form-control" placeholder="Your Email *" required="">
+                                <input type="email" name="email" id="email-field" class="form-control" :placeholder="translations.messages.placeholder_email" required="" autocomplete="off">
                             </div>
                             <div class="col-md-12">
-                                <textarea rows="10" name="message" id="message-field"  class="form-control" placeholder="Your Message *" required=""></textarea>
+                                <textarea rows="10" name="message" id="message-field"  class="form-control" :placeholder="translations.messages.placeholder_message" required="" autocomplete="off"></textarea>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-check">
                                     <input type="checkbox" name="subscribe" id="subscribe-checkbox" class="form-check-input" value="yes">
                                     <label for="subscribe-checkbox" class="form-check-label">
-                                        <strong>Join Our Newsletter.</strong> Subscribe to our newsletter and receive the latest news about our services!
+                                        <strong x-text="translations.messages.join_newsletter"></strong>
+                                        <span x-text="translations.messages.newsletter_description"></span>
                                     </label>
                                 </div>
                             </div>
@@ -95,7 +84,7 @@ indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding i
                             <input type="hidden" name="recaptcha_token" id="recaptcha_token">
                             <input type="hidden" name="turnstile_token" id="turnstile_token">
                             <div class="col-md-12">
-                                <button type="submit" id="submit-button"><i class="bi bi-send-fill"></i><span> Send Message</span></button>
+                                <button type="submit" id="submit-button"><i class="bi bi-send-fill"></i><span x-text="translations.messages.send_message"></span></button>
                             </div>
                         </div>
                     </form>

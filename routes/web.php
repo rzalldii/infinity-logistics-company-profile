@@ -1,12 +1,11 @@
 <?php
 
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\Session;
 
 use Spatie\Honeypot\ProtectAgainstSpam;
 
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\LanguageController;
 
 Route::get('/laravel', function () {
     return view('welcome');
@@ -19,6 +18,9 @@ Route::get('/', function () {
 Route::post('/send-email', [ContactController::class, 'send'])
     ->middleware(['throttle:1,5', ProtectAgainstSpam::class])
     ->name('send.email');
+
+Route::post('/language/switch', [LanguageController::class, 'switch'])
+    ->name('language.switch');
 
 Route::get('/about', function () { return view('section.about'); });
 Route::get('/services', function () { return view('section.services'); });

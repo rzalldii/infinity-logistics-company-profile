@@ -1,14 +1,10 @@
 @extends('master')
 @section('title')
-Infinity Logistics Indonesia | Terms and Conditions
+Syarat dan Ketentuan | Infinity Logistics Indonesia
 @endsection('title')
 @section('meta')
-<meta name="description" content="Review our Terms & Conditions for the use of our services. This page
-outlines the legal agreements, user responsibilities, and policies governing your access and use of our
-website and services."/>
-<meta name="keywords" content="terms and conditions, website terms, terms of service, user agreement,
-privacy policy, legal terms, website usage, terms of use, service agreement, site terms, user
-responsibilities, website rules, website legal policy"/>
+<meta name="description" content="Tinjau Syarat & Ketentuan kami untuk penggunaan layanan kami. Halaman ini menguraikan perjanjian hukum, tanggung jawab pengguna, dan kebijakan yang mengatur akses dan penggunaan situs web serta layanan kami."/>
+<meta name="keywords" content="syarat dan ketentuan, terms and conditions, ketentuan situs web, ketentuan layanan, terms of service, perjanjian pengguna, kebijakan privasi, ketentuan hukum, penggunaan situs web, ketentuan penggunaan, perjanjian layanan, ketentuan situs, tanggung jawab pengguna, aturan situs web, kebijakan hukum situs, terms of use, user agreement, syarat layanan, persyaratan dan ketentuan, aturan penggunaan, kebijakan situs, ketentuan legal, syarat penggunaan layanan"/>
 @endsection('meta')
 @section('content')
 <main class="main">

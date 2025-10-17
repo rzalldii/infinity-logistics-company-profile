@@ -1,22 +1,17 @@
 @extends('master')
 @section('title')
-Infinity Logistics Indonesia | Project Logistics
+{{ __('messages.project_logistics_title') }}
 @endsection('title')
 @section('meta')
-<meta name="description" content="Specialized project logistics services for complex and oversized
-shipments. We offer tailored solutions to manage, transport, and deliver large-scale projects safely,
-efficiently, and on time."/>
-<meta name="keywords" content="project logistics, project cargo, heavy lift transportation, oversized
-cargo, logistics solutions, large-scale project shipping, industrial logistics, project freight
-forwarding, supply chain management, transport solutions, custom logistics, engineering projects,
-global project shipping, specialized cargo, turnkey logistics"/>
+<meta name="description" content="Layanan logistik proyek khusus untuk pengiriman kompleks dan berukuran besar. Kami menawarkan solusi yang disesuaikan untuk mengelola, mengangkut, dan mengirimkan proyek berskala besar dengan aman, efisien, dan tepat waktu."/>
+<meta name="keywords" content="logistik proyek, project logistics, project cargo, transportasi heavy lift, kargo berukuran besar, oversized cargo, solusi logistik, pengiriman proyek berskala besar, logistik industri, project freight forwarding, manajemen supply chain, solusi transportasi, logistik khusus, proyek engineering, pengiriman proyek global, kargo spesial, turnkey logistics, out of gauge cargo, OOG, break bulk, heavy equipment transport, transportasi alat berat, kargo proyek, mobilisasi proyek, demobilisasi, rigging, lashing, project management, EPC logistics, oil and gas logistics, mining logistics, construction logistics, power plant logistics, machinery transport, transportasi mesin industri"/>
 @endsection('meta')
 @section('content')
 <main class="main">
     <!-- Page Title -->
     <div class="page-title">
         <div class="container d-lg-flex justify-content-between align-items-center">
-            <h1 class="mb-2 mb-lg-0">Service Details</h1>
+            <h1 class="mb-2 mb-lg-0" x-text="translations.messages.service_details"></h1>
         </div>
     </div>
     <!-- End Page Title -->
@@ -26,20 +21,20 @@ global project shipping, specialized cargo, turnkey logistics"/>
             <div class="row gy-5">
                 <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-box">
-                        <h2>Services List</h2>
+                        <h2 x-text="translations.messages.services_list"></h2>
                         <div class="services-list">
-                            <a href="/nvocc"><i class="bi bi-arrow-right-circle"></i><span>NVOCC</span></a>
-                            <a href="/freight-forwarding"><i class="bi bi-arrow-right-circle"></i><span>Freight Forwarding</span></a>
-                            <a href="/domestic-forwarding"><i class="bi bi-arrow-right-circle"></i><span>Domestic Forwarding</span></a>
-                            <a href="/flexitank-flexibag"><i class="bi bi-arrow-right-circle"></i><span>Flexitank / Flexibag</span></a>
-                            <a href="/project-logistics" class="active"><i class="bi bi-arrow-right-circle"></i><span>Project Logistics</span></a>
-                            <a href="/customs-clearance"><i class="bi bi-arrow-right-circle"></i><span>Customs Clearance</span></a>
+                            <a href="/nvocc"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.nvocc"></span></a>
+                            <a href="/freight-forwarding"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.freight_forwarding"></span></a>
+                            <a href="/domestic-forwarding"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.domestic_forwarding"></span></a>
+                            <a href="/flexitank-flexibag"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.flexitank_flexibag"></span></a>
+                            <a href="/project-logistics" class="active"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.project_logistics"></span></a>
+                            <a href="/customs-clearance"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.customs_clearance"></span></a>                       
                         </div>
                     </div>
                     <div class="service-box">
-                        <h2>Download Catalog</h2>
+                        <h2 x-text="translations.messages.download_catalog"></h2>
                         <div class="download-catalog">
-                            <a href="<?php echo url('/'); ?>/pdf/Company-Profile-INF.pdf"><i class="bi bi-filetype-pdf"></i><span>Company Profile INF</span></a>
+                            <a href="<?php echo url('/'); ?>/pdf/Company-Profile-INF.pdf"><i class="bi bi-filetype-pdf"></i><span x-text="translations.messages.company_profile"></span></a>
                         </div>
                     </div>
                 </div>
@@ -79,32 +74,10 @@ global project shipping, specialized cargo, turnkey logistics"/>
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
-                    <h3>Project Logistics</h3>
-                    <p>
-                        Project logistics involves the planning, transportation, and management of
-                        containers used for heavy, oversized, or complex cargo, which is essential in
-                        large scale projects like power plants, oil and gas developments, and renewable
-                        energy infrastructure. Selecting the right container type is critical due to the
-                        cargo is size and shape. A thorough cargo survey helps determine accurate
-                        dimensions and weight, and a detailed loading plan, including lashing and
-                        blocking, is essential for safe transport. Special permits and documentation,
-                        like Out of Gauge (OOG) declarations, are often required.
-                    </p>
-                    <p>
-                        Multimodal transportation, combining trucks, ships, and trains, is typically
-                        used to efficiently move such project cargo. Close coordination between the
-                        technical and logistics teams ensures safety and operational efficiency
-                        throughout the process. This requires careful planning of every aspect of the
-                        transportation journey.
-                    </p>
-                    <p>
-                        Surabaya is well positioned to operate in project logistics due to its strategic
-                        location and robust infrastructure. The Port of Tanjung Perak, a key gateway for
-                        international trade, along with access to roads, railways, and airports, enables
-                        smooth multimodal transportation. With the city is established logistics network
-                        and experienced companies, Surabaya can effectively support the management of
-                        complex project cargo for large industrial and infrastructure projects.
-                    </p>
+                    <h3 x-text="translations.messages.project_logistics"></h3>
+                    <p x-text="translations.messages.project_logistics_description_1"></p>
+                    <p x-text="translations.messages.project_logistics_description_2"></p>
+                    <p x-text="translations.messages.project_logistics_description_3"></p>
                 </div>
             </div>
         </div>

@@ -1,16 +1,10 @@
 @extends('master')
 @section('title')
-Infinity Logistics Indonesia | NVOCC Schedule
+{{ __('messages.nvocc_schedule_title') }}
 @endsection('title')
 @section('meta')
-<meta name="description" content="Find up-to-date NVOCC schedules for ocean freight FCL/LCL,
-check routes, vessels, cutoff, and ETD/ETA in real time to streamline export import planning."/>
-<meta name="keywords" content="NVOCC schedule, vessel schedule, sailing schedule, shipping schedule,
-ocean freight schedule, FCL, LCL, ETD, ETA, cutoff time, voyage, voyage number, port rotation, transit time,
-ocean carrier, shipping line, route, port of loading, port of discharge, POL, POD, container booking,
-track and trace, sailing date, arrival date, feeder, transshipment, export schedule, import schedule,
-terminal cutoff, CFS, ICD, berth window, booking number, House Bill of Lading, Master Bill of Lading, HBL,
-MBL, container schedule"/>
+<meta name="description" content="Temukan jadwal NVOCC terkini untuk freight laut FCL/LCL, cek rute, kapal, cutoff, dan ETD/ETA secara real time untuk memperlancar perencanaan ekspor impor."/>
+<meta name="keywords" content="jadwal NVOCC, jadwal kapal, sailing schedule, jadwal pengiriman, jadwal freight laut, FCL, LCL, ETD, ETA, waktu cutoff, voyage, voyage number, rotasi pelabuhan, transit time, ocean carrier, shipping line, rute, pelabuhan muat, pelabuhan bongkar, POL, POD, booking kontainer, track and trace, tanggal keberangkatan, tanggal tiba, feeder, transshipment, jadwal ekspor, jadwal impor, terminal cutoff, CFS, ICD, berth window, nomor booking, House Bill of Lading, Master Bill of Lading, HBL, MBL, jadwal kontainer, cek jadwal kapal, schedule kapal, jadwal pelayaran, cek ETD ETA, lacak kontainer, booking slot, jadwal vessel"/>
 @endsection('meta')
 @section('content')
 <main class="main">
@@ -21,7 +15,7 @@ MBL, container schedule"/>
                 <a href="/nvocc" class="more-details-btn me-3" aria-label="NVOCC">
                     <i class="bi bi-arrow-left"></i>
                 </a>
-                <h1 class="mb-0">NVOCC Schedule</h1>
+                <h1 class="mb-0" x-text="translations.messages.nvocc_schedule"></h1>
             </div>
         </div>
     </div>
@@ -29,20 +23,20 @@ MBL, container schedule"/>
     <!-- NVOCC Schedule Section -->
     <section id="nvocc-schedule" class="nvocc-schedule section">
         <div class="container section-title">
-            <h2>OCTOBER 2025</h2>
+            <h2 class="text-uppercase" x-text="translations.messages.october"></h2>
         </div>
         <div class="container">
             <div class="table-responsive">
                 <table class="table table-bordered text-center">
                     <thead>
                         <tr>
-                            <th class="text-uppercase">Vessel</th>
-                            <th class="text-uppercase">Voyage</th>
-                            <th class="text-uppercase">Open Stack</th>
-                            <th class="text-uppercase">Closing Cargo</th>
-                            <th class="text-uppercase">ETA Surabaya</th>
-                            <th class="text-uppercase">ETD Surabaya</th>
-                            <th class="text-uppercase">ETA Klang, West</th>
+                            <th class="text-uppercase" x-text="translations.messages.vessel"></th>
+                            <th class="text-uppercase" x-text="translations.messages.voyage"></th>
+                            <th class="text-uppercase" x-text="translations.messages.open_stack"></th>
+                            <th class="text-uppercase" x-text="translations.messages.closing_cargo"></th>
+                            <th class="text-uppercase" x-text="translations.messages.eta_surabaya"></th>
+                            <th class="text-uppercase" x-text="translations.messages.etd_surabaya"></th>
+                            <th class="text-uppercase" x-text="translations.messages.eta_klang"></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -61,7 +55,7 @@ MBL, container schedule"/>
                                     16:00
                                 </span>
                                 <div class="margin-10px-top font-size14">
-                                    25 September
+                                    25 <span x-text="translations.messages.september"></span>
                                 </div>
                             </td>
                             <td>
@@ -69,12 +63,12 @@ MBL, container schedule"/>
                                     10:00
                                 </span>
                                 <div class="margin-10px-top font-size14">
-                                    29 September
+                                    29 <span x-text="translations.messages.september"></span>
                                 </div>
                             </td>
-                            <td class="align-middle">30 September</td>
-                            <td class="align-middle">01 October</td>
-                            <td class="align-middle">04 October</td>
+                            <td class="align-middle">30 <span x-text="translations.messages.september"></span></td>
+                            <td class="align-middle">01 <span x-text="translations.messages.october"></span></td>
+                            <td class="align-middle">04 <span x-text="translations.messages.october"></span></td>
                         </tr>
                         <tr>
                             <td>
@@ -91,7 +85,7 @@ MBL, container schedule"/>
                                     16:00
                                 </span>
                                 <div class="margin-10px-top font-size14">
-                                    09 October
+                                    09 <span x-text="translations.messages.october"></span>
                                 </div>
                             </td>
                             <td>
@@ -99,12 +93,12 @@ MBL, container schedule"/>
                                     10:00
                                 </span>
                                 <div class="margin-10px-top font-size14">
-                                    13 October
+                                    13 <span x-text="translations.messages.october"></span>
                                 </div>
                             </td>
-                            <td class="align-middle">14 October</td>
-                            <td class="align-middle">15 October</td>
-                            <td class="align-middle">18 October</td>
+                            <td class="align-middle">14 <span x-text="translations.messages.october"></span></td>
+                            <td class="align-middle">15 <span x-text="translations.messages.october"></span></td>
+                            <td class="align-middle">18 <span x-text="translations.messages.october"></span></td>
                         </tr>
                         <tr>
                             <td>
@@ -121,7 +115,7 @@ MBL, container schedule"/>
                                     16:00
                                 </span>
                                 <div class="margin-10px-top font-size14">
-                                    16 October
+                                    16 <span x-text="translations.messages.october"></span>
                                 </div>
                             </td>
                             <td>
@@ -129,12 +123,12 @@ MBL, container schedule"/>
                                     10:00
                                 </span>
                                 <div class="margin-10px-top font-size14">
-                                    20 October
+                                    20 <span x-text="translations.messages.october"></span>
                                 </div>
                             </td>
-                            <td class="align-middle">21 October</td>
-                            <td class="align-middle">22 October</td>
-                            <td class="align-middle">25 October</td>
+                            <td class="align-middle">21 <span x-text="translations.messages.october"></span></td>
+                            <td class="align-middle">22 <span x-text="translations.messages.october"></span></td>
+                            <td class="align-middle">25 <span x-text="translations.messages.october"></span></td>
                         </tr>
                         <tr>
                             <td>
@@ -151,7 +145,7 @@ MBL, container schedule"/>
                                     16:00
                                 </span>
                                 <div class="margin-10px-top font-size14">
-                                    23 October
+                                    23 <span x-text="translations.messages.october"></span>
                                 </div>
                             </td>
                             <td>
@@ -159,12 +153,12 @@ MBL, container schedule"/>
                                     10:00
                                 </span>
                                 <div class="margin-10px-top font-size14">
-                                    27 October
+                                    27 <span x-text="translations.messages.october"></span>
                                 </div>
                             </td>
-                            <td class="align-middle">28 October</td>
-                            <td class="align-middle">29 October</td>
-                            <td class="align-middle">01 November</td>
+                            <td class="align-middle">28 <span x-text="translations.messages.october"></span></td>
+                            <td class="align-middle">29 <span x-text="translations.messages.october"></span></td>
+                            <td class="align-middle">01 <span x-text="translations.messages.november"></span></td>
                         </tr>
                         <tr>
                             <td>
@@ -181,7 +175,7 @@ MBL, container schedule"/>
                                     08:00
                                 </span>
                                 <div class="margin-10px-top font-size14">
-                                    01 October
+                                    01 <span x-text="translations.messages.october"></span>
                                 </div>
                             </td>
                             <td>
@@ -189,12 +183,12 @@ MBL, container schedule"/>
                                     02:00
                                 </span>
                                 <div class="margin-10px-top font-size14">
-                                    05 October
+                                    05 <span x-text="translations.messages.october"></span>
                                 </div>
                             </td>
-                            <td class="align-middle">06 October</td>
-                            <td class="align-middle">07 October</td>
-                            <td class="align-middle">13 October</td>
+                            <td class="align-middle">06 <span x-text="translations.messages.october"></span></td>
+                            <td class="align-middle">07 <span x-text="translations.messages.october"></span></td>
+                            <td class="align-middle">13 <span x-text="translations.messages.october"></span></td>
                         </tr>
                         <tr>
                             <td>
@@ -211,7 +205,7 @@ MBL, container schedule"/>
                                     08:00
                                 </span>
                                 <div class="margin-10px-top font-size14">
-                                    15 October
+                                    15 <span x-text="translations.messages.october"></span>
                                 </div>
                             </td>
                             <td>
@@ -219,12 +213,12 @@ MBL, container schedule"/>
                                     02:00
                                 </span>
                                 <div class="margin-10px-top font-size14">
-                                    19 October
+                                    19 <span x-text="translations.messages.october"></span>
                                 </div>
                             </td>
-                            <td class="align-middle">20 October</td>
-                            <td class="align-middle">21 October</td>
-                            <td class="align-middle">27 October</td>
+                            <td class="align-middle">20 <span x-text="translations.messages.october"></span></td>
+                            <td class="align-middle">21 <span x-text="translations.messages.october"></span></td>
+                            <td class="align-middle">27 <span x-text="translations.messages.october"></span></td>
                         </tr>
                         <tr>
                             <td>
@@ -241,7 +235,7 @@ MBL, container schedule"/>
                                     08:00
                                 </span>
                                 <div class="margin-10px-top font-size14">
-                                    22 October
+                                    22 <span x-text="translations.messages.october"></span>
                                 </div>
                             </td>
                             <td>
@@ -249,12 +243,12 @@ MBL, container schedule"/>
                                     02:00
                                 </span>
                                 <div class="margin-10px-top font-size14">
-                                    26 October
+                                    26 <span x-text="translations.messages.october"></span>
                                 </div>
                             </td>
-                            <td class="align-middle">27 October</td>
-                            <td class="align-middle">28 October</td>
-                            <td class="align-middle">03 November</td>
+                            <td class="align-middle">27 <span x-text="translations.messages.october"></span></td>
+                            <td class="align-middle">28 <span x-text="translations.messages.october"></span></td>
+                            <td class="align-middle">03 <span x-text="translations.messages.november"></span></td>
                         </tr>
                     </tbody>
                 </table>

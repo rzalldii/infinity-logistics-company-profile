@@ -1,19 +1,10 @@
 @extends('master')
 @section('title')
-Infinity Logistics Indonesia | News
+{{ __('messages.news_title') }}
 @endsection('title')
 @section('meta')
-<meta name="description" content="Professional freight forwarding services for international shipments.
-We provide integrated logistics solutions with fast, secure, and efficient delivery worldwide."/>
-<meta name="keywords" content="freight forwarding, logistics services, international shipping, supply
-chain management, global logistics, transportation solutions, NVOCC, air freight, ocean freight, customs
-clearance, cargo management, logistics provider, shipment tracking, bulk shipping, project logistics,
-freight services, secure shipping, logistics company, door-to-door delivery, import export logistics,
-forwarder surabaya, forwarding surabaya, shipping line surabaya, logistics surabaya, infinity surabaya,
-pelayaran surabaya, logistik surabaya, freight forwarder surabaya, freight forwarding surabaya,
-flexibag surabaya, flexitank surabaya, flexibag indonesia, flexitank indonesia, flexibag, flexitank,
-forwarder indonesia, forwarding indonesia, shipping line indonesia, logistics indonesia, infinity
-indonesia, logistik indonesia, freight forwarder indonesia, freight forwarding indonesia"/>
+<meta name="description" content="Wawasan & berita logistik: tren freight laut/udara/darat, NVOCC, kepabeanan, pergudangan, dan studi kasus di Malaysia, Surabaya & Asia Tenggara."/>
+<meta name="keywords" content="blog logistik, artikel freight forwarding, artikel logistik, berita supply chain, berita logistik, NVOCC, flexitank, logistik proyek, kepabeanan, bea cukai, pergudangan, freight laut, freight udara, freight darat, ekspor impor, Malaysia, Surabaya, Asia Tenggara, insight logistik, tips logistik"/>
 @endsection('meta')
 @section('content')
 <main class="main">

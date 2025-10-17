@@ -1,15 +1,10 @@
 @extends('master')
 @section('title')
-Infinity Logistics Indonesia | Flexitank / Flexibag Details
+{{ __('messages.flexitank_flexibag_details_title') }}
 @endsection('title')
 @section('meta')
-<meta name="description" content="Explore the advantages of Flexitank solutions for bulk liquid
-transportation. Learn about our safe, cost-effective, and eco-friendly options for shipping liquids,
-chemicals, and food-grade products in flexible, large-volume containers."/>
-<meta name="keywords" content="flexitank details, flexitank solutions, bulk liquid transportation,
-flexible tank shipping, liquid cargo, cost-effective shipping, eco-friendly packaging, liquid storage
-solutions, chemical transport, food-grade flexitank, bulk liquid logistics, liquid shipping container,
-sustainable liquid transport, flexitank shipping advantages"/>
+<meta name="description" content="Jelajahi keunggulan solusi Flexitank untuk transportasi cairan curah. Pelajari tentang pilihan pengiriman cairan, kimia, dan produk food grade kami yang aman, hemat biaya, dan ramah lingkungan dalam kontainer fleksibel bervolume besar."/>
+<meta name="keywords" content="detail flexitank, solusi flexitank, transportasi cairan curah, pengiriman flexible tank, kargo cairan, pengiriman hemat biaya, kemasan ramah lingkungan, solusi penyimpanan cairan, transportasi kimia, flexitank food grade, logistik cairan curah, kontainer pengiriman cairan, transportasi cairan berkelanjutan, keunggulan flexitank, keuntungan flexitank, spesifikasi flexitank, kapasitas flexitank, flexibag, bulk liquid, liquid cargo, flexitank 20ft, flexitank 24000 liter, flexitank liner, pengiriman minyak nabati, edible oil transport, chemical shipping, non-hazardous liquid, flexitank installation, flexitank benefits"/>
 @endsection('meta')
 @section('content')
 <main class="main">
@@ -20,7 +15,7 @@ sustainable liquid transport, flexitank shipping advantages"/>
                 <a href="/flexitank-flexibag" class="more-details-btn me-3" aria-label="Flexitank">
                     <i class="bi bi-arrow-left"></i>
                 </a>
-                <h1 class="mb-0">Flexitank / Flexibag Details</h1>
+                <h1 class="mb-0" x-text="translations.messages.flexitank_flexibag_details"></h1>
             </div>
         </div>
     </div>
@@ -28,7 +23,7 @@ sustainable liquid transport, flexitank shipping advantages"/>
     <!-- MULTILAYER Section -->
     <section id="flexitank-details" class="flexitank-details section">
         <div class="container section-title">
-            <h2>MULTILAYER</h2>
+            <h2 x-text="translations.messages.multilayer"></h2>
         </div>
         <div class="container">
             <div class="row align-items-center">
@@ -64,39 +59,23 @@ sustainable liquid transport, flexitank shipping advantages"/>
                         <div class="swiper-pagination"></div>
                     </div>
                     <div class="col-lg-6 content">
-                        <p>
-                            Our Flexitanks are fabricated from FDA approved food grade Polyethylene and
-                            Polypropylene which are suitable for a wide range of non hazardous liquid cargo. 
-                        </p>
+                        <p x-text="translations.messages.multilayer_description"></p>
                         <ul>
-                            <li><i class="bi bi-check-circle"></i> <span>Beta Tank</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.beta_tank"></span></li>
                         </ul>
-                        <p>
-                            A 20 ft bulk container liner made from 2 layers of 125 micron Polyethylene
-                            sewn into a woven Polypropylene outer.
-                        </p>
+                        <p x-text="translations.messages.beta_tank_desc"></p>
                         <ul>
-                            <li><i class="bi bi-check-circle"></i> <span>Gamma Tank</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.gamma_tank"></span></li>
                         </ul>
-                        <p>
-                            A 20 ft bulk container liner made from 3 layers of 125 micron Polyethylene
-                            sewn into a woven Polypropylene outer.
-                        </p>
+                        <p x-text="translations.messages.gamma_tank_desc"></p>
                         <ul>
-                            <li><i class="bi bi-check-circle"></i> <span>Delta Tank</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.delta_tank"></span></li>
                         </ul>
-                        <p>
-                            A 20 ft bulk container liner made from 4 layers of 125 micron Polyethylene
-                            sewn into a woven Polypropylene outer.
-                        </p>
+                        <p x-text="translations.messages.delta_tank_desc"></p>
                         <ul>
-                            <li><i class="bi bi-check-circle"></i> <span>Epsilon Tank</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.epsilon_tank"></span></li>
                         </ul>
-                        <p>
-                            A 20 ft bulk container liner made of 5 layers (4 layers of 125 micron
-                            Polyethylene and 1 of layer Barrier Film of 100 micron EVOH Liner) sewn into
-                            a woven Polypropylene outer.
-                        </p>
+                        <p x-text="translations.messages.epsilon_tank_desc"></p>
                     </div>
                 </div>
             </div>
@@ -106,7 +85,7 @@ sustainable liquid transport, flexitank shipping advantages"/>
     <!-- PP WOVEN Section -->
     <section id="flexitank-details" class="flexitank-details section light-background">
         <div class="container section-title">
-            <h2>PP WOVEN</h2>
+            <h2 x-text="translations.messages.pp_woven"></h2>
         </div>
         <div class="container">
             <div class="row align-items-center">
@@ -142,26 +121,15 @@ sustainable liquid transport, flexitank shipping advantages"/>
                         <div class="swiper-pagination"></div>
                     </div>
                     <div class="col-lg-6 content">
-                        <p>
-                            A PP Woven is a Flexitank is outer layer which helps to support the Flexitank
-                            and stabilizes the liquid dynamics. The Film is manufactured from food
-                            approved polymers using monomers listed as approved stated substances in SI 3i45
-                            and additives listed approves in EU directive 93/3/EC.
-                        </p>
+                        <p x-text="translations.messages.pp_woven_description"></p>
                         <ul>
-                            <li><i class="bi bi-check-circle"></i> <span>Polyethylene Liner</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.polyethylene_liner"></span></li>
                         </ul>
-                        <p>
-                            Fabricated from FDA approved food grade 5 layer co-extruded tubular film made
-                            from a blend of resins based around polyethylene.
-                        </p>
+                        <p x-text="translations.messages.polyethylene_liner_desc"></p>
                         <ul>
-                            <li><i class="bi bi-check-circle"></i> <span>EVOH Liner</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.evoh_liner"></span></li>
                         </ul>
-                        <p>
-                            Specially coated Ethyl Vinyl Alcohol based film that provides good gas barrier
-                            properties.
-                        </p>
+                        <p x-text="translations.messages.evoh_liner_desc"></p>
                     </div>
                 </div>
             </div>
@@ -171,7 +139,7 @@ sustainable liquid transport, flexitank shipping advantages"/>
     <!-- VALVE Section -->
     <section id="flexitank-details" class="flexitank-details section">
         <div class="container section-title">
-            <h2>VALVE</h2>
+            <h2 x-text="translations.messages.valve"></h2>
         </div>
         <div class="container">
             <div class="row align-items-center">
@@ -207,25 +175,15 @@ sustainable liquid transport, flexitank shipping advantages"/>
                         <div class="swiper-pagination"></div>
                     </div>
                     <div class="col-lg-6 content">
-                        <p>
-                            A Flexitank valve is a secure connection point used for filling and discharging
-                            liquids. It ensures a tight seal to prevent leaks and contamination during the
-                            loading and unloading process.
-                        </p>
+                        <p x-text="translations.messages.valve_description"></p>
                         <ul>
-                            <li><i class="bi bi-check-circle"></i> <span>3" PP Butterfly Flange Valve With Gland</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.butterfly_valve_gland"></span></li>
                         </ul>
-                        <p>
-                            One filling flange - 3”diameter which is attached to main body by the 360 degree
-                            impact welded seal.
-                        </p>
+                        <p x-text="translations.messages.butterfly_valve_gland_desc"></p>
                         <ul>
-                            <li><i class="bi bi-check-circle"></i> <span>3" PP Butterfly Flange Compression Valve</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.butterfly_valve_compression"></span></li>
                         </ul>
-                        <p>
-                            Fabricated from food grade Polyethylene supplied with butterfly valve,
-                            elbow-butterfly valve and Banjo valve.
-                        </p>
+                        <p x-text="translations.messages.butterfly_valve_compression_desc"></p>
                     </div>
                 </div>
             </div>
@@ -235,7 +193,7 @@ sustainable liquid transport, flexitank shipping advantages"/>
     <!-- BULKHEAD Section -->
     <section id="flexitank-details" class="flexitank-details section light-background">
         <div class="container section-title">
-            <h2>BULKHEAD</h2>
+            <h2 x-text="translations.messages.bulkhead"></h2>
         </div>
         <div class="container">
             <div class="row align-items-center">
@@ -276,31 +234,19 @@ sustainable liquid transport, flexitank shipping advantages"/>
                         <div class="swiper-pagination"></div>
                     </div>
                     <div class="col-lg-6 content">
-                        <p>
-                            A Bulkhead is a retaining walls that restrains the Flexitank from coming out of
-                            the container when it is fully loaded. We offer 3 types of Bulkheads.
-                        </p>
+                        <p x-text="translations.messages.bulkhead_description"></p>
                         <ul>
-                            <li><i class="bi bi-check-circle"></i> <span>Bulkhead A</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.bulkhead_a"></span></li>
                         </ul>
-                        <p>
-                            Consist of 4 steel bars and is used together with Top Load - Top Discharge
-                            Flexitank.
-                        </p>
+                        <p x-text="translations.messages.bulkhead_a_desc"></p>
                         <ul>
-                            <li><i class="bi bi-check-circle"></i> <span>Bulkhead B</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.bulkhead_b"></span></li>
                         </ul>
-                        <p>
-                            Consists of 2 steel bars and 1 steel frame and is used together with Top
-                            Load - Bottom Discharge Flexitank and Bottom Load - Bottom Discharge
-                            Flexitank.
-                        </p>
+                        <p x-text="translations.messages.bulkhead_b_desc"></p>
                         <ul>
-                            <li><i class="bi bi-check-circle"></i> <span>Bulkhead C</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.bulkhead_c"></span></li>
                         </ul>
-                        <p>
-                            Consist of 2 steel frames and can be used with any types of Flexitank.
-                        </p>
+                        <p x-text="translations.messages.bulkhead_c_desc"></p>
                     </div>
                 </div>
             </div>
@@ -310,7 +256,7 @@ sustainable liquid transport, flexitank shipping advantages"/>
     <!-- HEATING PAD Section -->
     <section id="flexitank-details" class="flexitank-details section">
         <div class="container section-title">
-            <h2>HEATING PAD</h2>
+            <h2 x-text="translations.messages.heating_pad"></h2>
         </div>
         <div class="container">
             <div class="row align-items-center">
@@ -351,13 +297,7 @@ sustainable liquid transport, flexitank shipping advantages"/>
                         <div class="swiper-pagination"></div>
                     </div>
                     <div class="col-lg-6 content">
-                        <p>
-                            The Heating Pad is used to liquefy solidified cargo at point of discharge. It
-                            provides heat transfer through tubes made from EPDM extruded rubber. Maximum
-                            heat input is 124°C and maximum pressure is 300PSI (20 bar). This is provided
-                            by wet low pressure steam. The unit can be reused if it is not damaged in
-                            return transit.
-                        </p>
+                        <p x-text="translations.messages.heating_pad_description"></p>
                     </div>
                 </div>
             </div>
@@ -367,7 +307,7 @@ sustainable liquid transport, flexitank shipping advantages"/>
     <!-- INSULATION LINER Section -->
     <section id="flexitank-details" class="flexitank-details section light-background">
         <div class="container section-title">
-            <h2>INSULATION LINER</h2>
+            <h2 x-text="translations.messages.insulation_liner"></h2>
         </div>
         <div class="container">
             <div class="row align-items-center">
@@ -408,18 +348,12 @@ sustainable liquid transport, flexitank shipping advantages"/>
                         <div class="swiper-pagination"></div>
                     </div>
                     <div class="col-lg-6 content">
-                        <p>
-                            Temperature fluctuations which occur when container travels through different
-                            climates can cause issues such as product spoilage and solidification.
-                            Therefore, the Insulation Liner reduces the rate of temperature fluctuation
-                            enabling product to retain their original characteristics as much as possible.
-                            Benefits of Insulation Liner:
-                        </p>
+                        <p x-text="translations.messages.insulation_liner_description"></p>
                         <ul>
-                            <li><i class="bi bi-check-circle"></i> <span>Easy handling and installation.</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Reduces temperature fluctuation.</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>ISO shipping containers compatible.</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Packed environment maintained.</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.insulation_benefit_1"></span></li>
+                            <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.insulation_benefit_2"></span></li>
+                            <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.insulation_benefit_3"></span></li>
+                            <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.insulation_benefit_4"></span></li>
                         </ul>
                     </div>
                 </div>
@@ -430,7 +364,7 @@ sustainable liquid transport, flexitank shipping advantages"/>
     <!-- TUB LINER Section -->
     <section id="flexitank-details" class="flexitank-details section">
         <div class="container section-title">
-            <h2>TUB LINER</h2>
+            <h2 x-text="translations.messages.tub_liner"></h2>
         </div>
         <div class="container">
             <div class="row align-items-center">
@@ -471,16 +405,12 @@ sustainable liquid transport, flexitank shipping advantages"/>
                         <div class="swiper-pagination"></div>
                     </div>
                     <div class="col-lg-6 content">
-                        <p>
-                            Tub Liner is the most effective and efficient liner container for spillage and
-                            leakage of Flexitank. It is made out of 125 micron Polyethylene and acts as a
-                            protective layer for the Flexitank. Benefits of Tub Liner:
-                        </p>
+                        <p x-text="translations.messages.tub_liner_description"></p>
                         <ul>
-                            <li><i class="bi bi-check-circle"></i> <span>Container leakage can be minimized by pumping out with less wastage.</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Losses are measurable by weighing the tub with or without spillage.</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Leakage is contained, preventing stains and reducing cleaning costs.</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Recyclable and biodegradable.</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.tub_benefit_1"></span></li>
+                            <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.tub_benefit_2"></span></li>
+                            <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.tub_benefit_3"></span></li>
+                            <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.tub_benefit_4"></span></li>
                         </ul>
                     </div>
                 </div>
@@ -491,7 +421,7 @@ sustainable liquid transport, flexitank shipping advantages"/>
     <!-- HEAT EXCHANGER Section -->
     <section id="flexitank-details" class="flexitank-details section light-background">
         <div class="container section-title">
-            <h2>HEAT EXCHANGER</h2>
+            <h2 x-text="translations.messages.heat_exchanger"></h2>
         </div>
         <div class="container">
             <div class="row align-items-center">
@@ -532,20 +462,14 @@ sustainable liquid transport, flexitank shipping advantages"/>
                         <div class="swiper-pagination"></div>
                     </div>
                     <div class="col-lg-6 content">
-                        <p>
-                            A heat exchanger is a piece of equipment built for efficient heat transfer from
-                            one medium to another. The medium may be separated by a solid wall to prevent
-                            mixing or they may be in direct contact. With heat exchanger you can:
-                        </p>
+                        <p x-text="translations.messages.heat_exchanger_description"></p>
                         <ul>
-                            <li><i class="bi bi-check-circle"></i> <span>Dissolve solidified cargo homogenously.</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Solve winter and low temperature issues.</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Quick heating and energy efficient.</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span>Minimizes heating cost and carbon footprint.</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.heat_exchanger_benefit_1"></span></li>
+                            <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.heat_exchanger_benefit_2"></span></li>
+                            <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.heat_exchanger_benefit_3"></span></li>
+                            <li><i class="bi bi-check-circle"></i> <span x-text="translations.messages.heat_exchanger_benefit_4"></span></li>
                         </ul>
-                        <p>
-                            So, you can now thaw your cargo with our Heat Exchangers!
-                        </p>
+                        <p x-text="translations.messages.heat_exchanger_cta"></p>
                     </div>
                 </div>
             </div>

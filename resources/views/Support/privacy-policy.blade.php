@@ -1,14 +1,10 @@
 @extends('master')
 @section('title')
-Infinity Logistics Indonesia | Privacy Policy
+Kebijakan Privasi | Infinity Logistics Indonesia
 @endsection('title')
 @section('meta')
-<meta name="description" content="Read our Privacy Policy to understand how we collect, use, and protect
-your personal information. Learn about your rights and our commitment to safeguarding your privacy while
-using our services."/>
-<meta name="keywords" content="privacy policy, data privacy, user privacy, personal data, privacy
-protection, data collection, GDPR, CCPA, cookies policy, data security, user rights, privacy practices,
-online privacy, information security, privacy terms"/>
+<meta name="description" content="Baca Kebijakan Privasi kami untuk memahami bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi pribadi Anda. Pelajari hak-hak Anda dan komitmen kami dalam menjaga privasi Anda saat menggunakan layanan kami."/>
+<meta name="keywords" content="kebijakan privasi, privacy policy, privasi data, perlindungan privasi, data pribadi, perlindungan data pribadi, pengumpulan data, GDPR, CCPA, kebijakan cookies, keamanan data, hak pengguna, praktik privasi, privasi online, keamanan informasi, syarat privasi, undang-undang perlindungan data, UU PDP, perlindungan informasi pribadi, kerahasiaan data, consent pengguna, data protection, personal data protection, privacy rights"/>
 @endsection('meta')
 @section('content')
 <main class="main">
