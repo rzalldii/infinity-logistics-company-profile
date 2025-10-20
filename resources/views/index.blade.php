@@ -122,7 +122,7 @@ Infinity Logistics Indonesia
     </section>
     <!-- /Stats Section -->
     <!-- WCU Section -->
-    <section id="wcu" class="wcu section light-background">
+    <!-- <section id="wcu" class="wcu section light-background">
         <div class="container" data-aos="fade-up">
             <div class="row align-items-center">
                 <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
@@ -169,10 +169,10 @@ Infinity Logistics Indonesia
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- /WCU Section -->
     <!-- HIW Section -->
-    <section id="hiw" class="hiw section">
+    <!-- <section id="hiw" class="hiw section">
         <div class="container" data-aos="fade-up">
             <div class="row mb-5">
                 <div class="col-md-6 text-center mx-auto" data-aos="fade-up" data-aos-delay="0">
@@ -218,7 +218,7 @@ Infinity Logistics Indonesia
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- /HIW Section -->
     <!-- Services Section -->
     <section id="services" class="services section light-background">
@@ -299,7 +299,7 @@ Infinity Logistics Indonesia
     </section>
     <!-- /Services Section -->
     <!-- Solutions Section -->
-    <section id="solutions" class="solutions section">
+    <!-- <section id="solutions" class="solutions section">
         <div class="container" data-aos="fade-up">
             <ul class="nav nav-tabs row  d-flex" data-aos="fade-up" data-aos-delay="100">
                 <li class="nav-item col-3">
@@ -409,7 +409,7 @@ Infinity Logistics Indonesia
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- /Solutions Section -->
     <!-- News Section -->
     <!-- <section id="news" class="news section light-background">
@@ -800,7 +800,7 @@ Infinity Logistics Indonesia
                             </div>
                         </div>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3629.241613433687!2d112.73795435839659!3d-7.273136269158283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbddceec0c2d%3A0x3a125fab20e07b6b!2sPT.%20Infinity%20Logistics%20Indonesia!5e0!3m2!1sen!2sus!4v1752200391253!5m2!1sen!2sus"
-                            title="Google Maps" frameborder="0" style="border:0; width: 100%; height: 310px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            title="Google Maps" frameborder="0" style="border:0; width: 100%; height: 330px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
                 <div class="col-lg-7">
