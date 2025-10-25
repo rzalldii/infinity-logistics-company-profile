@@ -3,8 +3,8 @@
 {{ __('messages.services_title') }}
 @endsection('title')
 @section('meta')
-<meta name="description" content="Layanan logistik komprehensif: NVOCC, forwarding internasional & domestik, flexitank/flexibag, logistik proyek, dan kepabeanan. Kantor pusat Malaysia dengan operasi di Surabaya dan Asia Tenggara."/>
-<meta name="keywords" content="NVOCC, freight forwarding, forwarding domestik, flexitank, flexibag, logistik proyek, kepabeanan, bea cukai, Malaysia, Surabaya, Indonesia, Asia Tenggara, ekspor impor, LCL, FCL, door-to-door, agen pelayaran, penyedia logistik, perusahaan forwarding"/>
+<meta name="description" content="Layanan logistik komprehensif: NVOCC, freight forwarding internasional & domestik, flexitank/flexibag, logistik proyek, kepabeanan, freight laut/udara/darat, dan pergudangan. Solusi door-to-door untuk FCL, LCL di Surabaya dan Asia Tenggara."/>
+<meta name="keywords" content="layanan logistik, layanan freight forwarding, NVOCC, freight forwarding internasional, freight forwarding domestik, forwarding domestik, flexitank, flexibag, logistik proyek, kepabeanan, bea cukai, freight laut, ocean freight, freight udara, air freight, freight darat, road freight, pergudangan, warehouse services, FCL, LCL, full container load, less than container load, FTL, LTL, full truck load, less than truck load, reefer container, ISO tank, door-to-door, ekspor impor, consolidation, haulage, contract carriage, warehouse management, modular storage, integrated warehouse, layanan logistik Surabaya, freight forwarder Malaysia, freight forwarding Indonesia, NVOCC Indonesia, flexitank Indonesia, flexibag Indonesia, logistik Asia Tenggara, pengiriman laut, pengiriman udara, pengiriman darat, solusi supply chain, penyedia logistik, perusahaan forwarding, agen pelayaran"/>
 @endsection('meta')
 @section('content')
 <main class="main">
@@ -12,7 +12,7 @@
     <section id="services" class="services section">
         <div class="container section-title" data-aos="fade-up">
             <span x-text="translations.messages.services_section"></span>
-            <h2 x-text="translations.messages.services"></h2>
+            <h1 x-text="translations.messages.services"></h1>
         </div>
         <div class="container">
             <div class="row gy-4">
@@ -22,7 +22,7 @@
                             <img src="<?php echo url('/'); ?>/img/icons/NVOCC.webp" alt="NVOCC" loading="lazy">
                         </div>
                         <a href="/nvocc" class="stretched-link">
-                            <h3 x-text="translations.messages.nvocc"></h3>
+                            <h2 x-text="translations.messages.nvocc"></h2>
                         </a>
                         <p x-text="translations.messages.nvocc_tagline"></p>
                     </div>
@@ -33,7 +33,7 @@
                             <img src="<?php echo url('/'); ?>/img/icons/FREIGHT FORWARDING.webp" alt="FREIGHT FORWARDING" loading="lazy">
                         </div>
                         <a href="/freight-forwarding" class="stretched-link">
-                            <h3 x-text="translations.messages.freight_forwarding"></h3>
+                            <h2 x-text="translations.messages.freight_forwarding"></h2>
                         </a>
                         <p x-text="translations.messages.freight_forwarding_tagline"></p>
                     </div>
@@ -44,7 +44,7 @@
                             <img src="<?php echo url('/'); ?>/img/icons/DOMESTIC FORWARDING.webp" alt="DOMESTIC FORWARDING" loading="lazy">
                         </div>
                         <a href="/domestic-forwarding" class="stretched-link">
-                            <h3 x-text="translations.messages.domestic_forwarding"></h3>
+                            <h2 x-text="translations.messages.domestic_forwarding"></h2>
                         </a>
                         <p x-text="translations.messages.domestic_forwarding_tagline"></p>
                     </div>
@@ -55,7 +55,7 @@
                             <img src="<?php echo url('/'); ?>/img/icons/FLEXITANK FLEXIBAG.webp" alt="FLEXITANK FLEXIBAG" loading="lazy">
                         </div>
                         <a href="/flexitank-flexibag" class="stretched-link">
-                            <h3 x-text="translations.messages.flexitank_flexibag"></h3>
+                            <h2 x-text="translations.messages.flexitank_flexibag"></h2>
                         </a>
                         <p x-text="translations.messages.flexitank_flexibag_tagline"></p>
                     </div>
@@ -66,7 +66,7 @@
                             <img src="<?php echo url('/'); ?>/img/icons/PROJECT LOGISTICS.webp" alt="PROJECT LOGISTICS" loading="lazy">
                         </div>
                         <a href="/project-logistics" class="stretched-link">
-                            <h3 x-text="translations.messages.project_logistics"></h3>
+                            <h2 x-text="translations.messages.project_logistics"></h2>
                         </a>
                         <p x-text="translations.messages.project_logistics_tagline"></p>
                     </div>
@@ -77,7 +77,7 @@
                             <img src="<?php echo url('/'); ?>/img/icons/CUSTOMS CLEARANCE.webp" alt="CUSTOMS CLEARANCE" loading="lazy">
                         </div>
                         <a href="/customs-clearance" class="stretched-link">
-                            <h3 x-text="translations.messages.customs_clearance"></h3>
+                            <h2 x-text="translations.messages.customs_clearance"></h2>
                         </a>
                         <p x-text="translations.messages.customs_clearance_tagline"></p>
                     </div>
@@ -96,7 +96,7 @@
                             <img src="<?php echo url('/'); ?>/img/icons/SHIP.webp" alt="SHIP" class="img-active" loading="lazy">
                             <img src="<?php echo url('/'); ?>/img/icons/SHIP-A.webp" alt="SHIP-A" class="img-inactive" loading="lazy">
                         </div>
-                        <h4 class="d-none d-lg-block" x-text="translations.messages.ocean_freight"></h4>
+                        <span class="d-none d-lg-block" x-text="translations.messages.ocean_freight"></span>
                     </a>
                 </li>
                 <li class="nav-item col-3">
@@ -105,7 +105,7 @@
                             <img src="<?php echo url('/'); ?>/img/icons/PLANE.webp" alt="PLANE" class="img-active" loading="lazy">
                             <img src="<?php echo url('/'); ?>/img/icons/PLANE-A.webp" alt="PLANE-A" class="img-inactive" loading="lazy">
                         </div>
-                        <h4 class="d-none d-lg-block" x-text="translations.messages.air_freight"></h4>
+                        <span class="d-none d-lg-block" x-text="translations.messages.air_freight"></span>
                     </a>
                 </li>
                 <li class="nav-item col-3">
@@ -114,7 +114,7 @@
                             <img src="<?php echo url('/'); ?>/img/icons/TRUCK.webp" alt="TRUCK" class="img-active" loading="lazy">
                             <img src="<?php echo url('/'); ?>/img/icons/TRUCK-A.webp" alt="TRUCK-A" class="img-inactive" loading="lazy">
                         </div>
-                        <h4 class="d-none d-lg-block" x-text="translations.messages.road_freight"></h4>
+                        <span class="d-none d-lg-block" x-text="translations.messages.road_freight"></span>
                     </a>
                 </li>
                 <li class="nav-item col-3">
@@ -123,7 +123,7 @@
                             <img src="<?php echo url('/'); ?>/img/icons/WAREHOUSE.webp" alt="WAREHOUSE" class="img-active" loading="lazy">
                             <img src="<?php echo url('/'); ?>/img/icons/WAREHOUSE-A.webp" alt="WAREHOUSE-A" class="img-inactive" loading="lazy">
                         </div>
-                        <h4 class="d-none d-lg-block" x-text="translations.messages.warehouse_services"></h4>
+                        <span class="d-none d-lg-block" x-text="translations.messages.warehouse_services"></span>
                     </a>
                 </li>
             </ul>
@@ -131,7 +131,7 @@
                 <div class="tab-pane fade active show" id="solutions-tab-1">
                     <div class="row">
                         <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                            <h3 x-text="translations.messages.ocean_freight"></h3>
+                            <h2 x-text="translations.messages.ocean_freight"></h2>
                             <p x-text="translations.messages.ocean_freight_description"></p>
                             <ul>
                                 <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.fcl"></span></li>
@@ -148,7 +148,7 @@
                 <div class="tab-pane fade" id="solutions-tab-2">
                     <div class="row">
                         <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                            <h3 x-text="translations.messages.air_freight"></h3>
+                            <h2 x-text="translations.messages.air_freight"></h2>
                             <p x-text="translations.messages.air_freight_description"></p>
                             <ul>
                                 <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.domestic"></span></li>
@@ -165,7 +165,7 @@
                 <div class="tab-pane fade" id="solutions-tab-3">
                     <div class="row">
                         <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                            <h3 x-text="translations.messages.road_freight"></h3>
+                            <h2 x-text="translations.messages.road_freight"></h2>
                             <p x-text="translations.messages.road_freight_description"></p>
                             <ul>
                                 <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.ftl"></span></li>
@@ -182,7 +182,7 @@
                 <div class="tab-pane fade" id="solutions-tab-4">
                     <div class="row">
                         <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                            <h3 x-text="translations.messages.warehouse_services"></h3>
+                            <h2 x-text="translations.messages.warehouse_services"></h2>
                             <p x-text="translations.messages.warehouse_services_description"></p>
                             <ul>
                                 <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.warehouse_management"></span></li>
@@ -205,7 +205,7 @@
             <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
                 <div class="col-xl-10">
                     <div class="text-center">
-                        <h3 x-text="translations.messages.cta_title"></h3>
+                        <h2 x-text="translations.messages.cta_title"></h2>
                         <p x-text="translations.messages.cta_description"></p>
                         <a class="cta-btn" href="/contact" x-text="translations.messages.get_quote"></a>
                     </div>

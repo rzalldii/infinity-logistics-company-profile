@@ -3,8 +3,8 @@
 Infinity Logistics Indonesia
 @endsection('title')
 @section('meta')
-<meta name="description" content="Layanan freight forwarding profesional untuk pengiriman internasional. Kami menyediakan solusi logistik terintegrasi dengan pengiriman cepat, aman, dan efisien ke seluruh dunia."/>
-<meta name="keywords" content="freight forwarding, layanan logistik, pengiriman internasional, manajemen supply chain, logistik global, solusi transportasi, NVOCC, freight udara, freight laut, kepabeanan, bea cukai, manajemen kargo, penyedia logistik, pelacakan kiriman, pengiriman curah, logistik proyek, layanan freight, pengiriman aman, perusahaan logistik, pengiriman door-to-door, logistik ekspor impor, forwarder surabaya, forwarding surabaya, shipping line surabaya, logistik surabaya, infinity surabaya, pelayaran surabaya, freight forwarder surabaya, freight forwarding surabaya, flexibag surabaya, flexitank surabaya, flexibag indonesia, flexitank indonesia, flexibag, flexitank, forwarder indonesia, forwarding indonesia, shipping line indonesia, logistik indonesia, infinity indonesia, freight forwarder indonesia, freight forwarding indonesia"/>
+<meta name="description" content="Freight Forwarder Surabaya terpercaya dengan 20 tahun pengalaman melayani 350+ klien aktif di 40 negara. Layanan NVOCC, freight forwarding internasional & domestik, flexitank/flexibag, logistik proyek, kepabeanan, ocean freight, air freight, road freight, dan pergudangan. Kantor pusat Malaysia dengan operasi hub strategis di Surabaya dan Asia Tenggara. Solusi logistik end-to-end door-to-door dengan dukungan profesional 24/7 untuk FCL, LCL, ekspor-impor, dan supply chain terintegrasi."/>
+<meta name="keywords" content="freight forwarder Surabaya, freight forwarding Surabaya, perusahaan logistik Surabaya, forwarder Surabaya, freight forwarder Indonesia, perusahaan freight forwarding, NVOCC Surabaya, NVOCC Indonesia, Non-Vessel Operating Common Carrier, agen pelayaran Surabaya, freight forwarding internasional, international freight forwarding, ekspedisi internasional, freight forwarding domestik, ekspedisi domestik Indonesia, ekspedisi nasional, domestic forwarding, flexitank Surabaya, flexitank Indonesia, flexibag Indonesia, bulk liquid transport, transportasi cairan curah, logistik proyek, project logistics Indonesia, heavy lift cargo, oversized cargo, OOG cargo, kepabeanan Surabaya, customs clearance Surabaya, bea cukai Surabaya, jasa PPJK, customs broker Indonesia, ocean freight Surabaya, sea freight Indonesia, freight laut, pengiriman laut, FCL Indonesia, Full Container Load, LCL Indonesia, Less than Container Load, container shipping, air freight Surabaya, freight udara, pengiriman udara, cargo udara, road freight, freight darat, trucking Indonesia, pengiriman darat, FTL, LTL, warehouse Surabaya, pergudangan Indonesia, layanan pergudangan, warehouse management, door-to-door shipping, end-to-end logistics, multimodal transport, transportasi multimoda, supply chain solution, solusi rantai pasok, ekspor impor Surabaya, export import services, shipping line agent, agen kapal, carrier services, freight solutions, logistics services Surabaya, logistics provider Indonesia, 3PL Indonesia, third party logistics, penyedia logistik, logistics company Surabaya, perusahaan logistik Indonesia, freight forwarder terpercaya, reliable freight forwarding, logistics hub Surabaya, Tanjung Perak, Port Klang shipping, Malaysia Indonesia shipping, Southeast Asia logistics, Asia Tenggara, freight forwarding Malaysia, NVOCC Malaysia Indonesia, Infinity Logistics Indonesia, Infinity Logistics Surabaya, 20 tahun pengalaman, 350 klien aktif, 40 negara dilayani, freight forwarder profesional, dukungan 24/7, solusi logistik terintegrasi, integrated logistics solution, freight forwarding services, comprehensive logistics, layanan logistik lengkap, freight consultant, konsultan logistik"/>
 @endsection('meta')
 @section('content')
 <main class="main">
@@ -33,25 +33,28 @@ Infinity Logistics Indonesia
             <div class="row gy-4">
                 <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-item position-relative text-center">
-                        <h2>
-                            <i class="bi bi-eye icon" x-text="translations.messages.vision"></i>
-                        </h2>
+                        <div class="icon-title">
+                            <div class="icon"><i class="bi bi-eye icon"></i></div>
+                            <h2 x-text="translations.messages.vision"></h2>
+                        </div>
                         <p x-text="translations.messages.vision_text"></p>
                     </div>
                 </div>
                 <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-item position-relative text-center">
-                        <h2>
-                            <i class="bi bi-bullseye icon" x-text="translations.messages.mission"></i>
-                        </h2>
+                        <div class="icon-title">
+                            <div class="icon"><i class="bi bi-bullseye icon"></i></div>
+                            <h2 x-text="translations.messages.mission"></h2>
+                        </div>
                         <p x-text="translations.messages.mission_text"></p>
                     </div>
                 </div>
 		        <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-item position-relative text-center">
-                        <h2>
-                            <i class="bi bi-gem icon" x-text="translations.messages.core_values"></i>
-                        </h2>
+                        <div class="icon-title">
+                            <div class="icon"><i class="bi bi-gem icon"></i></div>
+                            <h2 x-text="translations.messages.core_values"></h2>
+                        </div>
                         <p x-text="translations.messages.core_values_text"></p>
                     </div>
                 </div>
@@ -121,105 +124,6 @@ Infinity Logistics Indonesia
         </div>
     </section>
     <!-- /Stats Section -->
-    <!-- WCU Section -->
-    <!-- <section id="wcu" class="wcu section light-background">
-        <div class="container" data-aos="fade-up">
-            <div class="row align-items-center">
-                <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
-                    <img src="<?php echo url('/'); ?>/img/feature.webp" alt="Feature Infinity" class="img-fluid" loading="lazy">
-                </div>
-                <div class="col-lg-7 py-5 py-lg-0" data-aos="fade-up" data-aos-delay="200">
-                    <h2 x-text="translations.messages.why_choose_us"></h2>
-                    <h3 x-text="translations.messages.why_choose_subtitle"></h3>
-                    <p x-text="translations.messages.why_choose_description"></p>
-                    <div class="row g-3">
-                        <div class="col-sm-6" data-aos="fade-up" data-aos-delay="300">
-                            <div class="wcu-items p-3">
-                                <div class="wcu-items-details py-4 px-3">
-                                    <img class="align-self-center mb-3" src="<?php echo url('/'); ?>/img/icons/GLOBAL.webp" alt="GLOBAL" loading="lazy"/>
-                                    <h4 x-text="translations.messages.global_reach"></h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6" data-aos="fade-up" data-aos-delay="400">
-                            <div class="wcu-items p-3">
-                                <div class="wcu-items-details py-4 px-3">
-                                    <img class="align-self-center mb-3" src="<?php echo url('/'); ?>/img/icons/END-TO-END.webp" alt="END-TO-END" loading="lazy"/>
-                                    <h4 x-text="translations.messages.end_to_end_service"></h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6" data-aos="fade-up" data-aos-delay="500">
-                            <div class="wcu-items p-3">
-                                <div class="wcu-items-details py-4 px-3">
-                                    <img class="align-self-center mb-3" src="<?php echo url('/'); ?>/img/icons/24-HOUR.webp" alt="24-HOUR" loading="lazy"/>
-                                    <h4 x-text="translations.messages.hour_support"></h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6" data-aos="fade-up" data-aos-delay="600">
-                            <div class="wcu-items p-3">
-                                <div class="wcu-items-details py-4 px-3">
-                                    <img class="align-self-center mb-3" src="<?php echo url('/'); ?>/img/icons/SPECIALIZED.webp" alt="SPECIALIZED" loading="lazy"/>
-                                    <h4 x-text="translations.messages.specialized_handling"></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- /WCU Section -->
-    <!-- HIW Section -->
-    <!-- <section id="hiw" class="hiw section">
-        <div class="container" data-aos="fade-up">
-            <div class="row mb-5">
-                <div class="col-md-6 text-center mx-auto" data-aos="fade-up" data-aos-delay="0">
-                    <h2 data-aos="fade-up" data-aos-delay="100" x-text="translations.messages.how_it_works"></h2>
-                    <p data-aos="fade-up" data-aos-delay="200" x-text="translations.messages.how_it_works_description"></p>
-                </div>
-            </div>
-            <div class="row g-md-5">
-                <div class="col-md-6 col-lg-3">
-                    <div class="step-card text-center h-100 d-flex flex-column justify-content-start position-relative" data-aos="fade-up" data-aos-delay="0">
-                        <div data-aos="fade-right" data-aos-delay="300"><img class="arch-line" src="<?php echo url('/'); ?>/img/arch-line.svg" alt="Arch Line"></div>
-                        <span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">1</span>
-                        <div>
-                            <h3 x-text="translations.messages.step_1_title"></h3>
-                            <p x-text="translations.messages.step_1_description"></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
-                    <div class="step-card reverse text-center h-100 d-flex flex-column justify-content-start position-relative">
-                        <div data-aos="fade-right" data-aos-delay="700"><img class="arch-line reverse" src="<?php echo url('/'); ?>/img/arch-line-reverse.svg" alt="Arch Line Reverse"></div>
-                        <span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">2</span>
-                        <h3 x-text="translations.messages.step_2_title"></h3>
-                        <p x-text="translations.messages.step_2_description"></p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="800">
-                    <div class="step-card text-center h-100 d-flex flex-column justify-content-start position-relative">
-                        <div data-aos="fade-right" data-aos-delay="1100"><img class="arch-line" src="<?php echo url('/'); ?>/img/arch-line.svg" alt="Arch Line"></div>
-                        <span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">3</span>
-                        <h3 x-text="translations.messages.step_3_title"></h3>
-                        <p x-text="translations.messages.step_3_description"></p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="1200">
-                    <div class="step-card last text-center h-100 d-flex flex-column justify-content-start position-relative">
-                        <span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">4</span>
-                        <div>
-                            <h3 x-text="translations.messages.step_4_title"></h3>
-                            <p x-text="translations.messages.step_4_description"></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- /HIW Section -->
     <!-- Services Section -->
     <section id="services" class="services section light-background">
         <div class="container section-title" data-aos="fade-up">
@@ -298,119 +202,6 @@ Infinity Logistics Indonesia
         </div>
     </section>
     <!-- /Services Section -->
-    <!-- Solutions Section -->
-    <!-- <section id="solutions" class="solutions section">
-        <div class="container" data-aos="fade-up">
-            <ul class="nav nav-tabs row  d-flex" data-aos="fade-up" data-aos-delay="100">
-                <li class="nav-item col-3">
-                    <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#solutions-tab-1">
-                        <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/icons/SHIP.webp" alt="SHIP" class="img-active" loading="lazy">
-                            <img src="<?php echo url('/'); ?>/img/icons/SHIP-A.webp" alt="SHIP-A" class="img-inactive" loading="lazy">
-                        </div>
-                        <h4 class="d-none d-lg-block" x-text="translations.messages.ocean_freight"></h4>
-                    </a>
-                </li>
-                <li class="nav-item col-3">
-                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#solutions-tab-2">
-                        <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/icons/PLANE.webp" alt="PLANE" class="img-active" loading="lazy">
-                            <img src="<?php echo url('/'); ?>/img/icons/PLANE-A.webp" alt="PLANE-A" class="img-inactive" loading="lazy">
-                        </div>
-                        <h4 class="d-none d-lg-block" x-text="translations.messages.air_freight"></h4>
-                    </a>
-                </li>
-                <li class="nav-item col-3">
-                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#solutions-tab-3">
-                        <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/icons/TRUCK.webp" alt="TRUCK" class="img-active" loading="lazy">
-                            <img src="<?php echo url('/'); ?>/img/icons/TRUCK-A.webp" alt="TRUCK-A" class="img-inactive" loading="lazy">
-                        </div>
-                        <h4 class="d-none d-lg-block" x-text="translations.messages.road_freight"></h4>
-                    </a>
-                </li>
-                <li class="nav-item col-3">
-                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#solutions-tab-4">
-                        <div class="icon">
-                            <img src="<?php echo url('/'); ?>/img/icons/WAREHOUSE.webp" alt="WAREHOUSE" class="img-active" loading="lazy">
-                            <img src="<?php echo url('/'); ?>/img/icons/WAREHOUSE-A.webp" alt="WAREHOUSE-A" class="img-inactive" loading="lazy">
-                        </div>
-                        <h4 class="d-none d-lg-block" x-text="translations.messages.warehouse_services"></h4>
-                    </a>
-                </li>
-            </ul>
-            <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
-                <div class="tab-pane fade active show" id="solutions-tab-1">
-                    <div class="row">
-                        <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                            <h3 x-text="translations.messages.ocean_freight"></h3>
-                            <p x-text="translations.messages.ocean_freight_description"></p>
-                            <ul>
-                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.fcl"></span></li>
-                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.lcl"></span></li>
-                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.reefer_container"></span></li>
-                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.iso_tank"></span></li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6 order-1 order-lg-2 text-center">
-                            <img src="<?php echo url('/'); ?>/img/services-1.webp" alt="Ocean Freight" class="img-fluid" loading="lazy">
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="solutions-tab-2">
-                    <div class="row">
-                        <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                            <h3 x-text="translations.messages.air_freight"></h3>
-                            <p x-text="translations.messages.air_freight_description"></p>
-                            <ul>
-                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.domestic"></span></li>
-                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.export_import"></span></li>
-                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.consolidation"></span></li>
-                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.full_charter"></span></li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6 order-1 order-lg-2 text-center">
-                            <img src="<?php echo url('/'); ?>/img/services-2.webp" alt="Air Freight" class="img-fluid" loading="lazy">
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="solutions-tab-3">
-                    <div class="row">
-                        <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                            <h3 x-text="translations.messages.road_freight"></h3>
-                            <p x-text="translations.messages.road_freight_description"></p>
-                            <ul>
-                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.ftl"></span></li>
-                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.ltl"></span></li>
-                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.haulage"></span></li>
-                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.contract_carriage"></span></li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6 order-1 order-lg-2 text-center">
-                            <img src="<?php echo url('/'); ?>/img/services-3.webp" alt="Road Freight" class="img-fluid" loading="lazy">
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="solutions-tab-4">
-                    <div class="row">
-                        <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                            <h3 x-text="translations.messages.warehouse_services"></h3>
-                            <p x-text="translations.messages.warehouse_services_description"></p>
-                            <ul>
-                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.warehouse_management"></span></li>
-                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.modular_storage"></span></li>
-                                <li><i class="bi bi-check2-all"></i> <span x-text="translations.messages.integrated_warehouse"></span></li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6 order-1 order-lg-2 text-center">
-                            <img src="<?php echo url('/'); ?>/img/services-4.webp" alt="Warehouse" class="img-fluid" loading="lazy">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- /Solutions Section -->
     <!-- News Section -->
     <!-- <section id="news" class="news section light-background">
         <div class="container section-title" data-aos="fade-up">
@@ -459,7 +250,7 @@ Infinity Logistics Indonesia
             <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
                 <div class="col-xl-10">
                     <div class="text-center">
-                        <h3 x-text="translations.messages.cta_title"></h3>
+                        <h2 x-text="translations.messages.cta_title"></h2>
                         <p x-text="translations.messages.cta_description"></p>
                         <a class="cta-btn" href="/contact" x-text="translations.messages.get_quote"></a>
                     </div>
@@ -800,27 +591,50 @@ Infinity Logistics Indonesia
                             </div>
                         </div>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3629.241613433687!2d112.73795435839659!3d-7.273136269158283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbddceec0c2d%3A0x3a125fab20e07b6b!2sPT.%20Infinity%20Logistics%20Indonesia!5e0!3m2!1sen!2sus!4v1752200391253!5m2!1sen!2sus"
-                            title="Google Maps" frameborder="0" style="border:0; width: 100%; height: 330px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            title="Google Maps" frameborder="0" style="border:0; width: 100%; height: 340px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
                 <div class="col-lg-7">
                     <form action="{{ route('send.email') }}" method="POST" id="contact-form" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
                         @csrf
                         @honeypot
-                        <div class="row gy-4">
-                            <h4 class="text-center" x-text="translations.messages.get_in_touch"></h4>
+                        <div class="row gy-4 info-form">
+                            <h3 class="text-center" x-text="translations.messages.get_in_touch"></h3>
                             <p>
                                 <strong x-text="translations.messages.contact_intro"></strong>
                                 <span x-text="translations.messages.contact_description"></span>
                             </p>
-                            <div class="col-md-12">
-                                <input type="text" name="name" id="name-field" class="form-control" :placeholder="translations.messages.placeholder_name" required="" autocomplete="off">
+                            <div class="col-md-6">
+                                <div class="inputgroup">
+                                    <input type="text" name="name" id="name-field" class="form-control" required="" autocomplete="off">
+                                    <label for="name-field" class="form-label" x-text="translations.messages.placeholder_name"></label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="inputgroup">
+                                    <input type="email" name="email" id="email-field" class="form-control" required="" autocomplete="off">
+                                    <label for="email-field" class="form-label" x-text="translations.messages.placeholder_email"></label>
+                                </div>
                             </div>
                             <div class="col-md-12">
-                                <input type="email" name="email" id="email-field" class="form-control" :placeholder="translations.messages.placeholder_email" required="" autocomplete="off">
+                                <div class="inputgroup">
+                                    <select name="subject" id="subject-field" class="form-select" required="">
+                                        <option value="" disabled selected></option>
+                                        <option value="quotation" x-text="translations.messages.subject_rfq"></option>
+                                        <option value="general" x-text="translations.messages.subject_general"></option>
+                                        <option value="partnership" x-text="translations.messages.subject_partnership"></option>
+                                        <option value="technical" x-text="translations.messages.subject_technical"></option>
+                                        <option value="feedback" x-text="translations.messages.subject_feedback"></option>
+                                        <option value="other" x-text="translations.messages.subject_other"></option>
+                                    </select>
+                                    <label for="subject-field" class="form-label" x-text="translations.messages.placeholder_subject"></label>
+                                </div>
                             </div>
                             <div class="col-md-12">
-                                <textarea rows="10" name="message" id="message-field"  class="form-control" :placeholder="translations.messages.placeholder_message" required="" autocomplete="off"></textarea>
+                                <div class="inputgroup">
+                                    <textarea rows="10" name="message" id="message-field"  class="form-control" required="" autocomplete="off"></textarea>
+                                    <label for="message-field" class="form-label" x-text="translations.messages.placeholder_message"></label>
+                                </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-check">
@@ -835,7 +649,14 @@ Infinity Logistics Indonesia
                             <input type="hidden" name="recaptcha_token" id="recaptcha_token">
                             <input type="hidden" name="turnstile_token" id="turnstile_token">
                             <div class="col-md-12">
-                                <button type="submit" id="submit-button"><i class="bi bi-send-fill"></i><span x-text="translations.messages.send_message"></span></button>
+                                <div class="button-wrapper">
+                                    <button type="submit" id="submit-button">
+                                        <div class="icon-wrapper">
+                                            <i class="bi bi-send-fill"></i>
+                                        </div>
+                                        <span x-text="translations.messages.send_message"></span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </form>
@@ -863,6 +684,7 @@ Infinity Logistics Indonesia
             const form = document.getElementById("contact-form");
             const name = document.getElementById("name-field").value.trim();
             const email = document.getElementById("email-field").value.trim();
+            const subject = document.getElementById("subject-field").value.trim();
             const message = document.getElementById("message-field").value.trim();
 
             if (!name || !email || !message) {

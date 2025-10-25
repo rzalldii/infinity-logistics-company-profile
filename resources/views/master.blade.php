@@ -47,8 +47,8 @@
 
     <!-- WhatsApp Floating Chat Widget -->
     <div class="wa-hover-zone">
-        <a :href="'https://wa.me/6282233658035?text=' + encodeURIComponent(translations.messages.wa_message)" 
-           class="wa-widget" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <a :href="'https://wa.me/6281330229112?text=' + encodeURIComponent(translations.messages.wa_message)"
+            class="wa-widget" target="_blank" rel="noopener" aria-label="WhatsApp">
             <i class="bi bi-whatsapp"></i>
         </a>
     </div>
@@ -85,7 +85,7 @@
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
-            <a class="btn-getstarted" href="/contact" x-text="translations.messages.get_quote"></a>
+            <!-- <a class="btn-getstarted" href="/contact" x-text="translations.messages.get_quote"></a> -->
         </div>
     </header>
 
@@ -167,7 +167,7 @@
                         | <a href="/privacy-policy">Privacy Policy</a> -->
                     </p>
                     <div class="credits">
-                        Designed and Developed with ❤ by IT INFINITY
+                        Designed and Developed with ❤ by IT Infinity
                     </div>
                 </div>
                 <div class="copyright-spacer"></div>
@@ -202,11 +202,9 @@
                 translations: {
                     messages: @json(trans('messages'))
                 },
-
                 async toggleLanguage() {
                     this.loading = true;
                     const newLang = this.currentLang === 'en' ? 'id' : 'en';
-
                     try {
                         const response = await fetch('{{ route("language.switch") }}', {
                             method: 'POST',
@@ -218,20 +216,13 @@
                                 locale: newLang
                             })
                         });
-
                         const data = await response.json();
-
                         if (data.success) {
                             this.currentLang = data.locale;
                             this.translations = data.translations;
-
                             document.documentElement.lang = data.locale;
-
-                        } else {
-                            console.error('Language switch failed');
                         }
                     } catch (error) {
-                        console.error('Language switch error:', error);
                     } finally {
                         this.loading = false;
                     }

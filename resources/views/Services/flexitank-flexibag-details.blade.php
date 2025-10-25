@@ -3,8 +3,8 @@
 {{ __('messages.flexitank_flexibag_details_title') }}
 @endsection('title')
 @section('meta')
-<meta name="description" content="Jelajahi keunggulan solusi Flexitank untuk transportasi cairan curah. Pelajari tentang pilihan pengiriman cairan, kimia, dan produk food grade kami yang aman, hemat biaya, dan ramah lingkungan dalam kontainer fleksibel bervolume besar."/>
-<meta name="keywords" content="detail flexitank, solusi flexitank, transportasi cairan curah, pengiriman flexible tank, kargo cairan, pengiriman hemat biaya, kemasan ramah lingkungan, solusi penyimpanan cairan, transportasi kimia, flexitank food grade, logistik cairan curah, kontainer pengiriman cairan, transportasi cairan berkelanjutan, keunggulan flexitank, keuntungan flexitank, spesifikasi flexitank, kapasitas flexitank, flexibag, bulk liquid, liquid cargo, flexitank 20ft, flexitank 24000 liter, flexitank liner, pengiriman minyak nabati, edible oil transport, chemical shipping, non-hazardous liquid, flexitank installation, flexitank benefits"/>
+<meta name="description" content="Spesifikasi lengkap flexitank: Multilayer (Beta-Epsilon tank), PP woven liner polyethylene & EVOH, butterfly valve, bulkhead tipe A/B/C, heating pad, insulation liner, tub liner, heat exchanger. Sertifikat FSSC 22000, ISO 9001, ISO 22000, HACCP, Halal, FDA GMP."/>
+<meta name="keywords" content="flexitank specifications, spesifikasi flexitank, flexitank details, multilayer flexitank, beta tank, gamma tank, delta tank, epsilon tank, PP woven flexitank, polypropylene woven, polyethylene liner, EVOH liner, ethyl vinyl alcohol, barrier film, butterfly valve, valve kupu-kupu, gland valve, compression valve, bulkhead flexitank, bulkhead A B C, steel bar bulkhead, heating pad flexitank, EPDM heating pad, steam heating, insulation liner, thermal insulation, temperature control flexitank, tub liner, spill containment, leak protection, heat exchanger flexitank, flexitank accessories, flexitank components, food grade flexitank, FDA approved flexitank, flexitank certification, FSSC 22000, ISO 22000, ISO 9001, ISO 14001, HACCP certified, halal certified, GMP FDA, flexitank safety, multilayer construction, 125 micron polyethylene, 100 micron EVOH, flexitank installation, flexitank heating system, cargo heating solution, temperature maintenance, flexitank specifications Indonesia, flexitank technical details, complete flexitank system"/>
 @endsection('meta')
 @section('content')
 <main class="main">
@@ -21,7 +21,7 @@
     </div>
     <!-- End Page Title -->
     <!-- MULTILAYER Section -->
-    <section id="flexitank-details" class="flexitank-details section">
+    <section id="multilayer" class="flexitank-details section">
         <div class="container section-title">
             <h2 x-text="translations.messages.multilayer"></h2>
         </div>
@@ -83,7 +83,7 @@
     </section>
     <!-- /MULTILAYER Section -->
     <!-- PP WOVEN Section -->
-    <section id="flexitank-details" class="flexitank-details section light-background">
+    <section id="pp-woven" class="flexitank-details section light-background">
         <div class="container section-title">
             <h2 x-text="translations.messages.pp_woven"></h2>
         </div>
@@ -137,7 +137,7 @@
     </section>
     <!-- /PP WOVEN Section -->
     <!-- VALVE Section -->
-    <section id="flexitank-details" class="flexitank-details section">
+    <section id="valve" class="flexitank-details section">
         <div class="container section-title">
             <h2 x-text="translations.messages.valve"></h2>
         </div>
@@ -191,7 +191,7 @@
     </section>
     <!-- /VALVE Section -->
     <!-- BULKHEAD Section -->
-    <section id="flexitank-details" class="flexitank-details section light-background">
+    <section id="bulkhead" class="flexitank-details section light-background">
         <div class="container section-title">
             <h2 x-text="translations.messages.bulkhead"></h2>
         </div>
@@ -254,7 +254,7 @@
     </section>
     <!-- /BULKHEAD Section -->
     <!-- HEATING PAD Section -->
-    <section id="flexitank-details" class="flexitank-details section">
+    <section id="heating-pad" class="flexitank-details section">
         <div class="container section-title">
             <h2 x-text="translations.messages.heating_pad"></h2>
         </div>
@@ -305,7 +305,7 @@
     </section>
     <!-- /HEATING PAD Section -->
     <!-- INSULATION LINER Section -->
-    <section id="flexitank-details" class="flexitank-details section light-background">
+    <section id="insulation-liner" class="flexitank-details section light-background">
         <div class="container section-title">
             <h2 x-text="translations.messages.insulation_liner"></h2>
         </div>
@@ -362,7 +362,7 @@
     </section>
     <!-- /INSULATION LINER Section -->
     <!-- TUB LINER Section -->
-    <section id="flexitank-details" class="flexitank-details section">
+    <section id="tub-liner" class="flexitank-details section">
         <div class="container section-title">
             <h2 x-text="translations.messages.tub_liner"></h2>
         </div>
@@ -419,7 +419,7 @@
     </section>
     <!-- /TUB LINER Section -->
     <!-- HEAT EXCHANGER Section -->
-    <section id="flexitank-details" class="flexitank-details section light-background">
+    <section id="heat-exchanger" class="flexitank-details section light-background">
         <div class="container section-title">
             <h2 x-text="translations.messages.heat_exchanger"></h2>
         </div>

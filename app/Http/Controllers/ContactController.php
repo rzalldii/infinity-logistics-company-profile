@@ -14,10 +14,24 @@ class ContactController extends Controller
         $validated = $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|email|max:255',
+            'subject' => 'required|string|max:255',
             'message' => 'required|string',
             'recaptcha_token' => 'required|string',
             'cf-turnstile-response' => 'required|string',
         ]);
+
+        $subjectMapping = [
+            'quotation' => 'Request For Quotation',
+            'general' => 'General Inquiry',
+            'partnership' => 'Partnership Opportunity',
+            'technical' => 'Technical Support',
+            'feedback' => 'Feedback & Suggestions',
+            'other' => 'Other'
+        ];
+
+        $subjectLabel = $subjectMapping[$validated['subject']] ?? $validated['subject'];
+
+        $subscribe = $request->has('subscribe') ? 'Yes' : 'No';
 
         $responserecaptcha = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
             'secret' => env('RECAPTCHA_SECRET_KEY'),
@@ -42,15 +56,13 @@ class ContactController extends Controller
             return response()->json([], 422);
         }
 
-        $subscribe = $request->has('subscribe') ? 'Yes' : 'No';
-
-        Mail::send([], [], function ($message) use ($validated, $subscribe) {
+        Mail::send([], [], function ($message) use ($subjectLabel, $validated, $subscribe) {
             $message->to('marketing1@infinity-sby.com')
-                    ->subject('FORM CONTACT US')
-                    ->text( 'Subscribe Newsletter : ' . $subscribe . "\n\n" .
-                            'Name : ' . $validated['name'] . "\n" .
+                    ->subject($subjectLabel)
+                    ->text( 'Name : ' . $validated['name'] . "\n" .
                             'Email : ' . $validated['email'] . "\n\n" .
-                            'Message : ' . "\n" . $validated['message'] );
+                            'Message : ' . "\n\n" . $validated['message'] . "\n\n" .
+                            'Subscribe Newsletter : ' . $subscribe);
         });
 
         response()->json(['redirect_url' => url('/')]);

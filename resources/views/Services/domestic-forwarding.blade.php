@@ -3,15 +3,21 @@
 {{ __('messages.domestic_forwarding_title') }}
 @endsection('title')
 @section('meta')
-<meta name="description" content="Layanan pengiriman domestik terpercaya untuk pengiriman cepat dan aman ke seluruh Indonesia. Kami menawarkan solusi logistik efisien untuk transportasi barang yang tepat waktu dan hemat biaya dalam negeri."/>
-<meta name="keywords" content="pengiriman domestik, pengiriman nasional, freight domestik, logistik lokal, transportasi kargo, pengiriman dalam negeri, layanan pengiriman, layanan freight, pengiriman seluruh Indonesia, perusahaan pengiriman, freight forwarding domestik, forwarding domestik, solusi pengiriman lokal, pengiriman aman, pengiriman cepat, layanan transportasi, ekspedisi domestik, cargo domestik, kirim barang dalam negeri, jasa pengiriman domestik, logistik Indonesia, trucking, darat, antar pulau, pengiriman darat, cargo darat, LTL, FTL"/>
+<meta name="description" content="Layanan domestic forwarding/ekspedisi nasional terintegrasi di Indonesia: pengiriman darat, laut, udara, kereta dengan real-time tracking. Lebih cepat dan hemat biaya dibanding internasional. Solusi door-to-door dengan asuransi kargo dan pergudangan."/>
+<meta name="keywords" content="domestic forwarding, ekspedisi nasional, ekspedisi domestik, forwarding domestik Indonesia, pengiriman dalam negeri, pengiriman domestik, freight domestik, logistik domestik, pengiriman darat domestik, pengiriman laut domestik, pengiriman udara domestik, pengiriman kereta, ekspedisi antar kota, ekspedisi antar pulau, door-to-door domestik, real-time tracking, pelacakan kiriman, asuransi kargo, pergudangan domestik, warehouse Indonesia, manajemen persediaan, inventory management, trucking domestik, pengiriman Jawa, pengiriman Sumatera, pengiriman Kalimantan, pengiriman Sulawesi, expedisi cepat Indonesia, freight forwarding Indonesia, layanan logistik nasional, forwarder domestik, ekspedisi murah, pengiriman hemat biaya, solusi logistik Indonesia, transportasi domestik, distribusi nasional, cargo domestik, LTL domestik, FTL domestik, angkutan darat, angkutan laut EMKL, angkutan udara domestik, kereta api kargo, jaringan distribusi Indonesia, supply chain domestik, layanan end-to-end, pengiriman cepat Indonesia, ekspedisi terpercaya"/>
 @endsection('meta')
 @section('content')
 <main class="main">
     <!-- Page Title -->
     <div class="page-title">
         <div class="container d-lg-flex justify-content-between align-items-center">
-            <h1 class="mb-2 mb-lg-0" x-text="translations.messages.service_details"></h1>
+            <h1 class="mb-2 mb-lg-0" x-text="translations.messages.domestic_forwarding"></h1>
+            <nav class="breadcrumbs">
+                <ol>
+                    <li><a href="/services" x-text="translations.messages.services"></a></li>
+                    <li class="current" x-text="translations.messages.service_details"></li>
+                </ol>
+            </nav>
         </div>
     </div>
     <!-- End Page Title -->
@@ -21,7 +27,7 @@
             <div class="row gy-5">
                 <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-box">
-                        <h2 x-text="translations.messages.services_list"></h2>
+                        <h3 x-text="translations.messages.services_list"></h3>
                         <div class="services-list">
                             <a href="/nvocc"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.nvocc"></span></a>
                             <a href="/freight-forwarding"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.freight_forwarding"></span></a>
@@ -32,7 +38,7 @@
                         </div>
                     </div>
                     <div class="service-box">
-                        <h2 x-text="translations.messages.download_catalog"></h2>
+                        <h3 x-text="translations.messages.download_catalog"></h3>
                         <div class="download-catalog">
                             <a href="<?php echo url('/'); ?>/pdf/Company-Profile-INF.pdf"><i class="bi bi-filetype-pdf"></i><span x-text="translations.messages.company_profile"></span></a>
                         </div>
@@ -74,7 +80,6 @@
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
-                    <h3 x-text="translations.messages.domestic_forwarding"></h3>
                     <p x-text="translations.messages.domestic_forwarding_description_1"></p>
                     <p x-text="translations.messages.domestic_forwarding_description_2"></p>
                     <p x-text="translations.messages.domestic_forwarding_description_3"></p>

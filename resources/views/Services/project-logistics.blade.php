@@ -3,15 +3,21 @@
 {{ __('messages.project_logistics_title') }}
 @endsection('title')
 @section('meta')
-<meta name="description" content="Layanan logistik proyek khusus untuk pengiriman kompleks dan berukuran besar. Kami menawarkan solusi yang disesuaikan untuk mengelola, mengangkut, dan mengirimkan proyek berskala besar dengan aman, efisien, dan tepat waktu."/>
-<meta name="keywords" content="logistik proyek, project logistics, project cargo, transportasi heavy lift, kargo berukuran besar, oversized cargo, solusi logistik, pengiriman proyek berskala besar, logistik industri, project freight forwarding, manajemen supply chain, solusi transportasi, logistik khusus, proyek engineering, pengiriman proyek global, kargo spesial, turnkey logistics, out of gauge cargo, OOG, break bulk, heavy equipment transport, transportasi alat berat, kargo proyek, mobilisasi proyek, demobilisasi, rigging, lashing, project management, EPC logistics, oil and gas logistics, mining logistics, construction logistics, power plant logistics, machinery transport, transportasi mesin industri"/>
+<meta name="description" content="Layanan project logistics untuk kargo berat & oversized: pembangkit listrik, migas, energi terbarukan. Transportasi multimoda (darat/laut/kereta) dengan lashing plan, OOG declaration. Hub strategis Pelabuhan Tanjung Perak Surabaya dengan infrastruktur lengkap."/>
+<meta name="keywords" content="project logistics, project cargo, heavy lift cargo, oversized cargo, out of gauge, OOG cargo, kargo berat, kargo oversized, logistik proyek, project cargo Indonesia, heavy equipment transport, pembangkit listrik, power plant logistics, migas logistics, oil and gas logistics, energi terbarukan, renewable energy logistics, project cargo Surabaya, Pelabuhan Tanjung Perak, multimodal transport, transportasi multimoda, lashing plan, blocking plan, cargo survey, break bulk cargo, heavy lift shipping, project freight, industrial cargo, infrastructure logistics, construction logistics, manufacturing plant transport, capital project logistics, specialized cargo, complex cargo logistics, freight forwarding project, container selection, special permits, heavy haul, abnormal load, route survey, site survey, engineering cargo, machinery transport, equipment logistics, EPC logistics, turnkey project logistics, project management logistics, 3PL project cargo, Surabaya logistics hub, Indonesia project cargo, wind turbine transport, transformer shipping, crane shipping, mining equipment transport, offshore logistics"/>
 @endsection('meta')
 @section('content')
 <main class="main">
     <!-- Page Title -->
     <div class="page-title">
         <div class="container d-lg-flex justify-content-between align-items-center">
-            <h1 class="mb-2 mb-lg-0" x-text="translations.messages.service_details"></h1>
+            <h1 class="mb-2 mb-lg-0" x-text="translations.messages.project_logistics"></h1>
+            <nav class="breadcrumbs">
+                <ol>
+                    <li><a href="/services" x-text="translations.messages.services"></a></li>
+                    <li class="current" x-text="translations.messages.service_details"></li>
+                </ol>
+            </nav>
         </div>
     </div>
     <!-- End Page Title -->
@@ -21,7 +27,7 @@
             <div class="row gy-5">
                 <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-box">
-                        <h2 x-text="translations.messages.services_list"></h2>
+                        <h3 x-text="translations.messages.services_list"></h3>
                         <div class="services-list">
                             <a href="/nvocc"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.nvocc"></span></a>
                             <a href="/freight-forwarding"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.freight_forwarding"></span></a>
@@ -32,7 +38,7 @@
                         </div>
                     </div>
                     <div class="service-box">
-                        <h2 x-text="translations.messages.download_catalog"></h2>
+                        <h3 x-text="translations.messages.download_catalog"></h3>
                         <div class="download-catalog">
                             <a href="<?php echo url('/'); ?>/pdf/Company-Profile-INF.pdf"><i class="bi bi-filetype-pdf"></i><span x-text="translations.messages.company_profile"></span></a>
                         </div>
@@ -74,7 +80,6 @@
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
-                    <h3 x-text="translations.messages.project_logistics"></h3>
                     <p x-text="translations.messages.project_logistics_description_1"></p>
                     <p x-text="translations.messages.project_logistics_description_2"></p>
                     <p x-text="translations.messages.project_logistics_description_3"></p>

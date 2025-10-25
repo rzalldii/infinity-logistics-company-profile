@@ -26,14 +26,14 @@ return [
     'customs_clearance' => 'Customs Clearance',
     'news' => 'News',
     'contact' => 'Contact',
-    'get_quote' => 'Get a quote',
+    'get_quote' => 'Get A Quote',
 
     'head_office' => 'Head Office',
     'warehouse' => 'Warehouse',
     'call' => 'Call',
     'email' => 'Email',
-    'useful_links' => 'Useful links',
-    'follow_us' => 'Follow us',
+    'useful_links' => 'Useful Links',
+    'follow_us' => 'Follow Us',
     'follow_desc' => 'Stay informed with the latest updates, offers, and company news from our team',
 
     'head_office_address' => 'St. Jendral Basuki Rahmad 122, Plaza BRI, 12th Floor, Suite 1206, Surabaya City, East Java, Indonesia',
@@ -42,9 +42,9 @@ return [
     'wa_message' => 'Hello, I am interested in the services offered by Infinity Logistics Indonesia. May I receive more information about your services?',
 
     'hero_title' => 'Next Decade. Next Wave.',
-    'hero_subtitle' => 'At Infinity, we aspire to leap to the next level of achievements, going from good to great',
-    'get_started' => 'Get started',
-    'watch_video' => 'Watch video',
+    'hero_subtitle' => 'AT INFINITY, WE ASPIRE TO LEAP TO THE NEXT LEVEL OF ACHIEVEMENTS, GOING FROM GOOD TO GREAT',
+    'get_started' => 'Get Started',
+    'watch_video' => 'Watch Video',
 
     'vision' => ' Vision',
     'vision_text' => 'To become the leading regional logistics provider by empowering export growth through world-class services',
@@ -55,7 +55,7 @@ return [
 
     'about_section' => 'About Us',
     'about_description' => 'We are a logistics service provider headquartered in Malaysia, with a strong operational presence in Surabaya, Indonesia, and across Southeast Asia. Our services cover six key areas:',
-    'about_service_1' => 'NVOCC (Non-Vessel Operating Common Carrier)',
+    'about_service_1' => 'Non-Vessel Operating Common Carrier (NVOCC)',
     'about_service_2' => 'Freight Forwarding Services',
     'about_service_3' => 'Domestic Forwarding Services',
     'about_service_4' => 'Flexitank Solutions and Related Services',
@@ -136,10 +136,10 @@ return [
     'clients_title' => 'Clients',
 
     'contact_section' => 'Contact us',
-    'our_address' => 'Our address',
-    'call_us' => 'Call us',
-    'email_us' => 'Email us',
-    'working_hours' => 'Our working hours',
+    'our_address' => 'Our Address',
+    'call_us' => 'Call Us',
+    'email_us' => 'Email Us',
+    'working_hours' => 'Our Working Hours',
     'monday_friday' => 'Monday to Friday - 08:30 to 17:00 WIB',
     'saturday' => 'Saturday - 08:30 to 13:00 WIB',
     'sunday' => 'Sunday - Closed',
@@ -148,13 +148,20 @@ return [
     'contact_intro' => 'You can reach anytime.',
     'contact_description' => 'Contact us via call or email, or simply fill out the form below and we will get back to you as soon as possible.',
 
-    'placeholder_name' => 'Your Name *',
-    'placeholder_email' => 'Your Email *',
-    'placeholder_message' => 'Your Message *',
+    'placeholder_name' => 'Name',
+    'placeholder_email' => 'Email',
+    'placeholder_subject' => 'Subject',
+    'placeholder_message' => 'Message',
+
+    'subject_rfq' => 'Request For Quotation',
+    'subject_general' => 'General Inquiry',
+    'subject_partnership' => 'Partnership Opportunity',
+    'subject_technical' => 'Technical Support',
+    'subject_feedback' => 'Feedback & Suggestions',
+    'subject_other' => 'Other',
 
     'join_newsletter' => 'Join our newsletter.',
     'newsletter_description' => 'Subscribe to our newsletter and receive the latest news about our services!',
-
     'send_message' => ' Send Message',
 
     'service_details' => 'Service Details',

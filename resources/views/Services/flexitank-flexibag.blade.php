@@ -3,15 +3,21 @@
 {{ __('messages.flexitank_flexibag_title') }}
 @endsection('title')
 @section('meta')
-<meta name="description" content="Solusi Flexitank hemat biaya dan aman untuk transportasi cairan curah. Kami menyediakan pilihan pengiriman yang fleksibel, efisien, dan ramah lingkungan untuk cairan, kimia, dan produk food grade ke seluruh dunia."/>
-<meta name="keywords" content="flexitank, flexibag, transportasi cairan curah, pengiriman cairan, flexible tank, pengiriman hemat biaya, pengiriman ramah lingkungan, penyimpanan cairan, transportasi kimia, pengiriman food grade, logistik cairan curah, pengiriman kontainer, kargo cairan, pengiriman berkelanjutan, solusi freight, pengemasan cairan fleksibel, bulk liquid, liquid cargo, flexitank indonesia, flexitank surabaya, tangki fleksibel, cairan bulk, minyak nabati, edible oil, chemical liquid, non-hazardous liquid"/>
+<meta name="description" content="Solusi flexitank hemat biaya kapasitas 18.000-24.000 liter untuk cairan non-berbahaya: minyak nabati, minuman, bahan kimia ringan. Material food-grade polyethylene & polypropylene. Diproduksi di Malaysia, dukungan penuh Surabaya Indonesia dengan instalasi cepat dan after-sales andal."/>
+<meta name="keywords" content="flexitank, flexibag, flexitank Indonesia, flexitank Malaysia, bulk liquid transport, transportasi cairan curah, flexitank 20ft, flexitank 24000 liter, food grade flexitank, minyak nabati, edible oil transport, beverage shipping, light chemicals transport, polyethylene flexitank, polypropylene flexitank, flexitank food grade, Infinity Bulk Logistics, IBL flexitank, flexitank Surabaya, flexitank hemat biaya, cost effective liquid transport, contamination free shipping, flexitank installation, flexitank manufacturing, liquid latex transport, wine transport, juice transport, non-hazardous liquid, flexitank capacity, container liquid transport, bulk liquid container, flexibag 20 kaki, pengiriman cairan curah, tangki fleksibel, liquid cargo solution, flexitank ramah lingkungan, recyclable flexitank, flexitank support Indonesia, after sales flexitank, R&D flexitank, technical support flexitank, flexitank Malaysia Indonesia, ISO tank alternative, drum alternative, IBC alternative, flexi tank kontainer, bulk liquid logistics, liquid shipping solution"/>
 @endsection('meta')
 @section('content')
 <main class="main">
     <!-- Page Title -->
     <div class="page-title">
         <div class="container d-lg-flex justify-content-between align-items-center">
-            <h1 class="mb-2 mb-lg-0" x-text="translations.messages.service_details"></h1>
+            <h1 class="mb-2 mb-lg-0" x-text="translations.messages.flexitank_flexibag"></h1>
+            <nav class="breadcrumbs">
+                <ol>
+                    <li><a href="/services" x-text="translations.messages.services"></a></li>
+                    <li class="current" x-text="translations.messages.service_details"></li>
+                </ol>
+            </nav>
         </div>
     </div>
     <!-- End Page Title -->
@@ -21,7 +27,7 @@
             <div class="row gy-5">
                 <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-box">
-                        <h2 x-text="translations.messages.services_list"></h2>
+                        <h3 x-text="translations.messages.services_list"></h3>
                         <div class="services-list">
                             <a href="/nvocc"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.nvocc"></span></a>
                             <a href="/freight-forwarding"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.freight_forwarding"></span></a>
@@ -32,7 +38,7 @@
                         </div>
                     </div>
                     <div class="service-box">
-                        <h2 x-text="translations.messages.download_catalog"></h2>
+                        <h3 x-text="translations.messages.download_catalog"></h3>
                         <div class="download-catalog">
                             <a href="<?php echo url('/'); ?>/pdf/IBL-Brochures.pdf"><i class="bi bi-filetype-pdf"></i><span x-text="translations.messages.ibl_brochures"></span></a>
                             <a href="<?php echo url('/'); ?>/pdf/IBL-Profile.pdf"><i class="bi bi-filetype-pdf"></i><span x-text="translations.messages.ibl_profile"></span></a>
@@ -80,7 +86,6 @@
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
-                    <h3 x-text="translations.messages.flexitank_flexibag"></h3>
                     <p x-text="translations.messages.flexitank_flexibag_description_1"></p>
                     <p x-text="translations.messages.flexitank_flexibag_description_2"></p>
                     <p x-text="translations.messages.flexitank_flexibag_description_3"></p>

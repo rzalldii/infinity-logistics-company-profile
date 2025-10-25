@@ -3,8 +3,8 @@
 {{ __('messages.about_title') }}
 @endsection('title')
 @section('meta')
-<meta name="description" content="Penyedia logistik berbasis Malaysia dengan operasi di Surabaya dan Asia Tenggara: NVOCC, forwarding internasional/domestik, flexitank, logistik proyek, kepabeanan, freight laut/udara/darat, dan pergudangan."/>
-<meta name="keywords" content="freight forwarding Malaysia, logistik Surabaya, NVOCC, flexitank, flexibag, kargo proyek, logistik proyek, bea cukai, kepabeanan, freight laut, pengiriman laut, freight udara, freight darat, forwarding domestik, pergudangan, penyedia logistik Asia Tenggara, 3PL, door-to-door, ekspor impor, LCL, FCL, agen pelayaran"/>
+<meta name="description" content="Penyedia logistik terpercaya dengan 20 tahun pengalaman melayani 40 negara. Layanan NVOCC, freight forwarding internasional & domestik, flexitank, logistik proyek, dan kepabeanan. Kantor pusat Malaysia, operasional di Surabaya dan Asia Tenggara dengan dukungan 24/7."/>
+<meta name="keywords" content="tentang perusahaan logistik, tentang freight forwarder, profil perusahaan logistik, NVOCC Malaysia, NVOCC Surabaya, freight forwarding internasional, freight forwarding domestik, flexitank Indonesia, flexibag Indonesia, logistik proyek, kepabeanan Indonesia, bea cukai, perusahaan logistik Surabaya, perusahaan logistik Malaysia, perusahaan logistik Asia Tenggara, freight laut, freight udara, freight darat, ekspor impor, LCL, FCL, door-to-door, agen pelayaran, penyedia 3PL, pergudangan, solusi supply chain, jangkauan global, layanan end-to-end, dukungan 24 jam, 20 tahun pengalaman, 350 klien aktif, 40 negara dilayani"/>
 @endsection('meta')
 @section('content')
 <main class="main">
@@ -12,7 +12,7 @@
     <section id="about" class="about section">
         <div class="container section-title" data-aos="fade-up">
             <span x-text="translations.messages.about_section"><br></span>
-            <h2 x-text="translations.messages.about"></h2>
+            <h1 x-text="translations.messages.about"></h1>
         </div>
         <div class="container">
             <div class="row align-items-center">
@@ -70,8 +70,8 @@
         </div>
     </section>
     <!-- /Stats Section -->
-    <!-- WCU Section -->
-    <section id="wcu" class="wcu section light-background">
+    <!-- Why Choose Us Section -->
+    <section id="why-choose-us" class="why-choose-us section light-background">
         <div class="container" data-aos="fade-up">
             <div class="row align-items-center">
                 <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
@@ -83,34 +83,34 @@
                     <p x-text="translations.messages.why_choose_description"></p>
                     <div class="row g-3">
                         <div class="col-sm-6" data-aos="fade-up" data-aos-delay="300">
-                            <div class="wcu-items p-3">
-                                <div class="wcu-items-details py-4 px-3">
+                            <div class="why-choose-us-items p-3">
+                                <div class="why-choose-us-items-details py-4 px-3">
                                     <img class="align-self-center mb-3" src="<?php echo url('/'); ?>/img/icons/GLOBAL.webp" alt="GLOBAL" loading="lazy"/>
-                                    <h4 x-text="translations.messages.global_reach"></h4>
+                                    <p x-text="translations.messages.global_reach"></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6" data-aos="fade-up" data-aos-delay="400">
-                            <div class="wcu-items p-3">
-                                <div class="wcu-items-details py-4 px-3">
+                            <div class="why-choose-us-items p-3">
+                                <div class="why-choose-us-items-details py-4 px-3">
                                     <img class="align-self-center mb-3" src="<?php echo url('/'); ?>/img/icons/END-TO-END.webp" alt="END-TO-END" loading="lazy"/>
-                                    <h4 x-text="translations.messages.end_to_end_service"></h4>
+                                    <p x-text="translations.messages.end_to_end_service"></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6" data-aos="fade-up" data-aos-delay="500">
-                            <div class="wcu-items p-3">
-                                <div class="wcu-items-details py-4 px-3">
+                            <div class="why-choose-us-items p-3">
+                                <div class="why-choose-us-items-details py-4 px-3">
                                     <img class="align-self-center mb-3" src="<?php echo url('/'); ?>/img/icons/24-HOUR.webp" alt="24-HOUR" loading="lazy"/>
-                                    <h4 x-text="translations.messages.hour_support"></h4>
+                                    <p x-text="translations.messages.hour_support"></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6" data-aos="fade-up" data-aos-delay="600">
-                            <div class="wcu-items p-3">
-                                <div class="wcu-items-details py-4 px-3">
+                            <div class="why-choose-us-items p-3">
+                                <div class="why-choose-us-items-details py-4 px-3">
                                     <img class="align-self-center mb-3" src="<?php echo url('/'); ?>/img/icons/SPECIALIZED.webp" alt="SPECIALIZED" loading="lazy"/>
-                                    <h4 x-text="translations.messages.specialized_handling"></h4>
+                                    <p x-text="translations.messages.specialized_handling"></p>
                                 </div>
                             </div>
                         </div>
@@ -119,9 +119,9 @@
             </div>
         </div>
     </section>
-    <!-- /WCU Section -->
-    <!-- HIW Section -->
-    <section id="hiw" class="hiw section">
+    <!-- /Why Choose Us Section -->
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works section">
         <div class="container" data-aos="fade-up">
             <div class="row mb-5">
                 <div class="col-md-6 text-center mx-auto" data-aos="fade-up" data-aos-delay="0">
@@ -168,14 +168,14 @@
             </div>
         </div>
     </section>
-    <!-- /HIW Section -->
+    <!-- /How It Works Section -->
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section accent-background">
         <div class="container">
             <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
                 <div class="col-xl-10">
                     <div class="text-center">
-                        <h3 x-text="translations.messages.cta_title"></h3>
+                        <h2 x-text="translations.messages.cta_title"></h2>
                         <p x-text="translations.messages.cta_description"></p>
                         <a class="cta-btn" href="/contact" x-text="translations.messages.get_quote"></a>
                     </div>

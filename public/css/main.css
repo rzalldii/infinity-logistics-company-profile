@@ -895,6 +895,16 @@ section,
   position: relative;
 }
 
+.section-title h1 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  position: relative;
+  z-index: 2;
+}
+
 .section-title h2 {
   font-size: 32px;
   font-weight: 700;
@@ -1055,40 +1065,37 @@ section,
   height: 100%;
 }
 
+.featured-services .service-item .icon-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
 .featured-services .service-item .icon {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .featured-services .service-item .icon i {
   color: var(--accent-color);
-  font-size: 36px;
+  font-size: 20px;
   transition: 0.3s;
 }
 
 .featured-services .service-item h2 {
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   font-size: 20px;
-}
-
-.featured-services .service-item h2 i {
-  color: var(--heading-color);
-  transition: ease-in-out 0.3s;
-  font-style: normal;
 }
 
 .featured-services .service-item p {
   line-height: 24px;
   font-size: 14px;
-  margin-bottom: 0;
 }
 
 .featured-services .service-item:hover {
   transform: translateY(-10px);
-}
-
-.featured-services .service-item:hover h2 i {
-  color: var(--accent-color);
 }
 
 .about .content {
@@ -1151,11 +1158,11 @@ section,
   font-weight: 600;
 }
 
-.wcu {
+.why-choose-us {
   text-align: justify;
 }
 
-.wcu h2 {
+.why-choose-us h2 {
   color: var(--accent-color);
   font-family: var(--heading-font);
   font-size: 16px;
@@ -1163,7 +1170,7 @@ section,
   text-transform: uppercase;
 }
 
-.wcu h3 {
+.why-choose-us h3 {
   color: var(--heading-color);
   font-family: var(--heading-font);
   font-size: 28px;
@@ -1171,23 +1178,17 @@ section,
   margin-bottom: 24px;
 }
 
-.wcu p {
+.why-choose-us p {
   margin-bottom: 24px;
 }
 
-.wcu h4 {
-  font-family: var(--default-font);
-  margin-bottom: 0;
-  font-size: 20px;
-}
-
-.wcu .wcu-items {
+.why-choose-us .why-choose-us-items {
   background-color: var(--surface-color);
   border-radius: 10px;
   height: 100%;
 }
 
-.wcu .wcu-items-details {
+.why-choose-us .why-choose-us-items-details {
   background-color: var(--surface-color);
   border-radius: 10px;
   height: 100%;
@@ -1197,7 +1198,14 @@ section,
   text-align: center;
 }
 
-.hiw h2 {
+.why-choose-us .why-choose-us-items-details p {
+  font-family: var(--default-font);
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.how-it-works h2 {
   color: var(--heading-color);
   font-family: var(--heading-font);
   font-size: 28px;
@@ -1206,21 +1214,21 @@ section,
   margin-bottom: 24px;
 }
 
-.hiw p {
-  margin-bottom: 24px;
-}
-
-.hiw h3 {
+.how-it-works h3 {
   font-family: var(--default-font);
   margin-bottom: 24px;
   font-size: 20px;
 }
 
-.hiw .step-card {
+.how-it-works p {
+  margin-bottom: 24px;
+}
+
+.how-it-works .step-card {
   position: relative;
 }
 
-.hiw .step-card .step-number {
+.how-it-works .step-card .step-number {
   width: 60px;
   height: 60px;
   line-height: 60px;
@@ -1230,7 +1238,7 @@ section,
   font-size: 18px;
 }
 
-.hiw .arch-line {
+.how-it-works .arch-line {
   position: absolute;
   top: 15px;
   width: 150px;
@@ -1241,12 +1249,12 @@ section,
 }
 
 @media (max-width: 991.98px) {
-  .hiw .arch-line {
+  .how-it-works .arch-line {
     display: none;
   }
 }
 
-.hiw .arch-line.reverse {
+.how-it-works .arch-line.reverse {
   top: 20px;
 }
 
@@ -1272,6 +1280,13 @@ section,
   transition: 0.3s;
 }
 
+.services .service-item h2 {
+  font-weight: 700;
+  margin: 10px 0 15px 0;
+  font-size: 22px;
+  transition: 0.3s;
+}
+
 .services .service-item h3 {
   font-weight: 700;
   margin: 10px 0 15px 0;
@@ -1287,6 +1302,10 @@ section,
 
 .services .service-item:hover {
   border-color: var(--accent-color);
+}
+
+.services .service-item:hover h2 {
+  color: var(--accent-color);
 }
 
 .services .service-item:hover h3 {
@@ -1341,9 +1360,9 @@ section,
   position: relative;
 }
 
-.solutions .nav-link h4 {
+.solutions .nav-link span {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   margin: 0;
 }
 
@@ -1358,7 +1377,7 @@ section,
   border-color: var(--accent-color);
 }
 
-.solutions .nav-link.active h4 {
+.solutions .nav-link.active span {
   color: var(--contrast-color);
 }
 
@@ -1386,7 +1405,7 @@ section,
   margin-top: 30px;
 }
 
-.solutions .tab-pane h3 {
+.solutions .tab-pane h2 {
   color: var(--heading-color);
   font-weight: 700;
   font-size: 26px;
@@ -1447,6 +1466,12 @@ section,
 .call-to-action .container {
   position: relative;
   z-index: 3;
+}
+
+.call-to-action h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--default-color);
 }
 
 .call-to-action h3 {
@@ -1669,6 +1694,13 @@ section,
   margin-right: 15px;
 }
 
+.contact .info-item h2 {
+  padding: 0;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
 .contact .info-item h3 {
   padding: 0;
   font-size: 18px;
@@ -1687,6 +1719,14 @@ section,
   color: var(--contrast-color);
 }
 
+.contact .info-form h2 {
+  font-size: 20px;
+}
+
+.contact .info-form h3 {
+  font-size: 20px;
+}
+
 .contact .php-email-form {
   background-color: var(--surface-color);
   height: 100%;
@@ -1701,54 +1741,88 @@ section,
   }
 }
 
-.contact .php-email-form .col-md-12 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.contact .php-email-form .inputgroup {
+  position: relative;
+  width: 100%;
 }
 
-.contact .php-email-form input[type=text],
-.contact .php-email-form input[type=email],
-.contact .php-email-form textarea {
+.contact .php-email-form .inputgroup input,
+.contact .php-email-form .inputgroup select,
+.contact .php-email-form .inputgroup textarea {
   font-size: 14px;
-  padding: 10px 15px;
-  box-shadow: none;
-  border-radius: 20px;
-  color: var(--default-color);
+  padding: 0.8em;
+  outline: none;
+  border: 2px solid color-mix(in srgb, var(--default-color), transparent 80%);
   background-color: transparent;
-  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
-  transition: border-color 0.3s ease;
-}
-
-.contact .php-email-form input[type=text]:focus,
-.contact .php-email-form input[type=email]:focus,
-.contact .php-email-form textarea:focus {
-  border-color: var(--default-color);
-}
-
-.contact .php-email-form input[type=text]::placeholder,
-.contact .php-email-form input[type=email]::placeholder,
-.contact .php-email-form textarea::placeholder {
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
+  border-radius: 20px;
+  width: 100%;
+  color: var(--default-color);
   transition: all 0.3s ease;
+  box-shadow: none !important;
 }
 
-.contact .php-email-form input[type=text]:focus::placeholder,
-.contact .php-email-form input[type=email]:focus::placeholder,
-.contact .php-email-form textarea:focus::placeholder {
-  opacity: 0;
+.contact .php-email-form .inputgroup label {
+  font-size: 14px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0.8em;
+  margin-left: 0.5em;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  box-shadow: none !important;
 }
 
-.contact .php-email-form input[type=text]:not(:placeholder-shown)::placeholder,
-.contact .php-email-form input[type=email]:not(:placeholder-shown)::placeholder,
-.contact .php-email-form textarea:not(:placeholder-shown)::placeholder {
-  opacity: 0;
+.contact .php-email-form .inputgroup :is(input:focus, input:valid) ~ label,
+.contact .php-email-form .inputgroup :is(select:focus, select:valid) ~ label,
+.contact .php-email-form .inputgroup :is(textarea:focus, textarea:valid) ~ label {
+  transform: translateY(-50%) scale(0.9);
+  margin: 0;
+  margin-left: 1.3em;
+  padding: 0.4em;
+  background-color: var(--surface-color);
+  color: var(--accent-color);
+}
+
+.contact .php-email-form .inputgroup :is(input:focus, input:valid),
+.contact .php-email-form .inputgroup :is(select:focus, select:valid),
+.contact .php-email-form .inputgroup :is(textarea:focus, textarea:valid) {
+  border-color: var(--accent-color);
+}
+
+.contact .php-email-form .inputgroup select {
+  appearance: none;
+  cursor: pointer;
+}
+
+.contact .php-email-form .inputgroup select option {
+  font-size: 14px;
+  padding: 0.8em;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .php-email-form .inputgroup select option:disabled {
+  cursor: not-allowed;
+}
+
+.contact .php-email-form .inputgroup textarea {
+  min-height: 120px;
+  resize: vertical;
 }
 
 .contact .form-check-input {
-  transition: all 0.1s ease;
   cursor: pointer;
+  border-radius: 3px;
   display: block;
+  transition: all 0.1s ease;
+}
+
+.contact .form-check-label {
+  cursor: pointer;
+  vertical-align: middle;
 }
 
 .contact .form-check-input::after {
@@ -1758,20 +1832,9 @@ section,
   transition-delay: 0.15s;
 }
 
-.contact .form-check-input::before {
-  opacity: 0;
-  transform: rotate(45deg) scale(0);
-  transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6), opacity 0.1s;
-}
-
 .contact .form-check-input:focus {
-  outline: 0;
-  border-color: var(--accent-color);
-  box-shadow: 0 0 0 .25rem rgba(13, 110, 253, 0);
-}
-
-.contact .form-check-input:hover {
-  border-color: var(--accent-color);
+  border-color: var(--bs-border-color);
+  box-shadow: none !important;
 }
 
 .contact .form-check-input:checked {
@@ -1780,15 +1843,9 @@ section,
   animation: jelly 0.6s ease;
 }
 
-.contact .form-check-input:checked::before {
+.contact .form-check-input:checked::after {
   opacity: 1;
   transform: rotate(45deg) scale(1);
-  transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
-}
-
-.contact .form-check-input:active:not(:checked)::after {
-  opacity: 1;
-  transition: none;
 }
 
 @keyframes jelly {
@@ -1821,6 +1878,11 @@ section,
   }
 }
 
+.contact .php-email-form .button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .contact .php-email-form button[type=submit] {
   color: var(--contrast-color);
   background: var(--accent-color);
@@ -1833,9 +1895,8 @@ section,
   display: flex;
 }
 
-.contact .php-email-form button[type=submit] span {
-  display: block;
-  transition: all 0.3s ease-in-out;
+.contact .php-email-form button[type=submit] .icon-wrapper {
+  display: inline-block;
 }
 
 .contact .php-email-form button[type=submit] i {
@@ -1844,8 +1905,17 @@ section,
   transition: transform 0.3s ease-in-out;
 }
 
+.contact .php-email-form button[type=submit] span {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
+}
+
+.contact .php-email-form button[type=submit]:hover .icon-wrapper {
+  animation: fly 0.6s ease-in-out infinite alternate;
 }
 
 .contact .php-email-form button[type=submit]:hover i {
@@ -1860,6 +1930,16 @@ section,
   transform: scale(0.95);
 }
 
+@keyframes fly {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
+}
+
 .service-details .service-box {
   background-color: var(--surface-color);
   padding: 20px;
@@ -1870,7 +1950,7 @@ section,
   margin-top: 30px;
 }
 
-.service-details .service-box h2 {
+.service-details .service-box h3 {
   font-size: 20px;
   font-weight: 700;
   border-bottom: 2px solid color-mix(in srgb, var(--default-color), transparent 92%);
@@ -1948,22 +2028,6 @@ section,
   color: var(--accent-color);
 }
 
-.service-details .help-box {
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
-  margin-top: 30px;
-  padding: 30px 15px;
-}
-
-.service-details .help-box .help-icon {
-  font-size: 48px;
-}
-
-.service-details .help-box h2,
-.service-details .help-box a {
-  color: var(--contrast-color);
-}
-
 .service-details .services-img {
   margin-bottom: 20px;
 }
@@ -1974,11 +2038,6 @@ section,
 
 .service-details {
   text-align: justify;
-}
-
-.service-details h3 {
-  font-size: 26px;
-  font-weight: 700;
 }
 
 .service-details p {
@@ -2028,7 +2087,7 @@ section,
 }
 
 .service-details .swiper-pagination {
-  margin-top: 20px;
+  margin: 20px 0 20px 0;
   position: relative;
 }
 

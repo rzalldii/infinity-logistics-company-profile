@@ -3,15 +3,21 @@
 {{ __('messages.customs_clearance_title') }}
 @endsection('title')
 @section('meta')
-<meta name="description" content="Temukan solusi cepat dan efisien untuk kepabeanan dengan layanan kami. Kami membantu memperlancar pemrosesan dokumen dan prosedur bea cukai, memastikan pengiriman Anda lancar dan sesuai regulasi. Hubungi kami sekarang untuk layanan terpercaya."/>
-<meta name="keywords" content="customs clearance, kepabeanan, bea cukai, pengurusan bea cukai, import clearance, export clearance, clearance impor, clearance ekspor, layanan customs, dokumentasi kepabeanan, solusi pengiriman, freight forwarding, regulasi impor ekspor, pengiriman internasional, logistik, kepatuhan bea cukai, layanan perdagangan, customs broker, PPJK, pengurusan impor, pengurusan ekspor, PIB, PEB, customs agent, bea masuk, pajak impor, customs compliance, dokumen kepabeanan, proses kepabeanan, clearance service, jasa kepabeanan, urus bea cukai, customs forwarding, customs documentation"/>
+<meta name="description" content="Layanan customs clearance/kepabeanan Indonesia untuk ekspor-impor: deklarasi bea cukai, pembayaran bea & pajak, sertifikat lengkap. Hubungan baik dengan Bea Cukai Surabaya untuk proses cepat, penyelesaian masalah segera, menjaga supply chain tetap lancar."/>
+<meta name="keywords" content="customs clearance, customs clearance Indonesia, kepabeanan, bea cukai, layanan kepabeanan, jasa bea cukai, customs clearance Surabaya, Bea Cukai Surabaya, deklarasi bea cukai, customs declaration, import clearance, export clearance, pembayaran bea masuk, pembayaran pajak impor, import duty, customs tax, customs documentation, dokumen kepabeanan, commercial invoice, certificate of origin, sertifikat asal, customs broker, customs agent, agen bea cukai, PPJK, pengurusan bea cukai, kepabeanan ekspor impor, customs compliance, customs regulations Indonesia, regulasi bea cukai Indonesia, fast customs clearance, penyelesaian masalah bea cukai, customs issue resolution, customs clearance services, layanan PPJK, freight forwarding customs, customs clearance freight, supply chain customs, customs audit, post clearance audit, Direktorat Jenderal Bea Cukai, DJBC, customs declaration PIB PEB, customs Indonesia Surabaya, bea cukai cepat, pengurusan kepabeanan profesional, customs compliance Indonesia, kepabeanan terpercaya, jasa PPJK Surabaya, customs clearance agent Indonesia, import export documentation, pengurusan dokumen kepabeanan"/>
 @endsection('meta')
 @section('content')
 <main class="main">
     <!-- Page Title -->
     <div class="page-title">
         <div class="container d-lg-flex justify-content-between align-items-center">
-            <h1 class="mb-2 mb-lg-0" x-text="translations.messages.service_details"></h1>
+            <h1 class="mb-2 mb-lg-0" x-text="translations.messages.customs_clearance"></h1>
+            <nav class="breadcrumbs">
+                <ol>
+                    <li><a href="/services" x-text="translations.messages.services"></a></li>
+                    <li class="current" x-text="translations.messages.service_details"></li>
+                </ol>
+            </nav>
         </div>
     </div>
     <!-- End Page Title -->
@@ -21,7 +27,7 @@
             <div class="row gy-5">
                 <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-box">
-                        <h2 x-text="translations.messages.services_list"></h2>
+                        <h3 x-text="translations.messages.services_list"></h3>
                         <div class="services-list">
                             <a href="/nvocc"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.nvocc"></span></a>
                             <a href="/freight-forwarding"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.freight_forwarding"></span></a>
@@ -32,7 +38,7 @@
                         </div>
                     </div>
                     <div class="service-box">
-                        <h2 x-text="translations.messages.download_catalog"></h2>
+                        <h3 x-text="translations.messages.download_catalog"></h3>
                         <div class="download-catalog">
                             <a href="<?php echo url('/'); ?>/pdf/Company-Profile-INF.pdf"><i class="bi bi-filetype-pdf"></i><span x-text="translations.messages.company_profile"></span></a>
                         </div>
@@ -74,7 +80,6 @@
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
-                    <h3 x-text="translations.messages.customs_clearance"></h3>
                     <p x-text="translations.messages.customs_clearance_description_1"></p>
                     <p x-text="translations.messages.customs_clearance_description_2"></p>
                     <p x-text="translations.messages.customs_clearance_description_3"></p>

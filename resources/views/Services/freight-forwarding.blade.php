@@ -3,15 +3,21 @@
 {{ __('messages.freight_forwarding_title') }}
 @endsection('title')
 @section('meta')
-<meta name="description" content="Layanan freight forwarding efisien untuk kebutuhan pengiriman global. Kami menangani semua aspek logistik, memastikan pengiriman barang yang aman, tepat waktu, dan hemat biaya ke seluruh dunia melalui darat, laut, atau udara."/>
-<meta name="keywords" content="freight forwarding, layanan logistik, pengiriman internasional, transportasi kargo, solusi pengiriman, freight global, freight laut, freight udara, kepabeanan, bea cukai, manajemen supply chain, penanganan kargo, penyedia logistik, pengiriman door-to-door, perusahaan pelayaran, impor ekspor, layanan freight, jasa pengiriman barang, ekspedisi internasional, forwarder, cargo darat, cargo laut, cargo udara, logistik terintegrasi, pengiriman kontainer"/>
+<meta name="description" content="Layanan freight forwarding internasional terintegrasi: LCL konsolidasi hemat biaya, air freight cepat, reefer bersuhu terkontrol, dan isotank untuk cairan curah. Pengantaran end-to-end dengan dokumentasi kepabeanan lengkap dari Surabaya ke seluruh dunia."/>
+<meta name="keywords" content="freight forwarding internasional, international freight forwarding, ekspedisi internasional, freight forwarding Surabaya, LCL, Less than Container Load, LCL consolidation, konsolidasi LCL, air freight, freight udara, pengiriman udara internasional, reefer cargo, reefer container, kontainer reefer, temperature controlled cargo, cold chain, rantai dingin, isotank, ISO tank, bulk liquid transport, pengangkutan cairan curah, kepabeanan, customs clearance, dokumentasi ekspor impor, end-to-end delivery, door-to-door, freight laut internasional, ocean freight international, freight forwarding services, layanan ekspedisi, forwarder Surabaya, ekspor impor, international shipping, cargo consolidation, time sensitive cargo, kargo sensitif waktu, multimodal transport, transportasi internasional, freight forwarder Indonesia, logistics services, layanan logistik internasional, customs documentation, offshore partner coordination, terminal coordination, carrier arrangement, sea freight, air cargo, specialized freight, cold storage shipping, liquid cargo transport, freight forwarding Malaysia Indonesia, Asia freight forwarding"/>
 @endsection('meta')
 @section('content')
 <main class="main">
     <!-- Page Title -->
     <div class="page-title">
         <div class="container d-lg-flex justify-content-between align-items-center">
-            <h1 class="mb-2 mb-lg-0" x-text="translations.messages.service_details"></h1>
+            <h1 class="mb-2 mb-lg-0" x-text="translations.messages.freight_forwarding"></h1>
+            <nav class="breadcrumbs">
+                <ol>
+                    <li><a href="/services" x-text="translations.messages.services"></a></li>
+                    <li class="current" x-text="translations.messages.service_details"></li>
+                </ol>
+            </nav>
         </div>
     </div>
     <!-- End Page Title -->
@@ -21,7 +27,7 @@
             <div class="row gy-5">
                 <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-box">
-                        <h2 x-text="translations.messages.services_list"></h2>
+                        <h3 x-text="translations.messages.services_list"></h3>
                         <div class="services-list">
                             <a href="/nvocc"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.nvocc"></span></a>
                             <a href="/freight-forwarding" class="active"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.freight_forwarding"></span></a>
@@ -32,7 +38,7 @@
                         </div>
                     </div>
                     <div class="service-box">
-                        <h2 x-text="translations.messages.download_catalog"></h2>
+                        <h3 x-text="translations.messages.download_catalog"></h3>
                         <div class="download-catalog">
                             <a href="<?php echo url('/'); ?>/pdf/Company-Profile-INF.pdf"><i class="bi bi-filetype-pdf"></i><span x-text="translations.messages.company_profile"></span></a>
                         </div>
@@ -74,7 +80,6 @@
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
-                    <h3 x-text="translations.messages.freight_forwarding"></h3>
                     <p x-text="translations.messages.freight_forwarding_description_1"></p>
                     <p x-text="translations.messages.freight_forwarding_description_2"></p>
                     <ul>
