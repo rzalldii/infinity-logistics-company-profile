@@ -53,6 +53,7 @@ return [
     'core_values' => 'Nilai-Nilai Inti',
     'core_values_text' => 'Integritas, Berorientasi pada Sumber Daya Manusia, Berfokus pada Teknologi, Fokus pada Pelanggan, Inovasi & Keunggulan, Kerja Tim, Tanggung Jawab HSEC',
 
+    'read_more' => 'Baca Selengkapnya',
     'about_section' => 'Tentang Kami',
     'about_description' => 'Kami adalah penyedia layanan logistik berkantor pusat di Malaysia, dengan kehadiran operasional yang kuat di Surabaya, Indonesia, dan di seluruh Asia Tenggara. Layanan kami mencakup enam area utama:',
     'about_service_1' => 'Non-Vessel Operating Common Carrier (NVOCC)',

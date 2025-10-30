@@ -122,6 +122,9 @@ Infinity Logistics Indonesia
                 </div>
             </div>
         </div>
+        <div class="button-container">
+            <a href="/about" class="more-details-btn" x-text="translations.messages.read_more"></a>
+        </div>
     </section>
     <!-- /Stats Section -->
     <!-- Services Section -->
@@ -199,6 +202,9 @@ Infinity Logistics Indonesia
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="button-container">
+            <a href="/services" class="more-details-btn" x-text="translations.messages.read_more"></a>
         </div>
     </section>
     <!-- /Services Section -->

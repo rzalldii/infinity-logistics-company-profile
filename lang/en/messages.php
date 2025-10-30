@@ -53,6 +53,7 @@ return [
     'core_values' => ' Core Values',
     'core_values_text' => 'Integrity, People Driven, Technology Oriented, Customer Focus, Innovation & Excellence, Teamwork, HSEC Responsibility',
 
+    'read_more' => 'Read More',
     'about_section' => 'About Us',
     'about_description' => 'We are a logistics service provider headquartered in Malaysia, with a strong operational presence in Surabaya, Indonesia, and across Southeast Asia. Our services cover six key areas:',
     'about_service_1' => 'Non-Vessel Operating Common Carrier (NVOCC)',
