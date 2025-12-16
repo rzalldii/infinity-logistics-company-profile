@@ -38,6 +38,8 @@ return [
 
     'head_office_address' => 'St. Jendral Basuki Rahmad 122, Plaza BRI, 12th Floor, Suite 1206, Surabaya City, East Java, Indonesia',
     'warehouse_address' => 'St. Pergudangan Margomulyo Permai J10, Surabaya City, East Java, Indonesia',
+    'warehouse_address2' => 'St. Madukoro Raya C9, Tawangmas, Semarang City, Middle Java, Indonesia',
+    'warehouse_address3' => 'St. Sukorejo 8, Lempake, Samarinda City, East Kalimantan, Indonesia',
 
     'wa_message' => 'Hello, I am interested in the services offered by Infinity Logistics Indonesia. May I receive more information about your services?',
 

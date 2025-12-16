@@ -209,7 +209,7 @@ Infinity Logistics Indonesia
     </section>
     <!-- /Services Section -->
     <!-- News Section -->
-    <!-- <section id="news" class="news section light-background">
+    <!-- <section id="news" class="news section">
         <div class="container section-title" data-aos="fade-up">
             <span>Our News</span>
             <h2>News</h2>
@@ -265,173 +265,6 @@ Infinity Logistics Indonesia
         </div>
     </section>
     <!-- /Call To Action Section -->
-    <!-- Projects Section -->
-    <!-- <section id="projects" class="projects section">
-        <div class="container section-title" data-aos="fade-up">
-            <span x-text="translations.messages.projects_section"></span>
-            <h2 x-text="translations.messages.projects_title"></h2>
-        </div>
-        <div class="container">
-            <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-                <ul class="projects-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-                    <li data-filter="*" class="filter-active" x-text="translations.messages.all"></li>
-                    <li data-filter=".filter-nvocc" x-text="translations.messages.nvocc"></li>
-                    <li data-filter=".filter-freight-forwarding" x-text="translations.messages.freight_forwarding"></li>
-                    <li data-filter=".filter-domestic-forwarding" x-text="translations.messages.domestic_forwarding"></li>
-                    <li data-filter=".filter-flexitank-flexibag" x-text="translations.messages.flexitank_flexibag"></li>
-                    <li data-filter=".filter-project-logistics" x-text="translations.messages.project_logistics"></li>
-                    <li data-filter=".filter-customs-clearance" x-text="translations.messages.customs_clearance"></li>
-                </ul>
-                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-                    <div class="col-lg-4 col-md-6 projects-item isotope-item filter-nvocc">
-                        <img src="<?php echo url('/'); ?>/img/projects/NVOCC1.webp" class="img-fluid" alt="NVOCC 1">
-                        <div class="projects-info">
-                            <h4>NVOCC 1</h4>
-                            <a href="<?php echo url('/'); ?>/img/projects/NVOCC1.webp" data-gallery="projects-gallery-nvocc" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="/nvocc" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 projects-item isotope-item filter-freight-forwarding">
-                        <img src="<?php echo url('/'); ?>/img/projects/FREIGHT FORWARDING1.webp" class="img-fluid" alt="FREIGHT FORWARDING 1">
-                        <div class="projects-info">
-                            <h4>FREIGHT FORWARDING 1</h4>
-                            <a href="<?php echo url('/'); ?>/img/projects/FREIGHT FORWARDING1.webp" data-gallery="projects-gallery-freight-forwarding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="/freight-forwarding" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 projects-item isotope-item filter-domestic-forwarding">
-                        <img src="<?php echo url('/'); ?>/img/projects/DOMESTIC FORWARDING1.webp" class="img-fluid" alt="DOMESTIC FORWARDING 1">
-                        <div class="projects-info">
-                            <h4>DOMESTIC FORWARDING 1</h4>
-                            <a href="<?php echo url('/'); ?>/img/projects/DOMESTIC FORWARDING1.webp" data-gallery="projects-gallery-domestic-forwarding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="/domestic-forwarding" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 projects-item isotope-item filter-flexitank-flexibag">
-                        <img src="<?php echo url('/'); ?>/img/projects/FLEXITANK FLEXIBAG1.webp" class="img-fluid" alt="FLEXITANK FLEXIBAG 1">
-                        <div class="projects-info">
-                            <h4>FLEXITANK FLEXIBAG 1</h4>
-                            <a href="<?php echo url('/'); ?>/img/projects/FLEXITANK FLEXIBAG1.webp" data-gallery="projects-gallery-flexitank-flexibag" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="/flexitank-flexibag" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 projects-item isotope-item filter-project-logistics">
-                        <img src="<?php echo url('/'); ?>/img/projects/PROJECT LOGISTICS1.webp" class="img-fluid" alt="PROJECT LOGISTICS 1">
-                        <div class="projects-info">
-                            <h4>PROJECT LOGISTICS 1</h4>
-                            <a href="<?php echo url('/'); ?>/img/projects/PROJECT LOGISTICS1.webp" data-gallery="projects-gallery-project-logistics" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="/project-logistics" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 projects-item isotope-item filter-customs-clearance">
-                        <img src="<?php echo url('/'); ?>/img/projects/CUSTOMS CLEARANCE1.webp" class="img-fluid" alt="CUSTOMS CLEARANCE 1">
-                        <div class="projects-info">
-                            <h4>CUSTOMS CLEARANCE 1</h4>
-                            <a href="<?php echo url('/'); ?>/img/projects/CUSTOMS CLEARANCE1.webp" data-gallery="projects-gallery-customs-clearance" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="/customs-clearance" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 projects-item isotope-item filter-nvocc">
-                        <img src="<?php echo url('/'); ?>/img/projects/NVOCC2.webp" class="img-fluid" alt="NVOCC 2">
-                        <div class="projects-info">
-                            <h4>NVOCC 2</h4>
-                            <a href="<?php echo url('/'); ?>/img/projects/NVOCC2.webp" data-gallery="projects-gallery-nvocc" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="/nvocc" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 projects-item isotope-item filter-freight-forwarding">
-                        <img src="<?php echo url('/'); ?>/img/projects/FREIGHT FORWARDING2.webp" class="img-fluid" alt="FREIGHT FORWARDING 2">
-                        <div class="projects-info">
-                            <h4>FREIGHT FORWARDING 2</h4>
-                            <a href="<?php echo url('/'); ?>/img/projects/FREIGHT FORWARDING2.webp" data-gallery="projects-gallery-freight-forwarding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="/freight-forwarding" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 projects-item isotope-item filter-domestic-forwarding">
-                        <img src="<?php echo url('/'); ?>/img/projects/DOMESTIC FORWARDING2.webp" class="img-fluid" alt="DOMESTIC FORWARDING 2">
-                        <div class="projects-info">
-                            <h4>DOMESTIC FORWARDING 2</h4>
-                            <a href="<?php echo url('/'); ?>/img/projects/DOMESTIC FORWARDING2.webp" data-gallery="projects-gallery-domestic-forwarding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="/domestic-forwarding" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 projects-item isotope-item filter-flexitank-flexibag">
-                        <img src="<?php echo url('/'); ?>/img/projects/FLEXITANK FLEXIBAG2.webp" class="img-fluid" alt="FLEXITANK FLEXIBAG 2">
-                        <div class="projects-info">
-                            <h4>FLEXITANK FLEXIBAG 2</h4>
-                            <a href="<?php echo url('/'); ?>/img/projects/FLEXITANK FLEXIBAG2.webp" data-gallery="projects-gallery-flexitank-flexibag" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="/flexitank-flexibag" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 projects-item isotope-item filter-project-logistics">
-                        <img src="<?php echo url('/'); ?>/img/projects/PROJECT LOGISTICS2.webp" class="img-fluid" alt="PROJECT LOGISTICS 2">
-                        <div class="projects-info">
-                            <h4>PROJECT LOGISTICS 2</h4>
-                            <a href="<?php echo url('/'); ?>/img/projects/PROJECT LOGISTICS2.webp" data-gallery="projects-gallery-project-logistics" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="/project-logistics" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 projects-item isotope-item filter-customs-clearance">
-                        <img src="<?php echo url('/'); ?>/img/projects/CUSTOMS CLEARANCE2.webp" class="img-fluid" alt="CUSTOMS CLEARANCE 2">
-                        <div class="projects-info">
-                            <h4>CUSTOMS CLEARANCE 2</h4>
-                            <a href="<?php echo url('/'); ?>/img/projects/CUSTOMS CLEARANCE2.webp" data-gallery="projects-gallery-customs-clearance" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="/customs-clearance" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 projects-item isotope-item filter-nvocc">
-                        <img src="<?php echo url('/'); ?>/img/projects/NVOCC3.webp" class="img-fluid" alt="NVOCC 3">
-                        <div class="projects-info">
-                            <h4>NVOCC 3</h4>
-                            <a href="<?php echo url('/'); ?>/img/projects/NVOCC3.webp" data-gallery="projects-gallery-nvocc" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="/nvocc" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 projects-item isotope-item filter-freight-forwarding">
-                        <img src="<?php echo url('/'); ?>/img/projects/FREIGHT FORWARDING3.webp" class="img-fluid" alt="FREIGHT FORWARDING 1">
-                        <div class="projects-info">
-                            <h4>FREIGHT FORWARDING 3</h4>
-                            <a href="<?php echo url('/'); ?>/img/projects/FREIGHT FORWARDING3.webp" data-gallery="projects-gallery-freight-forwarding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="/freight-forwarding" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 projects-item isotope-item filter-domestic-forwarding">
-                        <img src="<?php echo url('/'); ?>/img/projects/DOMESTIC FORWARDING3.webp" class="img-fluid" alt="DOMESTIC FORWARDING 3">
-                        <div class="projects-info">
-                            <h4>DOMESTIC FORWARDING 3</h4>
-                            <a href="<?php echo url('/'); ?>/img/projects/DOMESTIC FORWARDING3.webp" data-gallery="projects-gallery-domestic-forwarding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="/domestic-forwarding" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 projects-item isotope-item filter-flexitank-flexibag">
-                        <img src="<?php echo url('/'); ?>/img/projects/FLEXITANK FLEXIBAG3.webp" class="img-fluid" alt="FLEXITANK FLEXIBAG 3">
-                        <div class="projects-info">
-                            <h4>FLEXITANK FLEXIBAG 3</h4>
-                            <a href="<?php echo url('/'); ?>/img/projects/FLEXITANK FLEXIBAG3.webp" data-gallery="projects-gallery-flexitank-flexibag" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="/flexitank-flexibag" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 projects-item isotope-item filter-project-logistics">
-                        <img src="<?php echo url('/'); ?>/img/projects/PROJECT LOGISTICS3.webp" class="img-fluid" alt="PROJECT LOGISTICS 3">
-                        <div class="projects-info">
-                            <h4>PROJECT LOGISTICS 3</h4>
-                            <a href="<?php echo url('/'); ?>/img/projects/PROJECT LOGISTICS3.webp" data-gallery="projects-gallery-project-logistics" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="/project-logistics" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 projects-item isotope-item filter-customs-clearance">
-                        <img src="<?php echo url('/'); ?>/img/projects/CUSTOMS CLEARANCE3.webp" class="img-fluid" alt="CUSTOMS CLEARANCE 3">
-                        <div class="projects-info">
-                            <h4>CUSTOMS CLEARANCE 3</h4>
-                            <a href="<?php echo url('/'); ?>/img/projects/CUSTOMS CLEARANCE3.webp" data-gallery="projects-gallery-customs-clearance" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                            <a href="/customs-clearance" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- /Projects Section -->
     <!-- Team Section -->
     <section id="team" class="team section light-background">
         <div class="container section-title" data-aos="fade-up">
@@ -560,7 +393,7 @@ Infinity Logistics Indonesia
     <section id="contact" class="contact section">
         <div class="container section-title" data-aos="fade-up">
             <span x-text="translations.messages.contact_section"></span>
-            <h2 x-text="translations.messages.contact"></h2>
+            <h1 x-text="translations.messages.contact"></h1>
         </div>
         <div class="container" data-aos="fade-up" data-aos-delay="100">
             <div class="row gy-4">
@@ -569,35 +402,35 @@ Infinity Logistics Indonesia
                         <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
                             <i class="bi bi-geo-alt flex-shrink-0"></i>
                             <div>
-                                <h3 x-text="translations.messages.our_address"></h3>
+                                <h2 x-text="translations.messages.our_address"></h2>
                                 <p x-text="translations.messages.head_office_address"></p>
                             </div>
                         </div>
                         <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                             <i class="bi bi-telephone flex-shrink-0"></i>
                             <div>
-                                <h3 x-text="translations.messages.call_us"></h3>
+                                <h2 x-text="translations.messages.call_us"></h2>
                                 <p>(+62)31-5492926</p>
                             </div>
                         </div>
                         <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
                             <i class="bi bi-envelope flex-shrink-0"></i>
                             <div>
-                                <h3 x-text="translations.messages.email_us"></h3>
+                                <h2 x-text="translations.messages.email_us"></h2>
                                 <p>cssurabaya@infinity-sby.com</p>
                             </div>
                         </div>
                         <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
                             <i class="bi bi-clock flex-shrink-0"></i>
                             <div>
-                                <h3 x-text="translations.messages.working_hours"></h3>
+                                <h2 x-text="translations.messages.working_hours"></h2>
                                 <p x-text="translations.messages.monday_friday"></p>
                                 <p x-text="translations.messages.saturday"></p>
                                 <p x-text="translations.messages.sunday"></p>
                             </div>
                         </div>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3629.241613433687!2d112.73795435839659!3d-7.273136269158283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbddceec0c2d%3A0x3a125fab20e07b6b!2sPT.%20Infinity%20Logistics%20Indonesia!5e0!3m2!1sen!2sus!4v1752200391253!5m2!1sen!2sus"
-                            title="Google Maps" frameborder="0" style="border:0; width: 100%; height: 340px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            title="Google Maps" frameborder="0" style="border:0; width: 100%; height: 245px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
                 <div class="col-lg-7">
@@ -605,26 +438,26 @@ Infinity Logistics Indonesia
                         @csrf
                         @honeypot
                         <div class="row gy-4 info-form">
-                            <h3 class="text-center" x-text="translations.messages.get_in_touch"></h3>
+                            <h2 class="text-center" x-text="translations.messages.get_in_touch"></h2>
                             <p>
                                 <strong x-text="translations.messages.contact_intro"></strong>
                                 <span x-text="translations.messages.contact_description"></span>
                             </p>
                             <div class="col-md-6">
                                 <div class="inputgroup">
-                                    <input type="text" name="name" id="name-field" class="form-control" required="" autocomplete="off">
+                                    <input type="text" name="name" id="name-field" class="form-control" autocomplete="off" required>
                                     <label for="name-field" class="form-label" x-text="translations.messages.placeholder_name"></label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="inputgroup">
-                                    <input type="email" name="email" id="email-field" class="form-control" required="" autocomplete="off">
+                                    <input type="email" name="email" id="email-field" class="form-control" autocomplete="off" required>
                                     <label for="email-field" class="form-label" x-text="translations.messages.placeholder_email"></label>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="inputgroup">
-                                    <select name="subject" id="subject-field" class="form-select" required="">
+                                    <select name="subject" id="subject-field" class="form-select" required>
                                         <option value="" disabled selected></option>
                                         <option value="quotation" x-text="translations.messages.subject_rfq"></option>
                                         <option value="general" x-text="translations.messages.subject_general"></option>
@@ -638,7 +471,7 @@ Infinity Logistics Indonesia
                             </div>
                             <div class="col-md-12">
                                 <div class="inputgroup">
-                                    <textarea rows="10" name="message" id="message-field"  class="form-control" required="" autocomplete="off"></textarea>
+                                    <textarea rows="10" name="message" id="message-field"  class="form-control" required></textarea>
                                     <label for="message-field" class="form-label" x-text="translations.messages.placeholder_message"></label>
                                 </div>
                             </div>
@@ -651,9 +484,6 @@ Infinity Logistics Indonesia
                                     </label>
                                 </div>
                             </div>
-                            <div class="cf-turnstile" data-sitekey="{{ env('TURNSTILE_SITE_KEY') }}" data-size="flexible" data-theme="light"></div>
-                            <input type="hidden" name="recaptcha_token" id="recaptcha_token">
-                            <input type="hidden" name="turnstile_token" id="turnstile_token">
                             <div class="col-md-12">
                                 <div class="button-wrapper">
                                     <button type="submit" id="submit-button">
@@ -671,29 +501,15 @@ Infinity Logistics Indonesia
         </div>
     </section>
     <!-- /Contact Section -->
-
-    <script src="https://www.googletagmanager.com/gtag/js?id={{ env('ANALYTICS_KEY') }}" defer></script>
-    <script src="https://www.google.com/recaptcha/api.js?render={{ env('RECAPTCHA_SITE_KEY') }}&badge=bottomleft" defer></script>
-    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" defer></script>
-
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ env('ANALYTICS_KEY') }}');
-    </script>
-
     <script>
         document.getElementById("submit-button").addEventListener("click", function (e) {
             e.preventDefault();
-
             const form = document.getElementById("contact-form");
             const name = document.getElementById("name-field").value.trim();
             const email = document.getElementById("email-field").value.trim();
             const subject = document.getElementById("subject-field").value.trim();
             const message = document.getElementById("message-field").value.trim();
-
-            if (!name || !email || !message) {
+            if (!name || !email || !subject ||!message) {
                 Swal.fire({
                     icon: "warning",
                     title: "Incomplete Form",
@@ -703,72 +519,58 @@ Infinity Logistics Indonesia
                 });
                 return;
             }
-
-            grecaptcha.ready(function () {
-                grecaptcha.execute("{{ env('RECAPTCHA_SITE_KEY') }}", { action: "submit" }).then(function (token) {
-                    document.getElementById("recaptcha_token").value = token;
-
-                    const turnstileToken = turnstile.getResponse();
-                    document.getElementById("turnstile_token").value = turnstileToken;
-
-                    const formData = new FormData(form);
-
+            const formData = new FormData(form);
+            Swal.fire({
+                title: 'Loading',
+                allowOutsideClick: false,
+                didOpen: () => {
+                    Swal.showLoading();
+                }
+            });
+            fetch("{{ route('send.email') }}", {
+                method: "POST",
+                headers: {
+                    "X-CSRF-TOKEN": document.querySelector('input[name="_token"]').value
+                },
+                body: formData
+            })
+            .then(async response => {
+                const data = await response.json().catch(() => ({}));
+                if (response.ok) {
                     Swal.fire({
-                        title: 'Loading',
+                        icon: "success",
+                        title: "Success!",
+                        text: data.message || "Message sent successfully.",
                         allowOutsideClick: false,
-                        didOpen: () => {
-                            Swal.showLoading();
-                        }
+                        showConfirmButton: false,
+                        timer: 3000,
                     });
-                    fetch("{{ route('send.email') }}", {
-                        method: "POST",
-                        headers: {
-                            "X-CSRF-TOKEN": document.querySelector('input[name="_token"]').value
-                        },
-                        body: formData
-                    })
-                    .then(async response => {
-                        const data = await response.json().catch(() => ({}));
-
-                        if (response.ok) {
-                            Swal.fire({
-                                icon: "success",
-                                title: "Success!",
-                                text: data.message || "Message sent successfully.",
-                                allowOutsideClick: false,
-                                showConfirmButton: false,
-                                timer: 3000,
-                            });
-                            form.reset();
-                        } else {
-                            let errorText = "Message not sent.";
-
-                            if (data.errors) {
-                                errorText = Object.values(data.errors).flat().join("\n");
-                            } else if (data.message) {
-                                errorText = data.message;
-                            }
-
-                            Swal.fire({
-                                icon: "error",
-                                title: "Failed!",
-                                text: errorText,
-                                allowOutsideClick: false,
-                                showConfirmButton: false,
-                                timer: 3000,
-                            });
-                        }
-                    })
-                    .catch(error => {
-                        Swal.fire({
-                            icon: "error",
-                            title: "Error!",
-                            text: "Unable to connect to the server.",
-                            allowOutsideClick: false,
-                            showConfirmButton: false,
-                            timer: 3000,
-                        });
+                    form.reset();
+                } else {
+                    let errorText = "Message not sent.";
+                    if (data.errors) {
+                        errorText = Object.values(data.errors).flat().join("\n");
+                    } else if (data.message) {
+                        errorText = data.message;
+                    }
+                    Swal.fire({
+                        icon: "error",
+                        title: "Failed!",
+                        text: errorText,
+                        allowOutsideClick: false,
+                        showConfirmButton: false,
+                        timer: 3000,
                     });
+                }
+            })
+            .catch(error => {
+                Swal.fire({
+                    icon: "error",
+                    title: "Error!",
+                    text: "Unable to connect to the server.",
+                    allowOutsideClick: false,
+                    showConfirmButton: false,
+                    timer: 3000,
                 });
             });
         });

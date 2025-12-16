@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::post('/send-email', [ContactController::class, 'send'])
-    ->middleware(['throttle:1,5', ProtectAgainstSpam::class])
+    ->middleware(['throttle:1,3', ProtectAgainstSpam::class])
     ->name('send.email');
 
 Route::post('/language/switch', [LanguageController::class, 'switch'])

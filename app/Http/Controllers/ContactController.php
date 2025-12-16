@@ -16,8 +16,6 @@ class ContactController extends Controller
             'email' => 'required|email|max:255',
             'subject' => 'required|string|max:255',
             'message' => 'required|string',
-            'recaptcha_token' => 'required|string',
-            'cf-turnstile-response' => 'required|string',
         ]);
 
         $subjectMapping = [
@@ -33,30 +31,7 @@ class ContactController extends Controller
 
         $subscribe = $request->has('subscribe') ? 'Yes' : 'No';
 
-        $responserecaptcha = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
-            'secret' => env('RECAPTCHA_SECRET_KEY'),
-            'response' => $request->recaptcha_token,
-        ]);
-
-        $resultrecaptcha = $responserecaptcha->json();
-
-        if (!($resultrecaptcha['success'] ?? false) || ($resultrecaptcha['score'] ?? 0) < 0.5) {
-            return response()->json([], 422);
-        }
-
-        $responseturnstile = Http::asForm()->post('https://challenges.cloudflare.com/turnstile/v0/siteverify', [
-            'secret' => env('TURNSTILE_SECRET_KEY'),
-            'response' => $request->input('cf-turnstile-response'),
-            'remoteip' => $request->ip(),
-        ]);
-
-        $resultturnstile = $responseturnstile->json();
-
-        if (!($resultturnstile['success'] ?? false)) {
-            return response()->json([], 422);
-        }
-
-        Mail::send([], [], function ($message) use ($subjectLabel, $validated, $subscribe) {
+        Mail::send([], [], function ($message) use ($validated, $subjectLabel, $subscribe) {
             $message->to('marketing1@infinity-sby.com')
                     ->subject($subjectLabel)
                     ->text( 'Name : ' . $validated['name'] . "\n" .

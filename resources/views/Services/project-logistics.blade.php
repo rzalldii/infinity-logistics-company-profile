@@ -77,6 +77,11 @@
                                     <img src="<?php echo url('/'); ?>/img/services details/PROJECT LOGISTICS3.webp" class="img-fluid services-img-swipe" alt="PROJECT LOGISTICS3">
                                 </a>
                             </div>
+                            <div class="swiper-slide">
+                                <a href="<?php echo url('/'); ?>/img/services details/PROJECT LOGISTICS4.webp" data-gallery="services-project-logistics" class="glightbox preview-link">
+                                    <img src="<?php echo url('/'); ?>/img/services details/PROJECT LOGISTICS4.webp" class="img-fluid services-img-swipe" alt="PROJECT LOGISTICS4">
+                                </a>
+                            </div>
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>

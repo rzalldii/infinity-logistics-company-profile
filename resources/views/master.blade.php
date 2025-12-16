@@ -123,6 +123,14 @@
                             <strong><i class="bi bi-telephone-fill"></i> <span x-text="translations.messages.call"></span> :</strong> 
                             <span>(+62)81-938685643</span>
                         </a>
+                        <p class="mt-3"></p>
+                        <a href="https://maps.app.goo.gl/Za8DtDNG7ctwwvSz6">
+                            <span x-text="translations.messages.warehouse_address2"></span>
+                        </a>
+                        <p class="mt-3"></p>
+                        <a href="https://maps.app.goo.gl/KvPuH4JfjdNN5ktt9">
+                            <span x-text="translations.messages.warehouse_address3"></span>
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-3 footer-links">
