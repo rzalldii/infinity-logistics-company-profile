@@ -36,12 +36,10 @@ return [
     'follow_us' => 'Follow Us',
     'follow_desc' => 'Stay informed with the latest updates, offers, and company news from our team',
 
-    'head_office_address' => 'St. Jendral Basuki Rahmad 122, Plaza BRI, 12th Floor, Suite 1206, Surabaya City, East Java, Indonesia',
-    'warehouse_address' => 'St. Pergudangan Margomulyo Permai J10, Surabaya City, East Java, Indonesia',
-    'warehouse_address2' => 'St. Madukoro Raya C9, Tawangmas, Semarang City, Middle Java, Indonesia',
-    'warehouse_address3' => 'St. Sukorejo 8, Lempake, Samarinda City, East Kalimantan, Indonesia',
-
-    'wa_message' => 'Hello, I am interested in the services offered by Infinity Logistics Indonesia. May I receive more information about your services?',
+    'head_office_address' => 'Jendral Basuki Rahmad 122, Plaza BRI St., 12th Floor, Suite 1206, Surabaya City, East Java, Indonesia',
+    'warehouse_address' => 'Pergudangan Margomulyo Permai J10 St., Surabaya City, East Java, Indonesia',
+    'warehouse_address2' => 'Madukoro Raya C9 St., Tawangmas, Semarang City, Middle Java, Indonesia',
+    'warehouse_address3' => 'Sukorejo 8 St., Lempake, Samarinda City, East Kalimantan, Indonesia',
 
     'hero_title' => 'Next Decade. Next Wave.',
     'hero_subtitle' => 'AT INFINITY, WE ASPIRE TO LEAP TO THE NEXT LEVEL OF ACHIEVEMENTS, GOING FROM GOOD TO GREAT',

@@ -47,10 +47,51 @@
 
     <!-- WhatsApp Floating Chat Widget -->
     <div class="wa-hover-zone">
-        <a :href="'https://wa.me/6281330229112?text=' + encodeURIComponent(translations.messages.wa_message)"
-            class="wa-widget" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <div class="wa-popup" id="waPopup">
+            <div class="wa-popup-header">
+                <div class="wa-popup-header-icon">
+                    <i class="bi bi-whatsapp"></i>
+                </div>
+                <div class="wa-popup-header-text">
+                    <strong>Start a Conversation</strong>
+                    <span>Click one of our members below</span>
+                </div>
+                <button class="wa-popup-close" id="waClose" aria-label="Close">&times;</button>
+            </div>
+            <div class="wa-popup-agents">
+                <a :href="'https://wa.me/6281330229112?text=' + encodeURIComponent('Hi, I\'m interested in your services. (via website)')"
+                    class="wa-agent" target="_blank" rel="noopener" aria-label="WhatsApp">
+                    <div class="wa-agent-info">
+                        <span>FREIGHT FORWARDING</span>
+                    </div>
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+                <a :href="'https://wa.me/6281330681408?text=' + encodeURIComponent('Hi, I\'m interested in your services. (via website)')"
+                    class="wa-agent" target="_blank" rel="noopener">
+                    <div class="wa-agent-info">
+                        <span>NVOCC</span>
+                    </div>
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+                <a :href="'https://wa.me/6281999198916?text=' + encodeURIComponent('Hi, I\'m interested in your services. (via website)')"
+                    class="wa-agent" target="_blank" rel="noopener" aria-label="WhatsApp">
+                    <div class="wa-agent-info">
+                        <span>FLEXITANK</span>
+                    </div>
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+                <a :href="'https://wa.me/6281216882027?text=' + encodeURIComponent('Hi, I\'m interested in your services. (via website)')"
+                    class="wa-agent" target="_blank" rel="noopener" aria-label="WhatsApp">
+                    <div class="wa-agent-info">
+                        <span>WAREHOUSE</span>
+                    </div>
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+        <button class="wa-widget" id="waButton" aria-label="WhatsApp">
             <i class="bi bi-whatsapp"></i>
-        </a>
+        </button>
     </div>
 
     <header id="header" class="header d-flex align-items-center sticky-top">
@@ -117,11 +158,6 @@
                     <div>
                         <a href="https://maps.app.goo.gl/R1yCKxVYq4VN2HqA9">
                             <span x-text="translations.messages.warehouse_address"></span>
-                        </a>
-                        <p class="mt-3"></p>
-                        <a href="tel:081938685643">
-                            <strong><i class="bi bi-telephone-fill"></i> <span x-text="translations.messages.call"></span> :</strong> 
-                            <span>(+62)81-938685643</span>
                         </a>
                         <p class="mt-3"></p>
                         <a href="https://maps.app.goo.gl/Za8DtDNG7ctwwvSz6">

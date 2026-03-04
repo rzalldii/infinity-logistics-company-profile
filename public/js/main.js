@@ -159,12 +159,30 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
-  const waWidget = document.querySelector('.wa-widget');
+  const waButton = document.getElementById('waButton');
+  const waPopup  = document.getElementById('waPopup');
+  const waClose  = document.getElementById('waClose');
+
   window.addEventListener('scroll', () => {
     if (window.scrollY > 100) {
-      waWidget.classList.add('show');
+      waButton.classList.add('show');
     } else {
-      waWidget.classList.remove('show');
+      waButton.classList.remove('show');
+      waPopup.classList.remove('open');
+    }
+  });
+
+  waButton.addEventListener('click', () => {
+    waPopup.classList.toggle('open');
+  });
+
+  waClose.addEventListener('click', () => {
+    waPopup.classList.remove('open');
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.wa-hover-zone')) {
+      waPopup.classList.remove('open');
     }
   });
 

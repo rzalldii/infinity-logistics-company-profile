@@ -41,8 +41,6 @@ return [
     'warehouse_address2' => 'Jl. Madukoro Raya C9, Tawangmas, Kota Semarang, Jawa Tengah, Indonesia',
     'warehouse_address3' => 'Jl. Sukorejo 8, Lempake, Kota Samarinda, Kalimantan Timur, Indonesia',
 
-    'wa_message' => 'Halo, saya tertarik dengan layanan yang ditawarkan Infinity Logistics Indonesia. Bisakah saya mendapatkan informasi lebih lanjut tentang layanan Anda?',
-
     'hero_title' => 'Dekade Berikutnya. Gelombang Berikutnya.',
     'hero_subtitle' => 'DI INFINITY, KAMI BERCITA-CITA MENCAPAI TINGKAT KINERJA BERIKUTNYA, DARI BAIK MENJADI UNGGUL',
     'get_started' => 'Mulai Sekarang',
