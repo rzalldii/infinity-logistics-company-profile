@@ -144,7 +144,7 @@
                         <p class="mt-3"></p>
                         <a href="tel:0315492926">
                             <strong><i class="bi bi-telephone-fill"></i> <span x-text="translations.messages.call"></span> :</strong> 
-                            <span>(+62)31-5492926</span>
+                            <span>+6231 549 2926</span>
                         </a>
                         <p></p>
                         <a href="mailto:cssurabaya@infinity-sby.com">

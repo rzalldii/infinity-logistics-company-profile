@@ -428,7 +428,7 @@ Infinity Logistics Indonesia
                             <i class="bi bi-telephone flex-shrink-0"></i>
                             <div>
                                 <h2 x-text="translations.messages.call_us"></h2>
-                                <p>(+62)31-5492926</p>
+                                <p>+6231 549 2926</p>
                             </div>
                         </div>
                         <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">

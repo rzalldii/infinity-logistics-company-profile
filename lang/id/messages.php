@@ -36,7 +36,7 @@ return [
     'follow_us' => 'Ikuti Kami',
     'follow_desc' => 'Tetap terhubung untuk pembaruan, penawaran, dan berita terbaru dari tim kami',
 
-    'head_office_address' => 'Jl. Jendral Basuki Rahmad 122, Plaza BRI, Lantai 12, Suite 1206, Kota Surabaya, Jawa Timur, Indonesia',
+    'head_office_address' => 'Jl. Jendral Basuki Rahmad No. 122, Plaza BRI, Lantai 12, Suite 1206, Kota Surabaya, Jawa Timur, Indonesia',
     'warehouse_address' => 'Jl. Pergudangan Margomulyo Permai J10, Kota Surabaya, Jawa Timur, Indonesia',
     'warehouse_address2' => 'Jl. Madukoro Raya C9, Tawangmas, Kota Semarang, Jawa Tengah, Indonesia',
     'warehouse_address3' => 'Jl. Sukorejo 8, Lempake, Kota Samarinda, Kalimantan Timur, Indonesia',
