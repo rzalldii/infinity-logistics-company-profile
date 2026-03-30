@@ -142,7 +142,7 @@
                             <span x-text="translations.messages.head_office_address"></span>
                         </a>
                         <p class="mt-3"></p>
-                        <a href="tel:0315492926">
+                        <a href="tel:+62315492926">
                             <strong><i class="bi bi-telephone-fill"></i> <span x-text="translations.messages.call"></span> :</strong> 
                             <span>+6231 549 2926</span>
                         </a>
