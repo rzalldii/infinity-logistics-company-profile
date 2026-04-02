@@ -204,11 +204,9 @@
                 <div class="copyright-content">
                     <p>
                         <span>Copyright </span>
-                        ©<span> 2025</span>
+                        ©<span> {{ date('Y') }}</span>
                         <strong class="px-1 sitename">PT. INFINITY LOGISTICS INDONESIA</strong>
                         <span>All Rights Reserved.</span>
-                        <!-- | <a href="/terms-and-conditions">Terms and Conditions</a>
-                        | <a href="/privacy-policy">Privacy Policy</a> -->
                     </p>
                     <div class="credits">
                         Designed and Developed with ❤ by IT Infinity
