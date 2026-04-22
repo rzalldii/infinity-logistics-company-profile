@@ -59,7 +59,7 @@
                 <button class="wa-popup-close" id="waClose" aria-label="Close">&times;</button>
             </div>
             <div class="wa-popup-agents">
-                <a :href="'https://wa.me/6281330229112?text=' + encodeURIComponent('Hi, I\'m interested in your services. (via website)')"
+                <a :href="'https://wa.me/628113299943?text=' + encodeURIComponent('Hi, I\'m interested in your services. (via website)')"
                     class="wa-agent" target="_blank" rel="noopener" aria-label="WhatsApp">
                     <div class="wa-agent-info">
                         <span>FREIGHT FORWARDING</span>
@@ -70,6 +70,13 @@
                     class="wa-agent" target="_blank" rel="noopener">
                     <div class="wa-agent-info">
                         <span>NVOCC</span>
+                    </div>
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+                <a :href="'https://wa.me/6282139131081?text=' + encodeURIComponent('Hi, I\'m interested in your services. (via website)')"
+                    class="wa-agent" target="_blank" rel="noopener">
+                    <div class="wa-agent-info">
+                        <span>DOMESTIC</span>
                     </div>
                     <i class="bi bi-whatsapp"></i>
                 </a>
