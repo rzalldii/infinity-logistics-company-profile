@@ -4,8 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
-use Illuminate\Support\Facades\Http;
-use Illuminate\Support\Facades\Validator;
 
 class ContactController extends Controller
 {

@@ -4,12 +4,15 @@ use Illuminate\Support\Facades\Route;
 
 use Spatie\Honeypot\ProtectAgainstSpam;
 
-use App\Http\Controllers\ContactController;
+use App\Http\Controllers\MaintenanceController;
 use App\Http\Controllers\LanguageController;
+use App\Http\Controllers\ContactController;
 
 Route::get('/laravel', function () {
     return view('welcome');
 });
+
+Route::get('/internal/maintenance/{token}', [MaintenanceController::class, 'clear']);
 
 Route::get('/', function () {
     return view('index');
@@ -35,6 +38,3 @@ Route::get('/flexitank-flexibag', function () { return view('services.flexitank-
 Route::get('/flexitank-flexibag-details', function () { return view('services.flexitank-flexibag-details'); });
 Route::get('/project-logistics', function () { return view('services.project-logistics'); });
 Route::get('/customs-clearance', function () { return view('services.customs-clearance'); });
-
-Route::get('/terms-and-conditions', function () { return view('support.terms-and-conditions'); });
-Route::get('/privacy-policy', function () { return view('support.privacy-policy'); });
