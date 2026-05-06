@@ -21,7 +21,7 @@
                         <div class="icon">
                             <img src="<?php echo url('/'); ?>/img/icons/NVOCC.webp" alt="NVOCC" loading="lazy">
                         </div>
-                        <a href="/nvocc" class="stretched-link">
+                        <a href="{{ route('nvocc') }}" class="stretched-link">
                             <h2 x-text="translations.messages.nvocc"></h2>
                         </a>
                         <p x-text="translations.messages.nvocc_tagline"></p>
@@ -32,7 +32,7 @@
                         <div class="icon">
                             <img src="<?php echo url('/'); ?>/img/icons/FREIGHT FORWARDING.webp" alt="FREIGHT FORWARDING" loading="lazy">
                         </div>
-                        <a href="/freight-forwarding" class="stretched-link">
+                        <a href="{{ route('freight-forwarding') }}" class="stretched-link">
                             <h2 x-text="translations.messages.freight_forwarding"></h2>
                         </a>
                         <p x-text="translations.messages.freight_forwarding_tagline"></p>
@@ -43,7 +43,7 @@
                         <div class="icon">
                             <img src="<?php echo url('/'); ?>/img/icons/DOMESTIC FORWARDING.webp" alt="DOMESTIC FORWARDING" loading="lazy">
                         </div>
-                        <a href="/domestic-forwarding" class="stretched-link">
+                        <a href="{{ route('domestic-forwarding') }}" class="stretched-link">
                             <h2 x-text="translations.messages.domestic_forwarding"></h2>
                         </a>
                         <p x-text="translations.messages.domestic_forwarding_tagline"></p>
@@ -54,7 +54,7 @@
                         <div class="icon">
                             <img src="<?php echo url('/'); ?>/img/icons/FLEXITANK FLEXIBAG.webp" alt="FLEXITANK FLEXIBAG" loading="lazy">
                         </div>
-                        <a href="/flexitank-flexibag" class="stretched-link">
+                        <a href="{{ route('flexitank-flexibag') }}" class="stretched-link">
                             <h2 x-text="translations.messages.flexitank_flexibag"></h2>
                         </a>
                         <p x-text="translations.messages.flexitank_flexibag_tagline"></p>
@@ -65,7 +65,7 @@
                         <div class="icon">
                             <img src="<?php echo url('/'); ?>/img/icons/PROJECT LOGISTICS.webp" alt="PROJECT LOGISTICS" loading="lazy">
                         </div>
-                        <a href="/project-logistics" class="stretched-link">
+                        <a href="{{ route('project-logistics') }}" class="stretched-link">
                             <h2 x-text="translations.messages.project_logistics"></h2>
                         </a>
                         <p x-text="translations.messages.project_logistics_tagline"></p>
@@ -76,7 +76,7 @@
                         <div class="icon">
                             <img src="<?php echo url('/'); ?>/img/icons/CUSTOMS CLEARANCE.webp" alt="CUSTOMS CLEARANCE" loading="lazy">
                         </div>
-                        <a href="/customs-clearance" class="stretched-link">
+                        <a href="{{ route('customs-clearance') }}" class="stretched-link">
                             <h2 x-text="translations.messages.customs_clearance"></h2>
                         </a>
                         <p x-text="translations.messages.customs_clearance_tagline"></p>
@@ -207,7 +207,7 @@
                     <div class="text-center">
                         <h2 x-text="translations.messages.cta_title"></h2>
                         <p x-text="translations.messages.cta_description"></p>
-                        <a class="cta-btn" href="/contact" x-text="translations.messages.get_quote"></a>
+                        <a class="cta-btn" href="{{ route('contact') }}" x-text="translations.messages.get_quote"></a>
                     </div>
                 </div>
             </div>

@@ -14,7 +14,7 @@
             <h1 class="mb-2 mb-lg-0" x-text="translations.messages.flexitank_flexibag"></h1>
             <nav class="breadcrumbs">
                 <ol>
-                    <li><a href="/services" x-text="translations.messages.services"></a></li>
+                    <li><a href="{{ route('services') }}" x-text="translations.messages.services"></a></li>
                     <li class="current" x-text="translations.messages.service_details"></li>
                 </ol>
             </nav>
@@ -29,12 +29,12 @@
                     <div class="service-box">
                         <h3 x-text="translations.messages.services_list"></h3>
                         <div class="services-list">
-                            <a href="/nvocc"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.nvocc"></span></a>
-                            <a href="/freight-forwarding"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.freight_forwarding"></span></a>
-                            <a href="/domestic-forwarding"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.domestic_forwarding"></span></a>
-                            <a href="/flexitank-flexibag" class="active"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.flexitank_flexibag"></span></a>
-                            <a href="/project-logistics"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.project_logistics"></span></a>
-                            <a href="/customs-clearance"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.customs_clearance"></span></a>                       
+                            <a href="{{ route('nvocc') }}"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.nvocc"></span></a>
+                            <a href="{{ route('freight-forwarding') }}"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.freight_forwarding"></span></a>
+                            <a href="{{ route('domestic-forwarding') }}"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.domestic_forwarding"></span></a>
+                            <a href="{{ route('flexitank-flexibag') }}" class="active"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.flexitank_flexibag"></span></a>
+                            <a href="{{ route('project-logistics') }}"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.project_logistics"></span></a>
+                            <a href="{{ route('customs-clearance') }}"><i class="bi bi-arrow-right-circle"></i><span x-text="translations.messages.customs_clearance"></span></a>                       
                         </div>
                     </div>
                     <div class="service-box">
@@ -89,7 +89,7 @@
                     <p x-text="translations.messages.flexitank_flexibag_description_1"></p>
                     <p x-text="translations.messages.flexitank_flexibag_description_2"></p>
                     <p x-text="translations.messages.flexitank_flexibag_description_3"></p>
-                    <a href="/flexitank-flexibag-details" class="more-details-btn" x-text="translations.messages.flexitank_flexibag_details"></a>
+                    <a href="{{ route('flexitank-flexibag-details') }}" class="more-details-btn" x-text="translations.messages.flexitank_flexibag_details"></a>
                 </div>
             </div>
         </div>

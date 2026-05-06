@@ -12,11 +12,9 @@ Route::get('/laravel', function () {
     return view('welcome');
 });
 
-Route::get('/internal/maintenance/{token}', [MaintenanceController::class, 'clear']);
-
 Route::get('/', function () {
     return view('index');
-});
+})->name('home');
 
 Route::post('/send-email', [ContactController::class, 'send'])
     ->middleware(['throttle:1,3', ProtectAgainstSpam::class])
@@ -25,16 +23,30 @@ Route::post('/send-email', [ContactController::class, 'send'])
 Route::post('/language/switch', [LanguageController::class, 'switch'])
     ->name('language.switch');
 
-Route::get('/about', function () { return view('section.about'); });
-Route::get('/services', function () { return view('section.services'); });
-Route::get('/news', function () { return view('section.news'); });
-Route::get('/contact', function () { return view('section.contact'); });
+Route::get('/maintenance/{token}', [MaintenanceController::class, 'clear']);
 
-Route::get('/nvocc', function () { return view('services.nvocc'); });
-Route::get('/nvocc-schedule', function () { return view('services.nvocc-schedule'); });
-Route::get('/freight-forwarding', function () { return view('services.freight-forwarding'); });
-Route::get('/domestic-forwarding', function () { return view('services.domestic-forwarding'); });
-Route::get('/flexitank-flexibag', function () { return view('services.flexitank-flexibag'); });
-Route::get('/flexitank-flexibag-details', function () { return view('services.flexitank-flexibag-details'); });
-Route::get('/project-logistics', function () { return view('services.project-logistics'); });
-Route::get('/customs-clearance', function () { return view('services.customs-clearance'); });
+Route::get('/about', function () { return view('section.about'); })
+    ->name('about');
+Route::get('/services', function () { return view('section.services'); })
+    ->name('services');
+Route::get('/news', function () { return view('section.news'); })
+    ->name('news');
+Route::get('/contact', function () { return view('section.contact'); })
+    ->name('contact');
+
+Route::get('/nvocc', function () { return view('services.nvocc'); })
+    ->name('nvocc');
+Route::get('/nvocc-schedule', function () { return view('services.nvocc-schedule'); })
+    ->name('nvocc-schedule');
+Route::get('/freight-forwarding', function () { return view('services.freight-forwarding'); })
+    ->name('freight-forwarding');
+Route::get('/domestic-forwarding', function () { return view('services.domestic-forwarding'); })
+    ->name('domestic-forwarding');
+Route::get('/flexitank-flexibag', function () { return view('services.flexitank-flexibag'); })
+    ->name('flexitank-flexibag');
+Route::get('/flexitank-flexibag-details', function () { return view('services.flexitank-flexibag-details'); })
+    ->name('flexitank-flexibag-details');
+Route::get('/project-logistics', function () { return view('services.project-logistics'); })
+    ->name('project-logistics');
+Route::get('/customs-clearance', function () { return view('services.customs-clearance'); })
+    ->name('customs-clearance');

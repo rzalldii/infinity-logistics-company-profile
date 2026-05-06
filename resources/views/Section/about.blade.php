@@ -177,7 +177,7 @@
                     <div class="text-center">
                         <h2 x-text="translations.messages.cta_title"></h2>
                         <p x-text="translations.messages.cta_description"></p>
-                        <a class="cta-btn" href="/contact" x-text="translations.messages.get_quote"></a>
+                        <a class="cta-btn" href="{{ route('contact') }}" x-text="translations.messages.get_quote"></a>
                     </div>
                 </div>
             </div>

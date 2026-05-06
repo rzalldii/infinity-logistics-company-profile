@@ -12,7 +12,7 @@
     <div class="page-title">
         <div class="container d-lg-flex justify-content-between align-items-center">
             <div class="d-flex align-items-center">
-                <a href="/flexitank-flexibag" class="more-details-btn me-3" aria-label="Flexitank">
+                <a href="{{ route('flexitank-flexibag') }}" class="more-details-btn me-3" aria-label="Flexitank">
                     <i class="bi bi-arrow-left"></i>
                 </a>
                 <h1 class="mb-0" x-text="translations.messages.flexitank_flexibag_details"></h1>
