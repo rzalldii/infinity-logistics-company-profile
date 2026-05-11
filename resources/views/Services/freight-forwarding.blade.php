@@ -1,13 +1,8 @@
-@extends('master')
-@section('title')
-{{ __('messages.freight_forwarding_title') }}
-@endsection('title')
-@section('meta')
-<meta name="description" content="Layanan freight forwarding internasional terintegrasi: LCL konsolidasi hemat biaya, air freight cepat, reefer bersuhu terkontrol, dan isotank untuk cairan curah. Pengantaran end-to-end dengan dokumentasi kepabeanan lengkap dari Surabaya ke seluruh dunia."/>
-<meta name="keywords" content="freight forwarding internasional, international freight forwarding, ekspedisi internasional, freight forwarding Surabaya, LCL, Less than Container Load, LCL consolidation, konsolidasi LCL, air freight, freight udara, pengiriman udara internasional, reefer cargo, reefer container, kontainer reefer, temperature controlled cargo, cold chain, rantai dingin, isotank, ISO tank, bulk liquid transport, pengangkutan cairan curah, kepabeanan, customs clearance, dokumentasi ekspor impor, end-to-end delivery, door-to-door, freight laut internasional, ocean freight international, freight forwarding services, layanan ekspedisi, forwarder Surabaya, ekspor impor, international shipping, cargo consolidation, time sensitive cargo, kargo sensitif waktu, multimodal transport, transportasi internasional, freight forwarder Indonesia, logistics services, layanan logistik internasional, customs documentation, offshore partner coordination, terminal coordination, carrier arrangement, sea freight, air cargo, specialized freight, cold storage shipping, liquid cargo transport, freight forwarding Malaysia Indonesia, Asia freight forwarding"/>
-@endsection('meta')
+@extends('layouts.app')
+@section('title', __('messages.freight_forwarding_title'))
+@section('meta_description', __('messages.freight_forwarding_meta_description'))
+@section('canonical', route('freight-forwarding'))
 @section('content')
-<main class="main">
     <!-- Page Title -->
     <div class="page-title">
         <div class="container d-lg-flex justify-content-between align-items-center">
@@ -21,6 +16,7 @@
         </div>
     </div>
     <!-- End Page Title -->
+
     <!-- Service Details Section -->
     <section id="service-details" class="service-details section">
         <div class="container">
@@ -94,5 +90,4 @@
         </div>
     </section>
     <!-- /Service Details Section -->
-</main>
-@endsection('content')
+@endsection

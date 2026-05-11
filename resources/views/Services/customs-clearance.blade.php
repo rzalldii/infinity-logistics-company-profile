@@ -1,13 +1,8 @@
-@extends('master')
-@section('title')
-{{ __('messages.customs_clearance_title') }}
-@endsection('title')
-@section('meta')
-<meta name="description" content="Layanan customs clearance/kepabeanan Indonesia untuk ekspor-impor: deklarasi bea cukai, pembayaran bea & pajak, sertifikat lengkap. Hubungan baik dengan Bea Cukai Surabaya untuk proses cepat, penyelesaian masalah segera, menjaga supply chain tetap lancar."/>
-<meta name="keywords" content="customs clearance, customs clearance Indonesia, kepabeanan, bea cukai, layanan kepabeanan, jasa bea cukai, customs clearance Surabaya, Bea Cukai Surabaya, deklarasi bea cukai, customs declaration, import clearance, export clearance, pembayaran bea masuk, pembayaran pajak impor, import duty, customs tax, customs documentation, dokumen kepabeanan, commercial invoice, certificate of origin, sertifikat asal, customs broker, customs agent, agen bea cukai, PPJK, pengurusan bea cukai, kepabeanan ekspor impor, customs compliance, customs regulations Indonesia, regulasi bea cukai Indonesia, fast customs clearance, penyelesaian masalah bea cukai, customs issue resolution, customs clearance services, layanan PPJK, freight forwarding customs, customs clearance freight, supply chain customs, customs audit, post clearance audit, Direktorat Jenderal Bea Cukai, DJBC, customs declaration PIB PEB, customs Indonesia Surabaya, bea cukai cepat, pengurusan kepabeanan profesional, customs compliance Indonesia, kepabeanan terpercaya, jasa PPJK Surabaya, customs clearance agent Indonesia, import export documentation, pengurusan dokumen kepabeanan"/>
-@endsection('meta')
+@extends('layouts.app')
+@section('title', __('messages.customs_clearance_title'))
+@section('meta_description', __('messages.customs_clearance_meta_description'))
+@section('canonical', route('customs-clearance'))
 @section('content')
-<main class="main">
     <!-- Page Title -->
     <div class="page-title">
         <div class="container d-lg-flex justify-content-between align-items-center">
@@ -21,6 +16,7 @@
         </div>
     </div>
     <!-- End Page Title -->
+
     <!-- Service Details Section -->
     <section id="service-details" class="service-details section">
         <div class="container">
@@ -88,5 +84,4 @@
         </div>
     </section>
     <!-- /Service Details Section -->
-</main>
-@endsection('content')
+@endsection

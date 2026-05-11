@@ -1,13 +1,8 @@
-@extends('master')
-@section('title')
-{{ __('messages.project_logistics_title') }}
-@endsection('title')
-@section('meta')
-<meta name="description" content="Layanan project logistics untuk kargo berat & oversized: pembangkit listrik, migas, energi terbarukan. Transportasi multimoda (darat/laut/kereta) dengan lashing plan, OOG declaration. Hub strategis Pelabuhan Tanjung Perak Surabaya dengan infrastruktur lengkap."/>
-<meta name="keywords" content="project logistics, project cargo, heavy lift cargo, oversized cargo, out of gauge, OOG cargo, kargo berat, kargo oversized, logistik proyek, project cargo Indonesia, heavy equipment transport, pembangkit listrik, power plant logistics, migas logistics, oil and gas logistics, energi terbarukan, renewable energy logistics, project cargo Surabaya, Pelabuhan Tanjung Perak, multimodal transport, transportasi multimoda, lashing plan, blocking plan, cargo survey, break bulk cargo, heavy lift shipping, project freight, industrial cargo, infrastructure logistics, construction logistics, manufacturing plant transport, capital project logistics, specialized cargo, complex cargo logistics, freight forwarding project, container selection, special permits, heavy haul, abnormal load, route survey, site survey, engineering cargo, machinery transport, equipment logistics, EPC logistics, turnkey project logistics, project management logistics, 3PL project cargo, Surabaya logistics hub, Indonesia project cargo, wind turbine transport, transformer shipping, crane shipping, mining equipment transport, offshore logistics"/>
-@endsection('meta')
+@extends('layouts.app')
+@section('title', __('messages.project_logistics_title'))
+@section('meta_description', __('messages.project_logistics_meta_description'))
+@section('canonical', route('project-logistics'))
 @section('content')
-<main class="main">
     <!-- Page Title -->
     <div class="page-title">
         <div class="container d-lg-flex justify-content-between align-items-center">
@@ -21,6 +16,7 @@
         </div>
     </div>
     <!-- End Page Title -->
+
     <!-- Service Details Section -->
     <section id="service-details" class="service-details section">
         <div class="container">
@@ -93,5 +89,4 @@
         </div>
     </section>
     <!-- /Service Details Section -->
-</main>
-@endsection('content')
+@endsection

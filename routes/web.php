@@ -12,9 +12,8 @@ Route::get('/laravel', function () {
     return view('welcome');
 });
 
-Route::get('/', function () {
-    return view('index');
-})->name('home');
+Route::get('/', function () { return view('sections.index');})
+    ->name('home');
 
 Route::post('/send-email', [ContactController::class, 'send'])
     ->middleware(['throttle:1,3', ProtectAgainstSpam::class])
@@ -25,13 +24,13 @@ Route::post('/language/switch', [LanguageController::class, 'switch'])
 
 Route::get('/maintenance/{token}', [MaintenanceController::class, 'clear']);
 
-Route::get('/about', function () { return view('section.about'); })
+Route::get('/about', function () { return view('sections.about'); })
     ->name('about');
-Route::get('/services', function () { return view('section.services'); })
+Route::get('/services', function () { return view('sections.services'); })
     ->name('services');
-Route::get('/news', function () { return view('section.news'); })
+Route::get('/news', function () { return view('sections.news'); })
     ->name('news');
-Route::get('/contact', function () { return view('section.contact'); })
+Route::get('/contact', function () { return view('sections.contact'); })
     ->name('contact');
 
 Route::get('/nvocc', function () { return view('services.nvocc'); })

@@ -1,13 +1,8 @@
-@extends('master')
-@section('title')
-{{ __('messages.contact_title') }}
-@endsection('title')
-@section('meta')
-<meta name="description" content="Hubungi Infinity Logistics Indonesia untuk penawaran freight forwarding, NVOCC, flexitank, dan logistik proyek. Kantor Surabaya: (+62)31-5492926 | Email: cssurabaya@infinity-sby.com. Layanan Senin-Sabtu dengan dukungan profesional."/>
-<meta name="keywords" content="kontak logistik, hubungi freight forwarder, kontak NVOCC, kontak freight forwarding, hubungi forwarder Surabaya, kontak perusahaan logistik, alamat freight forwarder Surabaya, telepon freight forwarding, email logistik, kontak flexitank, kontak flexibag, kontak logistik proyek, kontak kepabeanan, kontak bea cukai, kontak pergudangan, kontak freight laut, kontak freight udara, kontak freight darat, request quotation, minta penawaran logistik, formulir kontak logistik, hubungi logistik Surabaya, kontak NVOCC Indonesia, freight forwarder Surabaya alamat, perusahaan logistik Surabaya telepon, ekspor impor Surabaya, kontak LCL FCL, kontak door-to-door, customer service logistik, dukungan pelanggan freight, jam operasional freight forwarder, Infinity Logistics Indonesia kontak, cssurabaya@infinity-sby.com"/>
-@endsection('meta')
+@extends('layouts.app')
+@section('title', __('messages.contact_title'))
+@section('meta_description', __('messages.contact_meta_description'))
+@section('canonical', route('contact'))
 @section('content')
-<main class="main">
     <!-- Contact Section -->
     <section id="contact" class="contact section">
         <div class="container section-title" data-aos="fade-up">
@@ -120,6 +115,8 @@
         </div>
     </section>
     <!-- /Contact Section -->
+@endsection
+@push('script')
     <script>
         document.getElementById("submit-button").addEventListener("click", function (e) {
             e.preventDefault();
@@ -154,28 +151,21 @@
                 body: formData
             })
             .then(async response => {
-                const data = await response.json().catch(() => ({}));
                 if (response.ok) {
                     Swal.fire({
                         icon: "success",
                         title: "Success!",
-                        text: data.message || "Message sent successfully.",
+                        text: "Your message has been sent successfully.",
                         allowOutsideClick: false,
                         showConfirmButton: false,
                         timer: 3000,
                     });
                     form.reset();
                 } else {
-                    let errorText = "Message not sent.";
-                    if (data.errors) {
-                        errorText = Object.values(data.errors).flat().join("\n");
-                    } else if (data.message) {
-                        errorText = data.message;
-                    }
                     Swal.fire({
                         icon: "error",
                         title: "Failed!",
-                        text: errorText,
+                        text: "Failed to send message. Please try again.",
                         allowOutsideClick: false,
                         showConfirmButton: false,
                         timer: 3000,
@@ -194,5 +184,4 @@
             });
         });
     </script>
-</main>
-@endsection('content')
+@endpush

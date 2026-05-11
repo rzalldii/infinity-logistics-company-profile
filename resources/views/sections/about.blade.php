@@ -1,18 +1,13 @@
-@extends('master')
-@section('title')
-{{ __('messages.about_title') }}
-@endsection('title')
-@section('meta')
-<meta name="description" content="Penyedia logistik terpercaya dengan 20 tahun pengalaman melayani 40 negara. Layanan NVOCC, freight forwarding internasional & domestik, flexitank, logistik proyek, dan kepabeanan. Kantor pusat Malaysia, operasional di Surabaya dan Asia Tenggara dengan dukungan 24/7."/>
-<meta name="keywords" content="tentang perusahaan logistik, tentang freight forwarder, profil perusahaan logistik, NVOCC Malaysia, NVOCC Surabaya, freight forwarding internasional, freight forwarding domestik, flexitank Indonesia, flexibag Indonesia, logistik proyek, kepabeanan Indonesia, bea cukai, perusahaan logistik Surabaya, perusahaan logistik Malaysia, perusahaan logistik Asia Tenggara, freight laut, freight udara, freight darat, ekspor impor, LCL, FCL, door-to-door, agen pelayaran, penyedia 3PL, pergudangan, solusi supply chain, jangkauan global, layanan end-to-end, dukungan 24 jam, 20 tahun pengalaman, 350 klien aktif, 40 negara dilayani"/>
-@endsection('meta')
+@extends('layouts.app')
+@section('title', __('messages.about_title'))
+@section('meta_description', __('messages.about_meta_description'))
+@section('canonical', route('about'))
 @section('content')
-<main class="main">
     <!-- About Section -->
     <section id="about" class="about section">
         <div class="container section-title" data-aos="fade-up">
             <span x-text="translations.messages.about_section"><br></span>
-            <h1 x-text="translations.messages.about"></h1>
+            <h2 x-text="translations.messages.about"></h2>
         </div>
         <div class="container">
             <div class="row align-items-center">
@@ -38,6 +33,7 @@
         </div>
     </section>
     <!-- /About Section -->
+
     <!-- Stats Section -->
     <section id="stats" class="stats section">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -70,6 +66,7 @@
         </div>
     </section>
     <!-- /Stats Section -->
+
     <!-- Why Choose Us Section -->
     <section id="why-choose-us" class="why-choose-us section light-background">
         <div class="container" data-aos="fade-up">
@@ -120,6 +117,7 @@
         </div>
     </section>
     <!-- /Why Choose Us Section -->
+
     <!-- How It Works Section -->
     <section id="how-it-works" class="how-it-works section">
         <div class="container" data-aos="fade-up">
@@ -169,6 +167,7 @@
         </div>
     </section>
     <!-- /How It Works Section -->
+
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section accent-background">
         <div class="container">
@@ -184,5 +183,4 @@
         </div>
     </section>
     <!-- /Call To Action Section -->
-</main>
-@endsection('content')
+@endsection

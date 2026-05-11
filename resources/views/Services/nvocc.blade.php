@@ -1,13 +1,8 @@
-@extends('master')
-@section('title')
-{{ __('messages.nvocc_title') }}
-@endsection('title')
-@section('meta')
-<meta name="description" content="Layanan NVOCC FCL terpercaya dengan alokasi ruang andal ke Malaysia, Thailand, Indonesia, Singapura, Vietnam, India, Myanmar. Kontainer 20ft high cube Surabaya berkapasitas 12% lebih besar. Jadwal mingguan fleksibel untuk cargo berdensitas rendah."/>
-<meta name="keywords" content="NVOCC, NVOCC Indonesia, Non-Vessel Operating Common Carrier, layanan NVOCC, FCL, Full Container Load, pengiriman FCL, kontainer 20ft high cube, high cube container, kontainer Surabaya, NVOCC Surabaya, freight laut Asia, pengiriman Malaysia, pengiriman Thailand, pengiriman Singapura, pengiriman Vietnam, pengiriman India, pengiriman Myanmar, jalur perdagangan Asia, shipping schedule, jadwal kapal, alokasi ruang kontainer, kontainer GP, general purpose container, kargo berdensitas rendah, particle board shipping, gypsum board shipping, sheet glass shipping, pengiriman volume tinggi, solusi FCL hemat biaya, NVOCC Asia Tenggara, ocean freight NVOCC, maritime logistics, carrier laut, weekly sailing schedule, flexible departure dates, transit time, supply chain solution, eksportir Indonesia, NVOCC Malaysia-Indonesia, pelabuhan Asia, routing flexibility, container allocation, vessel operator"/>
-@endsection('meta')
+@extends('layouts.app')
+@section('title', __('messages.nvocc_title'))
+@section('meta_description', __('messages.nvocc_meta_description'))
+@section('canonical', route('nvocc'))
 @section('content')
-<main class="main">
     <!-- Page Title -->
     <div class="page-title">
         <div class="container d-lg-flex justify-content-between align-items-center">
@@ -21,6 +16,7 @@
         </div>
     </div>
     <!-- End Page Title -->
+
     <!-- Service Details Section -->
     <section id="service-details" class="service-details section">
         <div class="container">
@@ -94,5 +90,4 @@
         </div>
     </section>
     <!-- /Service Details Section -->
-</main>
-@endsection('content')
+@endsection

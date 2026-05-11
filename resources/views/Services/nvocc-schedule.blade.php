@@ -1,13 +1,8 @@
-@extends('master')
-@section('title')
-{{ __('messages.nvocc_schedule_title') }}
-@endsection('title')
-@section('meta')
-<meta name="description" content="Jadwal kapal NVOCC Oktober 2025 Surabaya-Port Klang: GSL (Inferro, YM Interaction, MTT Sandakan) & COSCO dengan ETD/ETA, cargo closing, voyage number. Update sailing schedule mingguan untuk FCL booking real-time."/>
-<meta name="keywords" content="jadwal NVOCC, NVOCC schedule, jadwal kapal Surabaya, sailing schedule Surabaya, jadwal kapal Port Klang, Surabaya Klang schedule, GSL schedule, COSCO schedule, vessel schedule Indonesia, shipping schedule Surabaya, cargo closing date, ETD Surabaya, ETA Surabaya, ETA Port Klang, voyage number, jadwal pelayaran, jadwal pengiriman, FCL schedule, container shipping schedule, weekly sailing schedule, jadwal mingguan, open stack date, booking schedule, shipping line schedule, Surabaya Malaysia schedule, Indonesia Malaysia shipping, freight schedule Surabaya, ocean freight schedule, sea freight schedule, vessel ETA ETD, jadwal keberangkatan kapal, jadwal kedatangan kapal, Port Klang West, Klang Barat, Tanjung Perak schedule, container vessel schedule, NVOCC Surabaya schedule, real-time schedule, updated schedule, cargo cutoff time, vessel arrival departure, shipping timetable, maritime schedule Indonesia, freight forwarder schedule, export schedule, import schedule, jadwal ekspor impor, booking cutoff, container booking schedule"/>
-@endsection('meta')
+@extends('layouts.app')
+@section('title', __('messages.nvocc_schedule_title'))
+@section('meta_description', __('messages.nvocc_schedule_meta_description'))
+@section('canonical', route('nvocc-schedule'))
 @section('content')
-<main class="main">
     <!-- Page Title -->
     <div class="page-title">
         <div class="container d-lg-flex justify-content-between align-items-center">
@@ -20,6 +15,7 @@
         </div>
     </div>
     <!-- End Page Title -->
+
     <!-- NVOCC Schedule Section -->
     <section id="nvocc-schedule" class="nvocc-schedule section">
         <div class="container section-title">
@@ -256,5 +252,4 @@
         </div>
     </section>
     <!-- /NVOCC Schedule Section -->
-</main>
-@endsection('content')
+@endsection

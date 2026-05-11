@@ -1,13 +1,8 @@
-@extends('master')
-@section('title')
-{{ __('messages.flexitank_flexibag_title') }}
-@endsection('title')
-@section('meta')
-<meta name="description" content="Solusi flexitank hemat biaya kapasitas 18.000-24.000 liter untuk cairan non-berbahaya: minyak nabati, minuman, bahan kimia ringan. Material food-grade polyethylene & polypropylene. Diproduksi di Malaysia, dukungan penuh Surabaya Indonesia dengan instalasi cepat dan after-sales andal."/>
-<meta name="keywords" content="flexitank, flexibag, flexitank Indonesia, flexitank Malaysia, bulk liquid transport, transportasi cairan curah, flexitank 20ft, flexitank 24000 liter, food grade flexitank, minyak nabati, edible oil transport, beverage shipping, light chemicals transport, polyethylene flexitank, polypropylene flexitank, flexitank food grade, Infinity Bulk Logistics, IBL flexitank, flexitank Surabaya, flexitank hemat biaya, cost effective liquid transport, contamination free shipping, flexitank installation, flexitank manufacturing, liquid latex transport, wine transport, juice transport, non-hazardous liquid, flexitank capacity, container liquid transport, bulk liquid container, flexibag 20 kaki, pengiriman cairan curah, tangki fleksibel, liquid cargo solution, flexitank ramah lingkungan, recyclable flexitank, flexitank support Indonesia, after sales flexitank, R&D flexitank, technical support flexitank, flexitank Malaysia Indonesia, ISO tank alternative, drum alternative, IBC alternative, flexi tank kontainer, bulk liquid logistics, liquid shipping solution"/>
-@endsection('meta')
+@extends('layouts.app')
+@section('title', __('messages.flexitank_flexibag_title'))
+@section('meta_description', __('messages.flexitank_flexibag_meta_description'))
+@section('canonical', route('flexitank-flexibag'))
 @section('content')
-<main class="main">
     <!-- Page Title -->
     <div class="page-title">
         <div class="container d-lg-flex justify-content-between align-items-center">
@@ -21,6 +16,7 @@
         </div>
     </div>
     <!-- End Page Title -->
+
     <!-- Service Details Section -->
     <section id="service-details" class="service-details section">
         <div class="container">
@@ -95,5 +91,4 @@
         </div>
     </section>
     <!-- /Service Details Section -->
-</main>
-@endsection('content')
+@endsection

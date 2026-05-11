@@ -29,16 +29,23 @@ class ContactController extends Controller
 
         $subscribe = $request->has('subscribe') ? 'Yes' : 'No';
 
-        Mail::send([], [], function ($message) use ($validated, $subjectLabel, $subscribe) {
-            $message->to('marketing1@infinity-sby.com')
-                    ->subject($subjectLabel)
-                    ->text( 'Name : ' . $validated['name'] . "\n" .
-                            'Email : ' . $validated['email'] . "\n\n" .
-                            'Message : ' . "\n\n" . $validated['message'] . "\n\n" .
-                            'Subscribe Newsletter : ' . $subscribe);
-        });
+        try {
+            Mail::raw(
+                'Name : '    . $validated['name']  . "\n" .
+                'Email : '   . $validated['email'] . "\n\n" .
+                'Message : ' . "\n\n" . $validated['message'] . "\n\n" .
+                'Subscribe Newsletter : ' . $subscribe,
+                function ($message) use ($validated, $subjectLabel) {
+                    $message->to('marketing1@infinity-sby.com')
+                            ->subject($subjectLabel)
+                            ->replyTo($validated['email'], $validated['name']);
+                }
+            );
 
-        response()->json(['redirect_url' => url('/')]);
+            return response()->json([], 200);
 
+        } catch (\Exception $e) {
+            return response()->json([], 500);
+        }
     }
 }

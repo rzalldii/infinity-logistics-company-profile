@@ -1,13 +1,8 @@
-@extends('master')
-@section('title')
-Infinity Logistics Indonesia
-@endsection('title')
-@section('meta')
-<meta name="description" content="Freight Forwarder Surabaya terpercaya dengan 20 tahun pengalaman melayani 350+ klien aktif di 40 negara. Layanan NVOCC, freight forwarding internasional & domestik, flexitank/flexibag, logistik proyek, kepabeanan, ocean freight, air freight, road freight, dan pergudangan. Kantor pusat Malaysia dengan operasi hub strategis di Surabaya dan Asia Tenggara. Solusi logistik end-to-end door-to-door dengan dukungan profesional 24/7 untuk FCL, LCL, ekspor-impor, dan supply chain terintegrasi."/>
-<meta name="keywords" content="freight forwarder Surabaya, freight forwarding Surabaya, perusahaan logistik Surabaya, forwarder Surabaya, freight forwarder Indonesia, perusahaan freight forwarding, NVOCC Surabaya, NVOCC Indonesia, Non-Vessel Operating Common Carrier, agen pelayaran Surabaya, freight forwarding internasional, international freight forwarding, ekspedisi internasional, freight forwarding domestik, ekspedisi domestik Indonesia, ekspedisi nasional, domestic forwarding, flexitank Surabaya, flexitank Indonesia, flexibag Indonesia, bulk liquid transport, transportasi cairan curah, logistik proyek, project logistics Indonesia, heavy lift cargo, oversized cargo, OOG cargo, kepabeanan Surabaya, customs clearance Surabaya, bea cukai Surabaya, jasa PPJK, customs broker Indonesia, ocean freight Surabaya, sea freight Indonesia, freight laut, pengiriman laut, FCL Indonesia, Full Container Load, LCL Indonesia, Less than Container Load, container shipping, air freight Surabaya, freight udara, pengiriman udara, cargo udara, road freight, freight darat, trucking Indonesia, pengiriman darat, FTL, LTL, warehouse Surabaya, pergudangan Indonesia, layanan pergudangan, warehouse management, door-to-door shipping, end-to-end logistics, multimodal transport, transportasi multimoda, supply chain solution, solusi rantai pasok, ekspor impor Surabaya, export import services, shipping line agent, agen kapal, carrier services, freight solutions, logistics services Surabaya, logistics provider Indonesia, 3PL Indonesia, third party logistics, penyedia logistik, logistics company Surabaya, perusahaan logistik Indonesia, freight forwarder terpercaya, reliable freight forwarding, logistics hub Surabaya, Tanjung Perak, Port Klang shipping, Malaysia Indonesia shipping, Southeast Asia logistics, Asia Tenggara, freight forwarding Malaysia, NVOCC Malaysia Indonesia, Infinity Logistics Indonesia, Infinity Logistics Surabaya, 20 tahun pengalaman, 350 klien aktif, 40 negara dilayani, freight forwarder profesional, dukungan 24/7, solusi logistik terintegrasi, integrated logistics solution, freight forwarding services, comprehensive logistics, layanan logistik lengkap, freight consultant, konsultan logistik"/>
-@endsection('meta')
+@extends('layouts.app')
+@section('title', 'Infinity Logistics Indonesia')
+@section('meta_description', __('messages.home_meta_description'))
+@section('canonical', route('home'))
 @section('content')
-<main class="main">
     <!-- Hero Section -->
     <section id="hero" class="hero section">
         <div class="container">
@@ -27,6 +22,7 @@ Infinity Logistics Indonesia
         </div>
     </section>
     <!-- /Hero Section -->
+
     <!-- Featured Services Section -->
     <section id="featured-services" class="featured-services section">
         <div class="container">
@@ -62,6 +58,7 @@ Infinity Logistics Indonesia
         </div>
     </section>
     <!-- /Featured Services Section -->
+
     <!-- About Section -->
     <section id="about" class="about section">
         <div class="container section-title" data-aos="fade-up">
@@ -92,6 +89,7 @@ Infinity Logistics Indonesia
         </div>
     </section>
     <!-- /About Section -->
+
     <!-- Stats Section -->
     <section id="stats" class="stats section">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -127,6 +125,7 @@ Infinity Logistics Indonesia
         </div>
     </section>
     <!-- /Stats Section -->
+
     <!-- Services Section -->
     <section id="services" class="services section light-background">
         <div class="container section-title" data-aos="fade-up">
@@ -208,6 +207,7 @@ Infinity Logistics Indonesia
         </div>
     </section>
     <!-- /Services Section -->
+
     <!-- News Section -->
     <!-- <section id="news" class="news section">
         <div class="container section-title" data-aos="fade-up">
@@ -250,6 +250,7 @@ Infinity Logistics Indonesia
         </div>
     </section> -->
     <!-- /News Section -->
+
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section accent-background">
         <div class="container">
@@ -265,6 +266,7 @@ Infinity Logistics Indonesia
         </div>
     </section>
     <!-- /Call To Action Section -->
+
     <!-- Team Section -->
     <section id="team" class="team section light-background">
         <div class="container section-title" data-aos="fade-up">
@@ -286,6 +288,7 @@ Infinity Logistics Indonesia
         </div>
     </section>
     <!-- /Team Section -->
+
     <!-- Clients Section -->
     <section id="clients" class="clients section">
         <div class="container section-title" data-aos="fade-up">
@@ -407,6 +410,7 @@ Infinity Logistics Indonesia
         </div>
     </section>
     <!-- /Clients Section -->
+
     <!-- Contact Section -->
     <section id="contact" class="contact section">
         <div class="container section-title" data-aos="fade-up">
@@ -519,6 +523,8 @@ Infinity Logistics Indonesia
         </div>
     </section>
     <!-- /Contact Section -->
+@endsection
+@push('script')
     <script>
         document.getElementById("submit-button").addEventListener("click", function (e) {
             e.preventDefault();
@@ -553,28 +559,21 @@ Infinity Logistics Indonesia
                 body: formData
             })
             .then(async response => {
-                const data = await response.json().catch(() => ({}));
                 if (response.ok) {
                     Swal.fire({
                         icon: "success",
                         title: "Success!",
-                        text: data.message || "Message sent successfully.",
+                        text: "Your message has been sent successfully.",
                         allowOutsideClick: false,
                         showConfirmButton: false,
                         timer: 3000,
                     });
                     form.reset();
                 } else {
-                    let errorText = "Message not sent.";
-                    if (data.errors) {
-                        errorText = Object.values(data.errors).flat().join("\n");
-                    } else if (data.message) {
-                        errorText = data.message;
-                    }
                     Swal.fire({
                         icon: "error",
                         title: "Failed!",
-                        text: errorText,
+                        text: "Failed to send message. Please try again.",
                         allowOutsideClick: false,
                         showConfirmButton: false,
                         timer: 3000,
@@ -593,5 +592,4 @@ Infinity Logistics Indonesia
             });
         });
     </script>
-</main>
-@endsection('content')
+@endpush

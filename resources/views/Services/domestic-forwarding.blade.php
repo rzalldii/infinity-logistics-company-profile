@@ -1,13 +1,8 @@
-@extends('master')
-@section('title')
-{{ __('messages.domestic_forwarding_title') }}
-@endsection('title')
-@section('meta')
-<meta name="description" content="Layanan domestic forwarding/ekspedisi nasional terintegrasi di Indonesia: pengiriman darat, laut, udara, kereta dengan real-time tracking. Lebih cepat dan hemat biaya dibanding internasional. Solusi door-to-door dengan asuransi kargo dan pergudangan."/>
-<meta name="keywords" content="domestic forwarding, ekspedisi nasional, ekspedisi domestik, forwarding domestik Indonesia, pengiriman dalam negeri, pengiriman domestik, freight domestik, logistik domestik, pengiriman darat domestik, pengiriman laut domestik, pengiriman udara domestik, pengiriman kereta, ekspedisi antar kota, ekspedisi antar pulau, door-to-door domestik, real-time tracking, pelacakan kiriman, asuransi kargo, pergudangan domestik, warehouse Indonesia, manajemen persediaan, inventory management, trucking domestik, pengiriman Jawa, pengiriman Sumatera, pengiriman Kalimantan, pengiriman Sulawesi, expedisi cepat Indonesia, freight forwarding Indonesia, layanan logistik nasional, forwarder domestik, ekspedisi murah, pengiriman hemat biaya, solusi logistik Indonesia, transportasi domestik, distribusi nasional, cargo domestik, LTL domestik, FTL domestik, angkutan darat, angkutan laut EMKL, angkutan udara domestik, kereta api kargo, jaringan distribusi Indonesia, supply chain domestik, layanan end-to-end, pengiriman cepat Indonesia, ekspedisi terpercaya"/>
-@endsection('meta')
+@extends('layouts.app')
+@section('title', __('messages.domestic_forwarding_title'))
+@section('meta_description', __('messages.domestic_forwarding_meta_description'))
+@section('canonical', route('domestic-forwarding'))
 @section('content')
-<main class="main">
     <!-- Page Title -->
     <div class="page-title">
         <div class="container d-lg-flex justify-content-between align-items-center">
@@ -21,6 +16,7 @@
         </div>
     </div>
     <!-- End Page Title -->
+
     <!-- Service Details Section -->
     <section id="service-details" class="service-details section">
         <div class="container">
@@ -88,5 +84,4 @@
         </div>
     </section>
     <!-- /Service Details Section -->
-</main>
-@endsection('content')
+@endsection

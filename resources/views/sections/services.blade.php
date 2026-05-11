@@ -1,18 +1,13 @@
-@extends('master')
-@section('title')
-{{ __('messages.services_title') }}
-@endsection('title')
-@section('meta')
-<meta name="description" content="Layanan logistik komprehensif: NVOCC, freight forwarding internasional & domestik, flexitank/flexibag, logistik proyek, kepabeanan, freight laut/udara/darat, dan pergudangan. Solusi door-to-door untuk FCL, LCL di Surabaya dan Asia Tenggara."/>
-<meta name="keywords" content="layanan logistik, layanan freight forwarding, NVOCC, freight forwarding internasional, freight forwarding domestik, forwarding domestik, flexitank, flexibag, logistik proyek, kepabeanan, bea cukai, freight laut, ocean freight, freight udara, air freight, freight darat, road freight, pergudangan, warehouse services, FCL, LCL, full container load, less than container load, FTL, LTL, full truck load, less than truck load, reefer container, ISO tank, door-to-door, ekspor impor, consolidation, haulage, contract carriage, warehouse management, modular storage, integrated warehouse, layanan logistik Surabaya, freight forwarder Malaysia, freight forwarding Indonesia, NVOCC Indonesia, flexitank Indonesia, flexibag Indonesia, logistik Asia Tenggara, pengiriman laut, pengiriman udara, pengiriman darat, solusi supply chain, penyedia logistik, perusahaan forwarding, agen pelayaran"/>
-@endsection('meta')
+@extends('layouts.app')
+@section('title', __('messages.services_title'))
+@section('meta_description', __('messages.services_meta_description'))
+@section('canonical', route('services'))
 @section('content')
-<main class="main">
     <!-- Services Section -->
-    <section id="services" class="services section">
+    <section id="services" class="services section light-background">
         <div class="container section-title" data-aos="fade-up">
             <span x-text="translations.messages.services_section"></span>
-            <h1 x-text="translations.messages.services"></h1>
+            <h2 x-text="translations.messages.services"></h2>
         </div>
         <div class="container">
             <div class="row gy-4">
@@ -22,7 +17,7 @@
                             <img src="<?php echo url('/'); ?>/img/icons/NVOCC.webp" alt="NVOCC" loading="lazy">
                         </div>
                         <a href="{{ route('nvocc') }}" class="stretched-link">
-                            <h2 x-text="translations.messages.nvocc"></h2>
+                            <h3 x-text="translations.messages.nvocc"></h3>
                         </a>
                         <p x-text="translations.messages.nvocc_tagline"></p>
                     </div>
@@ -33,7 +28,7 @@
                             <img src="<?php echo url('/'); ?>/img/icons/FREIGHT FORWARDING.webp" alt="FREIGHT FORWARDING" loading="lazy">
                         </div>
                         <a href="{{ route('freight-forwarding') }}" class="stretched-link">
-                            <h2 x-text="translations.messages.freight_forwarding"></h2>
+                            <h3 x-text="translations.messages.freight_forwarding"></h3>
                         </a>
                         <p x-text="translations.messages.freight_forwarding_tagline"></p>
                     </div>
@@ -44,7 +39,7 @@
                             <img src="<?php echo url('/'); ?>/img/icons/DOMESTIC FORWARDING.webp" alt="DOMESTIC FORWARDING" loading="lazy">
                         </div>
                         <a href="{{ route('domestic-forwarding') }}" class="stretched-link">
-                            <h2 x-text="translations.messages.domestic_forwarding"></h2>
+                            <h3 x-text="translations.messages.domestic_forwarding"></h3>
                         </a>
                         <p x-text="translations.messages.domestic_forwarding_tagline"></p>
                     </div>
@@ -55,7 +50,7 @@
                             <img src="<?php echo url('/'); ?>/img/icons/FLEXITANK FLEXIBAG.webp" alt="FLEXITANK FLEXIBAG" loading="lazy">
                         </div>
                         <a href="{{ route('flexitank-flexibag') }}" class="stretched-link">
-                            <h2 x-text="translations.messages.flexitank_flexibag"></h2>
+                            <h3 x-text="translations.messages.flexitank_flexibag"></h3>
                         </a>
                         <p x-text="translations.messages.flexitank_flexibag_tagline"></p>
                     </div>
@@ -66,7 +61,7 @@
                             <img src="<?php echo url('/'); ?>/img/icons/PROJECT LOGISTICS.webp" alt="PROJECT LOGISTICS" loading="lazy">
                         </div>
                         <a href="{{ route('project-logistics') }}" class="stretched-link">
-                            <h2 x-text="translations.messages.project_logistics"></h2>
+                            <h3 x-text="translations.messages.project_logistics"></h3>
                         </a>
                         <p x-text="translations.messages.project_logistics_tagline"></p>
                     </div>
@@ -77,7 +72,7 @@
                             <img src="<?php echo url('/'); ?>/img/icons/CUSTOMS CLEARANCE.webp" alt="CUSTOMS CLEARANCE" loading="lazy">
                         </div>
                         <a href="{{ route('customs-clearance') }}" class="stretched-link">
-                            <h2 x-text="translations.messages.customs_clearance"></h2>
+                            <h3 x-text="translations.messages.customs_clearance"></h3>
                         </a>
                         <p x-text="translations.messages.customs_clearance_tagline"></p>
                     </div>
@@ -86,6 +81,7 @@
         </div>
     </section>
     <!-- /Services Section -->
+
     <!-- Solutions Section -->
     <section id="solutions" class="solutions section light-background">
         <div class="container" data-aos="fade-up">
@@ -199,6 +195,7 @@
         </div>
     </section>
     <!-- /Solutions Section -->
+
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section accent-background">
         <div class="container">
@@ -214,5 +211,4 @@
         </div>
     </section>
     <!-- /Call To Action Section -->
-</main>
-@endsection('content')
+@endsection

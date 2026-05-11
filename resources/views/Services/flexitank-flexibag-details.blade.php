@@ -1,13 +1,8 @@
-@extends('master')
-@section('title')
-{{ __('messages.flexitank_flexibag_details_title') }}
-@endsection('title')
-@section('meta')
-<meta name="description" content="Spesifikasi lengkap flexitank: Multilayer (Beta-Epsilon tank), PP woven liner polyethylene & EVOH, butterfly valve, bulkhead tipe A/B/C, heating pad, insulation liner, tub liner, heat exchanger. Sertifikat FSSC 22000, ISO 9001, ISO 22000, HACCP, Halal, FDA GMP."/>
-<meta name="keywords" content="flexitank specifications, spesifikasi flexitank, flexitank details, multilayer flexitank, beta tank, gamma tank, delta tank, epsilon tank, PP woven flexitank, polypropylene woven, polyethylene liner, EVOH liner, ethyl vinyl alcohol, barrier film, butterfly valve, valve kupu-kupu, gland valve, compression valve, bulkhead flexitank, bulkhead A B C, steel bar bulkhead, heating pad flexitank, EPDM heating pad, steam heating, insulation liner, thermal insulation, temperature control flexitank, tub liner, spill containment, leak protection, heat exchanger flexitank, flexitank accessories, flexitank components, food grade flexitank, FDA approved flexitank, flexitank certification, FSSC 22000, ISO 22000, ISO 9001, ISO 14001, HACCP certified, halal certified, GMP FDA, flexitank safety, multilayer construction, 125 micron polyethylene, 100 micron EVOH, flexitank installation, flexitank heating system, cargo heating solution, temperature maintenance, flexitank specifications Indonesia, flexitank technical details, complete flexitank system"/>
-@endsection('meta')
+@extends('layouts.app')
+@section('title', __('messages.flexitank_flexibag_details_title'))
+@section('meta_description', __('messages.flexitank_flexibag_details_meta_description'))
+@section('canonical', route('flexitank-flexibag-details'))
 @section('content')
-<main class="main">
     <!-- Page Title -->
     <div class="page-title">
         <div class="container d-lg-flex justify-content-between align-items-center">
@@ -20,6 +15,7 @@
         </div>
     </div>
     <!-- End Page Title -->
+
     <!-- MULTILAYER Section -->
     <section id="multilayer" class="flexitank-details section">
         <div class="container section-title">
@@ -82,6 +78,7 @@
         </div>
     </section>
     <!-- /MULTILAYER Section -->
+
     <!-- PP WOVEN Section -->
     <section id="pp-woven" class="flexitank-details section light-background">
         <div class="container section-title">
@@ -136,6 +133,7 @@
         </div>
     </section>
     <!-- /PP WOVEN Section -->
+
     <!-- VALVE Section -->
     <section id="valve" class="flexitank-details section">
         <div class="container section-title">
@@ -190,6 +188,7 @@
         </div>
     </section>
     <!-- /VALVE Section -->
+
     <!-- BULKHEAD Section -->
     <section id="bulkhead" class="flexitank-details section light-background">
         <div class="container section-title">
@@ -253,6 +252,7 @@
         </div>
     </section>
     <!-- /BULKHEAD Section -->
+
     <!-- HEATING PAD Section -->
     <section id="heating-pad" class="flexitank-details section">
         <div class="container section-title">
@@ -304,6 +304,7 @@
         </div>
     </section>
     <!-- /HEATING PAD Section -->
+
     <!-- INSULATION LINER Section -->
     <section id="insulation-liner" class="flexitank-details section light-background">
         <div class="container section-title">
@@ -361,6 +362,7 @@
         </div>
     </section>
     <!-- /INSULATION LINER Section -->
+
     <!-- TUB LINER Section -->
     <section id="tub-liner" class="flexitank-details section">
         <div class="container section-title">
@@ -418,6 +420,7 @@
         </div>
     </section>
     <!-- /TUB LINER Section -->
+
     <!-- HEAT EXCHANGER Section -->
     <section id="heat-exchanger" class="flexitank-details section light-background">
         <div class="container section-title">
@@ -476,6 +479,7 @@
         </div>
     </section>
     <!-- /HEAT EXCHANGER Section -->
+
     <!-- CERTIFICATE Section -->
     <section id="flexitank-details" class="flexitank-details section">
         <div class="container">
@@ -544,5 +548,4 @@
         </div>
     </section>
     <!-- /CERTIFICATE Section -->
-</main>
-@endsection('content')
+@endsection
