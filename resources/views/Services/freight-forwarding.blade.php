@@ -3,6 +3,7 @@
 @section('meta_description', __('messages.freight_forwarding_meta_description'))
 @section('canonical', route('freight-forwarding'))
 @section('content')
+<main class="main">
     <!-- Page Title -->
     <div class="page-title">
         <div class="container d-lg-flex justify-content-between align-items-center">
@@ -16,7 +17,6 @@
         </div>
     </div>
     <!-- End Page Title -->
-
     <!-- Service Details Section -->
     <section id="service-details" class="service-details section">
         <div class="container">
@@ -90,4 +90,5 @@
         </div>
     </section>
     <!-- /Service Details Section -->
+</main>
 @endsection

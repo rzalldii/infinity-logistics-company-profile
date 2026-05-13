@@ -3,8 +3,9 @@
 @section('meta_description', __('messages.services_meta_description'))
 @section('canonical', route('services'))
 @section('content')
+<main class="main">
     <!-- Services Section -->
-    <section id="services" class="services section light-background">
+    <section id="services" class="services section">
         <div class="container section-title" data-aos="fade-up">
             <span x-text="translations.messages.services_section"></span>
             <h2 x-text="translations.messages.services"></h2>
@@ -81,7 +82,6 @@
         </div>
     </section>
     <!-- /Services Section -->
-
     <!-- Solutions Section -->
     <section id="solutions" class="solutions section light-background">
         <div class="container" data-aos="fade-up">
@@ -195,7 +195,6 @@
         </div>
     </section>
     <!-- /Solutions Section -->
-
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section accent-background">
         <div class="container">
@@ -211,4 +210,5 @@
         </div>
     </section>
     <!-- /Call To Action Section -->
+</main>
 @endsection

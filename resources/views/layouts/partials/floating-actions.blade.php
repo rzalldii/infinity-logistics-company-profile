@@ -53,9 +53,7 @@
             <i class="bi bi-whatsapp"></i>
         </button>
     </div>
-
     <!-- Scroll Top -->
     <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Scroll"><i class="bi bi-shift-fill"></i></a>
-
     <!-- Preloader -->
     <div id="preloader"></div>

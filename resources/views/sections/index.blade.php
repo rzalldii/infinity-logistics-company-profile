@@ -3,6 +3,7 @@
 @section('meta_description', __('messages.home_meta_description'))
 @section('canonical', route('home'))
 @section('content')
+<main class="main">
     <!-- Hero Section -->
     <section id="hero" class="hero section">
         <div class="container">
@@ -22,7 +23,6 @@
         </div>
     </section>
     <!-- /Hero Section -->
-
     <!-- Featured Services Section -->
     <section id="featured-services" class="featured-services section">
         <div class="container">
@@ -58,7 +58,6 @@
         </div>
     </section>
     <!-- /Featured Services Section -->
-
     <!-- About Section -->
     <section id="about" class="about section">
         <div class="container section-title" data-aos="fade-up">
@@ -89,7 +88,6 @@
         </div>
     </section>
     <!-- /About Section -->
-
     <!-- Stats Section -->
     <section id="stats" class="stats section">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -125,7 +123,6 @@
         </div>
     </section>
     <!-- /Stats Section -->
-
     <!-- Services Section -->
     <section id="services" class="services section light-background">
         <div class="container section-title" data-aos="fade-up">
@@ -207,7 +204,6 @@
         </div>
     </section>
     <!-- /Services Section -->
-
     <!-- News Section -->
     <!-- <section id="news" class="news section">
         <div class="container section-title" data-aos="fade-up">
@@ -250,7 +246,6 @@
         </div>
     </section> -->
     <!-- /News Section -->
-
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section accent-background">
         <div class="container">
@@ -266,7 +261,6 @@
         </div>
     </section>
     <!-- /Call To Action Section -->
-
     <!-- Team Section -->
     <section id="team" class="team section light-background">
         <div class="container section-title" data-aos="fade-up">
@@ -288,7 +282,6 @@
         </div>
     </section>
     <!-- /Team Section -->
-
     <!-- Clients Section -->
     <section id="clients" class="clients section">
         <div class="container section-title" data-aos="fade-up">
@@ -410,7 +403,6 @@
         </div>
     </section>
     <!-- /Clients Section -->
-
     <!-- Contact Section -->
     <section id="contact" class="contact section">
         <div class="container section-title" data-aos="fade-up">
@@ -523,6 +515,7 @@
         </div>
     </section>
     <!-- /Contact Section -->
+</main>
 @endsection
 @push('script')
     <script>
@@ -563,7 +556,6 @@
                     Swal.fire({
                         icon: "success",
                         title: "Success!",
-                        text: "Your message has been sent successfully.",
                         allowOutsideClick: false,
                         showConfirmButton: false,
                         timer: 3000,
@@ -573,7 +565,6 @@
                     Swal.fire({
                         icon: "error",
                         title: "Failed!",
-                        text: "Failed to send message. Please try again.",
                         allowOutsideClick: false,
                         showConfirmButton: false,
                         timer: 3000,
@@ -584,7 +575,6 @@
                 Swal.fire({
                     icon: "error",
                     title: "Error!",
-                    text: "Unable to connect to the server.",
                     allowOutsideClick: false,
                     showConfirmButton: false,
                     timer: 3000,

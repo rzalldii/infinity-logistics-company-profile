@@ -3,6 +3,7 @@
 @section('meta_description', __('messages.flexitank_flexibag_details_meta_description'))
 @section('canonical', route('flexitank-flexibag-details'))
 @section('content')
+<main class="main">
     <!-- Page Title -->
     <div class="page-title">
         <div class="container d-lg-flex justify-content-between align-items-center">
@@ -15,7 +16,6 @@
         </div>
     </div>
     <!-- End Page Title -->
-
     <!-- MULTILAYER Section -->
     <section id="multilayer" class="flexitank-details section">
         <div class="container section-title">
@@ -78,7 +78,6 @@
         </div>
     </section>
     <!-- /MULTILAYER Section -->
-
     <!-- PP WOVEN Section -->
     <section id="pp-woven" class="flexitank-details section light-background">
         <div class="container section-title">
@@ -133,7 +132,6 @@
         </div>
     </section>
     <!-- /PP WOVEN Section -->
-
     <!-- VALVE Section -->
     <section id="valve" class="flexitank-details section">
         <div class="container section-title">
@@ -188,7 +186,6 @@
         </div>
     </section>
     <!-- /VALVE Section -->
-
     <!-- BULKHEAD Section -->
     <section id="bulkhead" class="flexitank-details section light-background">
         <div class="container section-title">
@@ -252,7 +249,6 @@
         </div>
     </section>
     <!-- /BULKHEAD Section -->
-
     <!-- HEATING PAD Section -->
     <section id="heating-pad" class="flexitank-details section">
         <div class="container section-title">
@@ -304,7 +300,6 @@
         </div>
     </section>
     <!-- /HEATING PAD Section -->
-
     <!-- INSULATION LINER Section -->
     <section id="insulation-liner" class="flexitank-details section light-background">
         <div class="container section-title">
@@ -362,7 +357,6 @@
         </div>
     </section>
     <!-- /INSULATION LINER Section -->
-
     <!-- TUB LINER Section -->
     <section id="tub-liner" class="flexitank-details section">
         <div class="container section-title">
@@ -420,7 +414,6 @@
         </div>
     </section>
     <!-- /TUB LINER Section -->
-
     <!-- HEAT EXCHANGER Section -->
     <section id="heat-exchanger" class="flexitank-details section light-background">
         <div class="container section-title">
@@ -479,7 +472,6 @@
         </div>
     </section>
     <!-- /HEAT EXCHANGER Section -->
-
     <!-- CERTIFICATE Section -->
     <section id="flexitank-details" class="flexitank-details section">
         <div class="container">
@@ -548,4 +540,5 @@
         </div>
     </section>
     <!-- /CERTIFICATE Section -->
+</main>
 @endsection

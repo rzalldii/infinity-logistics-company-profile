@@ -3,6 +3,7 @@
 @section('meta_description', __('messages.news_meta_description'))
 @section('canonical', route('news'))
 @section('content')
+<main class="main">
     <!-- News Section -->
     <section id="news" class="news section">
         <div class="container section-title" data-aos="fade-up">
@@ -12,4 +13,5 @@
 
     </section>
     <!-- /News Section -->
+</main>
 @endsection

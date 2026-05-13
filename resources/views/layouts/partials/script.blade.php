@@ -9,11 +9,9 @@
     <script src="<?php echo url('/'); ?>/vendor/sweetalert2/js/sweetalert2.all.min.js"></script>
     <script src="<?php echo url('/'); ?>/vendor/swiper/js/swiper-bundle.min.js"></script>
     <script src="<?php echo url('/'); ?>/vendor/php-email-form/validate.js"></script>
-
     <!-- Main JS File -->
     <!-- <script src="<?php echo url('/'); ?>/js/main.js"></script> -->
     <script src="<?php echo url('/'); ?>/js/main.min.js"></script>
-
     <!-- Language Switcher Script -->
     <script>
         function languageSwitcher() {

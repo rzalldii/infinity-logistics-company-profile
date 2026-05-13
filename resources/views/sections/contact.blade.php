@@ -3,6 +3,7 @@
 @section('meta_description', __('messages.contact_meta_description'))
 @section('canonical', route('contact'))
 @section('content')
+<main class="main">
     <!-- Contact Section -->
     <section id="contact" class="contact section">
         <div class="container section-title" data-aos="fade-up">
@@ -115,6 +116,7 @@
         </div>
     </section>
     <!-- /Contact Section -->
+</main>
 @endsection
 @push('script')
     <script>
@@ -155,7 +157,6 @@
                     Swal.fire({
                         icon: "success",
                         title: "Success!",
-                        text: "Your message has been sent successfully.",
                         allowOutsideClick: false,
                         showConfirmButton: false,
                         timer: 3000,
@@ -165,7 +166,6 @@
                     Swal.fire({
                         icon: "error",
                         title: "Failed!",
-                        text: "Failed to send message. Please try again.",
                         allowOutsideClick: false,
                         showConfirmButton: false,
                         timer: 3000,
@@ -176,7 +176,6 @@
                 Swal.fire({
                     icon: "error",
                     title: "Error!",
-                    text: "Unable to connect to the server.",
                     allowOutsideClick: false,
                     showConfirmButton: false,
                     timer: 3000,

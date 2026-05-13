@@ -3,6 +3,7 @@
 @section('meta_description', __('messages.nvocc_schedule_meta_description'))
 @section('canonical', route('nvocc-schedule'))
 @section('content')
+<main class="main">
     <!-- Page Title -->
     <div class="page-title">
         <div class="container d-lg-flex justify-content-between align-items-center">
@@ -15,7 +16,6 @@
         </div>
     </div>
     <!-- End Page Title -->
-
     <!-- NVOCC Schedule Section -->
     <section id="nvocc-schedule" class="nvocc-schedule section">
         <div class="container section-title">
@@ -252,4 +252,5 @@
         </div>
     </section>
     <!-- /NVOCC Schedule Section -->
+</main>
 @endsection

@@ -3,6 +3,7 @@
 @section('meta_description', __('messages.about_meta_description'))
 @section('canonical', route('about'))
 @section('content')
+<main class="main">
     <!-- About Section -->
     <section id="about" class="about section">
         <div class="container section-title" data-aos="fade-up">
@@ -33,7 +34,6 @@
         </div>
     </section>
     <!-- /About Section -->
-
     <!-- Stats Section -->
     <section id="stats" class="stats section">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -66,7 +66,6 @@
         </div>
     </section>
     <!-- /Stats Section -->
-
     <!-- Why Choose Us Section -->
     <section id="why-choose-us" class="why-choose-us section light-background">
         <div class="container" data-aos="fade-up">
@@ -117,7 +116,6 @@
         </div>
     </section>
     <!-- /Why Choose Us Section -->
-
     <!-- How It Works Section -->
     <section id="how-it-works" class="how-it-works section">
         <div class="container" data-aos="fade-up">
@@ -167,7 +165,6 @@
         </div>
     </section>
     <!-- /How It Works Section -->
-
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section accent-background">
         <div class="container">
@@ -183,4 +180,5 @@
         </div>
     </section>
     <!-- /Call To Action Section -->
+</main>
 @endsection
