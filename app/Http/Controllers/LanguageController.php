@@ -11,11 +11,11 @@ class LanguageController extends Controller
     public function switch(Request $request)
     {
         $locale = $request->input('locale');
-        
+
         if (in_array($locale, ['en', 'id'])) {
             Session::put('locale', $locale);
             App::setLocale($locale);
-            
+
             return response()->json([
                 'success' => true,
                 'locale' => $locale,
@@ -24,7 +24,7 @@ class LanguageController extends Controller
                 ]
             ]);
         }
-        
+
         return response()->json([
             'success' => false,
             'message' => 'Invalid locale'

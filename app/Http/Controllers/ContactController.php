@@ -31,14 +31,14 @@ class ContactController extends Controller
 
         try {
             Mail::raw(
-                'Name : '    . $validated['name']  . "\n" .
-                'Email : '   . $validated['email'] . "\n\n" .
+                'Name : ' . $validated['name'] . "\n" .
+                'Email : ' . $validated['email'] . "\n\n" .
                 'Message : ' . "\n\n" . $validated['message'] . "\n\n" .
                 'Subscribe Newsletter : ' . $subscribe,
                 function ($message) use ($validated, $subjectLabel) {
                     $message->to('marketing1@infinity-sby.com')
-                            ->subject($subjectLabel)
-                            ->replyTo($validated['email'], $validated['name']);
+                        ->subject($subjectLabel)
+                        ->replyTo($validated['email'], $validated['name']);
                 }
             );
 

@@ -27,15 +27,15 @@ class MaintenanceController extends Controller
                 $exitCode = Artisan::call($command);
 
                 $results[] = [
-                    'command'   => $command,
-                    'status'    => $exitCode === 0 ? 'SUCCESS' : 'FAILED',
-                    'output'    => trim(Artisan::output()) ?: '-',
+                    'command' => $command,
+                    'status' => $exitCode === 0 ? 'SUCCESS' : 'FAILED',
+                    'output' => trim(Artisan::output()) ?: '-',
                 ];
             } catch (\Throwable $e) {
                 $results[] = [
-                    'command'   => $command,
-                    'status'    => 'ERROR',
-                    'output'    => $e->getMessage(),
+                    'command' => $command,
+                    'status' => 'ERROR',
+                    'output' => $e->getMessage(),
                 ];
             }
         }

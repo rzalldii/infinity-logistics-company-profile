@@ -18,7 +18,7 @@ class SetLanguage
             App::setLocale('en');
             Session::put('locale', 'en');
         }
-        
+
         return $next($request);
     }
 }
