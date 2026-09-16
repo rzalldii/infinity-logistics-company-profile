@@ -46,7 +46,100 @@
 <!-- Critical Stylesheets -->
 <link href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 <link href="{{ asset('vendor/aos/css/aos.css') }}" rel="stylesheet">
-<link href="{{ asset('css/main.css') }}?v={{ @filemtime(public_path('css/main.css')) }}" rel="stylesheet">
+@php
+    $cssFile = public_path('css/main.css');
+    $cssVersion = file_exists($cssFile) ? filemtime($cssFile) : (file_exists(base_path('../public_html/css/main.css')) ? filemtime(base_path('../public_html/css/main.css')) : time());
+@endphp
+<link href="{{ asset('css/main.css') }}?v={{ $cssVersion }}" rel="stylesheet">
+
+<style>
+/* Critical Component: Language Toggle Switcher (Guaranteed styling across all environments & CDN/cPanel caches) */
+.lang-toggle-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--surface-color, #ffffff);
+  border: 2px solid color-mix(in srgb, var(--default-color, #212529), transparent 75%);
+  border-radius: 25px;
+  padding: 2px;
+  width: 76px;
+  height: 34px;
+  cursor: pointer;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  overflow: hidden;
+  touch-action: manipulation;
+  user-select: none;
+  box-sizing: border-box;
+}
+.lang-toggle-btn:hover {
+  border-color: var(--accent-color, #042470);
+}
+.lang-toggle-btn:focus-visible {
+  outline: 2px solid var(--accent-color, #042470);
+  outline-offset: 2px;
+}
+.lang-option {
+  position: relative;
+  z-index: 2;
+  flex: 1;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: var(--default-color, #212529);
+  transition: color 0.25s ease;
+  line-height: 1;
+}
+.lang-option.active {
+  color: #ffffff;
+}
+.toggle-indicator {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: calc(50% - 2px);
+  height: calc(100% - 4px);
+  background: var(--accent-color, #042470);
+  border-radius: 20px;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+.toggle-indicator.slide-right {
+  transform: translateX(calc(100%));
+}
+.lang-toggle-btn.loading {
+  opacity: 0.7;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.header .lang-toggle-btn {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+@media (max-width: 1199.98px) {
+  .navmenu .mobile-nav-lang {
+    padding: 12px 20px 8px 20px;
+    border-top: 1px solid color-mix(in srgb, var(--default-color, #212529), transparent 88%);
+    margin-top: 10px;
+  }
+  .navmenu .mobile-nav-lang .mobile-lang-label {
+    font-family: var(--nav-font, inherit);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--nav-dropdown-color, #212529);
+  }
+}
+@media (max-width: 768px) {
+  .lang-toggle-btn {
+    width: 72px;
+    height: 32px;
+  }
+  .lang-option {
+    font-size: 11px;
+  }
+}
+</style>
 
 <!-- Non-critical Stylesheets -->
 <link href="{{ asset('vendor/bootstrap-icons/bootstrap-icons.min.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
