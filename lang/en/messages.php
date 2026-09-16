@@ -1,13 +1,17 @@
 <?php
 
 return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | SEO & Meta Tags
+    |--------------------------------------------------------------------------
+    */
     'home_meta_description' => 'Trusted freight forwarder in Surabaya providing NVOCC, international and domestic freight forwarding, customs clearance, project logistics, flexitank solutions, and warehousing services.',
     'about_title' => 'About | Infinity Logistics Indonesia',
     'about_meta_description' => 'Learn more about Infinity Logistics Indonesia, a Surabaya-based logistics company providing freight forwarding, NVOCC, customs clearance, warehousing, and project logistics services.',
     'services_title' => 'Services | Infinity Logistics Indonesia',
     'services_meta_description' => 'Explore our logistics services, including NVOCC, freight forwarding, domestic forwarding, customs clearance, project logistics, flexitank solutions, and warehousing.',
-    'news_title' => 'News | Infinity Logistics Indonesia',
-    'news_meta_description' => 'Stay updated with the latest news, insights, and company announcements from Infinity Logistics Indonesia.',
     'contact_title' => 'Contact | Infinity Logistics Indonesia',
     'contact_meta_description' => 'Contact Infinity Logistics Indonesia for freight forwarding, NVOCC, customs clearance, warehousing, and other logistics service inquiries in Surabaya.',
     'nvocc_title' => 'NVOCC - Services | Infinity Logistics Indonesia',
@@ -27,6 +31,11 @@ return [
     'customs_clearance_title' => 'Customs Clearance - Services | Infinity Logistics Indonesia',
     'customs_clearance_meta_description' => 'Customs clearance services to support smooth import and export processes through proper documentation, regulatory compliance, and shipment coordination.',
 
+    /*
+    |--------------------------------------------------------------------------
+    | Navigation & Global UI
+    |--------------------------------------------------------------------------
+    */
     'about' => 'About',
     'services' => 'Services',
     'nvocc' => 'NVOCC',
@@ -37,35 +46,36 @@ return [
     'flexitank_flexibag_details' => 'Flexitank / Flexibag Details',
     'project_logistics' => 'Project Logistics',
     'customs_clearance' => 'Customs Clearance',
-    'news' => 'News',
     'contact' => 'Contact',
     'get_quote' => 'Get a Quote',
 
-    'head_office' => 'Head Office',
-    'warehouse' => 'Warehouse',
-    'call' => 'Call',
-    'email' => 'Email',
-    'useful_links' => 'Useful Links',
-    'follow_us' => 'Follow Us',
-    'follow_desc' => 'Stay informed with the latest updates, offers, and company news from our team.',
-
-    'head_office_address' => 'Jl. Basuki Rahmat No. 122, Plaza BRI, 12th Floor, Suite 1206, Surabaya, East Java, Indonesia',
-    'warehouse_address' => 'Jl. Pergudangan Margomulyo Permai J10, Surabaya, East Java, Indonesia',
-    'warehouse_address2' => 'Jl. Madukoro Raya C9, Tawangmas, Semarang, Central Java, Indonesia',
-    'warehouse_address3' => 'Jl. Sukorejo 8, Lempake, Samarinda, East Kalimantan, Indonesia',
-
+    /*
+    |--------------------------------------------------------------------------
+    | Hero Section
+    |--------------------------------------------------------------------------
+    */
     'hero_title' => 'Next Decade. Next Wave.',
     'hero_subtitle' => 'AT INFINITY, WE ASPIRE TO LEAP TO THE NEXT LEVEL OF ACHIEVEMENTS, GOING FROM GOOD TO GREAT',
     'get_started' => 'Get Started',
     'watch_video' => 'Watch Video',
 
+    /*
+    |--------------------------------------------------------------------------
+    | Vision, Mission & Values
+    |--------------------------------------------------------------------------
+    */
     'vision' => 'Vision',
-    'vision_text' => 'To become the leading regional logistics provider by empowering export growth through world-class services',
+    'vision_text' => 'To become the leading regional logistics provider by empowering export growth through world-class services.',
     'mission' => 'Mission',
-    'mission_text' => 'To deliver innovative and reliable logistics solutions through our integrated global network, ensuring the seamless flow of export goods',
+    'mission_text' => 'To deliver innovative and reliable logistics solutions through our integrated global network, ensuring the seamless flow of export goods.',
     'core_values' => 'Core Values',
-    'core_values_text' => 'Integrity, People-Driven Service, Technology Orientation, Customer Focus, Innovation & Excellence, Teamwork, and HSEC Responsibility',
+    'core_values_text' => 'Integrity, People-Driven Service, Technology Orientation, Customer Focus, Innovation & Excellence, Teamwork, and HSEC Responsibility.',
 
+    /*
+    |--------------------------------------------------------------------------
+    | About Section & Stats
+    |--------------------------------------------------------------------------
+    */
     'about_section' => 'About Us',
     'about_description' => 'We are a logistics service provider headquartered in Malaysia, with a strong operational presence in Surabaya, Indonesia, and across Southeast Asia. Our services cover six key areas:',
     'about_service_1' => 'Non-Vessel Operating Common Carrier (NVOCC)',
@@ -75,12 +85,17 @@ return [
     'about_service_5' => 'Project Logistics Services',
     'about_service_6' => 'Customs Clearance Services',
     'about_description_2' => 'We specialize in delivering efficient and reliable logistics solutions across diverse industries, supported by a team dedicated to providing high-quality services tailored to client requirements.',
+    'read_more_about' => 'Learn More About Us',
     'years_experience' => 'Years of Experience',
     'shipments_handled' => 'Shipments Handled',
     'clients_active' => 'Active Clients',
     'countries_served' => 'Countries Served',
-    'read_more_about' => 'Learn More About Us',
 
+    /*
+    |--------------------------------------------------------------------------
+    | Why Choose Us & How It Works
+    |--------------------------------------------------------------------------
+    */
     'why_choose_us' => 'Why Choose Us',
     'why_choose_subtitle' => 'Efficient, reliable, and cost-effective solutions',
     'why_choose_description' => 'We ensure consistent and dependable delivery, with goods arriving safely at their destination while maintaining high service quality at competitive prices.',
@@ -88,18 +103,22 @@ return [
     'end_to_end_service' => 'End-to-End Service',
     'hour_support' => '24-Hour Support',
     'specialized_handling' => 'Specialized Handling',
-
     'how_it_works' => 'How It Works',
     'how_it_works_description' => 'Our shipment management process is designed to be simple and efficient. Follow the steps below to begin:',
-    'step_1_title' => 'Request current rates',
-    'step_1_description' => 'Contact us to request the latest rates for all logistics services to secure the best value.',
-    'step_2_title' => 'Review services, capacity, and requirements',
-    'step_2_description' => 'Assess available services, space availability, and specific requirements to tailor your logistics solution.',
-    'step_3_title' => 'Confirm booking and delivery order',
-    'step_3_description' => 'Secure your booking by confirming shipment details and issuing the delivery order.',
-    'step_4_title' => 'Shipment in progress',
-    'step_4_description' => 'Your shipment is in progress. Please contact us for urgent inquiries or status updates.',
+    'step_1_title' => 'Request Current Rates',
+    'step_1_description' => 'Contact us to request the latest rates for our logistics services.',
+    'step_2_title' => 'Review Services, Capacity, and Requirements',
+    'step_2_description' => 'Review available services, capacity, and specific requirements to determine the right logistics solution.',
+    'step_3_title' => 'Confirm Booking and Delivery Order',
+    'step_3_description' => 'Confirm shipment details, finalize your booking, and issue the delivery order.',
+    'step_4_title' => 'Shipment in Progress',
+    'step_4_description' => 'Your shipment is in transit. Contact us for status updates or urgent inquiries.',
 
+    /*
+    |--------------------------------------------------------------------------
+    | Services Overview & Solutions
+    |--------------------------------------------------------------------------
+    */
     'services_section' => 'Our Services',
     'nvocc_tagline' => 'Connecting Cargo, Without a Vessel.',
     'freight_forwarding_tagline' => 'Navigating Your Cargo, Wherever It Needs to Go.',
@@ -108,89 +127,64 @@ return [
     'project_logistics_tagline' => 'Precision Logistics for Large-Scale Projects.',
     'customs_clearance_tagline' => 'Simplifying Customs, Speeding Up Deliveries.',
     'read_more_services' => 'Explore Our Services',
-
     'ocean_freight' => 'Ocean Freight Services',
     'ocean_freight_description' => 'Infinity Logistics Indonesia provides cost-effective and reliable ocean freight solutions for shipments of various sizes, from smaller consignments to large container loads. We prioritize the safe handling of your cargo and ensure it reaches its destination securely, whether within Indonesia or internationally. Our ocean freight services are supported by trusted partners.',
     'fcl' => 'Full Container Load (FCL)',
     'lcl' => 'Less Than Container Load (LCL)',
     'reefer_container' => 'Reefer Container',
     'iso_tank' => 'ISO Tank',
-
     'air_freight' => 'Air Freight Services',
     'air_freight_description' => 'Our air freight services are designed to provide fast, reliable, and tailored shipping solutions for urgent and important shipments. From airport-to-door delivery, Infinity Logistics Indonesia handles your cargo with a focus on safe handling and secure arrival.',
     'domestic' => 'Domestic',
     'export_import' => 'Export & Import',
     'consolidation' => 'Consolidation',
     'full_charter' => 'Full Charter',
-
     'road_freight' => 'Road Freight Services',
     'road_freight_description' => 'We offer versatile and dependable road freight solutions across all regions of Indonesia. Our extensive fleet includes container trucks, wing box trucks, single-axle trucks, pick-ups, and grand vans, allowing us to transport a wide range of cargo types reliably and efficiently. Supported by competitive pricing and professional handling at every stage, our road freight services ensure smooth and secure delivery across cities, provinces, and islands.',
     'ftl' => 'Full Truck Load (FTL)',
     'ltl' => 'Less Than Truck Load (LTL)',
     'haulage' => 'Haulage',
     'contract_carriage' => 'Contract Carriage',
-
     'warehouse_services' => 'Warehouse Services',
     'warehouse_services_description' => 'Infinity Logistics Indonesia\'s warehouse services provide secure and flexible storage solutions tailored to meet your business demands. We ensure your goods are stored safely and handled with care. Our warehouse services support day-to-day operations and inventory handling.',
     'warehouse_management' => 'Warehouse Management Solution',
     'modular_storage' => 'Modular Storage Solution',
     'integrated_warehouse' => 'Integrated Warehouse System',
-
     'cta_title' => 'Flexible and Reliable Freight Services',
     'cta_description' => 'Discover our specialized Flexitank and freight forwarding solutions today.',
 
-    'projects_section' => 'Our Projects',
-    'projects_title' => 'Projects',
-    'all' => 'All',
-
+    /*
+    |--------------------------------------------------------------------------
+    | Clients & Management
+    |--------------------------------------------------------------------------
+    */
+    'clients_section' => 'Our Clients',
+    'clients_title' => 'Clients',
     'management_section' => 'Our Management',
     'management_title' => 'Management',
     'director' => 'Director',
 
-    'clients_section' => 'Our Clients',
-    'clients_title' => 'Clients',
-
-    'contact_section' => 'Contact Us',
-    'our_address' => 'Our Address',
-    'call_us' => 'Call Us',
-    'email_us' => 'Email Us',
-    'working_hours' => 'Our Working Hours',
-    'monday_friday' => 'Monday to Friday | 08:30 - 17:00 WIB',
-    'saturday' => 'Saturday | 08:30 - 13:00 WIB',
-    'sunday' => 'Sunday | Closed',
-
-    'get_in_touch' => 'GET IN TOUCH',
-    'contact_intro' => 'You can reach us anytime.',
-    'contact_description' => 'Contact us by phone or email, or simply fill out the form below and we will get back to you as soon as possible.',
-
-    'placeholder_name' => 'Name',
-    'placeholder_email' => 'Email',
-    'placeholder_subject' => 'Subject',
-    'placeholder_message' => 'Message',
-
-    'subject_rfq' => 'Request for Quotation',
-    'subject_general' => 'General Inquiry',
-    'subject_partnership' => 'Partnership Opportunity',
-    'subject_technical' => 'Technical Support',
-    'subject_feedback' => 'Feedback & Suggestions',
-    'subject_other' => 'Other',
-
-    'join_newsletter' => 'Join our newsletter.',
-    'newsletter_description' => 'Subscribe to our newsletter and receive the latest news about our services!',
-    'send_message' => 'Send Message',
-
+    /*
+    |--------------------------------------------------------------------------
+    | Service Sidebar
+    |--------------------------------------------------------------------------
+    */
     'service_details' => 'Service Details',
     'services_list' => 'Services List',
     'download_catalog' => 'Download Catalog',
-
     'company_profile' => 'Company Profile',
     'ibl_brochures' => 'IBL Brochures',
     'ibl_profile' => 'IBL Profile',
+    'have_a_question' => 'Have a Question?',
 
+    /*
+    |--------------------------------------------------------------------------
+    | NVOCC Detail & Sailing Schedule
+    |--------------------------------------------------------------------------
+    */
     'nvocc_description_1' => 'We specialize in Full Container Load (FCL) shipments, with a strong focus on the Surabaya–Port Klang route as one of our key service lanes. We offer reliable space allocation on ocean liners operating across major trade routes in Asia, supported by regular sailings to and from key ports in Malaysia, Thailand, Indonesia, Singapore, Vietnam, India, and Myanmar. With multiple weekly sailing schedules, our clients benefit from greater flexibility in selecting departure dates and transit times that align with their cargo planning and supply chain requirements.',
     'nvocc_description_2' => 'In support of the NVOCC (Non-Vessel Operating Common Carrier) market, our Surabaya branch plays a vital role by providing high-quality 20-ft high-cube containers. This operational support helps meet cargo requirements more effectively, particularly for shipments moving through our key regional routes.',
     'nvocc_description_3' => 'By combining consistent space availability, route flexibility, and container specialization, we provide a robust FCL solution for a wide range of industries and cargo profiles. Our NVOCC services are designed to support efficient cargo movement while helping exporters optimize planning, utilization, and overall logistics costs.',
-
     'vessel' => 'Vessel',
     'voyage' => 'Voyage',
     'open_stack' => 'Open Stack',
@@ -198,7 +192,13 @@ return [
     'eta_surabaya' => 'ETA Surabaya',
     'etd_surabaya' => 'ETD Surabaya',
     'eta_klang' => 'ETA West Klang',
+    'swipe_schedule_hint' => 'Swipe horizontally to view full sailing schedule',
 
+    /*
+    |--------------------------------------------------------------------------
+    | Schedule Months
+    |--------------------------------------------------------------------------
+    */
     'january' => 'January',
     'february' => 'February',
     'march' => 'March',
@@ -212,23 +212,36 @@ return [
     'november' => 'November',
     'december' => 'December',
 
+    /*
+    |--------------------------------------------------------------------------
+    | Freight Forwarding Detail
+    |--------------------------------------------------------------------------
+    */
     'freight_forwarding_description_1' => 'We offer integrated freight forwarding services covering both ocean and air transport to support international export and import activities across a wide range of industries. Backed by our local transport network and logistics handling capabilities, we provide door-to-door delivery solutions together with customs documentation and regulatory compliance support. Our scope of services includes cargo space arrangements with shipping lines and airlines; transportation, loading, and terminal coordination; customs clearance and permit processing; and coordination with overseas partners to support the smooth movement of cargo from origin to destination.',
     'freight_forwarding_description_2' => 'Our Surabaya branch serves as a key operational hub, providing specialized forwarding services for shipments with specific cargo handling, routing, or documentation requirements:',
     'freight_forwarding_description_3' => 'Through our experience, network, and operational support, we provide integrated logistics solutions either as part of a broader supply chain arrangement or as standalone forwarding services, depending on shipment requirements.',
-
     'ff_desc_1' => 'LCL: Consolidation service for cost-effective shipping.',
     'ff_desc_2' => 'Reefer Cargo: Handling for temperature-sensitive cargo.',
     'ff_desc_3' => 'ISO Tank: Bulk liquid transport using ISO tanks.',
     'ff_desc_4' => 'Air Freight: Fast transport for urgent cargo.',
 
+    /*
+    |--------------------------------------------------------------------------
+    | Domestic Forwarding Detail
+    |--------------------------------------------------------------------------
+    */
     'domestic_forwarding_description_1' => 'Domestic freight forwarding refers to the planning, coordination, and execution of cargo transportation within a single country. Unlike international freight forwarding, which involves customs procedures, cross-border regulations, and overseas logistics, domestic freight forwarding focuses on the movement of goods across local and regional networks.',
     'domestic_forwarding_description_2' => 'One of its main advantages is efficiency in terms of time and cost. Domestic shipments are generally faster and more economical than international transit. The service can be carried out through road, rail, sea, or air transport, depending on cargo requirements, lead time, and budget considerations.',
     'domestic_forwarding_description_3' => 'Domestic freight forwarding may also form part of an integrated logistics service. It can include cargo insurance, warehousing, and inventory handling to support the movement of goods within national borders.',
 
+    /*
+    |--------------------------------------------------------------------------
+    | Flexitank / Flexibag Solutions
+    |--------------------------------------------------------------------------
+    */
     'flexitank_flexibag_description_1' => 'Flexitank is a practical and cost-effective solution for transporting non-hazardous bulk liquids by converting a standard 20-ft container into a liquid cargo carrier. It allows bulk liquid shipments to be handled within a standard container format, making it suitable for operational use across various shipping requirements. This solution supports the transportation of non-hazardous liquid cargo in a more efficient and container-based form.',
     'flexitank_flexibag_description_2' => 'As one of the core products of Infinity Bulk Logistics (IBL), our Flexitanks are developed to support a range of bulk liquid transportation requirements. Supported by technical teams and in-house production standards, we place emphasis on product quality, safety, and consistency in use. IBL also continues to carry out research and development to improve product application and support practical logistics needs.',
     'flexitank_flexibag_description_3' => 'While our Flexitanks are manufactured in Malaysia through a certified partner, our operations are supported from Surabaya, Indonesia. With local operational support and access to Tanjung Perak Port, we provide installation assistance and after-sales support for customers across Indonesia.',
-
     'multilayer' => 'MULTILAYER',
     'multilayer_description' => 'Our Flexitanks are fabricated from FDA-approved food-grade Polyethylene and Polypropylene, which are suitable for a wide range of non-hazardous liquid cargo.',
     'beta_tank' => 'Beta Tank',
@@ -239,21 +252,18 @@ return [
     'delta_tank_desc' => 'A 20-ft bulk container liner made from 4 layers of 125-micron Polyethylene sewn into a woven Polypropylene outer.',
     'epsilon_tank' => 'Epsilon Tank',
     'epsilon_tank_desc' => 'A 20-ft bulk container liner made of 5 layers (4 layers of 125-micron Polyethylene and 1 layer of 100-micron EVOH Barrier Film) sewn into a woven Polypropylene outer.',
-
     'pp_woven' => 'PP WOVEN',
     'pp_woven_description' => 'PP Woven is the outer layer of a Flexitank, helping to support the structure and stabilize liquid movement. The film is manufactured from food-grade polymers using monomers listed as approved substances under SI 3145 and additives approved under EU Directive 93/3/EC.',
     'polyethylene_liner' => 'Polyethylene Liner',
     'polyethylene_liner_desc' => 'Fabricated from FDA-approved food-grade 5-layer co-extruded tubular film, made from a resin blend based on polyethylene.',
     'evoh_liner' => 'EVOH Liner',
     'evoh_liner_desc' => 'Specially coated Ethyl Vinyl Alcohol-based film that provides good gas barrier properties.',
-
     'valve' => 'VALVE',
     'valve_description' => 'A Flexitank valve is a secure connection point used for filling and discharging liquids. It ensures a tight seal to prevent leaks and contamination during the loading and unloading process.',
     'butterfly_valve_gland' => '3-inch PP Butterfly Flange Valve with Gland',
     'butterfly_valve_gland_desc' => 'One 3-inch filling flange attached to the main body by a 360-degree impact-welded seal.',
     'butterfly_valve_compression' => '3-inch PP Butterfly Flange Compression Valve',
     'butterfly_valve_compression_desc' => 'Fabricated from food-grade Polyethylene and supplied with a butterfly valve, elbow-butterfly valve, and Banjo valve.',
-
     'bulkhead' => 'BULKHEAD',
     'bulkhead_description' => 'A bulkhead is a retaining wall that restrains the Flexitank from coming out of the container when it is fully loaded. We offer three types of bulkheads.',
     'bulkhead_a' => 'Bulkhead A',
@@ -262,24 +272,20 @@ return [
     'bulkhead_b_desc' => 'Consists of 2 steel bars and 1 steel frame and is used with Top Load - Bottom Discharge Flexitanks and Bottom Load - Bottom Discharge Flexitanks.',
     'bulkhead_c' => 'Bulkhead C',
     'bulkhead_c_desc' => 'Consists of 2 steel frames and can be used with any type of Flexitank.',
-
     'heating_pad' => 'HEATING PAD',
     'heating_pad_description' => 'The Heating Pad is used to liquefy solidified cargo at the point of discharge. It provides heat transfer through tubes made from EPDM extruded rubber. The maximum heat input is 124°C, and the maximum pressure is 300 PSI (20 bar). Heat is provided by wet low-pressure steam. The unit can be reused if it is not damaged during return transit.',
-
     'insulation_liner' => 'INSULATION LINER',
     'insulation_liner_description' => 'Temperature fluctuations that occur when the container travels through different climates can cause issues such as product spoilage and solidification. Therefore, the Insulation Liner reduces the rate of temperature fluctuation, enabling the product to retain its original characteristics as much as possible.',
     'insulation_benefit_1' => 'Easy handling and installation.',
     'insulation_benefit_2' => 'Reduces temperature fluctuation.',
     'insulation_benefit_3' => 'Compatible with ISO shipping containers.',
     'insulation_benefit_4' => 'Maintains a controlled environment.',
-
     'tub_liner' => 'TUB LINER',
     'tub_liner_description' => 'Tub Liner is an effective and efficient container liner for preventing spillage and leakage from Flexitanks. It is made from 125-micron Polyethylene and acts as a protective layer for the Flexitank.',
     'tub_benefit_1' => 'Container leakage can be minimized by pumping out with less wastage.',
     'tub_benefit_2' => 'Losses are measurable by weighing the tub with or without spillage.',
     'tub_benefit_3' => 'Leakage is contained, preventing stains and reducing cleaning costs.',
     'tub_benefit_4' => 'Recyclable and biodegradable.',
-
     'heat_exchanger' => 'HEAT EXCHANGER',
     'heat_exchanger_description' => 'A heat exchanger is a piece of equipment built for efficient heat transfer from one medium to another. The media may be separated by a solid wall to prevent mixing, or they may be in direct contact. With a heat exchanger, you can:',
     'heat_exchanger_benefit_1' => 'Dissolve solidified cargo homogeneously.',
@@ -288,29 +294,89 @@ return [
     'heat_exchanger_benefit_4' => 'Minimize heating costs and carbon footprint.',
     'heat_exchanger_cta' => 'Our Heat Exchangers support the thawing of solidified cargo.',
 
+    /*
+    |--------------------------------------------------------------------------
+    | Project Logistics Detail
+    |--------------------------------------------------------------------------
+    */
     'project_logistics_description_1' => 'Project logistics involves the planning, transportation, and management of heavy, oversized, or complex cargo for large-scale projects such as power plants, oil and gas developments, and renewable energy infrastructure. This type of cargo requires careful handling, route planning, and coordination to support safe and practical movement from origin to destination.',
     'project_logistics_description_2' => 'Multimodal transportation, combining trucks, ships, and trains, is commonly used to move project cargo depending on cargo dimensions, route conditions, and operational requirements. Close coordination between technical and logistics teams is needed throughout the process, supported by planning for loading, transport arrangement, and delivery execution.',
     'project_logistics_description_3' => 'Based in Surabaya, our project logistics services support cargo movement for industrial and infrastructure projects in Indonesia. Surabaya serves as a strategic operational point due to its location and port access, while each shipment is handled according to project-specific transport and handling requirements.',
 
+    /*
+    |--------------------------------------------------------------------------
+    | Customs Clearance Detail
+    |--------------------------------------------------------------------------
+    */
     'customs_clearance_description_1' => 'Customs clearance is an essential process that ensures goods are imported and exported in compliance with both local and international regulations. It involves preparing and submitting the necessary documentation, including customs declarations, invoices, and certificates of origin, together with the payment of applicable duties and taxes. A proper clearance process is important in helping businesses avoid delays, fines, or penalties during international trade.',
     'customs_clearance_description_2' => 'In Surabaya, our customs clearance services are supported by our understanding of the local regulatory environment and our experience in handling Indonesian customs requirements. Our team handles the required documentation and clearance procedures in accordance with applicable regulations to support the movement of shipments through the customs process.',
     'customs_clearance_description_3' => 'Our customs clearance services also include support in addressing issues that may arise during the clearance process. When additional handling or documentation is required, our team works to follow up and assist so that shipments can continue according to the relevant customs procedures.',
 
-    'form_incomplete_title' => 'Incomplete Form',
-    'form_incomplete_text' => 'Please fill in all required fields.',
-    'form_sending_title' => 'Sending...',
-    'form_sending_text' => 'Please wait while we send your message',
-    'form_success_title' => 'Success!',
-    'form_success_text' => 'Your message has been sent successfully.',
-    'form_failed_title' => 'Submission Failed',
-    'form_failed_default' => 'Failed to send message. Please check your inputs.',
-    'form_network_error_title' => 'Network Error!',
-    'form_network_error_text' => 'Unable to connect to the server. Please try again later.',
+    /*
+    |--------------------------------------------------------------------------
+    | Contact, Office & Working Hours
+    |--------------------------------------------------------------------------
+    */
+    'contact_section' => 'Contact Us',
+    'our_address' => 'Our Address',
+    'call_us' => 'Call Us',
+    'email_us' => 'Email Us',
+    'working_hours' => 'Our Working Hours',
+    'monday_friday' => 'Monday to Friday | 08:30 - 17:00 WIB',
+    'saturday' => 'Saturday | 08:30 - 13:00 WIB',
+    'sunday' => 'Sunday | Closed',
+    'get_in_touch' => 'GET IN TOUCH',
+    'contact_intro' => 'We are here to assist you.',
+    'contact_description' => 'Reach us by phone or email, or complete the form below. Our team will respond promptly.',
+    'head_office' => 'Head Office',
+    'warehouse' => 'Warehouse',
+    'call' => 'Call',
+    'email' => 'Email',
+    'head_office_address' => 'Jl. Basuki Rahmat No. 122, Plaza BRI, 12th Floor, Suite 1206, Surabaya, East Java, Indonesia',
+    'warehouse_address' => 'Jl. Pergudangan Margomulyo Permai J10, Surabaya, East Java, Indonesia',
+    'warehouse_address2' => 'Jl. Madukoro Raya C9, Tawangmas, Semarang, Central Java, Indonesia',
+    'warehouse_address3' => 'Jl. Sukorejo 8, Lempake, Samarinda, East Kalimantan, Indonesia',
 
-    'wa_start_conversation' => 'Start a Conversation',
-    'wa_click_member' => 'Click one of our members below',
+    /*
+    |--------------------------------------------------------------------------
+    | Contact Form & Notifications
+    |--------------------------------------------------------------------------
+    */
+    'placeholder_name' => 'Name',
+    'placeholder_email' => 'Email',
+    'placeholder_subject' => 'Subject',
+    'placeholder_message' => 'Message',
+    'subject_rfq' => 'Request for Quotation',
+    'subject_general' => 'General Inquiry',
+    'subject_partnership' => 'Partnership Opportunity',
+    'subject_technical' => 'Technical Support',
+    'subject_feedback' => 'Feedback & Suggestions',
+    'subject_other' => 'Other',
+    'send_message' => 'Send Message',
+    'join_newsletter' => 'Subscribe to Our Newsletter',
+    'newsletter_description' => 'Stay updated with the latest news and insights from our team.',
+    'form_incomplete_title' => 'Please complete all required fields.',
+    'form_sending_title' => 'Sending your message...',
+    'form_success_title' => 'Your message has been sent successfully!',
+    'form_failed_title' => 'Message delivery failed. Please try again.',
+    'form_network_error_title' => 'Unable to connect. Please try again later.',
 
+    /*
+    |--------------------------------------------------------------------------
+    | WhatsApp Widget
+    |--------------------------------------------------------------------------
+    */
+    'wa_start_conversation' => 'Chat on WhatsApp',
+
+    /*
+    |--------------------------------------------------------------------------
+    | Footer & Legal
+    |--------------------------------------------------------------------------
+    */
+    'useful_links' => 'Useful Links',
+    'follow_us' => 'Follow Us',
+    'follow_desc' => 'Stay informed with the latest updates and company news.',
     'all_rights_reserved' => 'All Rights Reserved.',
-    'designed_by' => 'Designed and Developed with',
+    'designed_by' => 'Designed and developed with',
     'by_it_infinity' => 'by IT Infinity',
 ];

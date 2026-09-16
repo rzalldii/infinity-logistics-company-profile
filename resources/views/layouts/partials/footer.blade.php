@@ -50,27 +50,15 @@
             </div>
         </div>
     </div>
-    <div class="container copyright mt-4">
-        <div class="copyright-wrapper">
-            <div class="language-switcher">
-                <button type="button" @click="toggleLanguage()" :disabled="loading" class="lang-toggle-btn" :class="{ 'loading': loading }" aria-label="Toggle language between ID and EN">
-                    <span class="lang-option" :class="{ 'active': currentLang === 'id' }">ID</span>
-                    <span class="lang-option" :class="{ 'active': currentLang === 'en' }">EN</span>
-                    <span class="toggle-indicator" :class="{ 'slide-right': currentLang === 'en' }"></span>
-                </button>
-            </div>
-            <div class="copyright-content">
-                <p>
-                    <span>&copy; </span>
-                    <span> {{ date('Y') }}</span>
-                    <strong class="px-1 sitename">PT. INFINITY LOGISTICS INDONESIA</strong>
-                    <span x-text="translations.messages.all_rights_reserved">{{ __('messages.all_rights_reserved') }}</span>
-                </p>
-                <div class="credits">
-                    <span x-text="translations.messages.designed_by">{{ __('messages.designed_by') }}</span> <i class="bi bi-heart-fill" aria-hidden="true"></i> <span x-text="translations.messages.by_it_infinity">{{ __('messages.by_it_infinity') }}</span>
-                </div>
-            </div>
-            <div class="copyright-spacer"></div>
+    <div class="container copyright text-center mt-4">
+        <p>
+            <span>&copy; </span>
+            <span> {{ date('Y') }}</span>
+            <strong class="px-1 sitename">PT. INFINITY LOGISTICS INDONESIA</strong>
+            <span x-text="translations.messages.all_rights_reserved">{{ __('messages.all_rights_reserved') }}</span>
+        </p>
+        <div class="credits">
+            <span x-text="translations.messages.designed_by">{{ __('messages.designed_by') }}</span> <i class="bi bi-heart-fill" aria-hidden="true"></i> <span x-text="translations.messages.by_it_infinity">{{ __('messages.by_it_infinity') }}</span>
         </div>
     </div>
 </footer>

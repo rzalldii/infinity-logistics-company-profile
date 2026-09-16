@@ -1,7 +1,7 @@
 @props(['activeService' => ''])
 <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
     <div class="service-box">
-        <h3 x-text="translations.messages.services_list">{{ __('messages.services_list') }}</h3>
+        <h4 x-text="translations.messages.services_list">{{ __('messages.services_list') }}</h4>
         <div class="services-list">
             <a href="{{ route('services.nvocc') }}" class="{{ $activeService === 'nvocc' ? 'active' : '' }}">
                 <i class="bi bi-arrow-right-circle" aria-hidden="true"></i>
@@ -30,7 +30,7 @@
         </div>
     </div>
     <div class="service-box">
-        <h3 x-text="translations.messages.download_catalog">{{ __('messages.download_catalog') }}</h3>
+        <h4 x-text="translations.messages.download_catalog">{{ __('messages.download_catalog') }}</h4>
         <div class="download-catalog">
             @if($activeService === 'flexitank-flexibag')
                 <a href="{{ asset('pdf/IBL-Brochures.pdf') }}" target="_blank" rel="noopener noreferrer">
@@ -57,5 +57,17 @@
                 </a>
             @endif
         </div>
+    </div>
+    <div class="help-box d-flex flex-column justify-content-center align-items-center">
+        <i class="bi bi-headset help-icon" aria-hidden="true"></i>
+        <h4 x-text="translations.messages.have_a_question">{{ __('messages.have_a_question') }}</h4>
+        <p class="d-flex align-items-center mt-2 mb-0">
+            <i class="bi bi-telephone me-2" aria-hidden="true"></i>
+            <span><a href="tel:+62315492926">+6231 549 2926</a></span>
+        </p>
+        <p class="d-flex align-items-center mt-1 mb-0">
+            <i class="bi bi-envelope me-2" aria-hidden="true"></i>
+            <a href="mailto:cssurabaya@infinity-sby.com">cssurabaya@infinity-sby.com</a>
+        </p>
     </div>
 </div>

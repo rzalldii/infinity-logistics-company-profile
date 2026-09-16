@@ -26,10 +26,31 @@
                     </ul>
                 </li>
                 <li><a href="{{ route('contact') }}" class="{{ request()->routeIs('contact') ? 'active' : '' }}" {!! request()->routeIs('contact') ? 'aria-current="page"' : '' !!} x-text="translations.messages.contact">{{ __('messages.contact') }}</a></li>
+                <li class="d-xl-none mobile-nav-lang">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <span class="mobile-lang-label" x-text="currentLang === 'id' ? 'Bahasa' : 'Language'">{{ app()->getLocale() === 'id' ? 'Bahasa' : 'Language' }}</span>
+                        <div class="language-switcher">
+                            <button type="button" @click="toggleLanguage()" :disabled="loading" class="lang-toggle-btn" :class="{ 'loading': loading }" aria-label="Toggle language between ID and EN">
+                                <span class="lang-option" :class="{ 'active': currentLang === 'id' }">ID</span>
+                                <span class="lang-option" :class="{ 'active': currentLang === 'en' }">EN</span>
+                                <span class="toggle-indicator" :class="{ 'slide-right': currentLang === 'en' }"></span>
+                            </button>
+                        </div>
+                    </div>
+                </li>
             </ul>
+        </nav>
+        <div class="header-actions d-flex align-items-center ms-2 ms-xl-4">
+            <div class="language-switcher d-none d-xl-block">
+                <button type="button" @click="toggleLanguage()" :disabled="loading" class="lang-toggle-btn" :class="{ 'loading': loading }" aria-label="Toggle language between ID and EN">
+                    <span class="lang-option" :class="{ 'active': currentLang === 'id' }">ID</span>
+                    <span class="lang-option" :class="{ 'active': currentLang === 'en' }">EN</span>
+                    <span class="toggle-indicator" :class="{ 'slide-right': currentLang === 'en' }"></span>
+                </button>
+            </div>
             <button type="button" class="mobile-nav-toggle d-xl-none" aria-label="Toggle navigation" aria-expanded="false">
                 <i class="bi bi-list"></i>
             </button>
-        </nav>
+        </div>
     </div>
 </header>

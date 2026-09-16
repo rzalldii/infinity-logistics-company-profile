@@ -26,9 +26,10 @@ Route::post('/contact/send', [ContactController::class, 'send'])
     ->middleware(['throttle:1,3', ProtectAgainstSpam::class])
     ->name('contact.send');
 
-Route::post('/language/toggle', [LanguageController::class, 'toggle'])
+Route::match(['get', 'post'], '/language/toggle', [LanguageController::class, 'toggle'])
     ->name('language.toggle');
-Route::post('/language/switch', [LanguageController::class, 'toggle']);
+Route::match(['get', 'post'], '/language/switch', [LanguageController::class, 'toggle'])
+    ->name('language.switch');
 
 Route::get('/maintenance/{token}', [MaintenanceController::class, 'clear'])
     ->middleware('throttle:5,1')

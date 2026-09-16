@@ -14,6 +14,11 @@ return Application::configure(basePath: dirname(__DIR__))
         $middleware->web(append: [
             \App\Http\Middleware\SetLanguage::class,
         ]);
+        $middleware->validateCsrfTokens(except: [
+            'language/*',
+            'language/toggle',
+            'language/switch',
+        ]);
     })
     ->withExceptions(function (Exceptions $exceptions): void {
         //

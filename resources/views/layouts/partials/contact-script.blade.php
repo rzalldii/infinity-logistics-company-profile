@@ -37,7 +37,6 @@
                 Swal.fire({
                     icon: "warning",
                     title: getTrans("form_incomplete_title", "{{ __('messages.form_incomplete_title') }}"),
-                    text: getTrans("form_incomplete_text", "{{ __('messages.form_incomplete_text') }}"),
                     allowOutsideClick: false,
                     showConfirmButton: true,
                     confirmButtonColor: "#042470"
@@ -47,7 +46,6 @@
             const formData = new FormData(form);
             Swal.fire({
                 title: getTrans("form_sending_title", "{{ __('messages.form_sending_title') }}"),
-                text: getTrans("form_sending_text", "{{ __('messages.form_sending_text') }}"),
                 allowOutsideClick: false,
                 didOpen: () => {
                     Swal.showLoading();
@@ -68,7 +66,6 @@
                     Swal.fire({
                         icon: "success",
                         title: getTrans("form_success_title", "{{ __('messages.form_success_title') }}"),
-                        text: getTrans("form_success_text", "{{ __('messages.form_success_text') }}"),
                         allowOutsideClick: false,
                         showConfirmButton: true,
                         confirmButtonColor: "#042470"
@@ -82,7 +79,7 @@
                     });
                 } else {
                     const data = await response.json().catch(() => ({}));
-                    let errorMsg = data.message || getTrans("form_failed_default", "{{ __('messages.form_failed_default') }}");
+                    let errorMsg = data.message;
                     if (data.errors) {
                         const firstErrKey = Object.keys(data.errors)[0];
                         if (firstErrKey && data.errors[firstErrKey][0]) {
@@ -91,8 +88,7 @@
                     }
                     Swal.fire({
                         icon: "error",
-                        title: getTrans("form_failed_title", "{{ __('messages.form_failed_title') }}"),
-                        text: errorMsg,
+                        title: errorMsg || getTrans("form_failed_title", "{{ __('messages.form_failed_title') }}"),
                         allowOutsideClick: false,
                         showConfirmButton: true,
                         confirmButtonColor: "#042470"
@@ -104,7 +100,6 @@
                 Swal.fire({
                     icon: "error",
                     title: getTrans("form_network_error_title", "{{ __('messages.form_network_error_title') }}"),
-                    text: getTrans("form_network_error_text", "{{ __('messages.form_network_error_text') }}"),
                     allowOutsideClick: false,
                     showConfirmButton: true,
                     confirmButtonColor: "#042470"

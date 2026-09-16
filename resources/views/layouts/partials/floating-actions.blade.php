@@ -7,7 +7,6 @@
             </div>
             <div class="wa-popup-header-text">
                 <strong id="waPopupTitle" x-text="translations.messages.wa_start_conversation">{{ __('messages.wa_start_conversation') }}</strong>
-                <span x-text="translations.messages.wa_click_member">{{ __('messages.wa_click_member') }}</span>
             </div>
             <button type="button" class="wa-popup-close" id="waClose" aria-label="Close WhatsApp chat popup">&times;</button>
         </div>

@@ -27,28 +27,44 @@
             translations: {
                 messages: @json(trans('messages'))
             },
-            async toggleLanguage() {
+            async toggleLanguage(explicitLocale = null) {
+                if (this.loading) return;
                 this.loading = true;
-                const newLang = this.currentLang === 'en' ? 'id' : 'en';
+                const prevLang = this.currentLang;
+                const newLang = explicitLocale || (this.currentLang === 'en' ? 'id' : 'en');
+                this.currentLang = newLang;
+                document.documentElement.lang = newLang;
                 try {
-                    const response = await fetch('{{ route("language.toggle") }}', {
+                    const csrfToken = document.querySelector('meta[name="csrf-token"]')?.content || '';
+                    const response = await fetch('/language/toggle', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
-                            'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').content
+                            'Accept': 'application/json',
+                            'X-Requested-With': 'XMLHttpRequest',
+                            'X-CSRF-TOKEN': csrfToken
                         },
                         body: JSON.stringify({
                             locale: newLang
                         })
                     });
+                    if (!response.ok) {
+                        throw new Error('HTTP error ' + response.status);
+                    }
                     const data = await response.json();
-                    if (data.success) {
+                    if (data && data.success) {
                         this.currentLang = data.locale;
-                        this.translations = data.translations;
+                        if (data.translations) {
+                            this.translations = data.translations;
+                        }
                         document.documentElement.lang = data.locale;
+                    } else {
+                        throw new Error('Server returned unsuccessful response');
                     }
                 } catch (error) {
-                    console.error('Language switch failed:', error);
+                    console.warn('Language switch via API failed, fallback to full reload:', error);
+                    window.location.href = '/language/toggle?locale=' + encodeURIComponent(newLang);
+                    return;
                 } finally {
                     this.loading = false;
                 }

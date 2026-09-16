@@ -1,13 +1,17 @@
 <?php
 
 return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | SEO & Meta Tags
+    |--------------------------------------------------------------------------
+    */
     'home_meta_description' => 'Freight forwarder terpercaya di Surabaya dengan layanan NVOCC, freight forwarding internasional dan domestik, customs clearance, project logistics, solusi flexitank, dan pergudangan.',
     'about_title' => 'Tentang | Infinity Logistics Indonesia',
     'about_meta_description' => 'Pelajari lebih lanjut tentang Infinity Logistics Indonesia, perusahaan logistik di Surabaya dengan layanan freight forwarding, NVOCC, customs clearance, pergudangan, dan project logistics.',
     'services_title' => 'Layanan | Infinity Logistics Indonesia',
     'services_meta_description' => 'Jelajahi layanan logistik kami, termasuk NVOCC, freight forwarding, domestic forwarding, customs clearance, project logistics, solusi flexitank, dan pergudangan.',
-    'news_title' => 'Berita | Infinity Logistics Indonesia',
-    'news_meta_description' => 'Dapatkan berita terbaru, wawasan, dan pengumuman perusahaan dari Infinity Logistics Indonesia.',
     'contact_title' => 'Kontak | Infinity Logistics Indonesia',
     'contact_meta_description' => 'Hubungi Infinity Logistics Indonesia untuk kebutuhan freight forwarding, NVOCC, customs clearance, pergudangan, dan layanan logistik lainnya di Surabaya.',
     'nvocc_title' => 'NVOCC - Layanan | Infinity Logistics Indonesia',
@@ -27,6 +31,11 @@ return [
     'customs_clearance_title' => 'Kepabeanan - Layanan | Infinity Logistics Indonesia',
     'customs_clearance_meta_description' => 'Layanan customs clearance untuk mendukung proses ekspor dan impor yang lancar melalui dokumentasi yang tepat, kepatuhan regulasi, dan koordinasi pengiriman.',
 
+    /*
+    |--------------------------------------------------------------------------
+    | Navigation & Global UI
+    |--------------------------------------------------------------------------
+    */
     'about' => 'Tentang',
     'services' => 'Layanan',
     'nvocc' => 'NVOCC',
@@ -37,35 +46,36 @@ return [
     'flexitank_flexibag_details' => 'Detail Flexitank / Flexibag',
     'project_logistics' => 'Logistik Proyek',
     'customs_clearance' => 'Kepabeanan',
-    'news' => 'Berita',
     'contact' => 'Kontak',
     'get_quote' => 'Minta Penawaran',
 
-    'head_office' => 'Kantor Pusat',
-    'warehouse' => 'Gudang',
-    'call' => 'Telepon',
-    'email' => 'Email',
-    'useful_links' => 'Tautan Berguna',
-    'follow_us' => 'Ikuti Kami',
-    'follow_desc' => 'Tetap terinformasi dengan pembaruan, penawaran, dan berita perusahaan terbaru dari tim kami.',
-
-    'head_office_address' => 'Jl. Basuki Rahmat No. 122, Plaza BRI, Lantai 12, Suite 1206, Surabaya, Jawa Timur, Indonesia',
-    'warehouse_address' => 'Jl. Pergudangan Margomulyo Permai J10, Surabaya, Jawa Timur, Indonesia',
-    'warehouse_address2' => 'Jl. Madukoro Raya C9, Tawangmas, Semarang, Jawa Tengah, Indonesia',
-    'warehouse_address3' => 'Jl. Sukorejo 8, Lempake, Samarinda, Kalimantan Timur, Indonesia',
-
+    /*
+    |--------------------------------------------------------------------------
+    | Hero Section
+    |--------------------------------------------------------------------------
+    */
     'hero_title' => 'Dekade Berikutnya. Gelombang Berikutnya.',
     'hero_subtitle' => 'DI INFINITY, KAMI BERCITA-CITA MELOMPAT KE TINGKAT PENCAPAIAN BERIKUTNYA, DARI BAIK MENJADI UNGGUL',
     'get_started' => 'Mulai Sekarang',
     'watch_video' => 'Tonton Video',
 
+    /*
+    |--------------------------------------------------------------------------
+    | Vision, Mission & Values
+    |--------------------------------------------------------------------------
+    */
     'vision' => 'Visi',
-    'vision_text' => 'Menjadi penyedia logistik regional terkemuka dengan memberdayakan pertumbuhan ekspor melalui layanan kelas dunia',
+    'vision_text' => 'Menjadi penyedia logistik regional terkemuka dengan memberdayakan pertumbuhan ekspor melalui layanan kelas dunia.',
     'mission' => 'Misi',
-    'mission_text' => 'Memberikan solusi logistik inovatif dan dapat diandalkan melalui jaringan global terintegrasi kami, memastikan kelancaran arus barang ekspor',
+    'mission_text' => 'Memberikan solusi logistik inovatif dan dapat diandalkan melalui jaringan global terintegrasi kami, memastikan kelancaran arus barang ekspor.',
     'core_values' => 'Nilai-Nilai Inti',
-    'core_values_text' => 'Integritas, Berorientasi pada SDM, Berorientasi pada Teknologi, Fokus pada Pelanggan, Inovasi & Keunggulan, Kerja Tim, Tanggung Jawab HSEC',
+    'core_values_text' => 'Integritas, Berorientasi pada SDM, Berorientasi pada Teknologi, Fokus pada Pelanggan, Inovasi & Keunggulan, Kerja Tim, dan Tanggung Jawab HSEC.',
 
+    /*
+    |--------------------------------------------------------------------------
+    | About Section & Stats
+    |--------------------------------------------------------------------------
+    */
     'about_section' => 'Tentang Kami',
     'about_description' => 'Kami adalah penyedia layanan logistik yang berkantor pusat di Malaysia, dengan kehadiran operasional yang kuat di Surabaya, Indonesia, serta di seluruh Asia Tenggara. Layanan kami mencakup enam bidang utama:',
     'about_service_1' => 'Non-Vessel Operating Common Carrier (NVOCC)',
@@ -75,12 +85,17 @@ return [
     'about_service_5' => 'Layanan Logistik Proyek',
     'about_service_6' => 'Layanan Kepabeanan',
     'about_description_2' => 'Kami berfokus pada penyediaan solusi logistik yang efisien dan andal di berbagai sektor industri, didukung oleh tim yang berdedikasi untuk memberikan layanan berkualitas sesuai kebutuhan setiap klien.',
+    'read_more_about' => 'Pelajari Lebih Lanjut Tentang Kami',
     'years_experience' => 'Tahun Pengalaman',
     'shipments_handled' => 'Pengiriman Ditangani',
     'clients_active' => 'Klien Aktif',
     'countries_served' => 'Negara Dilayani',
-    'read_more_about' => 'Pelajari Lebih Lanjut Tentang Kami',
 
+    /*
+    |--------------------------------------------------------------------------
+    | Why Choose Us & How It Works
+    |--------------------------------------------------------------------------
+    */
     'why_choose_us' => 'Mengapa Memilih Kami',
     'why_choose_subtitle' => 'Solusi efisien, andal, dan hemat biaya',
     'why_choose_description' => 'Kami mendukung pengiriman yang konsisten dan andal, dengan penanganan kargo yang aman serta kualitas layanan yang terjaga pada harga yang kompetitif.',
@@ -88,18 +103,22 @@ return [
     'end_to_end_service' => 'Layanan End-to-End',
     'hour_support' => 'Dukungan 24 Jam',
     'specialized_handling' => 'Penanganan Khusus',
-
     'how_it_works' => 'Cara Kerja',
     'how_it_works_description' => 'Proses pengelolaan pengiriman kami dirancang agar sederhana dan efisien. Ikuti langkah-langkah berikut untuk memulai:',
-    'step_1_title' => 'Minta tarif terbaru',
-    'step_1_description' => 'Hubungi kami untuk memperoleh informasi tarif terbaru untuk layanan logistik yang Anda butuhkan.',
-    'step_2_title' => 'Tinjau layanan, kapasitas, dan persyaratan',
-    'step_2_description' => 'Tinjau layanan yang tersedia, ketersediaan ruang, dan persyaratan khusus untuk menyesuaikan solusi logistik Anda.',
-    'step_3_title' => 'Konfirmasi booking dan delivery order',
-    'step_3_description' => 'Amankan pemesanan Anda dengan mengonfirmasi detail pengiriman dan menerbitkan delivery order.',
-    'step_4_title' => 'Pengiriman berlangsung',
-    'step_4_description' => 'Pengiriman Anda sedang berlangsung. Silakan hubungi kami untuk pertanyaan mendesak atau pembaruan status.',
+    'step_1_title' => 'Minta Tarif Terbaru',
+    'step_1_description' => 'Hubungi kami untuk memperoleh informasi tarif terbaru layanan logistik kami.',
+    'step_2_title' => 'Tinjau Layanan, Kapasitas, dan Persyaratan',
+    'step_2_description' => 'Tinjau layanan yang tersedia, kapasitas, dan persyaratan khusus untuk menentukan solusi logistik yang tepat.',
+    'step_3_title' => 'Konfirmasi Booking dan Delivery Order',
+    'step_3_description' => 'Konfirmasi detail pengiriman, selesaikan pemesanan, dan terbitkan delivery order.',
+    'step_4_title' => 'Pengiriman Berlangsung',
+    'step_4_description' => 'Pengiriman Anda sedang dalam perjalanan. Hubungi kami untuk pembaruan status atau pertanyaan mendesak.',
 
+    /*
+    |--------------------------------------------------------------------------
+    | Services Overview & Solutions
+    |--------------------------------------------------------------------------
+    */
     'services_section' => 'Layanan Kami',
     'nvocc_tagline' => 'Menghubungkan Kargo, Tanpa Kapal.',
     'freight_forwarding_tagline' => 'Menavigasi Kargo Anda, Ke Mana Pun Tujuannya.',
@@ -108,89 +127,64 @@ return [
     'project_logistics_tagline' => 'Logistik Presisi untuk Proyek Skala Besar.',
     'customs_clearance_tagline' => 'Menyederhanakan Kepabeanan, Mendukung Kelancaran Pengiriman.',
     'read_more_services' => 'Jelajahi Layanan Kami',
-
     'ocean_freight' => 'Layanan Angkutan Laut',
     'ocean_freight_description' => 'Infinity Logistics Indonesia menyediakan solusi angkutan laut yang hemat biaya dan andal untuk pengiriman dalam berbagai skala, mulai dari kiriman berukuran kecil hingga muatan kontainer penuh. Kami mengutamakan penanganan kargo yang aman dan mendukung pengiriman ke tujuan dengan baik, baik untuk rute domestik maupun internasional. Layanan angkutan laut kami didukung oleh mitra yang tepercaya.',
     'fcl' => 'Full Container Load (FCL)',
     'lcl' => 'Less Than Container Load (LCL)',
     'reefer_container' => 'Kontainer Reefer',
     'iso_tank' => 'Tangki ISO',
-
     'air_freight' => 'Layanan Angkutan Udara',
     'air_freight_description' => 'Layanan angkutan udara kami dirancang untuk menyediakan solusi pengiriman yang cepat, andal, dan sesuai kebutuhan bagi kiriman yang mendesak dan penting. Mulai dari airport-to-door delivery, Infinity Logistics Indonesia menangani kargo Anda dengan fokus pada penanganan yang aman dan kedatangan yang terjaga.',
     'domestic' => 'Domestik',
     'export_import' => 'Ekspor & Impor',
     'consolidation' => 'Konsolidasi',
     'full_charter' => 'Sewa Penuh',
-
     'road_freight' => 'Layanan Angkutan Darat',
     'road_freight_description' => 'Kami menyediakan solusi angkutan darat yang fleksibel dan andal di seluruh wilayah Indonesia. Armada kami mencakup truk kontainer, truk wing box, truk single-axle, pick-up, dan grand van, sehingga dapat mendukung pengangkutan berbagai jenis kargo secara efisien. Didukung oleh harga yang kompetitif dan penanganan profesional di setiap tahap, layanan angkutan darat kami membantu kelancaran pengiriman antar kota, provinsi, dan pulau.',
     'ftl' => 'Full Truck Load (FTL)',
     'ltl' => 'Less Than Truck Load (LTL)',
     'haulage' => 'Pengangkutan',
     'contract_carriage' => 'Angkutan Kontrak',
-
     'warehouse_services' => 'Layanan Pergudangan',
     'warehouse_services_description' => 'Layanan pergudangan Infinity Logistics Indonesia menyediakan solusi penyimpanan yang aman dan fleksibel sesuai kebutuhan bisnis Anda. Kami memastikan barang disimpan dengan baik dan ditangani secara cermat. Layanan pergudangan kami mendukung operasional harian serta penanganan persediaan.',
     'warehouse_management' => 'Solusi Manajemen Gudang',
     'modular_storage' => 'Solusi Penyimpanan Modular',
     'integrated_warehouse' => 'Sistem Gudang Terintegrasi',
-
     'cta_title' => 'Layanan Angkutan yang Fleksibel dan Andal',
     'cta_description' => 'Temukan solusi Flexitank dan ekspedisi internasional khusus kami hari ini.',
 
-    'projects_section' => 'Proyek Kami',
-    'projects_title' => 'Proyek',
-    'all' => 'Semua',
-
+    /*
+    |--------------------------------------------------------------------------
+    | Clients & Management
+    |--------------------------------------------------------------------------
+    */
+    'clients_section' => 'Klien Kami',
+    'clients_title' => 'Klien',
     'management_section' => 'Manajemen Kami',
     'management_title' => 'Manajemen',
     'director' => 'Direktur',
 
-    'clients_section' => 'Klien Kami',
-    'clients_title' => 'Klien',
-
-    'contact_section' => 'Kontak Kami',
-    'our_address' => 'Alamat Kami',
-    'call_us' => 'Telepon Kami',
-    'email_us' => 'Email Kami',
-    'working_hours' => 'Jam Kerja Kami',
-    'monday_friday' => 'Senin sampai Jumat | 08.30 - 17.00 WIB',
-    'saturday' => 'Sabtu | 08.30 - 13.00 WIB',
-    'sunday' => 'Minggu | Tutup',
-
-    'get_in_touch' => 'HUBUNGI KAMI',
-    'contact_intro' => 'Anda dapat menghubungi kami kapan saja.',
-    'contact_description' => 'Hubungi kami melalui telepon atau email, atau isi formulir di bawah ini dan tim kami akan menghubungi Anda sesegera mungkin.',
-
-    'placeholder_name' => 'Nama',
-    'placeholder_email' => 'Email',
-    'placeholder_subject' => 'Subjek',
-    'placeholder_message' => 'Pesan',
-
-    'subject_rfq' => 'Permintaan Harga',
-    'subject_general' => 'Pertanyaan Umum',
-    'subject_partnership' => 'Peluang Kerjasama',
-    'subject_technical' => 'Dukungan Teknis',
-    'subject_feedback' => 'Saran & Masukan',
-    'subject_other' => 'Lainnya',
-
-    'join_newsletter' => 'Bergabunglah dengan buletin kami.',
-    'newsletter_description' => 'Langganan buletin kami dan dapatkan berita terbaru tentang layanan kami!',
-    'send_message' => 'Kirim Pesan',
-
+    /*
+    |--------------------------------------------------------------------------
+    | Service Sidebar
+    |--------------------------------------------------------------------------
+    */
     'service_details' => 'Detail Layanan',
     'services_list' => 'Daftar Layanan',
     'download_catalog' => 'Unduh Katalog',
-
     'company_profile' => 'Profil Perusahaan',
     'ibl_brochures' => 'Brosur IBL',
     'ibl_profile' => 'Profil IBL',
+    'have_a_question' => 'Ada Pertanyaan?',
 
+    /*
+    |--------------------------------------------------------------------------
+    | NVOCC Detail & Sailing Schedule
+    |--------------------------------------------------------------------------
+    */
     'nvocc_description_1' => 'Kami berfokus pada pengiriman Full Container Load (FCL), dengan perhatian khusus pada rute Surabaya–Port Klang sebagai salah satu jalur layanan utama kami. Kami menyediakan alokasi ruang yang andal pada kapal yang beroperasi di jalur perdagangan utama Asia, didukung oleh pelayaran reguler dari dan ke pelabuhan-pelabuhan penting di Malaysia, Thailand, Indonesia, Singapura, Vietnam, India, dan Myanmar. Dengan beberapa jadwal pelayaran setiap minggu, pelanggan kami memiliki fleksibilitas yang lebih besar dalam memilih tanggal keberangkatan dan waktu transit yang sesuai dengan perencanaan kargo serta kebutuhan rantai pasok mereka.',
     'nvocc_description_2' => 'Dalam mendukung pasar NVOCC (Non-Vessel Operating Common Carrier), cabang Surabaya kami berperan penting dengan menyediakan kontainer 20-ft high-cube berkualitas. Dukungan operasional ini membantu memenuhi kebutuhan kargo secara lebih efektif, terutama untuk pengiriman yang bergerak melalui rute regional utama kami.',
     'nvocc_description_3' => 'Dengan menggabungkan ketersediaan ruang yang konsisten, fleksibilitas rute, dan spesialisasi kontainer, kami menyediakan solusi FCL untuk berbagai industri dan profil kargo. Layanan NVOCC kami dirancang untuk mendukung pergerakan kargo yang efisien sekaligus membantu eksportir mengoptimalkan perencanaan, pemanfaatan, dan biaya logistik secara keseluruhan.',
-
     'vessel' => 'Kapal',
     'voyage' => 'Pelayaran',
     'open_stack' => 'Open Stack',
@@ -198,7 +192,13 @@ return [
     'eta_surabaya' => 'ETA Surabaya',
     'etd_surabaya' => 'ETD Surabaya',
     'eta_klang' => 'ETA Klang Barat',
+    'swipe_schedule_hint' => 'Geser ke samping untuk melihat jadwal pelayaran lengkap',
 
+    /*
+    |--------------------------------------------------------------------------
+    | Schedule Months
+    |--------------------------------------------------------------------------
+    */
     'january' => 'Januari',
     'february' => 'Februari',
     'march' => 'Maret',
@@ -212,24 +212,37 @@ return [
     'november' => 'November',
     'december' => 'Desember',
 
+    /*
+    |--------------------------------------------------------------------------
+    | Freight Forwarding Detail
+    |--------------------------------------------------------------------------
+    */
     'freight_forwarding_description_1' => 'Kami menyediakan layanan ekspedisi internasional terintegrasi yang mencakup transportasi laut dan udara untuk mendukung kegiatan ekspor dan impor internasional di berbagai sektor industri. Didukung oleh jaringan transportasi lokal dan kemampuan penanganan logistik kami, kami menyediakan solusi pengiriman door-to-door beserta dukungan dokumentasi kepabeanan dan kepatuhan regulasi. Cakupan layanan kami meliputi pengaturan ruang kargo dengan perusahaan pelayaran dan maskapai, transportasi, pemuatan dan koordinasi terminal, customs clearance dan pengurusan perizinan, serta koordinasi dengan mitra luar negeri untuk mendukung pergerakan kargo dari titik asal hingga tujuan.',
     'freight_forwarding_description_2' => 'Cabang Surabaya kami berperan sebagai pusat operasional utama dengan menyediakan layanan forwarding khusus untuk pengiriman yang memiliki kebutuhan penanganan kargo, rute, atau dokumentasi tertentu:',
     'freight_forwarding_description_3' => 'Melalui pengalaman, jaringan, dan dukungan operasional kami, kami menyediakan solusi logistik terintegrasi baik sebagai bagian dari pengaturan rantai pasok yang lebih luas maupun sebagai layanan forwarding mandiri, sesuai kebutuhan pengiriman.',
-
     'ff_desc_1' => 'LCL: Layanan konsolidasi untuk pengiriman yang hemat biaya.',
     'ff_desc_2' => 'Kontainer Reefer: Penanganan untuk kargo yang memerlukan pengendalian suhu.',
     'ff_desc_3' => 'Tangki ISO: Pengangkutan kargo cair curah menggunakan ISO tank.',
     'ff_desc_4' => 'Layanan Angkutan Udara: Transportasi cepat untuk kargo yang mendesak.',
 
+    /*
+    |--------------------------------------------------------------------------
+    | Domestic Forwarding Detail
+    |--------------------------------------------------------------------------
+    */
     'domestic_forwarding_description_1' => 'Ekspedisi nasional mengacu pada perencanaan, koordinasi, dan pelaksanaan transportasi kargo di dalam satu negara. Berbeda dengan ekspedisi internasional yang melibatkan prosedur kepabeanan, regulasi lintas batas, dan logistik luar negeri, ekspedisi nasional berfokus pada pergerakan barang melalui jaringan lokal dan regional.',
     'domestic_forwarding_description_2' => 'Salah satu keunggulan utamanya adalah efisiensi dari sisi waktu dan biaya. Pengiriman domestik umumnya lebih cepat dan lebih ekonomis dibandingkan transit internasional. Layanan ini dapat dijalankan melalui transportasi darat, kereta api, laut, atau udara, tergantung pada kebutuhan kargo, lead time, dan pertimbangan anggaran.',
     'domestic_forwarding_description_3' => 'Ekspedisi nasional juga dapat menjadi bagian dari layanan logistik yang terintegrasi. Layanan ini dapat mencakup asuransi kargo, pergudangan, dan penanganan persediaan untuk mendukung pergerakan barang di dalam wilayah nasional.',
 
+    /*
+    |--------------------------------------------------------------------------
+    | Flexitank / Flexibag Solutions
+    |--------------------------------------------------------------------------
+    */
     'flexitank_flexibag_description_1' => 'Flexitank merupakan solusi yang praktis dan hemat biaya untuk mengangkut cairan curah non-berbahaya dengan mengubah kontainer 20-ft standar menjadi sarana angkut kargo cair. Solusi ini memungkinkan pengiriman cairan curah ditangani dalam format kontainer standar, sehingga sesuai untuk berbagai kebutuhan operasional pengiriman. Flexitank mendukung pengangkutan kargo cair non-berbahaya dalam bentuk yang lebih efisien dan berbasis kontainer.',
     'flexitank_flexibag_description_2' => 'Sebagai salah satu produk inti Infinity Bulk Logistics (IBL), Flexitank kami dikembangkan untuk mendukung berbagai kebutuhan pengangkutan cairan curah. Didukung oleh tim teknis dan standar produksi internal, kami menaruh perhatian pada kualitas produk, keselamatan, dan konsistensi penggunaan. IBL juga terus melakukan penelitian dan pengembangan untuk meningkatkan penerapan produk serta mendukung kebutuhan logistik yang praktis.',
     'flexitank_flexibag_description_3' => 'Meskipun Flexitank kami diproduksi di Malaysia melalui mitra bersertifikat, operasional kami didukung dari Surabaya, Indonesia. Dengan dukungan operasional lokal dan akses ke Pelabuhan Tanjung Perak, kami menyediakan bantuan pemasangan dan dukungan purna jual bagi pelanggan di seluruh Indonesia.',
-
-    'multilayer' => 'Multilayer',
+    'multilayer' => 'MULTILAYER',
     'multilayer_description' => 'Flexitank kami dibuat dari Polyethylene dan Polypropylene food-grade berstandar FDA yang sesuai untuk berbagai jenis kargo cair non-berbahaya.',
     'beta_tank' => 'Beta Tank',
     'beta_tank_desc' => 'Liner kontainer curah 20-ft yang dibuat dari 2 lapis Polyethylene 125 mikron yang dijahit pada lapisan luar Polypropylene woven.',
@@ -239,22 +252,19 @@ return [
     'delta_tank_desc' => 'Liner kontainer curah 20-ft yang dibuat dari 4 lapis Polyethylene 125 mikron yang dijahit pada lapisan luar Polypropylene woven.',
     'epsilon_tank' => 'Epsilon Tank',
     'epsilon_tank_desc' => 'Liner kontainer curah 20-ft yang dibuat dari 5 lapis, terdiri atas 4 lapis Polyethylene 125 mikron dan 1 lapis EVOH Barrier Film 100 mikron, yang dijahit pada lapisan luar Polypropylene woven.',
-
-    'pp_woven' => 'PP Woven',
+    'pp_woven' => 'PP WOVEN',
     'pp_woven_description' => 'PP Woven adalah lapisan luar dari Flexitank yang membantu menopang struktur dan menstabilkan pergerakan cairan. Film ini diproduksi dari polimer food-grade menggunakan monomer yang terdaftar sebagai zat yang disetujui berdasarkan SI 3145 serta aditif yang disetujui berdasarkan EU Directive 93/3/EC.',
     'polyethylene_liner' => 'Polyethylene Liner',
     'polyethylene_liner_desc' => 'Dibuat dari film tubular co-extruded 5 lapis food-grade berstandar FDA yang terbuat dari campuran resin berbasis polyethylene.',
     'evoh_liner' => 'EVOH Liner',
     'evoh_liner_desc' => 'Film berbasis Ethyl Vinyl Alcohol dengan lapisan khusus yang memiliki sifat penghalang gas yang baik.',
-
-    'valve' => 'Valve',
+    'valve' => 'VALVE',
     'valve_description' => 'Valve Flexitank adalah titik sambung yang aman untuk proses pengisian dan pengosongan cairan. Komponen ini memastikan segel yang rapat untuk membantu mencegah kebocoran dan kontaminasi selama proses pemuatan dan pembongkaran.',
     'butterfly_valve_gland' => '3-inch PP Butterfly Flange Valve with Gland',
     'butterfly_valve_gland_desc' => 'Satu flange pengisian 3 inci yang terpasang pada badan utama melalui segel las 360 derajat.',
     'butterfly_valve_compression' => '3-inch PP Butterfly Flange Compression Valve',
     'butterfly_valve_compression_desc' => 'Dibuat dari Polyethylene food-grade dan dilengkapi dengan butterfly valve, elbow-butterfly valve, dan Banjo valve.',
-
-    'bulkhead' => 'Bulkhead',
+    'bulkhead' => 'BULKHEAD',
     'bulkhead_description' => 'Bulkhead adalah dinding penahan yang menjaga Flexitank agar tidak keluar dari kontainer saat terisi penuh. Kami menyediakan tiga jenis bulkhead.',
     'bulkhead_a' => 'Bulkhead A',
     'bulkhead_a_desc' => 'Terdiri atas 4 batang baja dan digunakan untuk Flexitank Top Load - Top Discharge.',
@@ -262,25 +272,21 @@ return [
     'bulkhead_b_desc' => 'Terdiri atas 2 batang baja dan 1 rangka baja, serta digunakan untuk Flexitank Top Load - Bottom Discharge dan Bottom Load - Bottom Discharge.',
     'bulkhead_c' => 'Bulkhead C',
     'bulkhead_c_desc' => 'Terdiri atas 2 rangka baja dan dapat digunakan untuk semua jenis Flexitank.',
-
-    'heating_pad' => 'Heating Pad',
+    'heating_pad' => 'HEATING PAD',
     'heating_pad_description' => 'Heating Pad digunakan untuk mencairkan kargo yang mengeras pada titik pembongkaran. Alat ini mentransfer panas melalui pipa yang terbuat dari karet EPDM ekstrusi. Input panas maksimum adalah 124°C dan tekanan maksimum adalah 300 PSI (20 bar). Panas diberikan melalui uap basah bertekanan rendah. Unit ini dapat digunakan kembali selama tidak mengalami kerusakan saat perjalanan balik.',
-
-    'insulation_liner' => 'Insulation Liner',
+    'insulation_liner' => 'INSULATION LINER',
     'insulation_liner_description' => 'Fluktuasi suhu yang terjadi ketika kontainer melewati iklim yang berbeda dapat menyebabkan masalah seperti kerusakan produk dan pengentalan. Oleh karena itu, Insulation Liner membantu mengurangi laju perubahan suhu sehingga produk dapat mempertahankan karakteristik aslinya semaksimal mungkin.',
     'insulation_benefit_1' => 'Mudah ditangani dan dipasang.',
     'insulation_benefit_2' => 'Mengurangi fluktuasi suhu.',
     'insulation_benefit_3' => 'Kompatibel dengan kontainer pengiriman ISO.',
     'insulation_benefit_4' => 'Menjaga lingkungan yang lebih terkendali.',
-
-    'tub_liner' => 'Tub Liner',
+    'tub_liner' => 'TUB LINER',
     'tub_liner_description' => 'Tub Liner adalah liner kontainer yang efektif untuk membantu mencegah tumpahan dan kebocoran dari Flexitank. Liner ini dibuat dari Polyethylene 125 mikron dan berfungsi sebagai lapisan pelindung bagi Flexitank.',
     'tub_benefit_1' => 'Kebocoran pada kontainer dapat diminimalkan melalui proses pumping out dengan tingkat kehilangan yang lebih rendah.',
     'tub_benefit_2' => 'Tingkat kehilangan dapat diukur dengan menimbang tub, baik dengan maupun tanpa tumpahan.',
     'tub_benefit_3' => 'Kebocoran tertahan sehingga membantu mencegah noda dan mengurangi biaya pembersihan.',
     'tub_benefit_4' => 'Dapat didaur ulang dan biodegradable.',
-
-    'heat_exchanger' => 'Heat Exchanger',
+    'heat_exchanger' => 'HEAT EXCHANGER',
     'heat_exchanger_description' => 'Heat Exchanger adalah peralatan yang dirancang untuk memindahkan panas secara efisien dari satu media ke media lainnya. Media tersebut dapat dipisahkan oleh dinding padat untuk mencegah pencampuran, atau dapat berada dalam kontak langsung. Dengan Heat Exchanger, Anda dapat:',
     'heat_exchanger_benefit_1' => 'Mencairkan kargo yang mengeras secara merata.',
     'heat_exchanger_benefit_2' => 'Membantu mengatasi kendala pada musim dingin dan suhu rendah.',
@@ -288,29 +294,89 @@ return [
     'heat_exchanger_benefit_4' => 'Meminimalkan biaya pemanasan dan jejak karbon.',
     'heat_exchanger_cta' => 'Heat Exchanger kami mendukung pencairan kargo yang mengeras.',
 
+    /*
+    |--------------------------------------------------------------------------
+    | Project Logistics Detail
+    |--------------------------------------------------------------------------
+    */
     'project_logistics_description_1' => 'Logistik proyek mencakup perencanaan, transportasi, dan pengelolaan kargo berat, oversized, atau kompleks untuk proyek berskala besar seperti pembangkit listrik, pengembangan minyak dan gas, serta infrastruktur energi terbarukan. Jenis kargo ini memerlukan penanganan yang cermat, perencanaan rute, dan koordinasi untuk mendukung pergerakan yang aman dan praktis dari titik asal ke tujuan.',
     'project_logistics_description_2' => 'Transportasi multimoda yang menggabungkan truk, kapal, dan kereta api umum digunakan untuk memindahkan kargo proyek, tergantung pada dimensi kargo, kondisi rute, dan kebutuhan operasional. Koordinasi yang erat antara tim teknis dan logistik diperlukan di sepanjang proses, didukung oleh perencanaan pemuatan, pengaturan transportasi, dan pelaksanaan pengiriman.',
     'project_logistics_description_3' => 'Berbasis di Surabaya, layanan logistik proyek kami mendukung pergerakan kargo untuk proyek industri dan infrastruktur di Indonesia. Surabaya berperan sebagai titik operasional yang strategis karena lokasi dan akses pelabuhannya, sementara setiap pengiriman ditangani sesuai dengan kebutuhan transportasi dan penanganan yang spesifik untuk masing-masing proyek.',
 
+    /*
+    |--------------------------------------------------------------------------
+    | Customs Clearance Detail
+    |--------------------------------------------------------------------------
+    */
     'customs_clearance_description_1' => 'Kepabeanan adalah proses penting yang memastikan barang diimpor dan diekspor sesuai dengan regulasi lokal maupun internasional. Proses ini mencakup penyiapan dan pengajuan dokumentasi yang diperlukan, termasuk deklarasi kepabeanan, invoice, dan certificate of origin, beserta pembayaran bea dan pajak yang berlaku. Proses clearance yang tepat penting untuk membantu bisnis menghindari keterlambatan, denda, atau penalti dalam perdagangan internasional.',
     'customs_clearance_description_2' => 'Di Surabaya, layanan kepabeanan kami didukung oleh pemahaman terhadap lingkungan regulasi setempat serta pengalaman dalam menangani persyaratan kepabeanan Indonesia. Tim kami menangani dokumentasi yang diperlukan dan prosedur clearance sesuai regulasi yang berlaku untuk mendukung pergerakan pengiriman melalui proses kepabeanan.',
     'customs_clearance_description_3' => 'Layanan kepabeanan kami juga mencakup dukungan dalam menangani kendala yang mungkin muncul selama proses clearance. Ketika diperlukan penanganan atau dokumentasi tambahan, tim kami melakukan tindak lanjut dan bantuan agar pengiriman dapat terus berjalan sesuai prosedur kepabeanan yang berlaku.',
 
-    'form_incomplete_title' => 'Formulir Belum Lengkap',
-    'form_incomplete_text' => 'Harap isi semua kolom yang wajib diisi.',
-    'form_sending_title' => 'Mengirim...',
-    'form_sending_text' => 'Harap tunggu saat pesan Anda sedang dikirim',
-    'form_success_title' => 'Berhasil!',
-    'form_success_text' => 'Pesan Anda telah berhasil dikirim.',
-    'form_failed_title' => 'Pengiriman Gagal',
-    'form_failed_default' => 'Gagal mengirim pesan. Silakan periksa input Anda.',
-    'form_network_error_title' => 'Kesalahan Jaringan!',
-    'form_network_error_text' => 'Tidak dapat terhubung ke server. Silakan coba lagi nanti.',
+    /*
+    |--------------------------------------------------------------------------
+    | Contact, Office & Working Hours
+    |--------------------------------------------------------------------------
+    */
+    'contact_section' => 'Kontak Kami',
+    'our_address' => 'Alamat Kami',
+    'call_us' => 'Telepon Kami',
+    'email_us' => 'Email Kami',
+    'working_hours' => 'Jam Kerja Kami',
+    'monday_friday' => 'Senin sampai Jumat | 08.30 - 17.00 WIB',
+    'saturday' => 'Sabtu | 08.30 - 13.00 WIB',
+    'sunday' => 'Minggu | Tutup',
+    'get_in_touch' => 'HUBUNGI KAMI',
+    'contact_intro' => 'Kami siap membantu Anda.',
+    'contact_description' => 'Hubungi kami melalui telepon atau email, atau lengkapi formulir di bawah ini. Tim kami akan segera merespons.',
+    'head_office' => 'Kantor Pusat',
+    'warehouse' => 'Gudang',
+    'call' => 'Telepon',
+    'email' => 'Email',
+    'head_office_address' => 'Jl. Basuki Rahmat No. 122, Plaza BRI, Lantai 12, Suite 1206, Surabaya, Jawa Timur, Indonesia',
+    'warehouse_address' => 'Jl. Pergudangan Margomulyo Permai J10, Surabaya, Jawa Timur, Indonesia',
+    'warehouse_address2' => 'Jl. Madukoro Raya C9, Tawangmas, Semarang, Jawa Tengah, Indonesia',
+    'warehouse_address3' => 'Jl. Sukorejo 8, Lempake, Samarinda, Kalimantan Timur, Indonesia',
 
-    'wa_start_conversation' => 'Mulai Percakapan',
-    'wa_click_member' => 'Pilih salah satu tim kami di bawah ini',
+    /*
+    |--------------------------------------------------------------------------
+    | Contact Form & Notifications
+    |--------------------------------------------------------------------------
+    */
+    'placeholder_name' => 'Nama',
+    'placeholder_email' => 'Email',
+    'placeholder_subject' => 'Subjek',
+    'placeholder_message' => 'Pesan',
+    'subject_rfq' => 'Permintaan Harga',
+    'subject_general' => 'Pertanyaan Umum',
+    'subject_partnership' => 'Peluang Kerjasama',
+    'subject_technical' => 'Dukungan Teknis',
+    'subject_feedback' => 'Saran & Masukan',
+    'subject_other' => 'Lainnya',
+    'send_message' => 'Kirim Pesan',
+    'join_newsletter' => 'Berlangganan Buletin Kami',
+    'newsletter_description' => 'Dapatkan informasi terbaru dan berita perusahaan dari tim kami.',
+    'form_incomplete_title' => 'Harap lengkapi semua kolom wajib.',
+    'form_sending_title' => 'Sedang mengirim pesan Anda...',
+    'form_success_title' => 'Pesan Anda berhasil dikirim!',
+    'form_failed_title' => 'Pengiriman pesan gagal. Silakan coba lagi.',
+    'form_network_error_title' => 'Tidak dapat terhubung. Silakan coba lagi nanti.',
 
+    /*
+    |--------------------------------------------------------------------------
+    | WhatsApp Widget
+    |--------------------------------------------------------------------------
+    */
+    'wa_start_conversation' => 'Chat via WhatsApp',
+
+    /*
+    |--------------------------------------------------------------------------
+    | Footer & Legal
+    |--------------------------------------------------------------------------
+    */
+    'useful_links' => 'Tautan Berguna',
+    'follow_us' => 'Ikuti Kami',
+    'follow_desc' => 'Tetap terinformasi dengan pembaruan dan berita perusahaan terbaru.',
     'all_rights_reserved' => 'Seluruh Hak Cipta Dilindungi.',
-    'designed_by' => 'Dirancang dan Dikembangkan dengan',
+    'designed_by' => 'Dirancang dan dikembangkan dengan',
     'by_it_infinity' => 'oleh IT Infinity',
 ];
