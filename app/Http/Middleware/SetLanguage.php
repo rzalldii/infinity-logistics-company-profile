@@ -8,15 +8,14 @@ use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
 use Symfony\Component\HttpFoundation\Response;
 
-class SetLanguage
+final class SetLanguage
 {
     public function handle(Request $request, Closure $next): Response
     {
         if (Session::has('locale')) {
             App::setLocale(Session::get('locale'));
         } else {
-            App::setLocale('en');
-            Session::put('locale', 'en');
+            App::setLocale(config('app.locale', 'en'));
         }
 
         return $next($request);

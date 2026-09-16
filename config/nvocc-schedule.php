@@ -1,0 +1,63 @@
+<?php
+
+return [
+    'month' => 'september',
+
+    'schedules' => [
+        [
+            'line' => 'GSL',
+            'vessel' => 'MTT SANDAKAN',
+            'voyage' => '79W',
+            'open_stack' => ['time' => '15:00', 'day' => '30', 'month' => 'august'],
+            'closing' => ['time' => '09:00', 'day' => '03', 'month' => 'september'],
+            'eta_sur' => ['day' => '03', 'month' => 'september'],
+            'etd_sur' => ['day' => '04', 'month' => 'september'],
+            'eta_klang' => ['day' => '10', 'month' => 'september'],
+            'remarks' => 'TPS',
+        ],
+        [
+            'line' => 'GSL',
+            'vessel' => 'INFERRO',
+            'voyage' => '046W',
+            'open_stack' => ['time' => '15:00', 'day' => '03', 'month' => 'september'],
+            'closing' => ['time' => '09:00', 'day' => '07', 'month' => 'september'],
+            'eta_sur' => ['day' => '07', 'month' => 'september'],
+            'etd_sur' => ['day' => '08', 'month' => 'september'],
+            'eta_klang' => ['day' => '12', 'month' => 'september'],
+            'remarks' => 'TPS',
+        ],
+        [
+            'line' => 'GSL',
+            'vessel' => 'MTT SANDAKAN',
+            'voyage' => '80W',
+            'open_stack' => ['time' => '15:00', 'day' => '11', 'month' => 'september'],
+            'closing' => ['time' => '09:00', 'day' => '15', 'month' => 'september'],
+            'eta_sur' => ['day' => '15', 'month' => 'september'],
+            'etd_sur' => ['day' => '16', 'month' => 'september'],
+            'eta_klang' => ['day' => '19', 'month' => 'september'],
+            'remarks' => 'TPS',
+        ],
+        [
+            'line' => 'GSL',
+            'vessel' => 'KOTA JOHAN',
+            'voyage' => '0079W',
+            'open_stack' => ['time' => '15:00', 'day' => '18', 'month' => 'september'],
+            'closing' => ['time' => '09:00', 'day' => '22', 'month' => 'september'],
+            'eta_sur' => ['day' => '22', 'month' => 'september'],
+            'etd_sur' => ['day' => '23', 'month' => 'september'],
+            'eta_klang' => ['day' => '26', 'month' => 'september'],
+            'remarks' => 'TPS',
+        ],
+        [
+            'line' => 'GSL',
+            'vessel' => 'INFERRO',
+            'voyage' => '047W',
+            'open_stack' => ['time' => '15:00', 'day' => '25', 'month' => 'september'],
+            'closing' => ['time' => '09:00', 'day' => '29', 'month' => 'september'],
+            'eta_sur' => ['day' => '29', 'month' => 'september'],
+            'etd_sur' => ['day' => '30', 'month' => 'september'],
+            'eta_klang' => ['day' => '03', 'month' => 'october'],
+            'remarks' => 'TPS',
+        ],
+    ],
+];

@@ -1,51 +1,33 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Mail;
+use App\Enums\ContactSubject;
+use App\Http\Requests\SendContactRequest;
+use App\Services\ContactService;
+use Illuminate\Http\JsonResponse;
 
-class ContactController extends Controller
+final class ContactController extends Controller
 {
-    public function send(Request $request)
+    public function __construct(
+        private readonly ContactService $contactService
+    ) {}
+
+    public function send(SendContactRequest $request): JsonResponse
     {
-        $validated = $request->validate([
-            'name' => 'required|string|max:255',
-            'email' => 'required|email|max:255',
-            'subject' => 'required|string|max:255',
-            'message' => 'required|string',
-        ]);
-
-        $subjectMapping = [
-            'quotation' => 'Request For Quotation',
-            'general' => 'General Inquiry',
-            'partnership' => 'Partnership Opportunity',
-            'technical' => 'Technical Support',
-            'feedback' => 'Feedback & Suggestions',
-            'other' => 'Other'
-        ];
-
-        $subjectLabel = $subjectMapping[$validated['subject']] ?? $validated['subject'];
-
-        $subscribe = $request->has('subscribe') ? 'Yes' : 'No';
-
-        try {
-            Mail::raw(
-                'Name : ' . $validated['name'] . "\n" .
-                'Email : ' . $validated['email'] . "\n\n" .
-                'Message : ' . "\n\n" . $validated['message'] . "\n\n" .
-                'Subscribe Newsletter : ' . $subscribe,
-                function ($message) use ($validated, $subjectLabel) {
-                    $message->to('marketing1@infinity-sby.com')
-                        ->subject($subjectLabel)
-                        ->replyTo($validated['email'], $validated['name']);
-                }
-            );
-
-            return response()->json([], 200);
-
-        } catch (\Exception $e) {
+        $validated = $request->validated();
+        $success = $this->contactService->sendContactEmail(
+            name: $validated['name'],
+            email: $validated['email'],
+            subject: ContactSubject::from($validated['subject']),
+            messageContent: $validated['message'],
+            subscribe: $request->has('subscribe'),
+        );
+        if (!$success) {
             return response()->json([], 500);
         }
+        return response()->json([], 200);
     }
 }

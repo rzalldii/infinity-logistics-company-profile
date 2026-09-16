@@ -295,4 +295,22 @@ return [
     'customs_clearance_description_1' => 'Kepabeanan adalah proses penting yang memastikan barang diimpor dan diekspor sesuai dengan regulasi lokal maupun internasional. Proses ini mencakup penyiapan dan pengajuan dokumentasi yang diperlukan, termasuk deklarasi kepabeanan, invoice, dan certificate of origin, beserta pembayaran bea dan pajak yang berlaku. Proses clearance yang tepat penting untuk membantu bisnis menghindari keterlambatan, denda, atau penalti dalam perdagangan internasional.',
     'customs_clearance_description_2' => 'Di Surabaya, layanan kepabeanan kami didukung oleh pemahaman terhadap lingkungan regulasi setempat serta pengalaman dalam menangani persyaratan kepabeanan Indonesia. Tim kami menangani dokumentasi yang diperlukan dan prosedur clearance sesuai regulasi yang berlaku untuk mendukung pergerakan pengiriman melalui proses kepabeanan.',
     'customs_clearance_description_3' => 'Layanan kepabeanan kami juga mencakup dukungan dalam menangani kendala yang mungkin muncul selama proses clearance. Ketika diperlukan penanganan atau dokumentasi tambahan, tim kami melakukan tindak lanjut dan bantuan agar pengiriman dapat terus berjalan sesuai prosedur kepabeanan yang berlaku.',
+
+    'form_incomplete_title' => 'Formulir Belum Lengkap',
+    'form_incomplete_text' => 'Harap isi semua kolom yang wajib diisi.',
+    'form_sending_title' => 'Mengirim...',
+    'form_sending_text' => 'Harap tunggu saat pesan Anda sedang dikirim',
+    'form_success_title' => 'Berhasil!',
+    'form_success_text' => 'Pesan Anda telah berhasil dikirim.',
+    'form_failed_title' => 'Pengiriman Gagal',
+    'form_failed_default' => 'Gagal mengirim pesan. Silakan periksa input Anda.',
+    'form_network_error_title' => 'Kesalahan Jaringan!',
+    'form_network_error_text' => 'Tidak dapat terhubung ke server. Silakan coba lagi nanti.',
+
+    'wa_start_conversation' => 'Mulai Percakapan',
+    'wa_click_member' => 'Pilih salah satu tim kami di bawah ini',
+
+    'all_rights_reserved' => 'Seluruh Hak Cipta Dilindungi.',
+    'designed_by' => 'Dirancang dan Dikembangkan dengan',
+    'by_it_infinity' => 'oleh IT Infinity',
 ];

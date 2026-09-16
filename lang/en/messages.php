@@ -295,4 +295,22 @@ return [
     'customs_clearance_description_1' => 'Customs clearance is an essential process that ensures goods are imported and exported in compliance with both local and international regulations. It involves preparing and submitting the necessary documentation, including customs declarations, invoices, and certificates of origin, together with the payment of applicable duties and taxes. A proper clearance process is important in helping businesses avoid delays, fines, or penalties during international trade.',
     'customs_clearance_description_2' => 'In Surabaya, our customs clearance services are supported by our understanding of the local regulatory environment and our experience in handling Indonesian customs requirements. Our team handles the required documentation and clearance procedures in accordance with applicable regulations to support the movement of shipments through the customs process.',
     'customs_clearance_description_3' => 'Our customs clearance services also include support in addressing issues that may arise during the clearance process. When additional handling or documentation is required, our team works to follow up and assist so that shipments can continue according to the relevant customs procedures.',
+
+    'form_incomplete_title' => 'Incomplete Form',
+    'form_incomplete_text' => 'Please fill in all required fields.',
+    'form_sending_title' => 'Sending...',
+    'form_sending_text' => 'Please wait while we send your message',
+    'form_success_title' => 'Success!',
+    'form_success_text' => 'Your message has been sent successfully.',
+    'form_failed_title' => 'Submission Failed',
+    'form_failed_default' => 'Failed to send message. Please check your inputs.',
+    'form_network_error_title' => 'Network Error!',
+    'form_network_error_text' => 'Unable to connect to the server. Please try again later.',
+
+    'wa_start_conversation' => 'Start a Conversation',
+    'wa_click_member' => 'Click one of our members below',
+
+    'all_rights_reserved' => 'All Rights Reserved.',
+    'designed_by' => 'Designed and Developed with',
+    'by_it_infinity' => 'by IT Infinity',
 ];
