@@ -14,6 +14,9 @@ return Application::configure(basePath: dirname(__DIR__))
         $middleware->web(append: [
             \App\Http\Middleware\SetLanguage::class,
         ]);
+        $middleware->encryptCookies(except: [
+            'locale',
+        ]);
         $middleware->validateCsrfTokens(except: [
             'language/*',
             'language/toggle',

@@ -12,12 +12,19 @@ final class SetLanguage
 {
     public function handle(Request $request, Closure $next): Response
     {
-        if (Session::has('locale')) {
-            App::setLocale(Session::get('locale'));
-        } else {
-            App::setLocale(config('app.locale', 'en'));
+        $locale = Session::get('locale')
+            ?? $request->cookie('locale')
+            ?? config('app.locale', 'en');
+        if (!in_array($locale, ['en', 'id'], true)) {
+            $locale = config('app.locale', 'en');
         }
-
+        App::setLocale($locale);
+        if (Session::get('locale') !== $locale) {
+            Session::put('locale', $locale);
+        }
+        if ($request->cookie('locale') !== $locale) {
+            cookie()->queue(cookie()->forever('locale', $locale, path: '/', httpOnly: false));
+        }
         return $next($request);
     }
 }

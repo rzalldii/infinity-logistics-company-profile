@@ -4,7 +4,9 @@ return [
     'agents' => [
         'freight_forwarding' => [
             'title' => 'FREIGHT FORWARDING',
-            'phone' => env('WA_FREIGHT_FORWARDING', '6281553602916'),
+            'phone' => env('WA_FREIGHT_FORWARDING', '628113299943'),
+            // 'phone' => env('WA_FREIGHT_FORWARDING', '6282221190306'),
+            // 'phone' => env('WA_FREIGHT_FORWARDING', '6281553602916'),
         ],
         'nvocc' => [
             'title' => 'NVOCC',

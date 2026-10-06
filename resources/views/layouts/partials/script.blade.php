@@ -27,6 +27,36 @@
             translations: {
                 messages: @json(trans('messages'))
             },
+            init() {
+                try {
+                    const stored = this.getStoredLocale();
+                    if (stored && (stored === 'id' || stored === 'en') && stored !== this.currentLang) {
+                        this.toggleLanguage(stored);
+                    }
+                    window.addEventListener('storage', (e) => {
+                        if (e.key === 'locale' && (e.newValue === 'id' || e.newValue === 'en') && e.newValue !== this.currentLang) {
+                            this.toggleLanguage(e.newValue);
+                        }
+                    });
+                } catch (e) {
+                    console.debug('Storage sync error:', e);
+                }
+            },
+            getStoredLocale() {
+                try {
+                    const localVal = localStorage.getItem('locale');
+                    if (localVal === 'id' || localVal === 'en') return localVal;
+                    const match = document.cookie.match(/(?:^|;\s*)locale=([^;]+)/);
+                    if (match && (match[1] === 'id' || match[1] === 'en')) return decodeURIComponent(match[1]);
+                } catch (e) {}
+                return null;
+            },
+            setStoredLocale(locale) {
+                try {
+                    localStorage.setItem('locale', locale);
+                    document.cookie = 'locale=' + encodeURIComponent(locale) + ';path=/;max-age=31536000;SameSite=Lax';
+                } catch (e) {}
+            },
             async toggleLanguage(explicitLocale = null) {
                 if (this.loading) return;
                 this.loading = true;
@@ -34,6 +64,7 @@
                 const newLang = explicitLocale || (this.currentLang === 'en' ? 'id' : 'en');
                 this.currentLang = newLang;
                 document.documentElement.lang = newLang;
+                this.setStoredLocale(newLang);
                 try {
                     const csrfToken = document.querySelector('meta[name="csrf-token"]')?.content || '';
                     const response = await fetch('/language/toggle', {
@@ -58,6 +89,7 @@
                             this.translations = data.translations;
                         }
                         document.documentElement.lang = data.locale;
+                        this.setStoredLocale(data.locale);
                     } else {
                         throw new Error('Server returned unsuccessful response');
                     }
