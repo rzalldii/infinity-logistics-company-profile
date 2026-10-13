@@ -21,9 +21,9 @@ final class ContactService
         $recipient = config('mail.contact_recipient', 'marketing1@infinity-sby.com');
         $subjectLabel = $subject->label();
         $subscribeText = $subscribe ? 'Yes' : 'No';
-        $body = "Name : {$name}\n" .
-            "Email : {$email}\n\n" .
-            "Message :\n\n{$messageContent}\n\n" .
+        $body = "Name : {$name}\n".
+            "Email : {$email}\n\n".
+            "Message :\n\n{$messageContent}\n\n".
             "Subscribe Newsletter : {$subscribeText}";
         try {
             Mail::raw($body, function ($message) use ($recipient, $email, $name, $subjectLabel) {
@@ -31,18 +31,21 @@ final class ContactService
                     ->subject($subjectLabel)
                     ->replyTo($email, $name);
             });
+
             return true;
         } catch (TransportExceptionInterface $e) {
-            Log::error('SMTP Transport error sending contact email: ' . $e->getMessage(), [
+            Log::error('SMTP Transport error sending contact email: '.$e->getMessage(), [
                 'sender' => $email,
                 'subject' => $subject->value,
             ]);
+
             return false;
         } catch (\Throwable $e) {
-            Log::error('Unexpected error sending contact email: ' . $e->getMessage(), [
+            Log::error('Unexpected error sending contact email: '.$e->getMessage(), [
                 'sender' => $email,
                 'subject' => $subject->value,
             ]);
+
             return false;
         }
     }

@@ -1,10 +1,10 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
-use Spatie\Honeypot\ProtectAgainstSpam;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\MaintenanceController;
+use Illuminate\Support\Facades\Route;
+use Spatie\Honeypot\ProtectAgainstSpam;
 
 Route::view('/', 'sections.home')->name('home');
 Route::view('/about', 'sections.about')->name('about');

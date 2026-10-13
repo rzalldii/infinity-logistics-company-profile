@@ -45,6 +45,7 @@ final class MaintenanceController extends Controller
             }
         }
         $timestamp = now()->format('d M Y, H:i:s');
+
         return view('maintenance.result', compact('results', 'overallSuccess', 'timestamp'));
     }
 }

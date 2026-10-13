@@ -25,9 +25,10 @@ final class ContactController extends Controller
             messageContent: $validated['message'],
             subscribe: $request->has('subscribe'),
         );
-        if (!$success) {
+        if (! $success) {
             return response()->json([], 500);
         }
+
         return response()->json([], 200);
     }
 }

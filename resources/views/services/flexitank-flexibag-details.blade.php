@@ -412,7 +412,7 @@
         <!-- /HEAT EXCHANGER Section -->
         <!-- CERTIFICATE Section -->
         <section id="flexitank-details" class="flexitank-details section">
-            <div class="container">
+            <div class="container" data-aos="fade-up">
                 <div class="d-flex flex-column">
                     <div class="d-flex flex-column">
                         <div class="marquee w-100 d-flex align-items-center overflow-hidden">

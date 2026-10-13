@@ -32,20 +32,46 @@
     }
   }
 
-  function navmenuScrollspy() {
-    if (!navmenulinks.length) return;
-    const position = window.scrollY + 200;
-    navmenulinks.forEach(navmenulink => {
-      if (!navmenulink.hash) return;
-      const section = document.querySelector(navmenulink.hash);
-      if (!section) return;
-      if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
-        document.querySelectorAll('.navmenu a.active').forEach(link => link.classList.remove('active'));
-        navmenulink.classList.add('active');
-      } else {
-        navmenulink.classList.remove('active');
+  let spySections = [];
+  let currentActiveLink = null;
+
+  function updateSpyPositions() {
+    spySections = [];
+    navmenulinks.forEach(link => {
+      if (!link.hash) return;
+      try {
+        const section = document.querySelector(link.hash);
+        if (section) {
+          spySections.push({
+            link,
+            top: section.offsetTop,
+            bottom: section.offsetTop + section.offsetHeight
+          });
+        }
+      } catch (err) {
+        // Ignore invalid selectors
       }
     });
+  }
+
+  function navmenuScrollspy() {
+    if (!spySections.length) return;
+    const position = window.scrollY + 200;
+    let matchingLink = null;
+
+    for (let i = 0; i < spySections.length; i++) {
+      const item = spySections[i];
+      if (position >= item.top && position <= item.bottom) {
+        matchingLink = item.link;
+        break;
+      }
+    }
+
+    if (matchingLink !== currentActiveLink) {
+      if (currentActiveLink) currentActiveLink.classList.remove('active');
+      if (matchingLink) matchingLink.classList.add('active');
+      currentActiveLink = matchingLink;
+    }
   }
 
   let scrollTicking = false;
@@ -63,7 +89,9 @@
   }
 
   window.addEventListener('scroll', handleScroll, { passive: true });
+  window.addEventListener('resize', updateSpyPositions, { passive: true });
   window.addEventListener('load', () => {
+    updateSpyPositions();
     toggleScrolled();
     toggleScrollTop();
     navmenuScrollspy();

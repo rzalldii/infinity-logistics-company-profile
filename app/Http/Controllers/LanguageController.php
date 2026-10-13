@@ -16,7 +16,7 @@ final class LanguageController extends Controller
             ?? $request->cookie('locale')
             ?? config('app.locale', 'en');
         $targetLocale = $request->input('locale');
-        if (!$targetLocale || !in_array($targetLocale, ['en', 'id'], true)) {
+        if (! $targetLocale || ! in_array($targetLocale, ['en', 'id'], true)) {
             $targetLocale = ($currentLocale === 'en') ? 'id' : 'en';
         }
         Session::put('locale', $targetLocale);
@@ -32,6 +32,7 @@ final class LanguageController extends Controller
                 ],
             ])->withCookie($cookie);
         }
+
         return redirect()->back()->withCookie($cookie);
     }
 
