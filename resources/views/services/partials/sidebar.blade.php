@@ -1,5 +1,5 @@
 @props(['activeService' => ''])
-<div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+<div class="col-lg-4">
     <div class="service-box">
         <h4 x-text="translations.messages.services_list">{{ __('messages.services_list') }}</h4>
         <div class="services-list">

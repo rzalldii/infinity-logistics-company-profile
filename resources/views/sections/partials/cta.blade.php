@@ -1,3 +1,4 @@
+<!-- Call To Action Section -->
 <section id="call-to-action" class="call-to-action section accent-background">
     <div class="container">
         <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
@@ -11,3 +12,4 @@
         </div>
     </div>
 </section>
+<!-- /Call To Action Section -->

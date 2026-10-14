@@ -16,7 +16,7 @@
                         <p x-text="translations.messages.hero_subtitle">{{ __('messages.hero_subtitle') }}</p>
                         <div class="d-flex">
                             <a href="/#about" class="btn-get-started" x-text="translations.messages.get_started">{{ __('messages.get_started') }}</a>
-                            <a href="https://www.youtube.com/watch?v=zx4s5h1Fats&ab_channel=MuhammadMohdAzam" class="glightbox btn-watch-video d-flex align-items-center" aria-label="Watch Introduction Video"><i class="bi bi-play-circle" aria-hidden="true"></i><span x-text="translations.messages.watch_video">{{ __('messages.watch_video') }}</span></a>
+                            <a href="https://www.youtube.com/watch?v=zx4s5h1Fats" class="glightbox btn-watch-video d-flex align-items-center" aria-label="Watch Introduction Video"><i class="bi bi-play-circle" aria-hidden="true"></i><span x-text="translations.messages.watch_video">{{ __('messages.watch_video') }}</span></a>
                         </div>
                     </div>
                     <div class="col-lg-6 order-1 order-lg-2 hero-img">
@@ -61,122 +61,10 @@
             </div>
         </section>
         <!-- /Featured Services Section -->
-        <!-- About Section -->
-        <section id="about" class="about section">
-            <div class="container section-title" data-aos="fade-up">
-                <span aria-hidden="true" x-text="translations.messages.about_section">{{ __('messages.about_section') }}<br></span>
-                <h2 x-text="translations.messages.about">{{ __('messages.about') }}</h2>
-            </div>
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="row gy-4">
-                        <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-                            <img src="{{ asset('img/about.webp') }}" alt="About PT Infinity Logistics Indonesia" class="img-fluid" loading="lazy" width="800" height="565">
-                        </div>
-                        <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
-                            <p x-text="translations.messages.about_description">{{ __('messages.about_description') }}</p>
-                            <ul>
-                                <li><i class="bi bi-check2-all" aria-hidden="true"></i> <span x-text="translations.messages.about_service_1">{{ __('messages.about_service_1') }}</span></li>
-                                <li><i class="bi bi-check2-all" aria-hidden="true"></i> <span x-text="translations.messages.about_service_2">{{ __('messages.about_service_2') }}</span></li>
-                                <li><i class="bi bi-check2-all" aria-hidden="true"></i> <span x-text="translations.messages.about_service_3">{{ __('messages.about_service_3') }}</span></li>
-                                <li><i class="bi bi-check2-all" aria-hidden="true"></i> <span x-text="translations.messages.about_service_4">{{ __('messages.about_service_4') }}</span></li>
-                                <li><i class="bi bi-check2-all" aria-hidden="true"></i> <span x-text="translations.messages.about_service_5">{{ __('messages.about_service_5') }}</span></li>
-                                <li><i class="bi bi-check2-all" aria-hidden="true"></i> <span x-text="translations.messages.about_service_6">{{ __('messages.about_service_6') }}</span></li>
-                            </ul>
-                            <p x-text="translations.messages.about_description_2">{{ __('messages.about_description_2') }}</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /About Section -->
-        <!-- Stats Section -->
-        @include('layouts.partials.stats', ['showButton' => true])
-        <!-- /Stats Section -->
-        <!-- Services Section -->
-        <section id="services" class="services section light-background">
-            <div class="container section-title" data-aos="fade-up">
-                <span aria-hidden="true" x-text="translations.messages.services_section">{{ __('messages.services_section') }}</span>
-                <h2 x-text="translations.messages.services">{{ __('messages.services') }}</h2>
-            </div>
-            <div class="container">
-                <div class="row gy-4">
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="service-item position-relative">
-                            <div class="icon">
-                                <img src="{{ asset('img/icons/NVOCC.webp') }}" alt="NVOCC Icon" loading="lazy" width="64" height="64">
-                            </div>
-                            <a href="{{ route('services.nvocc') }}" class="stretched-link">
-                                <h3 x-text="translations.messages.nvocc">{{ __('messages.nvocc') }}</h3>
-                            </a>
-                            <p x-text="translations.messages.nvocc_tagline">{{ __('messages.nvocc_tagline') }}</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                        <div class="service-item position-relative">
-                            <div class="icon">
-                                <img src="{{ asset('img/icons/FREIGHT FORWARDING.webp') }}" alt="FREIGHT FORWARDING Icon" loading="lazy" width="64" height="64">
-                            </div>
-                            <a href="{{ route('services.freight-forwarding') }}" class="stretched-link">
-                                <h3 x-text="translations.messages.freight_forwarding">{{ __('messages.freight_forwarding') }}</h3>
-                            </a>
-                            <p x-text="translations.messages.freight_forwarding_tagline">{{ __('messages.freight_forwarding_tagline') }}</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="service-item position-relative">
-                            <div class="icon">
-                                <img src="{{ asset('img/icons/DOMESTIC FORWARDING.webp') }}" alt="DOMESTIC FORWARDING Icon" loading="lazy" width="64" height="64">
-                            </div>
-                            <a href="{{ route('services.domestic-forwarding') }}" class="stretched-link">
-                                <h3 x-text="translations.messages.domestic_forwarding">{{ __('messages.domestic_forwarding') }}</h3>
-                            </a>
-                            <p x-text="translations.messages.domestic_forwarding_tagline">{{ __('messages.domestic_forwarding_tagline') }}</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-                        <div class="service-item position-relative">
-                            <div class="icon">
-                                <img src="{{ asset('img/icons/FLEXITANK FLEXIBAG.webp') }}" alt="FLEXITANK FLEXIBAG Icon" loading="lazy" width="64" height="64">
-                            </div>
-                            <a href="{{ route('services.flexitank-flexibag') }}" class="stretched-link">
-                                <h3 x-text="translations.messages.flexitank_flexibag">{{ __('messages.flexitank_flexibag') }}</h3>
-                            </a>
-                            <p x-text="translations.messages.flexitank_flexibag_tagline">{{ __('messages.flexitank_flexibag_tagline') }}</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-                        <div class="service-item position-relative">
-                            <div class="icon">
-                                <img src="{{ asset('img/icons/PROJECT LOGISTICS.webp') }}" alt="PROJECT LOGISTICS Icon" loading="lazy" width="64" height="64">
-                            </div>
-                            <a href="{{ route('services.project-logistics') }}" class="stretched-link">
-                                <h3 x-text="translations.messages.project_logistics">{{ __('messages.project_logistics') }}</h3>
-                            </a>
-                            <p x-text="translations.messages.project_logistics_tagline">{{ __('messages.project_logistics_tagline') }}</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-                        <div class="service-item position-relative">
-                            <div class="icon">
-                                <img src="{{ asset('img/icons/CUSTOMS CLEARANCE.webp') }}" alt="CUSTOMS CLEARANCE Icon" loading="lazy" width="64" height="64">
-                            </div>
-                            <a href="{{ route('services.customs-clearance') }}" class="stretched-link">
-                                <h3 x-text="translations.messages.customs_clearance">{{ __('messages.customs_clearance') }}</h3>
-                            </a>
-                            <p x-text="translations.messages.customs_clearance_tagline">{{ __('messages.customs_clearance_tagline') }}</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="button-container">
-                <a href="{{ route('services') }}" class="more-details-btn" x-text="translations.messages.read_more_services">{{ __('messages.read_more_services') }}</a>
-            </div>
-        </section>
-        <!-- /Services Section -->
-        <!-- Call To Action Section -->
-        @include('layouts.partials.cta')
-        <!-- /Call To Action Section -->
+        @include('sections.partials.about')
+        @include('sections.partials.stats', ['showButton' => true])
+        @include('sections.partials.services', ['lightBackground' => true, 'showButton' => true])
+        @include('sections.partials.cta')
         <!-- Team Section -->
         <section id="team" class="team section light-background">
             <div class="container section-title" data-aos="fade-up">
@@ -326,58 +214,6 @@
             </div>
         </section>
         <!-- /Clients Section -->
-        <!-- Contact Section -->
-        <section id="contact" class="contact section">
-            <div class="container section-title" data-aos="fade-up">
-                <span aria-hidden="true" x-text="translations.messages.contact_section">{{ __('messages.contact_section') }}</span>
-                <h2 x-text="translations.messages.contact">{{ __('messages.contact') }}</h2>
-            </div>
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
-                <div class="row gy-4">
-                    <div class="col-lg-5">
-                        <div class="info-wrap">
-                            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                                <i class="bi bi-geo-alt flex-shrink-0" aria-hidden="true"></i>
-                                <div>
-                                    <h2 x-text="translations.messages.our_address">{{ __('messages.our_address') }}</h2>
-                                    <p x-text="translations.messages.head_office_address">{{ __('messages.head_office_address') }}</p>
-                                </div>
-                            </div>
-                            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                                <i class="bi bi-telephone flex-shrink-0" aria-hidden="true"></i>
-                                <div>
-                                    <h2 x-text="translations.messages.call_us">{{ __('messages.call_us') }}</h2>
-                                    <p><a href="tel:+62315492926" class="text-reset">+6231 549 2926</a></p>
-                                </div>
-                            </div>
-                            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                                <i class="bi bi-envelope flex-shrink-0" aria-hidden="true"></i>
-                                <div>
-                                    <h2 x-text="translations.messages.email_us">{{ __('messages.email_us') }}</h2>
-                                    <p><a href="mailto:cssurabaya@infinity-sby.com" class="text-reset">cssurabaya@infinity-sby.com</a></p>
-                                </div>
-                            </div>
-                            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
-                                <i class="bi bi-clock flex-shrink-0" aria-hidden="true"></i>
-                                <div>
-                                    <h2 x-text="translations.messages.working_hours">{{ __('messages.working_hours') }}</h2>
-                                    <p x-text="translations.messages.monday_friday">{{ __('messages.monday_friday') }}</p>
-                                    <p x-text="translations.messages.saturday">{{ __('messages.saturday') }}</p>
-                                    <p x-text="translations.messages.sunday">{{ __('messages.sunday') }}</p>
-                                </div>
-                            </div>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3629.241613433687!2d112.73795435839659!3d-7.273136269158283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbddceec0c2d%3A0x3a125fab20e07b6b!2sPT.%20Infinity%20Logistics%20Indonesia!5e0!3m2!1sen!2sus!4v1752200391253!5m2!1sen!2sus" title="Google Maps - PT Infinity Logistics Indonesia" frameborder="0" style="border:0; width: 100%; height: 245px;" width="600" height="245" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                    </div>
-                    <div class="col-lg-7">
-                        @include('layouts.partials.contact-form')
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Contact Section -->
+        @include('sections.partials.contact')
     </main>
 @endsection
-@push('script')
-    @include('layouts.partials.contact-script')
-@endpush

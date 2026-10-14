@@ -1,37 +1,92 @@
 (function () {
   "use strict";
 
+  /**
+   * 1. Cached DOM Elements
+   */
   const selectBody = document.querySelector('body');
   const selectHeader = document.querySelector('#header');
   const scrollTop = document.querySelector('.scroll-top');
   const mobileNavToggleBtn = document.querySelector('.mobile-nav-toggle');
+  const navmenuEl = document.querySelector('#navmenu');
+  const navmenulinks = document.querySelectorAll('.navmenu a');
   const waButton = document.getElementById('waButton');
   const waPopup = document.getElementById('waPopup');
   const waClose = document.getElementById('waClose');
-  const navmenulinks = document.querySelectorAll('.navmenu a');
 
+  /**
+   * 2. Header & Navigation Logic
+   */
+  // Sticky / Scrolled Header
   function toggleScrolled() {
     if (!selectHeader) return;
     if (!selectHeader.classList.contains('scroll-up-sticky') && !selectHeader.classList.contains('sticky-top') && !selectHeader.classList.contains('fixed-top')) return;
     window.scrollY > 100 ? selectBody.classList.add('scrolled') : selectBody.classList.remove('scrolled');
   }
 
-  function toggleScrollTop() {
-    if (scrollTop) {
-      window.scrollY > 100 ? scrollTop.classList.add('active') : scrollTop.classList.remove('active');
+  // Mobile Navigation Toggle
+  function mobileNavToogle() {
+    if (!selectBody) return;
+    const isActive = selectBody.classList.toggle('mobile-nav-active');
+    if (mobileNavToggleBtn) {
+      const icon = mobileNavToggleBtn.querySelector('i') || mobileNavToggleBtn;
+      icon.classList.toggle('bi-list', !isActive);
+      icon.classList.toggle('bi-x', isActive);
+      mobileNavToggleBtn.setAttribute('aria-expanded', isActive ? 'true' : 'false');
     }
   }
 
-  function toggleWaButton() {
-    if (!waButton) return;
-    if (window.scrollY > 100) {
-      waButton.classList.add('show');
-    } else {
-      waButton.classList.remove('show');
-      if (waPopup) waPopup.classList.remove('open');
-    }
+  if (mobileNavToggleBtn) {
+    mobileNavToggleBtn.addEventListener('click', mobileNavToogle);
   }
 
+  // Close mobile nav when clicking on backdrop
+  if (navmenuEl) {
+    navmenuEl.addEventListener('click', (e) => {
+      if (selectBody && selectBody.classList.contains('mobile-nav-active') && e.target === navmenuEl) {
+        mobileNavToogle();
+      }
+    });
+  }
+
+  // Close mobile nav on Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && selectBody && selectBody.classList.contains('mobile-nav-active')) {
+      mobileNavToogle();
+      if (mobileNavToggleBtn) mobileNavToggleBtn.focus();
+    }
+  });
+
+  // Close mobile nav when clicking navigation links
+  document.querySelectorAll('#navmenu a').forEach(navmenu => {
+    navmenu.addEventListener('click', () => {
+      if (selectBody && selectBody.classList.contains('mobile-nav-active')) {
+        mobileNavToogle();
+      }
+    });
+  });
+
+  // Mobile Dropdown Submenus
+  document.querySelectorAll('.navmenu .toggle-dropdown').forEach(toggleBtn => {
+    function handleToggle(e) {
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      const parent = toggleBtn.parentNode;
+      const isNowActive = parent.classList.toggle('active');
+      toggleBtn.setAttribute('aria-expanded', isNowActive ? 'true' : 'false');
+      if (parent.nextElementSibling) {
+        parent.nextElementSibling.classList.toggle('dropdown-active');
+      }
+    }
+    toggleBtn.addEventListener('click', handleToggle);
+    toggleBtn.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        handleToggle(e);
+      }
+    });
+  });
+
+  // Navmenu Scrollspy
   let spySections = [];
   let currentActiveLink = null;
 
@@ -74,87 +129,32 @@
     }
   }
 
-  let scrollTicking = false;
-  function handleScroll() {
-    if (!scrollTicking) {
-      window.requestAnimationFrame(() => {
-        toggleScrolled();
-        toggleScrollTop();
-        navmenuScrollspy();
-        toggleWaButton();
-        scrollTicking = false;
-      });
-      scrollTicking = true;
-    }
-  }
-
-  window.addEventListener('scroll', handleScroll, { passive: true });
-  window.addEventListener('resize', updateSpyPositions, { passive: true });
-  window.addEventListener('load', () => {
-    updateSpyPositions();
-    toggleScrolled();
-    toggleScrollTop();
-    navmenuScrollspy();
-    toggleWaButton();
-  });
-
-  function mobileNavToogle() {
-    if (!selectBody) return;
-    const isActive = selectBody.classList.toggle('mobile-nav-active');
-    if (mobileNavToggleBtn) {
-      const icon = mobileNavToggleBtn.querySelector('i') || mobileNavToggleBtn;
-      icon.classList.toggle('bi-list', !isActive);
-      icon.classList.toggle('bi-x', isActive);
-      mobileNavToggleBtn.setAttribute('aria-expanded', isActive ? 'true' : 'false');
-    }
-  }
-
-  if (mobileNavToggleBtn) {
-    mobileNavToggleBtn.addEventListener('click', mobileNavToogle);
-  }
-
-  const navmenuEl = document.querySelector('#navmenu');
-  if (navmenuEl) {
-    navmenuEl.addEventListener('click', (e) => {
-      if (selectBody && selectBody.classList.contains('mobile-nav-active') && e.target === navmenuEl) {
-        mobileNavToogle();
+  // Smooth Deep Link to Hash with scroll margin compensation
+  window.addEventListener('load', function () {
+    if (window.location.hash) {
+      const section = document.querySelector(window.location.hash);
+      if (section) {
+        setTimeout(() => {
+          let scrollMarginTop = parseInt(getComputedStyle(section).scrollMarginTop) || 0;
+          let targetY = section.getBoundingClientRect().top + window.scrollY - scrollMarginTop;
+          window.scrollTo({
+            top: targetY,
+            behavior: 'smooth'
+          });
+        }, 100);
       }
-    });
-  }
-
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && selectBody && selectBody.classList.contains('mobile-nav-active')) {
-      mobileNavToogle();
-      if (mobileNavToggleBtn) mobileNavToggleBtn.focus();
     }
   });
 
-  document.querySelectorAll('#navmenu a').forEach(navmenu => {
-    navmenu.addEventListener('click', () => {
-      if (selectBody && selectBody.classList.contains('mobile-nav-active')) {
-        mobileNavToogle();
-      }
-    });
-  });
-
-  document.querySelectorAll('.navmenu .toggle-dropdown').forEach(toggleBtn => {
-    function handleToggle(e) {
-      e.preventDefault();
-      e.stopImmediatePropagation();
-      const parent = toggleBtn.parentNode;
-      const isNowActive = parent.classList.toggle('active');
-      toggleBtn.setAttribute('aria-expanded', isNowActive ? 'true' : 'false');
-      if (parent.nextElementSibling) {
-        parent.nextElementSibling.classList.toggle('dropdown-active');
-      }
+  /**
+   * 3. Floating Interactive Widgets (Scroll-to-Top & WhatsApp)
+   */
+  // Scroll-to-Top Button
+  function toggleScrollTop() {
+    if (scrollTop) {
+      window.scrollY > 100 ? scrollTop.classList.add('active') : scrollTop.classList.remove('active');
     }
-    toggleBtn.addEventListener('click', handleToggle);
-    toggleBtn.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' || e.key === ' ') {
-        handleToggle(e);
-      }
-    });
-  });
+  }
 
   if (scrollTop) {
     scrollTop.addEventListener('click', (e) => {
@@ -166,75 +166,15 @@
     });
   }
 
-  function aosInit() {
-    if (typeof AOS !== 'undefined') {
-      AOS.init({
-        duration: 600,
-        easing: 'ease-in-out',
-        once: true,
-        mirror: false
-      });
+  // WhatsApp Floating Chat Widget
+  function toggleWaButton() {
+    if (!waButton) return;
+    if (window.scrollY > 100) {
+      waButton.classList.add('show');
+    } else {
+      waButton.classList.remove('show');
+      if (waPopup) waPopup.classList.remove('open');
     }
-  }
-  window.addEventListener('load', aosInit);
-
-  if (typeof GLightbox !== 'undefined') {
-    GLightbox({
-      selector: '.glightbox'
-    });
-  }
-
-  if (typeof PureCounter !== 'undefined') {
-    new PureCounter();
-  }
-
-  function initSwiper() {
-    if (typeof Swiper === 'undefined') return;
-    document.querySelectorAll(".init-swiper").forEach(function (swiperElement) {
-      const configElement = swiperElement.querySelector(".swiper-config");
-      if (!configElement) return;
-      let config = JSON.parse(configElement.innerHTML.trim());
-
-      if (swiperElement.classList.contains("swiper-tab") && typeof initSwiperWithCustomPagination === 'function') {
-        initSwiperWithCustomPagination(swiperElement, config);
-      } else {
-        new Swiper(swiperElement, config);
-      }
-    });
-  }
-  window.addEventListener("load", initSwiper);
-
-  window.addEventListener('load', function () {
-    if (window.location.hash) {
-      const section = document.querySelector(window.location.hash);
-      if (section) {
-        setTimeout(() => {
-          let scrollMarginTop = getComputedStyle(section).scrollMarginTop;
-          window.scrollTo({
-            top: section.offsetTop - (parseInt(scrollMarginTop) || 0),
-            behavior: 'smooth'
-          });
-        }, 100);
-      }
-    }
-  });
-
-  function initMarquees() {
-    document.querySelectorAll('.marquee-content').forEach(el => {
-      if (el.dataset.cloned) return;
-      el.dataset.cloned = 'true';
-      const items = Array.from(el.children);
-      items.forEach(item => {
-        const clone = item.cloneNode(true);
-        clone.setAttribute('aria-hidden', 'true');
-        el.appendChild(clone);
-      });
-    });
-  }
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initMarquees);
-  } else {
-    initMarquees();
   }
 
   if (waButton && waPopup) {
@@ -294,6 +234,120 @@
         }
       }
     });
+  }
+
+  /**
+   * 4. Unified Scroll Performance Engine (Single requestAnimationFrame loop)
+   */
+  let scrollTicking = false;
+  function handleScroll() {
+    if (!scrollTicking) {
+      window.requestAnimationFrame(() => {
+        toggleScrolled();
+        toggleScrollTop();
+        if (spySections.length > 0) {
+          navmenuScrollspy();
+        }
+        toggleWaButton();
+        scrollTicking = false;
+      });
+      scrollTicking = true;
+    }
+  }
+
+  window.addEventListener('scroll', handleScroll, { passive: true });
+  window.addEventListener('resize', updateSpyPositions, { passive: true });
+  window.addEventListener('load', () => {
+    updateSpyPositions();
+    toggleScrolled();
+    toggleScrollTop();
+    navmenuScrollspy();
+    toggleWaButton();
+  });
+
+  /**
+   * 5. Third-Party Plugin Initializations
+   */
+  // AOS (Animate on Scroll)
+  function aosInit() {
+    if (typeof AOS !== 'undefined') {
+      AOS.init({
+        duration: 600,
+        easing: 'ease-in-out',
+        once: true,
+        mirror: false
+      });
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', aosInit);
+  } else {
+    aosInit();
+  }
+  window.addEventListener('load', () => {
+    if (typeof AOS !== 'undefined') AOS.refresh();
+  });
+
+  // Refresh AOS when switching Bootstrap tabs
+  document.querySelectorAll('button[data-bs-toggle="tab"], a[data-bs-toggle="tab"]').forEach(tabTrigger => {
+    tabTrigger.addEventListener('shown.bs.tab', () => {
+      if (typeof AOS !== 'undefined') {
+        AOS.refresh();
+      }
+    });
+  });
+
+  /**
+   * Initiate glightbox
+   */
+  const glightbox = GLightbox({
+    selector: '.glightbox'
+  });
+
+  // PureCounter
+  if (typeof PureCounter !== 'undefined') {
+    new PureCounter();
+  }
+
+  // Swiper Slider
+  function initSwiper() {
+    if (typeof Swiper === 'undefined') return;
+    document.querySelectorAll(".init-swiper").forEach(function (swiperElement) {
+      if (swiperElement.swiper) return;
+      const configElement = swiperElement.querySelector(".swiper-config");
+      if (!configElement) return;
+      try {
+        let config = JSON.parse(configElement.innerHTML.trim());
+        new Swiper(swiperElement, config);
+      } catch (e) {
+        console.error("Invalid swiper configuration:", e);
+      }
+    });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initSwiper);
+  } else {
+    initSwiper();
+  }
+  window.addEventListener('load', initSwiper);
+
+  // Marquee / Infinite Ticker Cloner
+  function initMarquees() {
+    document.querySelectorAll('.marquee-content').forEach(el => {
+      if (el.dataset.cloned) return;
+      el.dataset.cloned = 'true';
+      const items = Array.from(el.children);
+      items.forEach(item => {
+        const clone = item.cloneNode(true);
+        clone.setAttribute('aria-hidden', 'true');
+        el.appendChild(clone);
+      });
+    });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initMarquees);
+  } else {
+    initMarquees();
   }
 
 })();

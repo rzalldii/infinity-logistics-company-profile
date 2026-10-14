@@ -39,7 +39,7 @@
                 <nav class="breadcrumbs" aria-label="Breadcrumb">
                     <ol>
                         <li><a href="{{ route('services') }}" x-text="translations.messages.services">{{ __('messages.services') }}</a></li>
-                        <li class="current" x-text="translations.messages.service_details">{{ __('messages.service_details') }}</li>
+                        <li class="current" x-text="translations.messages.nvocc">{{ __('messages.nvocc') }}</li>
                     </ol>
                 </nav>
             </div>
@@ -47,10 +47,10 @@
         <!-- End Page Title -->
         <!-- Service Details Section -->
         <section id="service-details" class="service-details section">
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div class="row gy-5">
                     @include('services.partials.sidebar', ['activeService' => 'nvocc'])
-                    <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-lg-8 ps-lg-5">
                         <div class="service-details-slider swiper init-swiper">
                             <script type="application/json" class="swiper-config">
                                 { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": "auto", "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true } }

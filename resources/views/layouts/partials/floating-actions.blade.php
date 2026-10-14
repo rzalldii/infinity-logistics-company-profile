@@ -26,5 +26,6 @@
         <i class="bi bi-whatsapp" aria-hidden="true"></i>
     </button>
 </div>
+
 <!-- Scroll Top -->
 <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Scroll to top"><i class="bi bi-shift-fill" aria-hidden="true"></i></a>

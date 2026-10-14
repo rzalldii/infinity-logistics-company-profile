@@ -45,21 +45,23 @@
         <!-- Page Title -->
         <div class="page-title">
             <div class="container d-lg-flex justify-content-between align-items-center">
-                <div class="d-flex align-items-center">
-                    <a href="{{ route('services.nvocc') }}" class="more-details-btn me-3" aria-label="Back to NVOCC Service Details">
-                        <i class="bi bi-arrow-left" aria-hidden="true"></i>
-                    </a>
-                    <h1 class="mb-0 fs-2" x-text="translations.messages.nvocc_schedule">{{ __('messages.nvocc_schedule') }}</h1>
-                </div>
+                <h1 class="mb-2 mb-lg-0" x-text="translations.messages.nvocc_schedule">{{ __('messages.nvocc_schedule') }}</h1>
+                <nav class="breadcrumbs" aria-label="Breadcrumb">
+                    <ol>
+                        <li><a href="{{ route('services') }}" x-text="translations.messages.services">{{ __('messages.services') }}</a></li>
+                        <li><a href="{{ route('services.nvocc') }}" x-text="translations.messages.nvocc">{{ __('messages.nvocc') }}</a></li>
+                        <li class="current" x-text="translations.messages.nvocc_schedule">{{ __('messages.nvocc_schedule') }}</li>
+                    </ol>
+                </nav>
             </div>
         </div>
         <!-- End Page Title -->
         <!-- NVOCC Schedule Section -->
         <section id="nvocc-schedule" class="nvocc-schedule section">
-            <div class="container section-title">
+            <div class="container section-title" data-aos="fade-up">
                 <h2 class="text-uppercase" x-text="translations.messages.{{ $scheduleMonth }}">{{ __('messages.' . $scheduleMonth) }}</h2>
             </div>
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div class="table-responsive">
                     <table class="table table-bordered text-center">
                         <thead>

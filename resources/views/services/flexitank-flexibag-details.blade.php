@@ -41,21 +41,23 @@
         <!-- Page Title -->
         <div class="page-title">
             <div class="container d-lg-flex justify-content-between align-items-center">
-                <div class="d-flex align-items-center">
-                    <a href="{{ route('services.flexitank-flexibag') }}" class="more-details-btn me-3" aria-label="Back to Flexitank / Flexibag Service Details">
-                        <i class="bi bi-arrow-left" aria-hidden="true"></i>
-                    </a>
-                    <h1 class="mb-0 fs-2" x-text="translations.messages.flexitank_flexibag_details">{{ __('messages.flexitank_flexibag_details') }}</h1>
-                </div>
+                <h1 class="mb-2 mb-lg-0" x-text="translations.messages.flexitank_flexibag_details">{{ __('messages.flexitank_flexibag_details') }}</h1>
+                <nav class="breadcrumbs" aria-label="Breadcrumb">
+                    <ol>
+                        <li><a href="{{ route('services') }}" x-text="translations.messages.services">{{ __('messages.services') }}</a></li>
+                        <li><a href="{{ route('services.flexitank-flexibag') }}" x-text="translations.messages.flexitank_flexibag">{{ __('messages.flexitank_flexibag') }}</a></li>
+                        <li class="current" x-text="translations.messages.flexitank_flexibag_details">{{ __('messages.flexitank_flexibag_details') }}</li>
+                    </ol>
+                </nav>
             </div>
         </div>
         <!-- End Page Title -->
         <!-- MULTILAYER Section -->
         <section id="multilayer" class="flexitank-details section">
-            <div class="container section-title">
+            <div class="container section-title" data-aos="fade-up">
                 <h2 x-text="translations.messages.multilayer">{{ __('messages.multilayer') }}</h2>
             </div>
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div class="row align-items-center">
                     <div class="row gy-4">
                         <div class="flexitank-details-slider swiper init-swiper col-lg-6 position-relative align-self-start">
@@ -102,10 +104,10 @@
         <!-- /MULTILAYER Section -->
         <!-- PP WOVEN Section -->
         <section id="pp-woven" class="flexitank-details section light-background">
-            <div class="container section-title">
+            <div class="container section-title" data-aos="fade-up">
                 <h2 x-text="translations.messages.pp_woven">{{ __('messages.pp_woven') }}</h2>
             </div>
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div class="row align-items-center">
                     <div class="row gy-4">
                         <div class="flexitank-details-slider swiper init-swiper col-lg-6 position-relative align-self-start">
@@ -144,10 +146,10 @@
         <!-- /PP WOVEN Section -->
         <!-- VALVE Section -->
         <section id="valve" class="flexitank-details section">
-            <div class="container section-title">
+            <div class="container section-title" data-aos="fade-up">
                 <h2 x-text="translations.messages.valve">{{ __('messages.valve') }}</h2>
             </div>
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div class="row align-items-center">
                     <div class="row gy-4">
                         <div class="flexitank-details-slider swiper init-swiper col-lg-6 position-relative align-self-start">
@@ -186,10 +188,10 @@
         <!-- /VALVE Section -->
         <!-- BULKHEAD Section -->
         <section id="bulkhead" class="flexitank-details section light-background">
-            <div class="container section-title">
+            <div class="container section-title" data-aos="fade-up">
                 <h2 x-text="translations.messages.bulkhead">{{ __('messages.bulkhead') }}</h2>
             </div>
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div class="row align-items-center">
                     <div class="row gy-4">
                         <div class="flexitank-details-slider swiper init-swiper col-lg-6 position-relative align-self-start">
@@ -237,10 +239,10 @@
         <!-- /BULKHEAD Section -->
         <!-- HEATING PAD Section -->
         <section id="heating-pad" class="flexitank-details section">
-            <div class="container section-title">
+            <div class="container section-title" data-aos="fade-up">
                 <h2 x-text="translations.messages.heating_pad">{{ __('messages.heating_pad') }}</h2>
             </div>
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div class="row align-items-center">
                     <div class="row gy-4">
                         <div class="flexitank-details-slider swiper init-swiper col-lg-6 position-relative align-self-start">
@@ -276,10 +278,10 @@
         <!-- /HEATING PAD Section -->
         <!-- INSULATION LINER Section -->
         <section id="insulation-liner" class="flexitank-details section light-background">
-            <div class="container section-title">
+            <div class="container section-title" data-aos="fade-up">
                 <h2 x-text="translations.messages.insulation_liner">{{ __('messages.insulation_liner') }}</h2>
             </div>
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div class="row align-items-center">
                     <div class="row gy-4">
                         <div class="flexitank-details-slider swiper init-swiper col-lg-6 position-relative align-self-start">
@@ -321,10 +323,10 @@
         <!-- /INSULATION LINER Section -->
         <!-- TUB LINER Section -->
         <section id="tub-liner" class="flexitank-details section">
-            <div class="container section-title">
+            <div class="container section-title" data-aos="fade-up">
                 <h2 x-text="translations.messages.tub_liner">{{ __('messages.tub_liner') }}</h2>
             </div>
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div class="row align-items-center">
                     <div class="row gy-4">
                         <div class="flexitank-details-slider swiper init-swiper col-lg-6 position-relative align-self-start">
@@ -366,10 +368,10 @@
         <!-- /TUB LINER Section -->
         <!-- HEAT EXCHANGER Section -->
         <section id="heat-exchanger" class="flexitank-details section light-background">
-            <div class="container section-title">
+            <div class="container section-title" data-aos="fade-up">
                 <h2 x-text="translations.messages.heat_exchanger">{{ __('messages.heat_exchanger') }}</h2>
             </div>
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div class="row align-items-center">
                     <div class="row gy-4">
                         <div class="flexitank-details-slider swiper init-swiper col-lg-6 position-relative align-self-start">
@@ -412,10 +414,10 @@
         <!-- /HEAT EXCHANGER Section -->
         <!-- CERTIFICATE Section -->
         <section id="flexitank-details" class="flexitank-details section">
-            <div class="container" data-aos="fade-up">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div class="d-flex flex-column">
                     <div class="d-flex flex-column">
-                        <div class="marquee w-100 d-flex align-items-center overflow-hidden">
+                        <div class="marquee marquee-left w-100 d-flex align-items-center overflow-hidden">
                             <div class="marquee-content d-flex align-items-center">
                                 <div class="marquee-tag hstack justify-content-center">
                                     <img src="{{ asset('img/certificates/certificate-1.webp') }}" class="img-fluid" alt="FSSC 22000" loading="lazy" width="400" height="400">
@@ -443,6 +445,33 @@
                                 </div>
                                 <div class="marquee-tag hstack justify-content-center">
                                     <img src="{{ asset('img/certificates/certificate-9.webp') }}" class="img-fluid" alt="COA" loading="lazy" width="400" height="400">
+                                </div>
+                                <div class="marquee-tag hstack justify-content-center" aria-hidden="true">
+                                    <img src="{{ asset('img/certificates/certificate-1.webp') }}" class="img-fluid" alt="" loading="lazy" width="400" height="400">
+                                </div>
+                                <div class="marquee-tag hstack justify-content-center" aria-hidden="true">
+                                    <img src="{{ asset('img/certificates/certificate-2.webp') }}" class="img-fluid" alt="" loading="lazy" width="400" height="400">
+                                </div>
+                                <div class="marquee-tag hstack justify-content-center" aria-hidden="true">
+                                    <img src="{{ asset('img/certificates/certificate-3.webp') }}" class="img-fluid" alt="" loading="lazy" width="400" height="400">
+                                </div>
+                                <div class="marquee-tag hstack justify-content-center" aria-hidden="true">
+                                    <img src="{{ asset('img/certificates/certificate-4.webp') }}" class="img-fluid" alt="" loading="lazy" width="400" height="400">
+                                </div>
+                                <div class="marquee-tag hstack justify-content-center" aria-hidden="true">
+                                    <img src="{{ asset('img/certificates/certificate-5.webp') }}" class="img-fluid" alt="" loading="lazy" width="400" height="400">
+                                </div>
+                                <div class="marquee-tag hstack justify-content-center" aria-hidden="true">
+                                    <img src="{{ asset('img/certificates/certificate-6.webp') }}" class="img-fluid" alt="" loading="lazy" width="400" height="400">
+                                </div>
+                                <div class="marquee-tag hstack justify-content-center" aria-hidden="true">
+                                    <img src="{{ asset('img/certificates/certificate-7.webp') }}" class="img-fluid" alt="" loading="lazy" width="400" height="400">
+                                </div>
+                                <div class="marquee-tag hstack justify-content-center" aria-hidden="true">
+                                    <img src="{{ asset('img/certificates/certificate-8.webp') }}" class="img-fluid" alt="" loading="lazy" width="400" height="400">
+                                </div>
+                                <div class="marquee-tag hstack justify-content-center" aria-hidden="true">
+                                    <img src="{{ asset('img/certificates/certificate-9.webp') }}" class="img-fluid" alt="" loading="lazy" width="400" height="400">
                                 </div>
                             </div>
                         </div>

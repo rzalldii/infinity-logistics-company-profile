@@ -90,6 +90,9 @@
                         }
                         document.documentElement.lang = data.locale;
                         this.setStoredLocale(data.locale);
+                        if (typeof AOS !== 'undefined') {
+                            setTimeout(() => AOS.refresh(), 150);
+                        }
                     } else {
                         throw new Error('Server returned unsuccessful response');
                     }

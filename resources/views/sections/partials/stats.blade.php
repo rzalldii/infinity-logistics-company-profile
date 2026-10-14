@@ -1,4 +1,4 @@
-@props(['showButton' => false])
+<!-- Stats Section -->
 <section id="stats" class="stats section">
     <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row gy-4">
@@ -28,12 +28,13 @@
             </div>
         </div>
     </div>
-    @if($showButton)
+    @if(!empty($showButton))
         <div class="button-container">
             <a href="{{ route('about') }}" class="more-details-btn" x-text="translations.messages.read_more_about">{{ __('messages.read_more_about') }}</a>
         </div>
     @endif
 </section>
+<!-- /Stats Section -->
 @pushOnce('vendor-scripts')
-<script src="{{ asset('vendor/purecounterjs/purecounter_vanilla.js') }}" defer></script>
+    <script src="{{ asset('vendor/purecounterjs/purecounter_vanilla.js') }}" defer></script>
 @endPushOnce
