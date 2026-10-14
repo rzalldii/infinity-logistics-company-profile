@@ -58,9 +58,9 @@
                 <h2 x-text="translations.messages.multilayer">{{ __('messages.multilayer') }}</h2>
             </div>
             <div class="container" data-aos="fade-up" data-aos-delay="100">
-                <div class="row align-items-center">
-                    <div class="row gy-4">
-                        <div class="flexitank-details-slider swiper init-swiper col-lg-6 position-relative align-self-start">
+                <div class="row gy-4 align-items-center">
+                    <div class="col-lg-6 position-relative align-self-start">
+                        <div class="flexitank-details-slider swiper init-swiper">
                             <script type="application/json" class="swiper-config">
                                 { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": "auto", "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true } }
                             </script>
@@ -78,25 +78,25 @@
                             </div>
                             <div class="swiper-pagination"></div>
                         </div>
-                        <div class="col-lg-6 content">
-                            <p x-text="translations.messages.multilayer_description">{{ __('messages.multilayer_description') }}</p>
-                            <ul>
-                                <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.beta_tank">{{ __('messages.beta_tank') }}</span></li>
-                            </ul>
-                            <p x-text="translations.messages.beta_tank_desc">{{ __('messages.beta_tank_desc') }}</p>
-                            <ul>
-                                <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.gamma_tank">{{ __('messages.gamma_tank') }}</span></li>
-                            </ul>
-                            <p x-text="translations.messages.gamma_tank_desc">{{ __('messages.gamma_tank_desc') }}</p>
-                            <ul>
-                                <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.delta_tank">{{ __('messages.delta_tank') }}</span></li>
-                            </ul>
-                            <p x-text="translations.messages.delta_tank_desc">{{ __('messages.delta_tank_desc') }}</p>
-                            <ul>
-                                <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.epsilon_tank">{{ __('messages.epsilon_tank') }}</span></li>
-                            </ul>
-                            <p x-text="translations.messages.epsilon_tank_desc">{{ __('messages.epsilon_tank_desc') }}</p>
-                        </div>
+                    </div>
+                    <div class="col-lg-6 content">
+                        <p x-text="translations.messages.multilayer_description">{{ __('messages.multilayer_description') }}</p>
+                        <ul>
+                            <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.beta_tank">{{ __('messages.beta_tank') }}</span></li>
+                        </ul>
+                        <p x-text="translations.messages.beta_tank_desc">{{ __('messages.beta_tank_desc') }}</p>
+                        <ul>
+                            <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.gamma_tank">{{ __('messages.gamma_tank') }}</span></li>
+                        </ul>
+                        <p x-text="translations.messages.gamma_tank_desc">{{ __('messages.gamma_tank_desc') }}</p>
+                        <ul>
+                            <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.delta_tank">{{ __('messages.delta_tank') }}</span></li>
+                        </ul>
+                        <p x-text="translations.messages.delta_tank_desc">{{ __('messages.delta_tank_desc') }}</p>
+                        <ul>
+                            <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.epsilon_tank">{{ __('messages.epsilon_tank') }}</span></li>
+                        </ul>
+                        <p x-text="translations.messages.epsilon_tank_desc">{{ __('messages.epsilon_tank_desc') }}</p>
                     </div>
                 </div>
             </div>
@@ -108,9 +108,9 @@
                 <h2 x-text="translations.messages.pp_woven">{{ __('messages.pp_woven') }}</h2>
             </div>
             <div class="container" data-aos="fade-up" data-aos-delay="100">
-                <div class="row align-items-center">
-                    <div class="row gy-4">
-                        <div class="flexitank-details-slider swiper init-swiper col-lg-6 position-relative align-self-start">
+                <div class="row gy-4 align-items-center">
+                    <div class="col-lg-6 position-relative align-self-start">
+                        <div class="flexitank-details-slider swiper init-swiper">
                             <script type="application/json" class="swiper-config">
                                 { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": "auto", "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true } }
                             </script>
@@ -128,17 +128,17 @@
                             </div>
                             <div class="swiper-pagination"></div>
                         </div>
-                        <div class="col-lg-6 content">
-                            <p x-text="translations.messages.pp_woven_description">{{ __('messages.pp_woven_description') }}</p>
-                            <ul>
-                                <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.polyethylene_liner">{{ __('messages.polyethylene_liner') }}</span></li>
-                            </ul>
-                            <p x-text="translations.messages.polyethylene_liner_desc">{{ __('messages.polyethylene_liner_desc') }}</p>
-                            <ul>
-                                <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.evoh_liner">{{ __('messages.evoh_liner') }}</span></li>
-                            </ul>
-                            <p x-text="translations.messages.evoh_liner_desc">{{ __('messages.evoh_liner_desc') }}</p>
-                        </div>
+                    </div>
+                    <div class="col-lg-6 content">
+                        <p x-text="translations.messages.pp_woven_description">{{ __('messages.pp_woven_description') }}</p>
+                        <ul>
+                            <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.polyethylene_liner">{{ __('messages.polyethylene_liner') }}</span></li>
+                        </ul>
+                        <p x-text="translations.messages.polyethylene_liner_desc">{{ __('messages.polyethylene_liner_desc') }}</p>
+                        <ul>
+                            <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.evoh_liner">{{ __('messages.evoh_liner') }}</span></li>
+                        </ul>
+                        <p x-text="translations.messages.evoh_liner_desc">{{ __('messages.evoh_liner_desc') }}</p>
                     </div>
                 </div>
             </div>
@@ -150,9 +150,9 @@
                 <h2 x-text="translations.messages.valve">{{ __('messages.valve') }}</h2>
             </div>
             <div class="container" data-aos="fade-up" data-aos-delay="100">
-                <div class="row align-items-center">
-                    <div class="row gy-4">
-                        <div class="flexitank-details-slider swiper init-swiper col-lg-6 position-relative align-self-start">
+                <div class="row gy-4 align-items-center">
+                    <div class="col-lg-6 position-relative align-self-start">
+                        <div class="flexitank-details-slider swiper init-swiper">
                             <script type="application/json" class="swiper-config">
                                 { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": "auto", "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true } }
                             </script>
@@ -170,17 +170,17 @@
                             </div>
                             <div class="swiper-pagination"></div>
                         </div>
-                        <div class="col-lg-6 content">
-                            <p x-text="translations.messages.valve_description">{{ __('messages.valve_description') }}</p>
-                            <ul>
-                                <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.butterfly_valve_gland">{{ __('messages.butterfly_valve_gland') }}</span></li>
-                            </ul>
-                            <p x-text="translations.messages.butterfly_valve_gland_desc">{{ __('messages.butterfly_valve_gland_desc') }}</p>
-                            <ul>
-                                <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.butterfly_valve_compression">{{ __('messages.butterfly_valve_compression') }}</span></li>
-                            </ul>
-                            <p x-text="translations.messages.butterfly_valve_compression_desc">{{ __('messages.butterfly_valve_compression_desc') }}</p>
-                        </div>
+                    </div>
+                    <div class="col-lg-6 content">
+                        <p x-text="translations.messages.valve_description">{{ __('messages.valve_description') }}</p>
+                        <ul>
+                            <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.butterfly_valve_gland">{{ __('messages.butterfly_valve_gland') }}</span></li>
+                        </ul>
+                        <p x-text="translations.messages.butterfly_valve_gland_desc">{{ __('messages.butterfly_valve_gland_desc') }}</p>
+                        <ul>
+                            <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.butterfly_valve_compression">{{ __('messages.butterfly_valve_compression') }}</span></li>
+                        </ul>
+                        <p x-text="translations.messages.butterfly_valve_compression_desc">{{ __('messages.butterfly_valve_compression_desc') }}</p>
                     </div>
                 </div>
             </div>
@@ -192,9 +192,9 @@
                 <h2 x-text="translations.messages.bulkhead">{{ __('messages.bulkhead') }}</h2>
             </div>
             <div class="container" data-aos="fade-up" data-aos-delay="100">
-                <div class="row align-items-center">
-                    <div class="row gy-4">
-                        <div class="flexitank-details-slider swiper init-swiper col-lg-6 position-relative align-self-start">
+                <div class="row gy-4 align-items-center">
+                    <div class="col-lg-6 position-relative align-self-start">
+                        <div class="flexitank-details-slider swiper init-swiper">
                             <script type="application/json" class="swiper-config">
                                 { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": "auto", "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true } }
                             </script>
@@ -217,21 +217,21 @@
                             </div>
                             <div class="swiper-pagination"></div>
                         </div>
-                        <div class="col-lg-6 content">
-                            <p x-text="translations.messages.bulkhead_description">{{ __('messages.bulkhead_description') }}</p>
-                            <ul>
-                                <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.bulkhead_a">{{ __('messages.bulkhead_a') }}</span></li>
-                            </ul>
-                            <p x-text="translations.messages.bulkhead_a_desc">{{ __('messages.bulkhead_a_desc') }}</p>
-                            <ul>
-                                <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.bulkhead_b">{{ __('messages.bulkhead_b') }}</span></li>
-                            </ul>
-                            <p x-text="translations.messages.bulkhead_b_desc">{{ __('messages.bulkhead_b_desc') }}</p>
-                            <ul>
-                                <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.bulkhead_c">{{ __('messages.bulkhead_c') }}</span></li>
-                            </ul>
-                            <p x-text="translations.messages.bulkhead_c_desc">{{ __('messages.bulkhead_c_desc') }}</p>
-                        </div>
+                    </div>
+                    <div class="col-lg-6 content">
+                        <p x-text="translations.messages.bulkhead_description">{{ __('messages.bulkhead_description') }}</p>
+                        <ul>
+                            <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.bulkhead_a">{{ __('messages.bulkhead_a') }}</span></li>
+                        </ul>
+                        <p x-text="translations.messages.bulkhead_a_desc">{{ __('messages.bulkhead_a_desc') }}</p>
+                        <ul>
+                            <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.bulkhead_b">{{ __('messages.bulkhead_b') }}</span></li>
+                        </ul>
+                        <p x-text="translations.messages.bulkhead_b_desc">{{ __('messages.bulkhead_b_desc') }}</p>
+                        <ul>
+                            <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.bulkhead_c">{{ __('messages.bulkhead_c') }}</span></li>
+                        </ul>
+                        <p x-text="translations.messages.bulkhead_c_desc">{{ __('messages.bulkhead_c_desc') }}</p>
                     </div>
                 </div>
             </div>
@@ -243,9 +243,9 @@
                 <h2 x-text="translations.messages.heating_pad">{{ __('messages.heating_pad') }}</h2>
             </div>
             <div class="container" data-aos="fade-up" data-aos-delay="100">
-                <div class="row align-items-center">
-                    <div class="row gy-4">
-                        <div class="flexitank-details-slider swiper init-swiper col-lg-6 position-relative align-self-start">
+                <div class="row gy-4 align-items-center">
+                    <div class="col-lg-6 position-relative align-self-start">
+                        <div class="flexitank-details-slider swiper init-swiper">
                             <script type="application/json" class="swiper-config">
                                 { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": "auto", "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true } }
                             </script>
@@ -268,9 +268,9 @@
                             </div>
                             <div class="swiper-pagination"></div>
                         </div>
-                        <div class="col-lg-6 content">
-                            <p x-text="translations.messages.heating_pad_description">{{ __('messages.heating_pad_description') }}</p>
-                        </div>
+                    </div>
+                    <div class="col-lg-6 content">
+                        <p x-text="translations.messages.heating_pad_description">{{ __('messages.heating_pad_description') }}</p>
                     </div>
                 </div>
             </div>
@@ -282,9 +282,9 @@
                 <h2 x-text="translations.messages.insulation_liner">{{ __('messages.insulation_liner') }}</h2>
             </div>
             <div class="container" data-aos="fade-up" data-aos-delay="100">
-                <div class="row align-items-center">
-                    <div class="row gy-4">
-                        <div class="flexitank-details-slider swiper init-swiper col-lg-6 position-relative align-self-start">
+                <div class="row gy-4 align-items-center">
+                    <div class="col-lg-6 position-relative align-self-start">
+                        <div class="flexitank-details-slider swiper init-swiper">
                             <script type="application/json" class="swiper-config">
                                 { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": "auto", "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true } }
                             </script>
@@ -307,15 +307,15 @@
                             </div>
                             <div class="swiper-pagination"></div>
                         </div>
-                        <div class="col-lg-6 content">
-                            <p x-text="translations.messages.insulation_liner_description">{{ __('messages.insulation_liner_description') }}</p>
-                            <ul>
-                                <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.insulation_benefit_1">{{ __('messages.insulation_benefit_1') }}</span></li>
-                                <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.insulation_benefit_2">{{ __('messages.insulation_benefit_2') }}</span></li>
-                                <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.insulation_benefit_3">{{ __('messages.insulation_benefit_3') }}</span></li>
-                                <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.insulation_benefit_4">{{ __('messages.insulation_benefit_4') }}</span></li>
-                            </ul>
-                        </div>
+                    </div>
+                    <div class="col-lg-6 content">
+                        <p x-text="translations.messages.insulation_liner_description">{{ __('messages.insulation_liner_description') }}</p>
+                        <ul>
+                            <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.insulation_benefit_1">{{ __('messages.insulation_benefit_1') }}</span></li>
+                            <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.insulation_benefit_2">{{ __('messages.insulation_benefit_2') }}</span></li>
+                            <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.insulation_benefit_3">{{ __('messages.insulation_benefit_3') }}</span></li>
+                            <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.insulation_benefit_4">{{ __('messages.insulation_benefit_4') }}</span></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -327,9 +327,9 @@
                 <h2 x-text="translations.messages.tub_liner">{{ __('messages.tub_liner') }}</h2>
             </div>
             <div class="container" data-aos="fade-up" data-aos-delay="100">
-                <div class="row align-items-center">
-                    <div class="row gy-4">
-                        <div class="flexitank-details-slider swiper init-swiper col-lg-6 position-relative align-self-start">
+                <div class="row gy-4 align-items-center">
+                    <div class="col-lg-6 position-relative align-self-start">
+                        <div class="flexitank-details-slider swiper init-swiper">
                             <script type="application/json" class="swiper-config">
                                 { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": "auto", "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true } }
                             </script>
@@ -352,15 +352,15 @@
                             </div>
                             <div class="swiper-pagination"></div>
                         </div>
-                        <div class="col-lg-6 content">
-                            <p x-text="translations.messages.tub_liner_description">{{ __('messages.tub_liner_description') }}</p>
-                            <ul>
-                                <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.tub_benefit_1">{{ __('messages.tub_benefit_1') }}</span></li>
-                                <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.tub_benefit_2">{{ __('messages.tub_benefit_2') }}</span></li>
-                                <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.tub_benefit_3">{{ __('messages.tub_benefit_3') }}</span></li>
-                                <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.tub_benefit_4">{{ __('messages.tub_benefit_4') }}</span></li>
-                            </ul>
-                        </div>
+                    </div>
+                    <div class="col-lg-6 content">
+                        <p x-text="translations.messages.tub_liner_description">{{ __('messages.tub_liner_description') }}</p>
+                        <ul>
+                            <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.tub_benefit_1">{{ __('messages.tub_benefit_1') }}</span></li>
+                            <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.tub_benefit_2">{{ __('messages.tub_benefit_2') }}</span></li>
+                            <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.tub_benefit_3">{{ __('messages.tub_benefit_3') }}</span></li>
+                            <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.tub_benefit_4">{{ __('messages.tub_benefit_4') }}</span></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -372,9 +372,9 @@
                 <h2 x-text="translations.messages.heat_exchanger">{{ __('messages.heat_exchanger') }}</h2>
             </div>
             <div class="container" data-aos="fade-up" data-aos-delay="100">
-                <div class="row align-items-center">
-                    <div class="row gy-4">
-                        <div class="flexitank-details-slider swiper init-swiper col-lg-6 position-relative align-self-start">
+                <div class="row gy-4 align-items-center">
+                    <div class="col-lg-6 position-relative align-self-start">
+                        <div class="flexitank-details-slider swiper init-swiper">
                             <script type="application/json" class="swiper-config">
                                 { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": "auto", "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true } }
                             </script>
@@ -397,16 +397,16 @@
                             </div>
                             <div class="swiper-pagination"></div>
                         </div>
-                        <div class="col-lg-6 content">
-                            <p x-text="translations.messages.heat_exchanger_description">{{ __('messages.heat_exchanger_description') }}</p>
-                            <ul>
-                                <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.heat_exchanger_benefit_1">{{ __('messages.heat_exchanger_benefit_1') }}</span></li>
-                                <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.heat_exchanger_benefit_2">{{ __('messages.heat_exchanger_benefit_2') }}</span></li>
-                                <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.heat_exchanger_benefit_3">{{ __('messages.heat_exchanger_benefit_3') }}</span></li>
-                                <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.heat_exchanger_benefit_4">{{ __('messages.heat_exchanger_benefit_4') }}</span></li>
-                            </ul>
-                            <p x-text="translations.messages.heat_exchanger_cta">{{ __('messages.heat_exchanger_cta') }}</p>
-                        </div>
+                    </div>
+                    <div class="col-lg-6 content">
+                        <p x-text="translations.messages.heat_exchanger_description">{{ __('messages.heat_exchanger_description') }}</p>
+                        <ul>
+                            <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.heat_exchanger_benefit_1">{{ __('messages.heat_exchanger_benefit_1') }}</span></li>
+                            <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.heat_exchanger_benefit_2">{{ __('messages.heat_exchanger_benefit_2') }}</span></li>
+                            <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.heat_exchanger_benefit_3">{{ __('messages.heat_exchanger_benefit_3') }}</span></li>
+                            <li><i class="bi bi-check-circle" aria-hidden="true"></i> <span x-text="translations.messages.heat_exchanger_benefit_4">{{ __('messages.heat_exchanger_benefit_4') }}</span></li>
+                        </ul>
+                        <p x-text="translations.messages.heat_exchanger_cta">{{ __('messages.heat_exchanger_cta') }}</p>
                     </div>
                 </div>
             </div>

@@ -11,10 +11,10 @@
         <section id="hero" class="hero section">
             <div class="container">
                 <div class="row gy-4">
-                    <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                    <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
                         <h1 x-text="translations.messages.hero_title">{{ __('messages.hero_title') }}</h1>
                         <p x-text="translations.messages.hero_subtitle">{{ __('messages.hero_subtitle') }}</p>
-                        <div class="d-flex">
+                        <div class="d-flex justify-content-center justify-content-lg-start">
                             <a href="/#about" class="btn-get-started" x-text="translations.messages.get_started">{{ __('messages.get_started') }}</a>
                             <a href="https://www.youtube.com/watch?v=zx4s5h1Fats" class="glightbox btn-watch-video d-flex align-items-center" aria-label="Watch Introduction Video"><i class="bi bi-play-circle" aria-hidden="true"></i><span x-text="translations.messages.watch_video">{{ __('messages.watch_video') }}</span></a>
                         </div>

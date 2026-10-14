@@ -10,10 +10,10 @@
         <section id="why-choose-us" class="why-choose-us section light-background">
             <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div class="row align-items-center">
-                    <div class="col-lg-5">
-                        <img src="{{ asset('img/feature.webp') }}" alt="Infinity Feature Logistics" class="img-fluid" loading="lazy" width="600" height="750">
+                    <div class="col-lg-5 text-center text-lg-start mb-4 mb-lg-0">
+                        <img src="{{ asset('img/feature.webp') }}" alt="Infinity Feature Logistics" class="img-fluid rounded" loading="lazy" width="600" height="750">
                     </div>
-                    <div class="col-lg-7 py-5 py-lg-0">
+                    <div class="col-lg-7 py-2 py-lg-0">
                         <h2 x-text="translations.messages.why_choose_us">{{ __('messages.why_choose_us') }}</h2>
                         <h3 x-text="translations.messages.why_choose_subtitle">{{ __('messages.why_choose_subtitle') }}</h3>
                         <p x-text="translations.messages.why_choose_description">{{ __('messages.why_choose_description') }}</p>
