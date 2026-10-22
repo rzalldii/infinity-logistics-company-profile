@@ -54,7 +54,7 @@
         <p>
             <span>&copy; </span>
             <span> {{ date('Y') }}</span>
-            <strong class="px-1 sitename">PT. INFINITY LOGISTICS INDONESIA</strong>
+            <strong class="px-1 sitename">PT. Infinity Logistics Indonesia</strong>
             <span x-text="translations.messages.all_rights_reserved">{{ __('messages.all_rights_reserved') }}</span>
         </p>
         <div class="credits">

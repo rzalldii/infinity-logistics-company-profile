@@ -7,7 +7,11 @@
 @stack('vendor-scripts')
 
 <!-- Main Application Script -->
-<script src="{{ asset('js/main.js') }}?v={{ @filemtime(public_path('js/main.js')) }}" defer></script>
+@php
+    $jsFile = public_path('js/main.js');
+    $jsVersion = file_exists($jsFile) ? filemtime($jsFile) : (file_exists(base_path('../public_html/js/main.js')) ? filemtime(base_path('../public_html/js/main.js')) : time());
+@endphp
+<script src="{{ asset('js/main.js') }}?v={{ $jsVersion }}" defer></script>
 
 <!-- Google Analytics -->
 <script defer src="https://www.googletagmanager.com/gtag/js?id=G-7GKDNCWX4R"></script>

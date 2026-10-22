@@ -11,8 +11,10 @@ final class MaintenanceController extends Controller
 {
     public function clear(string $token): View
     {
+        $configuredToken = config('app.maintenance_clear_token');
+        abort_if(empty($configuredToken), 403);
         abort_unless(
-            hash_equals((string) config('app.maintenance_clear_token'), $token),
+            hash_equals((string) $configuredToken, $token),
             403
         );
         $commands = [

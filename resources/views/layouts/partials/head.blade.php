@@ -55,11 +55,9 @@
 
 <!-- Non-critical Stylesheets -->
 <link href="{{ asset('vendor/bootstrap-icons/bootstrap-icons.min.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
-<link href="{{ asset('vendor/sweetalert2/css/sweetalert2.min.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
 <link href="{{ asset('vendor/swiper/css/swiper-bundle.min.css') }}" rel="stylesheet" media="print" onload="this.media='all'">
 <noscript>
     <link href="{{ asset('vendor/bootstrap-icons/bootstrap-icons.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('vendor/sweetalert2/css/sweetalert2.min.css') }}" rel="stylesheet">
     <link href="{{ asset('vendor/swiper/css/swiper-bundle.min.css') }}" rel="stylesheet">
 </noscript>
 

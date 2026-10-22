@@ -7,7 +7,7 @@ return [
         [
             'line' => 'GSL',
             'vessel' => 'MTT SANDAKAN',
-            'voyage' => '81W',
+            'voyage' => '081W',
             'open_stack' => ['time' => '15:00', 'day' => '03', 'month' => 'october'],
             'closing' => ['time' => '09:00', 'day' => '07', 'month' => 'october'],
             'eta_sur' => ['day' => '07', 'month' => 'october'],
@@ -18,7 +18,7 @@ return [
         [
             'line' => 'GSL',
             'vessel' => 'KOTA JOHAN',
-            'voyage' => '0080W',
+            'voyage' => '080W',
             'open_stack' => ['time' => '15:00', 'day' => '09', 'month' => 'october'],
             'closing' => ['time' => '09:00', 'day' => '13', 'month' => 'october'],
             'eta_sur' => ['day' => '13', 'month' => 'october'],
@@ -40,7 +40,7 @@ return [
         [
             'line' => 'GSL',
             'vessel' => 'MTT SANDAKAN',
-            'voyage' => '82W',
+            'voyage' => '082W',
             'open_stack' => ['time' => '15:00', 'day' => '24', 'month' => 'october'],
             'closing' => ['time' => '09:00', 'day' => '28', 'month' => 'october'],
             'eta_sur' => ['day' => '28', 'month' => 'october'],

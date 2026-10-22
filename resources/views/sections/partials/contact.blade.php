@@ -57,13 +57,13 @@
                         </p>
                         <div class="col-md-6">
                             <div class="inputgroup">
-                                <input type="text" name="name" id="name-field" class="form-control" autocomplete="name" required aria-required="true">
+                                <input type="text" name="name" id="name-field" class="form-control" placeholder=" " autocomplete="name" required aria-required="true">
                                 <label for="name-field" class="form-label" x-text="translations.messages.placeholder_name">{{ __('messages.placeholder_name') }}</label>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="inputgroup">
-                                <input type="email" name="email" id="email-field" class="form-control" autocomplete="email" required aria-required="true">
+                                <input type="email" name="email" id="email-field" class="form-control" placeholder=" " autocomplete="email" required aria-required="true">
                                 <label for="email-field" class="form-label" x-text="translations.messages.placeholder_email">{{ __('messages.placeholder_email') }}</label>
                             </div>
                         </div>
@@ -83,7 +83,7 @@
                         </div>
                         <div class="col-md-12">
                             <div class="inputgroup">
-                                <textarea rows="10" name="message" id="message-field" class="form-control" required aria-required="true"></textarea>
+                                <textarea rows="10" name="message" id="message-field" class="form-control" placeholder=" " required aria-required="true"></textarea>
                                 <label for="message-field" class="form-label" x-text="translations.messages.placeholder_message">{{ __('messages.placeholder_message') }}</label>
                             </div>
                         </div>
@@ -99,10 +99,10 @@
                         <div class="col-md-12">
                             <div class="button-wrapper">
                                 <button type="submit" id="submit-button">
-                                    <div class="icon-wrapper">
-                                        <i class="bi bi-send-fill" aria-hidden="true"></i>
-                                    </div>
-                                    <span x-text="translations.messages.send_message">{{ __('messages.send_message') }}</span>
+                                    <span class="btn-text-default" x-text="translations.messages.send_message">{{ __('messages.send_message') }}</span>
+                                    <span class="btn-text-loading d-none" x-text="translations.messages.form_sending">{{ __('messages.form_sending') }}</span>
+                                    <span class="btn-text-success d-none" x-text="translations.messages.form_sent">{{ __('messages.form_sent') }}</span>
+                                    <span class="btn-text-error d-none" x-text="translations.messages.form_failed">{{ __('messages.form_failed') }}</span>
                                 </button>
                             </div>
                         </div>
@@ -113,113 +113,157 @@
     </div>
 </section>
 <!-- /Contact Section -->
-@pushOnce('vendor-scripts')
-    <script src="{{ asset('vendor/sweetalert2/js/sweetalert2.all.min.js') }}" defer></script>
-@endPushOnce
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            const submitBtn = document.getElementById("submit-button");
             const form = document.getElementById("contact-form");
-            if (!submitBtn || !form) return;
-            function getTrans(key, fallback) {
-                try {
-                    if (window.Alpine && Alpine.$data(document.querySelector('[x-data]'))?.translations?.messages?.[key]) {
-                        return Alpine.$data(document.querySelector('[x-data]')).translations.messages[key];
-                    }
-                } catch (e) {}
-                return fallback;
+            const submitBtn = document.getElementById("submit-button");
+            if (!form || !submitBtn) return;
+            const btnTextDefault = submitBtn.querySelector(".btn-text-default");
+            const btnTextLoading = submitBtn.querySelector(".btn-text-loading");
+            const btnTextSuccess = submitBtn.querySelector(".btn-text-success");
+            const btnTextError = submitBtn.querySelector(".btn-text-error");
+            let buttonResetTimer = null;
+            const nameInput = document.getElementById("name-field");
+            const emailInput = document.getElementById("email-field");
+            const subjectInput = document.getElementById("subject-field");
+            const messageInput = document.getElementById("message-field");
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            const fields = [
+                { el: nameInput, validate: (val) => Boolean(val && val.trim().length > 0) },
+                { el: emailInput, validate: (val) => Boolean(val && emailRegex.test(val.trim())) },
+                { el: subjectInput, validate: (val) => Boolean(val && val.trim().length > 0) },
+                { el: messageInput, validate: (val) => Boolean(val && val.trim().length > 0) }
+            ];
+            function setButtonState(state) {
+                if (buttonResetTimer) clearTimeout(buttonResetTimer);
+                submitBtn.classList.remove('is-loading', 'is-success', 'is-error');
+                if (btnTextDefault) btnTextDefault.classList.add('d-none');
+                if (btnTextLoading) btnTextLoading.classList.add('d-none');
+                if (btnTextSuccess) btnTextSuccess.classList.add('d-none');
+                if (btnTextError) btnTextError.classList.add('d-none');
+                if (state === 'loading') {
+                    submitBtn.classList.add('is-loading');
+                    submitBtn.disabled = true;
+                    if (btnTextLoading) btnTextLoading.classList.remove('d-none');
+                } else if (state === 'success') {
+                    submitBtn.classList.add('is-success');
+                    submitBtn.disabled = true;
+                    if (btnTextSuccess) btnTextSuccess.classList.remove('d-none');
+                    buttonResetTimer = setTimeout(() => {
+                        setButtonState('default');
+                    }, 4000);
+                } else if (state === 'error') {
+                    submitBtn.classList.add('is-error');
+                    submitBtn.disabled = false;
+                    if (btnTextError) btnTextError.classList.remove('d-none');
+                    buttonResetTimer = setTimeout(() => {
+                        setButtonState('default');
+                    }, 3500);
+                } else {
+                    submitBtn.disabled = false;
+                    if (btnTextDefault) btnTextDefault.classList.remove('d-none');
+                }
             }
-            submitBtn.addEventListener("click", function (e) {
+            // Real-time invalid clearance upon user interaction
+            fields.forEach(({ el, validate }) => {
+                if (!el) return;
+                const onInteract = () => {
+                    if (el.classList.contains('is-invalid') && validate(el.value)) {
+                        el.classList.remove('is-invalid');
+                        el.removeAttribute('aria-invalid');
+                        const group = el.closest('.inputgroup');
+                        if (group) group.classList.remove('shake');
+                    }
+                };
+                el.addEventListener('input', onInteract);
+                el.addEventListener('change', onInteract);
+            });
+            form.addEventListener('submit', function (e) {
                 e.preventDefault();
-                const nameInput = document.getElementById("name-field");
-                const emailInput = document.getElementById("email-field");
-                const subjectInput = document.getElementById("subject-field");
-                const messageInput = document.getElementById("message-field");
-                const fields = [nameInput, emailInput, subjectInput, messageInput];
+                let firstInvalidField = null;
                 let hasError = false;
-                fields.forEach(field => {
-                    if (!field) return;
-                    if (!field.value.trim()) {
-                        field.setAttribute("aria-invalid", "true");
-                        field.classList.add("is-invalid");
+                fields.forEach(({ el, validate }) => {
+                    if (!el) return;
+                    const isValid = validate(el.value);
+                    const group = el.closest('.inputgroup');
+                    if (!isValid) {
                         hasError = true;
+                        el.setAttribute('aria-invalid', 'true');
+                        el.classList.add('is-invalid');
+                        if (group) {
+                            group.classList.remove('shake');
+                            void group.offsetWidth; // Reflow to re-trigger CSS shake animation
+                            group.classList.add('shake');
+                        }
+                        if (!firstInvalidField) {
+                            firstInvalidField = el;
+                        }
                     } else {
-                        field.removeAttribute("aria-invalid");
-                        field.classList.remove("is-invalid");
+                        el.removeAttribute('aria-invalid');
+                        el.classList.remove('is-invalid');
+                        if (group) {
+                            group.classList.remove('shake');
+                        }
                     }
                 });
                 if (hasError) {
-                    Swal.fire({
-                        icon: "warning",
-                        title: getTrans("form_incomplete_title", "{{ __('messages.form_incomplete_title') }}"),
-                        allowOutsideClick: false,
-                        showConfirmButton: true,
-                        confirmButtonColor: "#042470"
-                    });
+                    if (firstInvalidField) {
+                        firstInvalidField.focus({ preventScroll: false });
+                        firstInvalidField.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }
                     return;
                 }
+                setButtonState('loading');
                 const formData = new FormData(form);
-                Swal.fire({
-                    title: getTrans("form_sending_title", "{{ __('messages.form_sending_title') }}"),
-                    allowOutsideClick: false,
-                    didOpen: () => {
-                        Swal.showLoading();
-                    }
-                });
-                submitBtn.disabled = true;
                 fetch("{{ route('contact.send') }}", {
-                    method: "POST",
+                    method: 'POST',
                     headers: {
-                        "X-CSRF-TOKEN": document.querySelector('input[name="_token"]').value,
-                        "Accept": "application/json"
+                        'X-CSRF-TOKEN': document.querySelector('input[name="_token"]').value,
+                        'Accept': 'application/json'
                     },
                     body: formData
                 })
-                .then(async response => {
-                    submitBtn.disabled = false;
+                .then(async (response) => {
                     if (response.ok) {
-                        Swal.fire({
-                            icon: "success",
-                            title: getTrans("form_success_title", "{{ __('messages.form_success_title') }}"),
-                            allowOutsideClick: false,
-                            showConfirmButton: true,
-                            confirmButtonColor: "#042470"
-                        });
+                        setButtonState('success');
                         form.reset();
-                        fields.forEach(f => {
-                            if (f) {
-                                f.removeAttribute("aria-invalid");
-                                f.classList.remove("is-invalid");
+                        fields.forEach(({ el }) => {
+                            if (el) {
+                                el.removeAttribute('aria-invalid');
+                                el.classList.remove('is-invalid');
+                                const group = el.closest('.inputgroup');
+                                if (group) group.classList.remove('shake');
                             }
                         });
                     } else {
+                        setButtonState('error');
                         const data = await response.json().catch(() => ({}));
-                        let errorMsg = data.message;
+                        let firstBackendInvalid = null;
                         if (data.errors) {
-                            const firstErrKey = Object.keys(data.errors)[0];
-                            if (firstErrKey && data.errors[firstErrKey][0]) {
-                                errorMsg = data.errors[firstErrKey][0];
-                            }
+                            Object.keys(data.errors).forEach(key => {
+                                const input = form.querySelector(`[name="${key}"]`);
+                                if (input) {
+                                    input.classList.add('is-invalid');
+                                    input.setAttribute('aria-invalid', 'true');
+                                    const group = input.closest('.inputgroup');
+                                    if (group) {
+                                        group.classList.remove('shake');
+                                        void group.offsetWidth;
+                                        group.classList.add('shake');
+                                    }
+                                    if (!firstBackendInvalid) firstBackendInvalid = input;
+                                }
+                            });
                         }
-                        Swal.fire({
-                            icon: "error",
-                            title: errorMsg || getTrans("form_failed_title", "{{ __('messages.form_failed_title') }}"),
-                            allowOutsideClick: false,
-                            showConfirmButton: true,
-                            confirmButtonColor: "#042470"
-                        });
+                        if (firstBackendInvalid) {
+                            firstBackendInvalid.focus();
+                            firstBackendInvalid.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        }
                     }
                 })
                 .catch(() => {
-                    submitBtn.disabled = false;
-                    Swal.fire({
-                        icon: "error",
-                        title: getTrans("form_network_error_title", "{{ __('messages.form_network_error_title') }}"),
-                        allowOutsideClick: false,
-                        showConfirmButton: true,
-                        confirmButtonColor: "#042470"
-                    });
+                    setButtonState('error');
                 });
             });
         });

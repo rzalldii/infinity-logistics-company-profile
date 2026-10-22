@@ -82,7 +82,20 @@
                         <p x-text="translations.messages.flexitank_flexibag_description_1">{{ __('messages.flexitank_flexibag_description_1') }}</p>
                         <p x-text="translations.messages.flexitank_flexibag_description_2">{{ __('messages.flexitank_flexibag_description_2') }}</p>
                         <p x-text="translations.messages.flexitank_flexibag_description_3">{{ __('messages.flexitank_flexibag_description_3') }}</p>
-                        <a href="{{ route('services.flexitank-flexibag-details') }}" class="more-details-btn" x-text="translations.messages.flexitank_flexibag_details">{{ __('messages.flexitank_flexibag_details') }}</a>
+                        <div class="service-action-card">
+                            <div class="action-card-main">
+                                <div class="action-card-icon" aria-hidden="true">
+                                    <i class="bi bi-clipboard-check"></i>
+                                </div>
+                                <div class="action-card-text">
+                                    <h3 x-text="translations.messages.flexitank_flexibag_details">{{ __('messages.flexitank_flexibag_details') }}</h3>
+                                </div>
+                            </div>
+                            <a href="{{ route('services.flexitank-flexibag-details') }}" class="action-card-btn">
+                                <span x-text="translations.messages.view_details">{{ __('messages.view_details') }}</span>
+                                <i class="bi bi-arrow-right" aria-hidden="true"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -13,7 +13,7 @@ Route::view('/contact', 'sections.contact')->name('contact');
 
 Route::prefix('services')->name('services.')->group(function () {
     Route::view('/nvocc', 'services.nvocc')->name('nvocc');
-    Route::view('/nvocc-schedule', 'services.nvocc-schedule')->name('nvocc-schedule');
+    Route::view('/nvocc/schedule', 'services.nvocc-schedule')->name('nvocc-schedule');
     Route::view('/freight-forwarding', 'services.freight-forwarding')->name('freight-forwarding');
     Route::view('/domestic-forwarding', 'services.domestic-forwarding')->name('domestic-forwarding');
     Route::view('/flexitank-flexibag', 'services.flexitank-flexibag')->name('flexitank-flexibag');
@@ -34,12 +34,3 @@ Route::match(['get', 'post'], '/language/switch', [LanguageController::class, 't
 Route::get('/maintenance/{token}', [MaintenanceController::class, 'clear'])
     ->middleware('throttle:5,1')
     ->where('token', '[A-Za-z0-9\-_]{16,}');
-
-Route::permanentRedirect('/nvocc', '/services/nvocc');
-Route::permanentRedirect('/nvocc-schedule', '/services/nvocc-schedule');
-Route::permanentRedirect('/freight-forwarding', '/services/freight-forwarding');
-Route::permanentRedirect('/domestic-forwarding', '/services/domestic-forwarding');
-Route::permanentRedirect('/flexitank-flexibag', '/services/flexitank-flexibag');
-Route::permanentRedirect('/flexitank-flexibag-details', '/services/flexitank-flexibag/details');
-Route::permanentRedirect('/project-logistics', '/services/project-logistics');
-Route::permanentRedirect('/customs-clearance', '/services/customs-clearance');

@@ -82,7 +82,20 @@
                         <p x-text="translations.messages.nvocc_description_1">{{ __('messages.nvocc_description_1') }}</p>
                         <p x-text="translations.messages.nvocc_description_2">{{ __('messages.nvocc_description_2') }}</p>
                         <p x-text="translations.messages.nvocc_description_3">{{ __('messages.nvocc_description_3') }}</p>
-                        <a href="{{ route('services.nvocc-schedule') }}" class="more-details-btn" x-text="translations.messages.nvocc_schedule">{{ __('messages.nvocc_schedule') }}</a>
+                        <div class="service-action-card">
+                            <div class="action-card-main">
+                                <div class="action-card-icon" aria-hidden="true">
+                                    <i class="bi bi-calendar2-week"></i>
+                                </div>
+                                <div class="action-card-text">
+                                    <h3 x-text="translations.messages.nvocc_schedule">{{ __('messages.nvocc_schedule') }}</h3>
+                                </div>
+                            </div>
+                            <a href="{{ route('services.nvocc-schedule') }}" class="action-card-btn">
+                                <span x-text="translations.messages.view_schedule">{{ __('messages.view_schedule') }}</span>
+                                <i class="bi bi-arrow-right" aria-hidden="true"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
